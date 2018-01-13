@@ -1,0 +1,17 @@
+<noinclude><onlyinclude><div>
+{| class="navbox mw-collapsible" data-expandtext="Show" data-collapsetext="Hide"
+!<span class="ve">[[Template:Navbox|V]]·[http://stwog.wikia.com/wiki/Template:Navbox?action=edit E]</span>
+[[Star Trek Wrath of Gems Wikia|STWOG]] [[:Category:MenuItems|Game Menu Items]]
+|-
+| class="characters" |<!--  (this allows CR/LF without issues inside comment-area)
+-->{{Characters Navbox}}<!--  (this is the blue-one w/yellow & red sub-sets)
+-->{{Starships Navbox}}<!--   also blue, w/yellow & red sub-sets
+-->{{Tiers Navbox}}<!--  blue, but subsets are green here
+-->{{Menus Navbox}}<!-- (tbd...)
+-->
+|}
+
+{{DEFAULTSORT:{{PAGENAME}}}}</onlyinclude>
+{{documentation}}
+[[Category:Templates|{{PAGENAME}}]]</noinclude>
+<!-- see: https://en.wikipedia.org/wiki/Help:Template#Noinclude.2C_includeonly.2C_and_onlyinclude -->

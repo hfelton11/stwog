@@ -1,0 +1,37 @@
+;Description
+:This template is used to create a basic navigation box at the bottom of the page.  In theory, it is supposed to be [sarcasm] obvious [/s] how to use it.  In practice, the letter-V is used to '''View''' each sub-navbox (sorta similar to SHOW); while the letter-E is used to '''Edit''' that same sub-navbox.
+
+:Also on the right-hand-side, the words '''Show''' and '''Hide''' are toggles to display the ''contents'' of the main and sub-navboxes, in situ.  However, if you click on the '''View''' item - you will be transported over to the exact sub-navbox you chose.  (nb: View and Show for the main top-level navbox are equivalent)
+
+:The sub-navboxes themselves are designed to only show ''LINKS'' to other articles or pages.  Thus, as new pages get added to the wikia; it is supposed to be [sarcasm] easy [/s] to add them to the navigation menus in their appropriate places.
+
+:see also: [[Wikipedia:Template:Navbox]]
+;Syntax
+:Type <code>{{t|navbox}}</code> at the end of the page to get this item transcluded (no parameters)
+
+;Sample output
+
+<pre>{{navbox}}</pre>
+
+Results in...
+
+{{navbox}}
+
+<hr/>
+
+;Sample output for each individual sub-Navbox
+
+<pre>{{Characters_Navbox}}<hr/>
+{{Starships_Navbox}}<hr/>
+{{Tiers_Navbox}}<hr/>
+{{Menus_Navbox}}<hr/>
+</pre>
+
+Results in...
+
+{{Characters_Navbox}}<hr/>
+{{Starships_Navbox}}<hr/>
+{{Tiers_Navbox}}<hr/>
+{{Menus_Navbox}}<hr/>
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>
