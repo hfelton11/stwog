@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!DOCTYPE PRJ SYSTEM "stwog4git.dtd">
+<PRJ>
+  <Project_Information>
+    <Use_Relative_Dir>1</Use_Relative_Dir>
+    <Relative_to_Project_File>1</Relative_to_Project_File>
+    <Include_Sub_Dir>1</Include_Sub_Dir>
+    <Create_Tagfile>0</Create_Tagfile>
+    <Filter/>
+    <CTags_Support>0</CTags_Support>
+    <Word_File>/root/.idm/uex</Word_File>
+    <Project_Directory>/root/git_clones/stwog</Project_Directory>
+    <Tag_File/>
+  </Project_Information>
+  <Project_ID>
+    <Signature>UE Proj: v.1</Signature>
+  </Project_ID>
+  <Files>
+    <File>/root/git_clones/stwog/templates/</File>
+    <File>/root/git_clones/stwog/navboxes/</File>
+    <File>/root/git_clones/stwog/modules/</File>
+  </Files>
+  <Group_Filter>
+    <OF Name="/root/git_clones/stwog/templates/">*.*</OF>
+    <OF Name="/root/git_clones/stwog/navboxes/">*.*</OF>
+    <OF Name="/root/git_clones/stwog/modules/">*.*</OF>
+  </Group_Filter>
+</PRJ>
