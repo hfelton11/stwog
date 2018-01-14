@@ -1,0 +1,87 @@
+/L20"Lua" LUA_LANG Line Comment = -- Escape Char = \ String Chars = "' File Extensions = LUA BIN
+/TGBegin "Functions"
+/TGFindStr = "(?:local)?\s*?function\s+(.*?)\s*(\(.*?\))"
+/TGBegin "Parameters"
+/TGFindStr = "\s*([^,]+)"
+/TGFindBStart = "\("
+/TGFindBEnd = "\)"
+/TGEnd
+/TGEnd
+/NestBlockComments
+/Block Comment On = [[ 
+/Block Comment Off = ]] 
+/Block Comment On Alt = [====[ 
+/Block Comment Off Alt = ]====] 
+/Regexp Type = Perl
+/Delimiters = ~!@%^&*()-+=|\/{}:;"'<> ,	.?
+/Indent Strings = "{" "do" "else" "elseif" "for" "function" "if" "then" "while"
+/Unindent Strings = "}" "else" "elseif" "end" "until"
+/Open Fold Strings = "{" "do" "else" "elseif" "for" "function" "if" "repeat" "while" 
+/Close Fold Strings = "}" "else" "elseif" "end" "until"
+/C1"Keywords" STYLE_KEYWORD
+and
+break
+do
+else elseif end
+false for function
+goto
+if in
+local
+nil not
+or
+repeat return
+then true
+until
+while
+/C2"Built-in functions" STYLE_FUNCTION
+abs acos appendto ascii asin assert atan atan2
+byte
+call ceil char clock close collectgarbage concat copytagmethods coroutine cos cosh cpath create
+date debug deg difftime dofile dostring dump
+error execute exit exp
+file find floor flush fmod foreach foreachvar format frexp
+getbinmethod getenv getfenv getglobal gethook getinfo getlocal getmetatable getregistry gettagmethod
+getupvalue gmatch gsub
+huge
+input insert io ipairs
+ldexp len lines load loaded loaders loadfile loadlib loadstring log log10 lower
+match math max maxinteger maxn min mininteger mod modf module
+newtag next nextvar
+open os output
+package pairs path pcall pi popen pow preload print
+rad random randomseed rawequal rawget rawgetglobal rawgettable rawset rawsetglobal rawsettable read
+readfrom remove rename rep require resume reverse running
+seeall seek select seterrormethod setfenv setglobal sethook setlocal setlocale setmetatable settag
+settagmethod setupvalue setvbuf sin sinh sort sqrt status strbyte strchar strfind string strlen strlower
+strrep strsub strupper sub
+table tag tan tanh time tmpfile tmpname tointeger tonumber tostring traceback type
+ult unpack upper
+wrap write writeto
+xpcall
+yield
+/C3"Built-in variables" STYLE_VARIABLE
+PI
+_G _INPUT _OUTPUT _STDERR _STDIN _STDOUT _VERSION
+/C4"Operators" STYLE_OPERATOR
+%
+(
+)
+*
++
+,
+-
+.
+// /
+:
+;
+<
+=
+>
+[
+]
+^
+{
+}
+~
+/C5 "Compilation pragmas"
+$debug $else $end $endinput $if $ifnot $nodebug
