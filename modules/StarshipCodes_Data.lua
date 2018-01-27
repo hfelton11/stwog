@@ -3,7 +3,7 @@
 -- copied/modified from charactercodes/data module
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  50's = 30 so far 15=tos, 15=tng
---        lvl-95's = 17 so far 9=tos, 8=tng
+--        lvl-95's = 18 so far 10=tos, 8=tng
 --        lvl-165's = 1 (sold) so far 1/0=tos, 0=tng
 -- total = 30 available ships
 -- tier 1 = 6     (3=tos,3=tng)
@@ -471,7 +471,7 @@ return {
 		    cupgr8 = { currentlevel = 90, crewamt = 5, weaponamt = 5, },
 	    },
 	},
-	VDK = {
+	VDK = { -- lvl-96
 		name = '[[Dkyr]]',
 		aliases = 'Vulcan D\'kyr, Dkyr',
 		image = 'Dkyr.png',
@@ -545,11 +545,11 @@ return {
 		            ag = '+28',
 		            aw = '+27',
 		      },
-		    up09XXX = { currentlevel = 96, skillschosen = '5b3p1o',
-		            hp = 1500,
-		            ar = '+12',
-		            ag = '+12',
-		            aw = '+12',
+		    up09 = { currentlevel = 96, skillschosen = '1b3p5o',
+		            hp = 2950,
+		            ar = '+57',
+		            ag = '+51',
+		            aw = '+50',
 		      },
 		    up15XXX = { currentlevel = 165, skillschosen = '5b5p5o',
 		            hp = 3500,
