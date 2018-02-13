@@ -31,7 +31,7 @@ nkV                kv      n
 ncH                ch      n
 okB                kbp     o
 orB                rbp     o
-   tier-2 ships =
+   tier-2 ships =  
 oaA                ena     o
 nbC                bc1     n
 ncG                cg      n
@@ -44,18 +44,21 @@ nrS                rs      n
 nrD                rdd     n
 orV                rv7     o
 orS                rd7     o
-   tier-3 ships =
+   tier-3 ships =  
 naS                sgz     n
 oaR                rel     o
-naV                va      n
+naV                va      n 
 naT                ts      n
 nbR                br      n
 nbT                bc2     n
 okD                kd5     o
-        3.5 =
+**nrV                rvd     n
+**ovD                vdk     o
+        3.5 =   
 oaB                enb     o
 oaH                hoz     o
-ofT                tm      o
+--ofT                tm     o  
+**ovT                vtm     o  
 
 alphabetical-to-tier we get
 naE1,naS3,naT3,naV3
@@ -63,12 +66,12 @@ nbC2,nbR3,nbT3
 ncG2,ncH1
 nfD2
 nkN2,nkV1
-nrD2,nrS2
+nrD2,nrS2,nrV3
 
 oaA2,oaB4,oaE1,oaH4,oaR3
-ofT4
 okB1,okD3,okE2,okK2,okR2
 orB1,orS2,orV2
+ovD3,ovT4
 
 in alphabetical-order we get...
 naE,naS,naT,naV
@@ -76,12 +79,12 @@ nbC,nbR,nbT
 ncG,ncH
 nfD
 nkN,nkV
-nrD,nrS
+nrD,nrS,nrV
 
 oaA,oaB,oaE,oaH,oaR
-ofT
 okB,okD,okE,okK,okR
 orB,orS,orV
+ovD,ovT
 --]]
 -- pixels
 local NORMALSIZE = 50
@@ -89,23 +92,23 @@ local ShipPictures = { -- see discussion at: ???
                 naE = 'Next Enterprise.png',
                 naS = 'Stargazer.png',
                 naT = 'Tsiolkovsky.png',
-                naV = 'Valiant.png',
+                naV = 'Valiant.png', 
                 nbC = 'Cube 1.png',
                 nbR = 'Renegade.png',
                 nbT = 'Cube 2.png',
                 ncG = 'Galor.png',
-                ncH = 'Hideki.png',
+                ncH = 'Hideki.png', 
                 nfD = 'Marauder.png',
                 nkN = 'Neghvar.png',
-                nkV = 'Vorcha.png',
+                nkV = 'Vorcha.png', 
                 nrD = 'Dderidex.png',
                 nrS = 'Scout.png',
+                nrV = 'Valdore.png',
                 oaA = 'Enterprise A.png',
                 oaB = 'Enterprise B.png',
                 oaE = 'Original Enterprise.png',
                 oaH = 'Horizon.png',
                 oaR = 'Reliant.png',
-                ofT = 'Timur.png',
                 okB = 'Klingon bop.png',
                 okD = 'D-5.png',
                 okE = 'Early bop.png',
@@ -114,31 +117,33 @@ local ShipPictures = { -- see discussion at: ???
                 orB = 'Romulan bop.png',
                 orS = 'D-7.png',
                 orV = 'V-7.png',
+                ovD = 'Dkyr.png',
+                ovT = 'Timur.png',
                     }
 local ShipNames = { -- this should be a lookup into ../Data
                     }
---local ShipLetters = {
-local ShipSeriesKeyLinks = {
+--local ShipLetters = { 
+local ShipSeriesKeyLinks = { 
                 naE = '[[SN/END]]',
                 naS = '[[SN/SGZ]]',
-                naT = '[[SN/TS]]',
-                naV = '[[SN/VA]]',
+                naT = '[[SN/TS]]', 
+                naV = '[[SN/VA]]', 
                 nbC = '[[SN/BC1]]',
                 nbR = '[[SN/BR]]',
                 nbT = '[[SN/BC2]]',
                 ncG = '[[SN/CG]]',
-                ncH = '[[SN/CH]]',
+                ncH = '[[SN/CH]]', 
                 nfD = '[[SN/FDM]]',
                 nkN = '[[SN/KNV]]',
-                nkV = '[[SN/KV]]',
+                nkV = '[[SN/KV]]', 
                 nrD = '[[SN/RDD]]',
                 nrS = '[[SN/RS]]',
+                nrV = '[[SN/RVD]]',
                 oaA = '[[SO/ENA]]',
                 oaB = '[[SO/ENB]]',
                 oaE = '[[SO/EN]]',
                 oaH = '[[SO/HOZ]]',
                 oaR = '[[SO/REL]]',
-                ofT = '[[SO/TM]]',
                 okB = '[[SO/KBP]]',
                 okD = '[[SO/KD5]]',
                 okE = '[[SO/KEB]]',
@@ -147,28 +152,30 @@ local ShipSeriesKeyLinks = {
                 orB = '[[SO/RBP]]',
                 orS = '[[SO/RD7]]',
                 orV = '[[SO/RV7]]',
+                ovD = '[[SO/VDK]]',
+                ovT = '[[SO/VTM]]',
                     }
-local ShipKeys = {
+local ShipKeys = { 
                 naE = 'END',
                 naS = 'SGZ',
-                naT = 'TS',
-                naV = 'VA',
+                naT = 'TS', 
+                naV = 'VA', 
                 nbC = 'BC1',
                 nbR = 'BR',
                 nbT = 'BC2',
                 ncG = 'CG',
-                ncH = 'CH',
+                ncH = 'CH', 
                 nfD = 'FDM',
                 nkN = 'KNV',
-                nkV = 'KV',
+                nkV = 'KV', 
                 nrD = 'RDD',
                 nrS = 'RS',
+                nrV = 'RVD',
                 oaA = 'ENA',
                 oaB = 'ENB',
                 oaE = 'EN',
                 oaH = 'HOZ',
                 oaR = 'REL',
-                ofT = 'TM',
                 okB = 'KBP',
                 okD = 'KD5',
                 okE = 'KEB',
@@ -177,18 +184,20 @@ local ShipKeys = {
                 orB = 'RBP',
                 orS = 'RD7',
                 orV = 'RV7',
+                ovD = 'VDK',
+                ovT = 'VTM',
                     }
-local ShipTier = {
-        naE = 1, nas = 3, naT = 3, naV = 3,
+local ShipTier = { 
+        naE = 1, nas = 3, naT = 3, naV = 3, 
         nbC = 2, nbT = 3, nbR = 3,
         ncG = 2, ncH = 1, nfD = 2,
-        nkN = 2, nkV = 1,
-        nrD = 2, nrS = 2,
+        nkN = 2, nkV = 1, 
+        nrD = 2, nrS = 2, nrV = 3,
         oaA = 2, oaB = 4,oaE = 1,
         oaH = 4, oaR = 3,
-        ofT = 4,
         okB = 1, okD = 3, okE = 2, okK = 2, okR = 2,
         orB = 1, orS = 2, orV = 2,
+        ovD = 3, ovT = 4,
     }
 local ShipSeries = { o='TOS', n='TNG', }
 local ShipGovt = {
@@ -201,7 +210,7 @@ local ShipGovt = {
                 --f = 'Ferengi',
                 f = 'Alien',
                 g = 'tbd...',
-                --v = 'Vulcan',
+                v = 'Vulcan',
             }
 
 

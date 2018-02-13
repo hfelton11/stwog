@@ -46,7 +46,7 @@ return {
 		ar = '+3',
 		ag = '+3',
 		aw = '+3',
-		cargo = {
+		cargo = { 
 		    crewamt = 0,
 		    crmin = 0,
 		    crmax = 4,
@@ -58,25 +58,25 @@ return {
 		},
 		currentlevel = 1,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 15, v2 = 3, },
 		      desc2 = { v1 = 3, },
-		      desc3 = { v1 = 33, v3 = '2 purple AP',},
+		      desc3 = { v1 = 33, v3 = '2 purple AP',}, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 25, v3 = 3, v3 = 'orange/yellow', },
 		      desc2 = { v1 = 3, v2 = 2, },
-		      desc3 = { v1 = 44, v3 = '3 purple AP', v4 = '2 yellow AP',},
+		      desc3 = { v1 = 44, v3 = '3 purple AP', v4 = '2 yellow AP',}, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 35, v3 = 4, v3 = 'orange/yellow', },
 		      desc2 = { v1 = 4, v2 = 2, },
-		      desc3 = { v1 = 55, v3 = '4 purple AP', v4 = '2 yellow AP',},
+		      desc3 = { v1 = 55, v3 = '4 purple AP', v4 = '2 yellow AP',}, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 55, v3 = 5, v3 = 'orange/yellow', },
 		      desc2 = { v1 = 5, v2 = 3, },
-		      desc3 = { v1 = 77, v3 = '5 purple AP', v4 = '3 yellow AP',},
+		      desc3 = { v1 = 77, v3 = '5 purple AP', v4 = '3 yellow AP',}, 
 		      },
 		},
 		othersUpgradesXXX = {
@@ -130,7 +130,7 @@ return {
 		ar = '+10',
 		ag = '+10',
 		aw = '+10',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -142,25 +142,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
 	            cost1 = 7, desc1 = { v1 = 15, v2 = 3, },
 	            cost2 = 10, desc2 = { v1 = 3, },
-	            cost3 = 12, desc3 = { v1 = 33, v3 = '2 purple AP',},
+	            cost3 = 12, desc3 = { v1 = 33, v3 = '2 purple AP',}, 
 	        },
-		    supgr3 = {
+		    supgr3 = { 
 	            cost1 = 8, desc1 = { v1 = 25, v3 = 3, v3 = 'orange/yellow', },
 	            cost2 = 11, desc2 = { v1 = 3, v2 = 2, },
-	            cost3 = 13, desc3 = { v1 = 44, v3 = '3 purple AP', v4 = '2 yellow AP',},
+	            cost3 = 13, desc3 = { v1 = 44, v3 = '3 purple AP', v4 = '2 yellow AP',}, 
 	        },
-		    supgr4 = {
+		    supgr4 = { 
 	            cost1 = 9, desc1 = { v1 = 35, v3 = 4, v3 = 'orange/yellow', },
 	            cost2 = 12, desc2 = { v1 = 4, v2 = 2, },
-	            cost3 = 14, desc3 = { v1 = 55, v3 = '4 purple AP', v4 = '2 yellow AP',},
+	            cost3 = 14, desc3 = { v1 = 55, v3 = '4 purple AP', v4 = '2 yellow AP',}, 
 	        },
-		    supgr5 = {
+		    supgr5 = { 
 	            cost1 = 10, desc1 = { v1 = 55, v3 = 5, v3 = 'orange/yellow',},
 	            cost2 = 13, desc2 = { v1 = 5, v2 = 3, },
-	            cost3 = 15, desc3 = { v1 = 77, v3 = '5 purple AP', v4 = '3 yellow AP',},
+	            cost3 = 15, desc3 = { v1 = 77, v3 = '5 purple AP', v4 = '3 yellow AP',}, 
 	        },
 		},
 		othersUpgradesXXX = {
@@ -222,7 +222,7 @@ return {
 		ar = '+30',
 		ag = '+30',
 		aw = '+30',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -234,25 +234,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 15, v2 = 3, },
 		      desc2 = { v1 = 3, },
-		      desc3 = { v1 = 33, v3 = '2 purple AP',},
+		      desc3 = { v1 = 33, v3 = '2 purple AP',}, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 25, v3 = 3, v3 = 'orange/yellow', },
 		      desc2 = { v1 = 3, v2 = 2, },
-		      desc3 = { v1 = 44, v3 = '3 purple AP', v4 = '2 yellow AP',},
+		      desc3 = { v1 = 44, v3 = '3 purple AP', v4 = '2 yellow AP',}, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 35, v3 = 4, v3 = 'orange/yellow', },
 		      desc2 = { v1 = 4, v2 = 2, },
-		      desc3 = { v1 = 55, v3 = '4 purple AP', v4 = '2 yellow AP',},
+		      desc3 = { v1 = 55, v3 = '4 purple AP', v4 = '2 yellow AP',}, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 55, v3 = 5, v3 = 'orange/yellow', },
 		      desc2 = { v1 = 5, v2 = 3, },
-		      desc3 = { v1 = 77, v3 = '5 purple AP', v4 = '3 yellow AP',},
+		      desc3 = { v1 = 77, v3 = '5 purple AP', v4 = '3 yellow AP',}, 
 		      },
 		},
 		othersUpgradesXXX = {
@@ -326,7 +326,7 @@ return {
 		ar = '+4',
 		ag = '+3',
 		aw = '+3',
-		cargo = {
+		cargo = { 
 		    crewamt = 0,
 		    crmin = 0,
 		    crmax = 4,
@@ -338,25 +338,25 @@ return {
 		},
 		currentlevel = 1,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 66, v2 = '2 counters', },
 		      desc2 = { v1 = 131, },
-		      desc3 = { v2 = 16, },
+		      desc3 = { v2 = 16, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 69, v2 = '2 counters', v4 = 15, },
 		      desc2 = { v1 = 138, },
-		      desc3 = { v2 = 18, },
+		      desc3 = { v2 = 18, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 76, v2 = '3 counters', v4 = 15, },
 		      desc2 = { v1 = 138, v2 = 2, },
-		      desc3 = { v2 = 22, },
+		      desc3 = { v2 = 22, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 88, v2 = '3 counters', v4 = 15, },
 		      desc2 = { v1 = 138, v2 = 3, },
-		      desc3 = { v2 = 26, },
+		      desc3 = { v2 = 26, }, 
 		      },
 		},
 		othersUpgrades = {
@@ -413,7 +413,7 @@ return {
 		ar = '+9',
 		ag = '+7',
 		aw = '+7',
-		cargo = {
+		cargo = { 
 		    crewamt = 1,
 		    crmin = 0,
 		    crmax = 5,
@@ -425,25 +425,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      cost1 = 11, desc1 = { v1 = 230, v3 = 3, },
 		      cost2 = 14, desc2 = { v1 = 85, v2 = 250, v3 = 3, v4 = 13, },
-		      cost3 = 9, desc3 = { v1 = 40, v2 = 3, },
+		      cost3 = 9, desc3 = { v1 = 40, v2 = 3, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      cost1 = 12, desc1 = { v1 = 290, v2 = 3, v3 = 2, },
 		      cost2 = 15, desc2 = { v1 = 95, v2 = 290, v3 = 2, v4 = 22, },
-		      cost3 = 10, desc3 = { v1 = 50, v2 = 4, },
+		      cost3 = 10, desc3 = { v1 = 50, v2 = 4, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      cost1 = 13, desc1 = { v1 = 350, v2 = 4, v3 = 2, },
 		      cost2 = 16, desc2 = { v1 = 105, v2 = 350, v3 = 3, v4 = 16, },
-		      cost3 = 11, desc3 = { v1 = 55, v2 = 5, },
+		      cost3 = 11, desc3 = { v1 = 55, v2 = 5, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      cost1 = 14, desc1 = { v1 = 400, v2 = 3, v3 = 3, },
 		      cost2 = 16, desc2 = { v1 = 110, v2 = 410, v3 = 3, v4 = 20, },
-		      cost3 = 12, desc3 = { v1 = 70, v2 = 6, },
+		      cost3 = 12, desc3 = { v1 = 70, v2 = 6, }, 
 		      },
 		},
 		othersUpgrades = {
@@ -505,7 +505,7 @@ return {
 		ar = '+26',
 		ag = '+23',
 		aw = '+22',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -517,22 +517,22 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 47, v2 = 300, },
 		      desc2 = { v2 = 80, },
 		      desc3 = { v1 = 30, v2 = 25,},
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 54, v2 = 395, },
 		      desc2 = { v1 = 4, v2 = 100, },
 		      desc3 = { v1 = 40, v2 = 30,},
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 62, v2 = 450, },
 		      desc2 = { v1 = 4, v2 = 120, },
 		      desc3 = { v1 = 50, v2 = 35,},
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 70, v2 = 500, },
 		      desc2 = { v1 = 5, v2 = 120, },
 		      desc3 = { v1 = 65, v2 = 45,},
@@ -574,7 +574,7 @@ return {
 		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 6, },
 	    },
 	},
-	RVD = {
+	RVD = { 
 		name = '[[Valdore]]',
 		aliases = 'Romulan Valdore',
 		image = 'Valdore.png',
@@ -608,7 +608,7 @@ return {
 		ar = '+27',
 		ag = '+23',
 		aw = '+23',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -620,22 +620,22 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 160, v3 = 4, },
 		      desc2 = { v1 = 3, v3 = 3, },
 		      desc3 = { v1 = 4,},
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 215, v2 = 4, v3 = 4, },
 		      desc2 = { v1 = 4, v3 = 4, },
 		      desc3 = { v1 = 4, v2 = 100,},
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 240, v2 = 5, v3 = 4, },
 		      desc2 = { v1 = 3, v2 = 3, v3 = 3, },
 		      desc3 = { v1 = 5, v2 = 100,},
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 315, v2 = 5, v3 = 3, },
 		      desc2 = { v1 = 4, v2 = 3, v3 = 4, },
 		      desc3 = { v1 = 5, v2 = 120,},
@@ -712,7 +712,7 @@ return {
 		ar = '+26',
 		ag = '+23',
 		aw = '+22',
-		cargo = {
+		cargo = { 
 		    crewamt = 1,
 		    crmin = 0,
 		    crmax = 6,
@@ -724,25 +724,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 160, },
 		      desc2 = { v2 = 100, },
-		      desc3 = { v1 = 8, v3 = 80,},
+		      desc3 = { v1 = 8, v3 = 80,}, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 215, v2 = 3, },
 		      desc2 = { v1 = 3, v2 = 160, },
-		      desc3 = { v1 = 10, v2 = 3, v3 = 70,},
+		      desc3 = { v1 = 10, v2 = 3, v3 = 70,}, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 240, v2 = 3, },
 		      desc2 = { v1 = 3, v2 = 220, },
-		      desc3 = { v1 = 12, v2 = 4, v3 = 70,},
+		      desc3 = { v1 = 12, v2 = 4, v3 = 70,}, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 315, v2 = 4, },
 		      desc2 = { v1 = 3, v2 = 310, },
-		      desc3 = { v1 = 14, v2 = 4, v3 = 100,},
+		      desc3 = { v1 = 14, v2 = 4, v3 = 100,}, 
 		      },
 		},
 		othersUpgrades = {
@@ -816,7 +816,7 @@ return {
 		ar = '+27',
 		ag = '+23',
 		aw = '+23',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -828,25 +828,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 2, v2 = 2, },
 		      desc2 = { v1 = -21, v2 = -140, },
-		      desc3 = { v1 = 173, v3 = 80,},
+		      desc3 = { v1 = 173, v3 = 80,}, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 3, v2 = 3, },
 		      desc2 = { v1 = -25, v2 = -195, },
-		      desc3 = { v1 = 205, v2 = 3, v3 = 100,},
+		      desc3 = { v1 = 205, v2 = 3, v3 = 100,}, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 4, v2 = 4, },
 		      desc2 = { v1 = -28, v2 = -230, },
-		      desc3 = { v1 = 247, v2 = 3, v3 = 120,},
+		      desc3 = { v1 = 247, v2 = 3, v3 = 120,}, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 5, v2 = 5, },
 		      desc2 = { v1 = -31, v2 = -295, },
-		      desc3 = { v1 = 264, v2 = 4, v3 = 120,},
+		      desc3 = { v1 = 264, v2 = 4, v3 = 120,}, 
 		      },
 		},
 		othersUpgrades = {
@@ -893,10 +893,10 @@ return {
 	    -- lvl-43 28.24.24 1360 44=210 2/2 1200
 	    -- lvl-44 28.25.24 1390 45=255 2/2 1500 0b1p1o
 	    -- contd. 50=2150 0b2p1o
-	    -- lvl-45 29.25.25 1420 46=300 2/2
-	    -- lvl-46 29.26.25 1450 47=340
+	    -- lvl-45 29.25.25 1420 46=300 2/2 
+	    -- lvl-46 29.26.25 1450 47=340 
 	    -- lvl-47 30.26.26 1480 48=380
-	    -- lvl-48 30.27.26 1510 49=420
+	    -- lvl-48 30.27.26 1510 49=420 
 	    -- lvl-49 31.27.27 1540 50=455 2/2 3000 0b2p1o
 	    -- lvl-50 31.28.27 1570 51=490 2/2 sell=3000 upg=350 0b2p1o
 		name = '[[Timur]]',
@@ -932,7 +932,7 @@ return {
 		ar = '+26',
 		ag = '+23',
 		aw = '+22',
-		cargo = {
+		cargo = { 
 		    -- double-checked crewmax=5, not 8  - hjf 20170604
 		    -- weapons (vulcan-tos = general-laser only)
 		    crewamt = 2,
@@ -946,25 +946,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 240, v3 = 35, },
 		      desc2 = { v2 = 4, },
-		      desc3 = { v1 = 25, v2 = 30, },
+		      desc3 = { v1 = 25, v2 = 30, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 350, v3 = 40, },
 		      desc2 = { v2 = 4, v3 = 3, },
-		      desc3 = { v1 = 35, v2 = 35, },
+		      desc3 = { v1 = 35, v2 = 35, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 470, v2 = 4, v3 = 40, },
 		      desc2 = { v2 = 5, v3 = 3, },
-		      desc3 = { v1 = 45, v2 = 40, },
+		      desc3 = { v1 = 45, v2 = 40, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 650, v2 = 5, v3 = 40, },
 		      desc2 = { v2 = 5, v3 = 2, },
-		      desc3 = { v1 = 60, v2 = 50, },
+		      desc3 = { v1 = 60, v2 = 50, }, 
 		      },
 		},
 		othersUpgrades = {
@@ -1007,9 +1007,9 @@ return {
 	    -- lvl-40 rgw-26.23.22 1229 41=75 42=200 cr2/wp2 sell=300 1o0b0p
 	    -- 44=575 2o0b0p; 50=2725 3o0b0p; 58=7390 3o1b0p
 	    -- lvl-41 26.23.23 1258 42=125 sell=600 upg=450
-	    -- lvl-42 27.24.23 1287 43=165 sell=900
+	    -- lvl-42 27.24.23 1287 43=165 sell=900 
 	    -- lvl-43 28.24.24 1316 44=210 sell=1200
-	    -- lvl-44 28.25.24 1345 45=255 sell=1500 cr2/wp2 58=6815 upg=450
+	    -- lvl-44 28.25.24 1345 45=255 sell=1500 cr2/wp2 58=6815 upg=450 
 	    -- lvl-45 29.25.25 1374 46=300 sell=1800 2/2 3o1b0p
 	    -- lvl-46 29.26.25 1403 47=340 sell=2100 2/2
 	    -- lvl-47 30.26.26 1432 48=380 sell-2400 2/2
@@ -1022,8 +1022,8 @@ return {
 	    -- lvl-53 .. 1606 54=570
 	    -- lvl-54 34.30.29 1635 55=600 2/2
 	    -- lvl-55 .. 1664 56=625 2/2
-	    -- lvl-56 35.31.30 1693 57=650
-	    -- lvl-57 .. 1722 58=675
+	    -- lvl-56 35.31.30 1693 57=650 
+	    -- lvl-57 .. 1722 58=675 
 	    -- lvl-58 36.32.31 1751 59=700 /
 	    -- lvl-59 .. 1780 60=725 2/2
 	    -- lvl-60 37.33.32 1809 61=750 /
@@ -1070,8 +1070,8 @@ return {
 	    -- lvl-145 85.75.74 4274 146=3000 7/8 (144=7/7)
 	    -- lvl-148 86.77.75 4361 149=3075 7/8 165=55,675
 	    -- lvl-149 87.77.76 4390 150=3100 /
-	    -- lvl-150 87.78.76 4419 151=3125 8/8
-	    -- lvl-151 .. 4448 /
+	    -- lvl-150 87.78.76 4419 151=3125 8/8 
+	    -- lvl-151 .. 4448 / 
 	    -- lvl-163 95.84.82 4796 164=3450 165=6925 8/8 sell=37,200
 	    -- lvl-164 skipped...  final-sell=37,800
 	    -- lvl-165 from stardock has rgw-96.85.83 hp=4854
@@ -1092,7 +1092,7 @@ return {
 	         r3 g3 579 546 , r9 532 129x, r3 3502/-5 574 2928 r3 579 2349
 	         w3 868+664=13xx 1332
 	         931.3+37800 = 967.2+2725(lvl-50) and 1o1b1p-skills matched 3o0b0p
-	    --]]
+	    --]]      
 		name = '[[Enterprise&nbsp;B]]',
 		aliases = 'Enterprise-B, USS Enterprise NCC-1701B',
 		image = 'Enterprise B.png',
@@ -1128,7 +1128,7 @@ return {
 		ar = '+26',
 		ag = '+23',
 		aw = '+22',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -1140,25 +1140,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 360, v2 = 3, },
 		      desc2 = { v2 = 189, },
-		      desc3 = { v2 = 21, v3 = 140, },
+		      desc3 = { v2 = 21, v3 = 140, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 420, v2 = 2, v3 = 52, },
 		      desc2 = { v1 = 3, v2 = 150, },
-		      desc3 = { v2 = 25, v3 = 195, },
+		      desc3 = { v2 = 25, v3 = 195, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 480, v2 = 3, v3 = 45, },
 		      desc2 = { v1 = 3, v2 = 180, },
-		      desc3 = { v2 = 28, v3 = 230, },
+		      desc3 = { v2 = 28, v3 = 230, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 600, v2 = 3, v3 = 52, },
 		      desc2 = { v1 = 4, v2 = 150, },
-		      desc3 = { v2 = 31, v3 = 295, },
+		      desc3 = { v2 = 31, v3 = 295, }, 
 		      },
 		},
 		othersUpgrades = {
@@ -1233,7 +1233,7 @@ return {
 		ar = '+4',
 		ag = '+3',
 		aw = '+3',
-		cargo = {
+		cargo = { 
 		    crewamt = 0,
 		    crmin = 0,
 		    crmax = 4,
@@ -1245,25 +1245,25 @@ return {
 		},
 		currentlevel = 1,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 66, v2 = '2 orange counters', },
 		      desc2 = { v1 = 115, },
-		      desc3 = { v2 = 11, },
+		      desc3 = { v2 = 11, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 69, v2 = '2 orange counters', v4 = 15, },
 		      desc2 = { v1 = 115, v2 = 'offensive and defensive', },
-		      desc3 = { v2 = 14, },
+		      desc3 = { v2 = 14, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 76, v2 = '3 orange counters', v4 = 12, },
 		      desc2 = { v1 = 127, v2 = 'offensive and defensive', },
-		      desc3 = { v2 = 16, v3 = '5x5', },
+		      desc3 = { v2 = 16, v3 = '5x5', }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 88, v2 = '2 orange counters', v4 = 15, },
 		      desc2 = { v1 = 140, v2 = 'offensive and defensive', },
-		      desc3 = { v2 = 19, v3 = '5x5', },
+		      desc3 = { v2 = 19, v3 = '5x5', }, 
 		      },
 		},
 		othersUpgrades = {
@@ -1317,7 +1317,7 @@ return {
 		ar = '+27',
 		ag = '+23',
 		aw = '+23',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -1329,25 +1329,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 305, },
 		      desc2 = { v2 = 100, },
-		      desc3 = { v2 = 3, v4 = 60, },
+		      desc3 = { v2 = 3, v4 = 60, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 420, },
 		      desc2 = { v1 = 3, v2 = 80, },
-		      desc3 = { v2 = 4, v4 = 70, },
+		      desc3 = { v2 = 4, v4 = 70, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 525, },
 		      desc2 = { v1 = 3, v2 = 100, },
-		      desc3 = { v2 = 4, v3 = 2, v4 = 70, },
+		      desc3 = { v2 = 4, v3 = 2, v4 = 70, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 645, },
 		      desc2 = { v1 = 4, v2 = 80, },
-		      desc3 = { v2 = 4, v3 = 2, v4 = 80, },
+		      desc3 = { v2 = 4, v3 = 2, v4 = 80, }, 
 		      },
 		},
 		othersUpgrades = {
@@ -1423,7 +1423,7 @@ return {
 		ar = '+27',
 		ag = '+23',
 		aw = '+23',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -1435,25 +1435,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 3, v2 = 48, v3 = 250, },
 		      desc2 = { v2 = 21, v3 = 210, },
-		      desc3 = { v1 = 70, v3 = 24,},
+		      desc3 = { v1 = 70, v3 = 24,}, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 3, v2 = 55, v3 = 300, },
 		      desc2 = { v2 = 29, v3 = 290, },
-		      desc3 = { v1 = 86, v3 = 36,},
+		      desc3 = { v1 = 86, v3 = 36,}, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 4, v2 = 68, v3 = 360, },
 		      desc2 = { v2 = 37, v3 = 370, },
-		      desc3 = { v1 = 108, v3 = 44,},
+		      desc3 = { v1 = 108, v3 = 44,}, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 5, v2 = 78, v3 = 420, },
 		      desc2 = { v2 = 41, v3 = 410, },
-		      desc3 = { v1 = 122, v3 = 50,},
+		      desc3 = { v1 = 122, v3 = 50,}, 
 		      },
 		},
 		othersUpgrades = {
@@ -1526,7 +1526,7 @@ return {
 		ar = '+26',
 		ag = '+23',
 		aw = '+22',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -1538,22 +1538,22 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 25, v3 = 4, },
 		      desc2 = { v1 = 340, },
 		      desc3 = { v2 = 120, },
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 35, v3 = 3, },
 		      desc2 = { v1 = 450, },
 		      desc3 = { v2 = 185, },
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 43, v2 = 3, v3 = 3, },
 		      desc2 = { v1 = 545, },
 		      desc3 = { v2 = 235, },
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 57, v2 = 3, v3 = 2, },
 		      desc2 = { v1 = 610, },
 		      desc3 = { v2 = 310, },
@@ -1631,7 +1631,7 @@ return {
 		ar = '+27',
 		ag = '+23',
 		aw = '+23',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -1643,25 +1643,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 25, v2 = 40, v4 = 20, },
 		      desc2 = { v1 = 35, },
-		      desc3 = { v1 = 2, v2 = 5, }, -- ??????
+		      desc3 = { v1 = 2, v2 = 5, }, -- ?????? 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 35, v2 = 50, v4 = 30, },
 		      desc2 = { v1 = 40, },
-		      desc3 = { v1 = 3, v2 = 5, },
+		      desc3 = { v1 = 3, v2 = 5, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 40, v2 = 55, v4 = 35, },
 		      desc2 = { v1 = 45, },
-		      desc3 = { v1 = 3, v2 = 6, },
+		      desc3 = { v1 = 3, v2 = 6, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 50, v2 = 65, v4 = 45, },
 		      desc2 = { v1 = 55, },
-		      desc3 = { v1 = 2, v2 = 7, },
+		      desc3 = { v1 = 2, v2 = 7, }, 
 		      },
 		},
 		othersUpgrades = {
@@ -1743,7 +1743,7 @@ return {
 		ar = '+26',
 		ag = '+23',
 		aw = '+22',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 8,
@@ -1755,25 +1755,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v2 = 236, v3 = 320, },
 		      desc2 = { v1 = 220, },
-		      desc3 = { v1 = 115, v2 = 410, v4 = 75,},
+		      desc3 = { v1 = 115, v2 = 410, v4 = 75,}, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v2 = 279, v3 = 370, },
 		      desc2 = { v1 = 270, v2 = 3, },
-		      desc3 = { v1 = 155, v2 = 535, v4 = 95,},
+		      desc3 = { v1 = 155, v2 = 535, v4 = 95,}, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 4, v2 = 322, v3 = 420, },
 		      desc2 = { v1 = 350, v2 = 3, },
-		      desc3 = { v1 = 195, v2 = 640, v4 = 115,},
+		      desc3 = { v1 = 195, v2 = 640, v4 = 115,}, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 4, v2 = 399, v3 = 590, },
 		      desc2 = { v1 = 400, v2 = 3, },
-		      desc3 = { v1 = 210, v2 = 720, v4 = 136,},
+		      desc3 = { v1 = 210, v2 = 720, v4 = 136,}, 
 		      },
 		},
 		othersUpgrades = {
@@ -1846,7 +1846,7 @@ return {
 		ar = '+26',
 		ag = '+22',
 		aw = '+22',
-		cargo = {
+		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
 		    crmax = 7,
@@ -1858,25 +1858,25 @@ return {
 		},
 		currentlevel = 40,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 240, v2 = 50, },
 		      desc2 = { v2 = 120, },
-		      desc3 = { v1 = 290, v3 = 2, },
+		      desc3 = { v1 = 290, v3 = 2, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 290, v2 = 60, },
 		      desc2 = { v1 = 3, v2 = 120, },
-		      desc3 = { v1 = 370, v2 = 3, v3 = 2, },
+		      desc3 = { v1 = 370, v2 = 3, v3 = 2, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 350, v2 = 70, },
 		      desc2 = { v1 = 3, v2 = 140, },
-		      desc3 = { v1 = 480, v2 = 3, v3 = 3, },
+		      desc3 = { v1 = 480, v2 = 3, v3 = 3, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 410, v2 = 80, },
 		      desc2 = { v1 = 3, v2 = 160, },
-		      desc3 = { v1 = 570, v2 = 2, v3 = 3, },
+		      desc3 = { v1 = 570, v2 = 2, v3 = 3, }, 
 		      },
 		},
 		othersUpgrades = {
@@ -1917,7 +1917,7 @@ return {
 	},
 	BC1 = { -- lvl-95
 	    -- lvl-10 grw-8.8.7 323 cr1wp1 11=75, 12=200, sell=125
-	    -- lvl-11 9.9.8 349
+	    -- lvl-11 9.9.8 349 
 	    -- lvl-12 375 13=165 14=375 sell=375
 	    -- lvl-13 10.10.9 401 14=210
 	    -- lvl-14 15=255 427
@@ -1955,7 +1955,7 @@ return {
 		ar = '+8',
 		ag = '+8',
 		aw = '+7',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -1967,25 +1967,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
 	            desc1 = { v1 = 64, v2 = 2, v3 = 36, },
 	            desc2 = { v1 = 150, v2 = 3, },
-	            desc3 = { v1 = 173, },
+	            desc3 = { v1 = 173, }, 
 	        },
-		    supgr3 = {
+		    supgr3 = { 
 	            desc1 = { v1 = 79, v2 = 2, v3 = 41, },
 	            desc2 = { v1 = 205, v2 = 4, },
-	            desc3 = { v1 = 205, v2 = 3, },
+	            desc3 = { v1 = 205, v2 = 3, }, 
 	        },
-		    supgr4 = {
+		    supgr4 = { 
 	            desc1 = { v1 = 96, v2 = 2, v3 = 47, },
 	            desc2 = { v1 = 265, v2 = 5, },
-	            desc3 = { v1 = 247, v2 = 3, },
+	            desc3 = { v1 = 247, v2 = 3, }, 
 	        },
-		    supgr5 = {
+		    supgr5 = { 
 	            desc1 = { v1 = 109, v2 = 2, v3 = 58, },
 	            desc2 = { v1 = 305, v2 = 6, },
-	            desc3 = { v1 = 264, v2 = 4, },
+	            desc3 = { v1 = 264, v2 = 4, }, 
 	        },
 		},
 		othersUpgrades = {
@@ -2052,7 +2052,7 @@ return {
 		ar = '+9',
 		ag = '+7',
 		aw = '+6',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -2064,22 +2064,22 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
                 desc1 = { v1 = 180, v2 = 95, v3 = 45, },
                 desc2 = { v2 = 5, },
                 desc3 = { v1 = 35, v3 = 12, },
             },
-		    supgr3 = {
+		    supgr3 = { 
                 desc1 = { v1 = 210, v2 = 105, v3 = 55, },
                 desc2 = { v2 = 7, },
                 desc3 = { v1 = 43, v3 = 18, },
 	        },
-		    supgr4 = {
+		    supgr4 = { 
                 desc1 = { v1 = 240, v2 = 120, v3 = 60, },
                 desc2 = { v2 = 9, },
                 desc3 = { v1 = 54, v3 = 22, },
 	        },
-		    supgr5 = {
+		    supgr5 = { 
                 desc1 = { v1 = 270, v2 = 135, v3 = 68, },
                 desc2 = { v2 = 11, },
                 desc3 = { v1 = 61, v3 = 25, },
@@ -2144,7 +2144,7 @@ return {
 		ar = '+7',
 		ag = '+9',
 		aw = '+7',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -2156,25 +2156,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
 	            desc1 = { v1 = 57, v2 = 2, },
 	            desc2 = { v1 = 173, v2 = 7, },
-	            desc3 = { v2 = 4, },
+	            desc3 = { v2 = 4, }, 
 	        },
-		    supgr3 = {
+		    supgr3 = { 
 	            desc1 = { v1 = 69, v2 = 2, v3=35, },
 	            desc2 = { v1 = 205, v2 = 9, },
-	            desc3 = { v1 = 2, v2 = 5, },
+	            desc3 = { v1 = 2, v2 = 5, }, 
 	        },
-		    supgr4 = {
+		    supgr4 = { 
 	            desc1 = { v1 = 81, v2 = 2, v3=40, },
 	            desc2 = { v1 = 247, v2 = 11, },
-	            desc3 = { v1 = 2, v2 = 6, },
+	            desc3 = { v1 = 2, v2 = 6, }, 
 	        },
-		    supgr5 = {
+		    supgr5 = { 
 	            desc1 = { v1 = 97, v2 = 2, v3=45, },
 	            desc2 = { v1 = 264, v2 = 13, },
-	            desc3 = { v1 = 3, v2 = 7, },
+	            desc3 = { v1 = 3, v2 = 7, }, 
 	        },
 		},
 		othersUpgrades = {
@@ -2236,7 +2236,7 @@ return {
 		ar = '+9',
 		ag = '+7',
 		aw = '+6',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -2248,25 +2248,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
 	            cost1 = 11, desc1 = { v1 = 83, },
 	            desc2 = { v1 = 46, },
-	            desc3 = { v2 = 2, v3 = 2, v4 = 2, },
+	            desc3 = { v2 = 2, v3 = 2, v4 = 2, }, 
 	        },
-		    supgr3 = {
+		    supgr3 = { 
 	            cost1 = 10, desc1 = { v1 = 142, v2 = '3 blue AP, 3 purple AP and 3 orange AP', },
 	            desc2 = { v1 = 59, },
-	            desc3 = { v1 = 2, v2 = 3, v3 = 3, v4 = 3, },
+	            desc3 = { v1 = 2, v2 = 3, v3 = 3, v4 = 3, }, 
 	        },
-		    supgr4 = {
+		    supgr4 = { 
 	            cost1 = 9, desc1 = { v1 = 170, v2 = '3 blue AP, 3 purple AP and 3 orange AP', },
 	            desc2 = { v1 = 72, },
-	            desc3 = { v1 = 2, v2 = 2, v3 = 2, v4 = 2, },
+	            desc3 = { v1 = 2, v2 = 2, v3 = 2, v4 = 2, }, 
 	        },
-		    supgr5 = {
+		    supgr5 = { 
 	            cost1 = 8, desc1 = { v1 = 210, v2 = '4 blue AP, 4 purple AP and 4 orange AP', },
 	            desc2 = { v1 = 90, },
-	            desc3 = { v1 = 3, v2 = 2, v3 = 2, v4 = 2, },
+	            desc3 = { v1 = 3, v2 = 2, v3 = 2, v4 = 2, }, 
 	        },
 		},
 		othersUpgrades = {
@@ -2328,7 +2328,7 @@ return {
 		ar = '+6',
 		ag = '+7',
 		aw = '+9',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -2340,25 +2340,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
                 desc1 = { v1 = 8, v2 = 4, },
 	            desc2 = { v1 = 211, },
-	            desc3 = { v2 = 4, },
+	            desc3 = { v2 = 4, }, 
 	        },
-		    supgr3 = {
+		    supgr3 = { 
                 desc1 = { v1 = 10, v2 = 5, },
 	            desc2 = { v1 = 248, },
-	            desc3 = { v1 = 3, v2 = 4, },
+	            desc3 = { v1 = 3, v2 = 4, }, 
 	        },
-		    supgr4 = {
+		    supgr4 = { 
                 desc1 = { v1 = 12, v2 = 6, },
 	            desc2 = { v1 = 302, },
-	            desc3 = { v1 = 3, v2 = 3, },
+	            desc3 = { v1 = 3, v2 = 3, }, 
 	        },
-		    supgr5 = {
+		    supgr5 = { 
                 desc1 = { v1 = 14, v2 = 7, },
 	            desc2 = { v1 = 384, },
-	            desc3 = { v1 = 4, v2 = 2, },
+	            desc3 = { v1 = 4, v2 = 2, }, 
 	        },
 		},
 		othersUpgrades = {
@@ -2420,7 +2420,7 @@ return {
 		ar = '+9',
 		ag = '+7',
 		aw = '+7',
-		cargo = {
+		cargo = { 
 		    crewamt = 1,
 		    crmin = 0,
 		    crmax = 5,
@@ -2432,25 +2432,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 	            desc1 = { v1 = '3 orange or purple gems', v2 = '2 yellow counters', },
 	            desc2 = { v3 = 126, },
-	            desc3 = { v1 = 14, v3 = 140, },
+	            desc3 = { v1 = 14, v3 = 140, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
                 desc1 = { v1 = '3 orange, purple, or yellow gems', v2 = '2 yellow counters', v4 = 24, },
 	            desc2 = { v1 = '2 blue counters', v3 = 100, },
-	            desc3 = { v1 = 17, v3 = 170, },
+	            desc3 = { v1 = 17, v3 = 170, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 	            desc1 = { v1 = '3 orange, purple, or yellow gems', v2 = '3 yellow counters', v4 = 24, },
 	            desc2 = { v1 = '2 blue counters', v3 = 126, },
-	            desc3 = { v1 = 21, v3 = 210, },
+	            desc3 = { v1 = 21, v3 = 210, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 	            desc1 = { v1 = '4 orange, purple, yellow or blue gems', v2 = '3 yellow counters', v4 = 30, },
 	            desc2 = { v1 = '3 blue counters', v3 = 100, },
-	            desc3 = { v1 = 25, v3 = 250, },
+	            desc3 = { v1 = 25, v3 = 250, }, 
 		      },
 		},
 		othersUpgrades = {
@@ -2506,19 +2506,19 @@ return {
 	    -- lvl-37 nc 990 nc
 	    -- lvl-38 1015 nc
 	    -- lvl-39 1040 nc
-	    -- lvl-40 25/19/18 1065 41=1040 nc
+	    -- lvl-40 25/19/18 1065 41=1040 nc 
 	    -- lvl-41 25/20/19 1090 42=1060 nc
 	    -- lvl-42 nc 1115 43=1090 nc  sell=4125 50=9555
-	    -- lvl-43 27/21/19 1140 44=1120 nc
+	    -- lvl-43 27/21/19 1140 44=1120 nc 
 	    -- lvl-44 27/21/20 1165 45=1145 nc
-	    -- lvl-45 nc 1190 46=1180 cr2wp3
-	    -- lvl-46 28/22/21 1215 47=1210 nc
+	    -- lvl-45 nc 1190 46=1180 cr2wp3 
+	    -- lvl-46 28/22/21 1215 47=1210 nc 
 	    -- lvl-47 29/22/21 1240 48=1240 nc
 	    -- lvl-48 29/23/21 1265 49=1270 nc
 	    -- lvl-49 30/23/22 1290 50=1300 nc
 	    -- lvl-50 nc 1315 51=1325 cr3wp3  sell=5125 upg-10/15 1o4y5p
         -- lvl-50 rgw-30.24.22 1315 cr3wp3 51=1325 upg=650c sell=5125 1o4y5p
-        -- lvl-50 nc 95=86400 upg=na 5o5y5p
+        -- lvl-50 nc 95=86400 upg=na 5o5y5p 
         -- lvl-51 rgw-31.24.23 1340 c3w3 sell=5250
         -- lvl-54 33.25.24 1415 c3w3
         -- lvl-55 c3w3
@@ -2533,7 +2533,7 @@ return {
         -- lvl-85 49.38.36 2190 c4w5 86=2250 95=23625 sell=9500
         -- lvl-89 52.40.37 2250 nc
         -- lvl-90 52.40.38 2315 c5w5 91=2375 95=12125 sell=10125
-        -- lvl-91 53.41.38 2340
+        -- lvl-91 53.41.38 2340 
         -- lvl-92 nc 2355
         -- lvl-93 54.42.39 2390 94=2450 95=4925
         -- lvl-94 skipped/free
@@ -2571,7 +2571,7 @@ return {
 		ar = '+9',
 		ag = '+7',
 		aw = '+6',  --+7 also?
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -2583,22 +2583,22 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
 	            desc1 = { v2 = 40, v3 = 150, },
 	            desc2 = { v1 = 11, v2 = 3, },
 	            desc3 = { v1 = 150, },
             },
-		    supgr3 = {
+		    supgr3 = { 
 	            desc1 = { v1 = 3, v2 = 30, v3 = 200, },
 	            desc2 = { v1 = 14, v2 = 4, },
 	            desc3 = { v1 = 200, },
 	        },
-		    supgr4 = {
+		    supgr4 = { 
 	            desc1 = { v1 = 3, v2 = 40, v3 = 250, },
 	            desc2 = { v1 = 17, v2 = 5, },
 	            desc3 = { v1 = 230, },
 	        },
-		    supgr5 = {
+		    supgr5 = { 
 	            desc1 = { v1 = 4, v2 = 50, v3 = 300, },
 	            desc2 = { v1 = 22, v2 = 6, },
 	            desc3 = { v1 = 300, },
@@ -2663,7 +2663,7 @@ return {
 		ar = '+7',
 		ag = '+8',
 		aw = '+8',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -2675,25 +2675,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
 	            cost1 = 10, desc1 = { v2 = 25, v3 = 45, },
 	            cost2 = 11, desc2 = { v1 = 215, },
-	            desc3 = { v2 = 95, v3 = 3, },
+	            desc3 = { v2 = 95, v3 = 3, }, 
 	        },
-		    supgr3 = {
+		    supgr3 = { 
 	            cost1 = 11, desc1 = { v1 = 3, v2 = 20, v3 = 50, },
 	            cost2 = 12, desc2 = { v1 = 290, v2 = 3},
-	            desc3 = { v2 = 140, v3 = 4, },
+	            desc3 = { v2 = 140, v3 = 4, }, 
 	        },
-		    supgr4 = {
+		    supgr4 = { 
 	            cost1 = 12, desc1 = { v1 = 2, v2 = 35, v3 = 60, },
 	            cost2 = 13, desc2 = { v1 = 360, v2 = 4},
-	            desc3 = { v2 = 195, v3 = 4, },
+	            desc3 = { v2 = 195, v3 = 4, }, 
 	        },
-		    supgr5 = {
+		    supgr5 = { 
 	            cost1 = 13, desc1 = { v1 = 3, v2 = 32, v3 = 75, },
 	            cost2 = 14, desc2 = { v1 = 450, v2 = 4},
-	            desc3 = { v2 = 265, v3 = 5, },
+	            desc3 = { v2 = 265, v3 = 5, }, 
 	        },
 		},
 		othersUpgrades = {
@@ -2755,7 +2755,7 @@ return {
 		ar = '+8',
 		ag = '+8',
 		aw = '+7',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -2767,25 +2767,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
 	            desc1 = { v1 = 240, v2 = 3, },
 	            desc2 = { v2 = 18, v3 = 180, },
-	            desc3 = { v1 = 220, },
+	            desc3 = { v1 = 220, }, 
 	        },
-		    supgr3 = {
+		    supgr3 = { 
 	            desc1 = { v1 = 280, v2 = 2, v3 = 35, },
 	            desc2 = { v2 = 23, v3 = 230, },
-	            desc3 = { v1 = 270, v2 = 3, },
+	            desc3 = { v1 = 270, v2 = 3, }, 
 	        },
-		    supgr4 = {
+		    supgr4 = { 
 	            desc1 = { v1 = 320, v2 = 3, v3 = 30, },
 	            desc2 = { v2 = 27, v3 = 270, },
-	            desc3 = { v1 = 350, v2 = 3, },
+	            desc3 = { v1 = 350, v2 = 3, }, 
 	        },
-		    supgr5 = {
+		    supgr5 = { 
 	            desc1 = { v1 = 400, v2 = 3, v3 = 35, },
 	            desc2 = { v2 = 30, v3 = 300, },
-	            desc3 = { v1 = 400, v2 = 3, },
+	            desc3 = { v1 = 400, v2 = 3, }, 
 	        },
 		},
 		othersUpgrades = {
@@ -2847,7 +2847,7 @@ return {
 		ar = '+9',
 		ag = '+6',
 		aw = '+7',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -2859,25 +2859,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
 	            desc1 = { v2 = 3, },
 	            desc2 = { v4 = 145, v5 = 190, },
-	            desc3 = { v1 = 21, v3 = 210, },
+	            desc3 = { v1 = 21, v3 = 210, }, 
 	        },
-		    supgr3 = {
+		    supgr3 = { 
 	            desc1 = { v1 = '2 turns', v2 = 4, },
 	            desc2 = { v1 = 3, v2 = 3, v4 = 190, v5 = 285, },
-	            desc3 = { v1 = 26, v3 = 260, },
+	            desc3 = { v1 = 26, v3 = 260, }, 
 	        },
-		    supgr4 = {
+		    supgr4 = { 
 	            desc1 = { v1 = '2 turns', v2 = 5, },
 	            desc2 = { v1 = 3, v2 = 3, v4 = 236, v5 = 320, },
-	            desc3 = { v1 = 32, v3 = 320, },
+	            desc3 = { v1 = 32, v3 = 320, }, 
 	        },
-		    supgr5 = {
+		    supgr5 = { 
 	            desc1 = { v1 = '3 turns', v2 = 6, },
 	            desc2 = { v1 = 3, v2 = 3, v4 = 279, v5 = 370, },
-	            desc3 = { v1 = 37, v3 = 370, },
+	            desc3 = { v1 = 37, v3 = 370, }, 
 	        },
 		},
 		othersUpgrades = {
@@ -2950,7 +2950,7 @@ return {
 		ar = '+9',
 		ag = '+7',
 		aw = '+6',
-		cargo = {
+		cargo = { 
 	        crewamt = 1,
 	        crmin = 0,
 	        crmax = 5,
@@ -2962,25 +2962,25 @@ return {
 		},
 		currentlevel = 10,
 		skillsUpgrades = {
-	        supgr2 = {
+	        supgr2 = { 
 	            desc1 = { v1 = 135, },
 	            desc2 = { v2 = 14, v3 = 140 },
-	            desc3 = { v2 = 20,},
+	            desc3 = { v2 = 20,}, 
 	        },
-		    supgr3 = {
+		    supgr3 = { 
 	            desc1 = { v1 = 180, },
 	            desc2 = { v2 = 17, v3 = 170 },
-	            desc3 = { v1 = 3, v2 = 26,},
+	            desc3 = { v1 = 3, v2 = 26,}, 
 	        },
-		    supgr4 = {
+		    supgr4 = { 
 	            desc1 = { v1 = 210, },
 	            desc2 = { v2 = 21, v3 = 210 },
-	            desc3 = { v1 = 3, v2 = 35,},
+	            desc3 = { v1 = 3, v2 = 35,}, 
 	        },
-		    supgr5 = {
+		    supgr5 = { 
 	            desc1 = { v1 = 280, },
 	            desc2 = { v2 = 25, v3 = 250 },
-	            desc3 = { v1 = 5, v2 = 42,},
+	            desc3 = { v1 = 5, v2 = 42,}, 
 	        },
 		},
 		othersUpgrades = {
@@ -3046,7 +3046,7 @@ return {
 		ar = '+4',
 		ag = '+3',
 		aw = '+3',
-		cargo = {
+		cargo = { 
 		    crewamt = 0,
 		    crmin = 0,
 		    crmax = 4,
@@ -3058,25 +3058,25 @@ return {
 		},
 		currentlevel = 1,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = '3 blue/orange', v2 = 14, v3 = 'orange AP that the team have', v4 = 70, },
 		      desc2 = { v2 = 22, },
-		      desc3 = { v1 = '2 orange AP and 2 purple AP',},
+		      desc3 = { v1 = '2 orange AP and 2 purple AP',}, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = '3 blue/orange/yellow', v2 = 17, v3 = 'orange AP that the team have', v4 = 85, },
 		      desc2 = { v2 = 31, },
-		      desc3 = { v1 = '3 orange AP, 3 purple AP, and 3 blue AP',},
+		      desc3 = { v1 = '3 orange AP, 3 purple AP, and 3 blue AP',}, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = '4 blue/orange/yellow/purple', v2 = 19, v3 = 'orange AP that the team have', v4 = 95, },
 		      desc2 = { v2 = 38, },
-		      desc3 = { v1 = '4 orange AP, 4 purple AP, 4 blue AP and 4 yellow AP',},
+		      desc3 = { v1 = '4 orange AP, 4 purple AP, 4 blue AP and 4 yellow AP',}, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = '5 blue/orange/yellow/purple', v2 = 25, v3 = 'orange AP that the team have', v4 = 125, },
 		      desc2 = { v2 = 47, },
-		      desc3 = { v1 = '5 orange AP, 5 purple AP, 5 blue AP and 5 yellow AP',},
+		      desc3 = { v1 = '5 orange AP, 5 purple AP, 5 blue AP and 5 yellow AP',}, 
 		      },
 		},
 		othersUpgrades = {
@@ -3131,7 +3131,7 @@ return {
 		ar = '+4',
 		ag = '+3',
 		aw = '+3',
-		cargo = {
+		cargo = { 
 		    crewamt = 0,
 		    crmin = 0,
 		    crmax = 4,
@@ -3143,25 +3143,25 @@ return {
 		},
 		currentlevel = 1,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 11, v2 = 55, },
 		      desc2 = { v1 = 31, v2 = 9, },
-		      desc3 = { v1 = 54, },
+		      desc3 = { v1 = 54, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 15, v2 = 65, },
 		      desc2 = { v1 = 42, v2 = 12, },
-		      desc3 = { v1 = 63, },
+		      desc3 = { v1 = 63, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 15, v2 = 75, },
 		      desc2 = { v1 = 51, v2 = 14, },
-		      desc3 = { v1 = 76, v2 = 'doesn\'t paralyze itself', },
+		      desc3 = { v1 = 76, v2 = 'doesn\'t paralyze itself', }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 18, v2 = 90, },
 		      desc2 = { v1 = 63, v2 = 17, },
-		      desc3 = { v1 = 88, v2 = 'doesn\'t paralyze itself', },
+		      desc3 = { v1 = 88, v2 = 'doesn\'t paralyze itself', }, 
 		      },
 		},
 		othersUpgrades = {
@@ -3184,8 +3184,8 @@ return {
 	KBP = {  -- g.3/a.5/b.8/c.12/d.16/
 	    -- lvl-8 rgw-?.?.? 193 9=275? 12=? sell=?
 	    -- lvl-9 212 10=300? cr0wp0
-	    -- lvl-10 231 cr1wp1 8.6.5
-	    -- lvl-11 9.6.6
+	    -- lvl-10 231 cr1wp1 8.6.5 
+	    -- lvl-11 9.6.6  
 	    -- lvl-12 10.7.6 269 13=375 16=1650 sell=1250?
 	    -- lvl-13 288
 	    -- lvl=16 12.9.8 345 17=475 22=3225 sell=1200
@@ -3193,7 +3193,7 @@ return {
 	    -- lvl-18 383 19=525 (still-cr1wp1) 1o1y4p
 	    -- lvl-19 14.10.8 20=550 (cr1wp1)
 	    -- lvl-20 14.10.9 421 21=575 cr1wp2
-	    -- lvl-21 15.11.9 440 22=600
+	    -- lvl-21 15.11.9 440 22=600 
 	    -- lvl-22 16.11.9 459 23=625 50=26950 10/10 4o1y5p(cr1wp2) sell=1650
         -- lvl-50 rgw-31.22.18 991 cr4wp4 sell=3750 5o1y5p
 		name = '[[Klingon bop]]',
@@ -3229,7 +3229,7 @@ return {
 		ar = '+4',
 		ag = '+3',
 		aw = '+3',
-		cargo = {
+		cargo = { 
 		    crewamt = 0,
 		    crmin = 0,
 		    crmax = 4,
@@ -3241,25 +3241,25 @@ return {
 		},
 		currentlevel = 1,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 3, v2 = 3, },
 		      desc2 = { v1 = 150, v2 = 75, },
-		      desc3 = { v3 = 14, v4 = 70, },
+		      desc3 = { v3 = 14, v4 = 70, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 3, t2 = 'yellow, purple, and blue AP.', v2 = nil, t3 = nil },
 		      desc2 = { v1 = 175, v2 = 88, },
-		      desc3 = { v2 = 2, v3 = 17, v4 = 85, },
+		      desc3 = { v2 = 2, v3 = 17, v4 = 85, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 4, t2 = 'yellow, purple, and blue AP.', v2 = nil, t3 = nil },
 		      desc2 = { v1 = 200, v2 = 100, },
-		      desc3 = { v2 = 2, v3 = 19, v4 = 114, },
+		      desc3 = { v2 = 2, v3 = 19, v4 = 114, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 4, t2 = 'yellow, purple, blue, and orange AP.', v2 = nil, t3 = nil },
 		      desc2 = { v1 = 225, v2 = 113, },
-		      desc3 = { v1 = '5x5', v2 = 2, v3 = 21, v4 = 126, },
+		      desc3 = { v1 = '5x5', v2 = 2, v3 = 21, v4 = 126, }, 
 		      },
 		},
 		othersUpgrades = {
@@ -3297,15 +3297,15 @@ return {
 	    -- lvl-18 19=525 13.10.8 347 1/1 1350
 	    -- -19 14.11.8 363 ; -20 14.11.9 379 cr1/wp2 1500
 	    -- -21 15.11.9 395 1/2 ; -22 15.12.9 411 ; -23 16.12.10 427
-	    -- -24 16.13.10 443 ; -25 17.13.10 459 cr2/2 ; -26 18.14.11 475
+	    -- -24 16.13.10 443 ; -25 17.13.10 459 cr2/2 ; -26 18.14.11 475 
 	    -- -27 ... 491 ; -28 29=775 19.14.11 507 2/2 sell=2100 upg=450c
 	    -- lvl-28 0o3b5p upg=500c n/c
 	    -- -29 30=800 19.15.11 523 2/2 2175 ; -30 20.15.12 539 cr2/wp3
 	    -- -31 20.16.12 555 2/3 ; -32 21.16.12 571 ; -33 21.16.13 587
-	    -- lvl-34 35=925 22.17.13 603 2/3 sell=2550 upg=500c
+	    -- lvl-34 35=925 22.17.13 603 2/3 sell=2550 upg=500c 
 	    -- -34cntd 0o4b5p 42=8100 still 2/3 sell=2550 upg=550c
 	    -- lvl-35 36=950 nc-22.17.13 619 cr3/wp3 sell=2625
-	    -- -36 23.18.14 635 3/3 ; -37 ... 651 ; -38 24.19.14 667
+	    -- -36 23.18.14 635 3/3 ; -37 ... 651 ; -38 24.19.14 667 
 	    -- -39 25.19.14 683 3/3 ; -40 25.19.15 699 3/3 ; -41 26.20.15 715 3/3
 	    -- lvl-42 42=1125 nc-26.20.15 731 3/3 sell=3150 ; 0o5b5p 50=9700
 	    -- -43 27.21.16 747 ; -44 ... 763 3/3 ; -45 28.21.16 779 cr4/wp4
@@ -3344,7 +3344,7 @@ return {
 		ar = '+4',
 		ag = '+3',
 		aw = '+3',
-		cargo = {
+		cargo = { 
 		    crewamt = 0,
 		    crmin = 0,
 		    crmax = 4,
@@ -3356,25 +3356,25 @@ return {
 		},
 		currentlevel = 1,
 		skillsUpgrades = {
-		    supgr2 = {
+		    supgr2 = { 
 		      desc1 = { v1 = 62, v2 = '2 blue AP and 2 purple AP', },
-		      cost2 = 8,
-		      desc3 = { v1 = '2 yellow and red', v2 = 31, },
+		      cost2 = 8, 
+		      desc3 = { v1 = '2 yellow and red', v2 = 31, }, 
 		      },
-		    supgr3 = {
+		    supgr3 = { 
 		      desc1 = { v1 = 73, v2 = '3 blue AP, 3 purple AP, and 3 orange AP', },
-		      cost2 = 7,
-		      desc3 = { v1 = '3 yellow, red and purple', v2 = 42, },
+		      cost2 = 7, 
+		      desc3 = { v1 = '3 yellow, red and purple', v2 = 42, }, 
 		      },
-		    supgr4 = {
+		    supgr4 = { 
 		      desc1 = { v1 = 94, v2 = '4 blue AP, 4 purple AP, and 4 orange AP', },
-		      cost2 = 6,
-		      desc3 = { v1 = '3 yellow, red, purple, and blue', v2 = 53, },
+		      cost2 = 6, 
+		      desc3 = { v1 = '3 yellow, red, purple, and blue', v2 = 53, }, 
 		      },
-		    supgr5 = {
+		    supgr5 = { 
 		      desc1 = { v1 = 118, v2 = '5 blue AP, 5 purple AP, and 5 orange AP', },
-		      cost2 = 5,
-		      desc3 = { v1 = '4 yellow, red, purple, and blue', v2 = 64, },
+		      cost2 = 5, 
+		      desc3 = { v1 = '4 yellow, red, purple, and blue', v2 = 64, }, 
 		      },
 		},
 		othersUpgrades = {

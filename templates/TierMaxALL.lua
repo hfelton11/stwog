@@ -1,3 +1,5 @@
+* There are {{#invoke:CommonLists | main | s | count0 }} ships...
+
 {| class="wikitable sortable" style="text-align:center;" border="1"
 |-
 ! scope="col" | Row
@@ -7,7 +9,7 @@
 ! scope="col" | Levels-to-Max Ship
 ! scope="col" | <nowiki>[[Disambig]] Name</nowiki>
 |-
-| 00 ||	<hr/> 	||	0	|| [[SO]]	|| [[SO]] [[SN]]<hr/>	||
+| 00 ||	<hr/> 	||	0	|| [[SO]]	|| [[SO]] [[SN]]<hr/>	||	
 |-
 | 01 ||	ENB	||	3.5	|| [[SO/ENB]]	|| [[SO/L50/ENB]] [[SO/L96/ENB]] [[SO/L165/ENB]] 	||	[[Enterprise]]
 |-
@@ -71,7 +73,9 @@
 |-
 |}
 
-These names are discussed/able at [[Hero table]]...
+* These names are discussed/able at [[Hero table]]...
+	
+* There are {{#invoke:CommonLists | main | c | count0 }} crew...
 
 {| class="wikitable sortable" style="text-align:center;" border="1"
 |-
@@ -82,7 +86,7 @@ These names are discussed/able at [[Hero table]]...
 ! scope="col" | Levels-to-Max Crew
 ! scope="col" | <nowiki>[[Disambig]] Name</nowiki>
 |-
-| 00 ||	<hr/>	||	0	|| [[CO]]	|| [[CO]] [[CN]] <hr/>	||
+| 00 ||	<hr/>	||	0	|| [[CO]]	|| [[CO]] [[CN]] <hr/>	||	
 |-
 | 01 ||	ANU	||	3.5	|| [[CO/ANU]]	|| 	[[CO/L50/ANU]] [[CO/L96/ANU]] [[CO/L165/ANU]] 	||	[[Uhura]]
 |-

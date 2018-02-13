@@ -30,6 +30,9 @@ local WeaponPictures = { -- see discussion at: ???
                     orT = 'R3 tos romulan quantum torpedo.png',
                     orP = 'G2 tos romulan phase cannon.png',
                     orS = 'S2 tos romulan shield cell.png',
+                    ovT = 'R3 tos vulcan cannon.png',
+                    ovP = 'G2 tos vulcan laser.png',
+                    ovS = 'S2 tos vulcan shield cell.png',
                     ogP = 'G2 general laser.png',
 
                     naT = 'R3 tng federation gravimetric torpedoes.png',
@@ -44,48 +47,57 @@ local WeaponPictures = { -- see discussion at: ???
                     ncT = 'R3 tng cardassian positron torpedo.png',
                     ncP = 'G2 tng cardassian disrupter.png',
                     ncS = 'S2 tng cardassian shield cells.png',
-                    nbT = '',
-                    nbP = '',
-                    nbS = 'S2 tng borg (NOT klingon) shield cell.png',
-                    nfT = '',
-                    nfP = '',
-                    nfS = '',
+                    nbT = 'R3 tng borg cannon.png',
+                    nbP = 'G2 tng borg laser.png',
+                    nbS = 'S2 tng borg shield borg.png',
+                    nbO = 'S2 tng borg (NOT klingon) shield cell.png',
+--                    nbS0 = 'S2 tng borg (NOT klingon) shield cell.png',
+                    nfT = 'R3 tng ferengi cannon.png',
+                    nfP = 'G2 tng ferengi laser.png',
+                    nfS = 'S2 tng ferengi shield.png',
                     ngP = 'G2 general laser.png',
                     }
 local WeaponNames = {
-                    oaT = 'Photon Torpedoes',
-                    oaP = 'Phasers',
-                    oaS = 'Shield Cells (blue)',
-                    okT = 'Plasma Torpedoes',
-                    okP = 'Lasers',
-                    okS = 'Shield Cells (red)',
-                    orT = 'Quantum Torpedoes',
-                    orP = 'Phase Cannons',
-                    orS = 'Shield Cells (purple)',
+                    oaT = 'Photon Torpedo',
+                    oaP = 'Phaser',
+                    oaS = 'Shield Cell (blue)',
+                    okT = 'Plasma Torpedo',
+                    okP = 'Laser',
+                    okS = 'Shield Cell (red)',
+                    orT = 'Quantum Torpedo',
+                    orP = 'Phase Cannon',
+                    orS = 'Shield Cell (purple)',
+                    ovT = 'Photon Torpedo (green arm)',
+                    ovP = 'Pulse Cannon',
+                    ovS = 'Shield Vulcan',
                     ogP = 'Lasers',
 
-                    naT = 'Gravimetric Torpedoes',
-                    naP = 'Phasers',
-                    naS = 'Shield Cells (green)',
-                    nkT = 'Photon Torpedoes',
-                    nkP = 'Pulse Cannons',
+                    naT = 'Gravimetric Torpedoes (plural)',
+                    naP = 'Phaser',
+                    naS = 'Shield Cell (green)',
+                    nkT = 'Photon Torpedo',
+                    nkP = 'Pulse Cannon',
                     nkS = '',
-                    nrT = 'Spatial Torpedoes',
-                    nrP = 'Plasma Cannons',
+                    nrT = 'Spatial Torpedo',
+                    nrP = 'Plasma Cannon',
                     nrS = '',
-                    ncT = 'Positron Torpedoes',
+                    ncT = 'Positron Torpedo',
                     ncP = 'Disrupter',
-                    ncS = 'Shield Cells (pink)',
+                    ncS = 'Shield Cell (pink)',
                     nbT = '',
-                    nbP = '',
-                    nbS = 'Shield Cells (red)',
-                    nfT = '',
-                    nfP = '',
-                    nfS = '',
+                    nbP = 'Pulse Cannon',
+                    nbS = 'Shield Borg (purple box)',
+                    nbO = 'Shield Cell (red)',
+--                    nbS0 = 'Shield Cell (red)',
+                    nfT = 'Photon Torpedo',
+                    nfP = 'Pulse Cannon',
+                    nfS = 'Shield Ferengi (red dome)',
                     ngP = 'Lasers',
 -- * +2 White LNK+NAME [[File:NAME|frameless|50px]]
-                    }
-local WeaponColor = { r='T', g='P', w='S', t='T', p='P', s='S', }
+                }
+local WeaponColor = { r='T', g='P', w='S', t='T', p='P', s='S',
+                        -- adding o=OLD color for borg-shield special-case...
+                        o='O', }
 local WeaponSeries = { o='TOS', n='TNG', }
 local WeaponGovt = {
                 --a = 'alliedFederation',
@@ -96,6 +108,7 @@ local WeaponGovt = {
                 b = 'Borg',
                 --f = 'Ferengi',
                 f = 'Alien',
+                v = 'Vulcan',
                 g = 'tbd...',
             }
 
@@ -112,7 +125,7 @@ local function handleBlank(x,instead)
     if type(instead) == 'string' then
         replStr = instead
     end
-    if utils.isBlank(x) then
+    if utils.isBlank(x) then 
         return(replStr)
     else
         return tostring(x)
