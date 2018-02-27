@@ -3,7 +3,7 @@
 -- copied/modified from charactercodes/data module
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  50's = 30 so far 15=tos, 15=tng
---        lvl-95's = 18 so far 10=tos, 8=tng
+--        lvl-95's = 23 so far 12=tos, 11=tng
 --        lvl-165's = 1 (sold) so far 1/0=tos, 0=tng
 -- total = 30 available ships
 -- tier 1 = 6     (3=tos,3=tng)
@@ -559,11 +559,11 @@ return {
 		      },
 		},
 		cargoUpgrades = {
-		    -- tbd...
 		    cupgr1 = { currentlevel = 65, crewamt = 2, weaponamt = 3, },
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
+		    -- tbd...
 		    cupgr5 = { currentlevel = 101, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 102, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 111, crewamt = 5, weaponamt = 6, },
@@ -574,7 +574,7 @@ return {
 		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 6, },
 	    },
 	},
-	RVD = { 
+	RVD = { -- lvl-96
 		name = '[[Valdore]]',
 		aliases = 'Romulan Valdore',
 		image = 'Valdore.png',
@@ -648,11 +648,11 @@ return {
 		            ag = '+28',
 		            aw = '+28',
 		      },
-		    up09XXX = { currentlevel = 96, skillschosen = '5o3y1p',
-		            hp = 1500,
-		            ar = '+12',
-		            ag = '+12',
-		            aw = '+12',
+		    up09 = { currentlevel = 96, skillschosen = '3o5y1p',
+		            hp = 3329,
+		            ar = '+59',
+		            ag = '+51',
+		            aw = '+51',
 		      },
 		    up15XXX = { currentlevel = 165, skillschosen = '5o5y5p',
 		            hp = 3500,
@@ -677,7 +677,8 @@ return {
 		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 5, },
 	    },
 	},
-	KD5 = { -- lvl-50 1425 wgr-27.28.31 c/w-1/1 51=490 upg=350 sell=3300 1y2p0o
+	KD5 = { -- lvl-06 
+	    -- lvl-50 1425 wgr-27.28.31 c/w-1/1 51=490 upg=350 sell=3300 1y2p0o
 		name = '[[D-5]]',
 		aliases = 'Klingon D-5',
 		--image = 'tos-klingon-d5.jpg',
@@ -885,20 +886,7 @@ return {
 		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
 	    },
 	},
-	VTM = {
-	    -- lvl-40 rgw-26.23.22 1270 41=75 42=200 cr2/wp2 sell=300 0b1p0o
-	    -- lvl-41 26.23.23 1300 2/2 600
-	    -- lvl-42 27.24.23 1330 43=165 2/2 900
-	    -- contd. 44=375 0b1p1o
-	    -- lvl-43 28.24.24 1360 44=210 2/2 1200
-	    -- lvl-44 28.25.24 1390 45=255 2/2 1500 0b1p1o
-	    -- contd. 50=2150 0b2p1o
-	    -- lvl-45 29.25.25 1420 46=300 2/2 
-	    -- lvl-46 29.26.25 1450 47=340 
-	    -- lvl-47 30.26.26 1480 48=380
-	    -- lvl-48 30.27.26 1510 49=420 
-	    -- lvl-49 31.27.27 1540 50=455 2/2 3000 0b2p1o
-	    -- lvl-50 31.28.27 1570 51=490 2/2 sell=3000 upg=350 0b2p1o
+	VTM = { -- lvl-96
 		name = '[[Timur]]',
 		aliases = 'Vulcan Ti\'Mur, Timur',
 		image = 'Timur.png',
@@ -934,10 +922,10 @@ return {
 		aw = '+22',
 		cargo = { 
 		    -- double-checked crewmax=5, not 8  - hjf 20170604
-		    -- weapons (vulcan-tos = general-laser only)
+		    -- apparently chgd crewmax sometime b4 20180225
 		    crewamt = 2,
 		    crmin = 0,
-		    crmax = 5,
+		    crmax = 8,
 		    crtyp = 'tbd = any, universal, federation, klingon, romulan',
 		    weaponamt = 2,
 		    wpmin = 0,
@@ -974,11 +962,11 @@ return {
 		            ag = '+28',
 		            aw = '+27',
 		      },
-		    up09XXX = { currentlevel = 96, skillschosen = '1b5p3o',
-		            hp = 1500,
-		            ar = '+12',
-		            ag = '+12',
-		            aw = '+12',
+		    up09 = { currentlevel = 96, skillschosen = '2b5p2o',
+		            hp = 2950,
+		            ar = '+57',
+		            ag = '+51',
+		            aw = '+50',
 		      },
 		    up15XXX = { currentlevel = 165, skillschosen = '5b5p5o',
 		            hp = 3500,
@@ -988,19 +976,19 @@ return {
 		      },
 		},
 		cargoUpgrades = {
-		    -- tbd...
 		    cupgr1 = { currentlevel = 65, crewamt = 2, weaponamt = 3, },
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
+		    -- tbd...
 		    cupgr5 = { currentlevel = 101, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 102, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 111, crewamt = 5, weaponamt = 6, },
-		    --cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 5, weaponamt = 7, },
-		    --cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 5, weaponamt = 8, },
-		    --cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
+		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
+		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
+		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
+		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
 	    },
 	},
 	ENB = {
@@ -1283,7 +1271,7 @@ return {
 		    cupgr6 = { currentlevel = 45, crewamt = 4, weaponamt = 4, },
 	    },
 	},
-	VA = { -- lvl-50
+	VA = { -- lvl-96
 		name = '[[Valiant]]',
 		aliases = 'Valiant, USS Valiant',
 		image = 'Valiant.png',
@@ -1357,11 +1345,11 @@ return {
 		            ag = '+28',
 		            aw = '+28',
 		      },
-		    up09XXX = { currentlevel = 96, skillschosen = '5o3y1p',
-		            hp = 1500,
-		            ar = '+12',
-		            ag = '+12',
-		            aw = '+12',
+		    up09 = { currentlevel = 96, skillschosen = '5p2y2o',
+		            hp = 2948,
+		            ar = '+59',
+		            ag = '+51',
+		            aw = '+52',
 		      },
 		    up15XXX = { currentlevel = 165, skillschosen = '5p5y5o',
 		            hp = 3500,
@@ -1371,11 +1359,11 @@ return {
 		      },
 		},
 		cargoUpgrades = {
-		    -- tbd...
 		    cupgr1 = { currentlevel = 65, crewamt = 2, weaponamt = 3, },
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
+		    -- tbd...
 		    cupgr5 = { currentlevel = 101, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 102, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 111, crewamt = 5, weaponamt = 6, },
@@ -1386,7 +1374,7 @@ return {
 		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
 	    },
 	},
-	SGZ = {
+	SGZ = { -- lvl-96
         -- lvl-50 rgw-32.28.28 1518 cr2wp2 sell=3300 2o1y0b  51=490 upg=350c
         -- lvl-96 rgw-59.51.51 2852 cr4wp4 sell=17100 3o4y2b  97=1775 upg=950
 		name = '[[Stargazer]]',
@@ -1492,7 +1480,7 @@ return {
 		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
 	    },
 	},
-	REL = {-- lvl-50 sell=3300
+	REL = {-- lvl-96
 		name = '[[Reliant]]',
 		aliases = 'USS Reliant',
 		image = 'Reliant.png',
@@ -1529,11 +1517,11 @@ return {
 		cargo = { 
 		    crewamt = 2,
 		    crmin = 0,
-		    crmax = 8,
+		    crmax = 7,
 		    crtyp = 'tbd = any, universal, federation, klingon, romulan',
 		    weaponamt = 2,
 		    wpmin = 0,
-		    wpmax = 8,
+		    wpmax = 7,
 		    wptyp = '{{ioa}}',
 		},
 		currentlevel = 40,
@@ -1560,19 +1548,19 @@ return {
 		      },
 		},
 		othersUpgrades = {
-		    up03 = { currentlevel = 50, skillschosen = '1r1w1b',
+		    up03 = { currentlevel = 50, skillschosen = '1o1y1b',
 		            hp = 1418,
 		            ar = '+31',
 		            ag = '+28',
 		            aw = '+27',
 		      },
-		    up09XXX = { currentlevel = 96, skillschosen = '5r4w1b',
-		            hp = 1500,
-		            ar = '+12',
-		            ag = '+12',
-		            aw = '+12',
+		    up09 = { currentlevel = 96, skillschosen = '1o5y3b',
+		            hp = 2660,
+		            ar = '+57',
+		            ag = '+51',
+		            aw = '+50',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5r5w5b',
+		    up15XXX = { currentlevel = 165, skillschosen = '5o5y5b',
 		            hp = 3500,
 		            ar = '+35',
 		            ag = '+35',
@@ -1580,23 +1568,22 @@ return {
 		      },
 		},
 		cargoUpgrades = {
-		    -- tbd...
 		    cupgr1 = { currentlevel = 65, crewamt = 2, weaponamt = 3, },
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
+		    -- tbd...
 		    cupgr5 = { currentlevel = 101, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 102, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 111, crewamt = 5, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
 		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
 		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    --cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
+		    --cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
 	    },
 	},
-    TS = { -- lvl-50
-        -- lvl-50 info from battle... rgw-51.48.47 1568 1o1b1p (31/28/27?)
+    TS = { -- lvl-96
         name = '[[Tsiolkovsky]]',
 		aliases = 'SS Tsiolkovsky',
 		image = 'Tsiolkovsky.png',
@@ -1670,16 +1657,12 @@ return {
 		            ar = '+32',
 		            ag = '+28',
 		            aw = '+28',
-		            --hp = 1568,  --tbd ???...
-		            --ar = '+31',
-		            --ag = '+28',
-		            --aw = '+27',
 		      },
-		    up09XXX = { currentlevel = 96, skillschosen = '3o3b3p',
-		            hp = 1500,
-		            ar = '+12',
-		            ag = '+12',
-		            aw = '+12',
+		    up09 = { currentlevel = 96, skillschosen = '2o3b4p',
+		            hp = 2948,
+		            ar = '+59',
+		            ag = '+51',
+		            aw = '+52',
 		      },
 		    up15XXX = { currentlevel = 165, skillschosen = '5o5b5p',
 		            hp = 3500,
@@ -1689,11 +1672,11 @@ return {
 		      },
 		},
 		cargoUpgrades = {
-		    -- tbd...
 		    cupgr1 = { currentlevel = 65, crewamt = 2, weaponamt = 3, },
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
+		    -- tbd...
 		    cupgr5 = { currentlevel = 101, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 102, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 111, crewamt = 5, weaponamt = 6, },

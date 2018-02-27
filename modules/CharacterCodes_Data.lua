@@ -2,7 +2,7 @@
 -- inside: [[Category:Modules]] using this line once...
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 91/91 so far 44/44=tos, 47/47=tng
---        lvl-95's = 12 so far 6=tos, 6=tng
+--        lvl-95's = 14 so far 7=tos, 7=tng
 --        lvl-165's = 0 (sold 1) so far 0=tos, 1/0=tng
 -- total = 91 availables
 -- tier 1 = 31  (14=tos,17=tng)
@@ -908,7 +908,7 @@ return {
                 },
         },
 	},
-	KN = { -- lvl-50
+	KN = { -- lvl-96
         name = '[[Khan]]',
 		aliases = 'Khan, Khan Noonien, Khan Noonien Singh',
 		image = 'Khan Noonien.png',
@@ -979,15 +979,14 @@ return {
                     datavalues = {  dv1 = 29, dv2 = 26, dv3 = 22, 
                                     dv4 = 10, dv5 = 9, dv6 = 8, },
                 },
-            -- fake data below here...
             up09 = { currentlevel = 96, skillschosen = '5w1y3b',
-                    hp = 1500,
-                    ag = '+12', 
+                    hp = 1877,
+                    ag = '+14', 
                     ar = '+12', 
-                    aw = '+12', 
+                    aw = '+15', 
                     gorder = 'WYBORP',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43, 
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    datavalues = {  dv1 = 54, dv2 = 48, dv3 = 40, 
+                                    dv4 = 17, dv5 = 16, dv6 = 14, },
                 },
             -- fake data below here...
             up15 = { currentlevel = 165, skillschosen = '5w5y5b',
@@ -5830,7 +5829,7 @@ return {
                 },
         },
 	},
-	CDT = { -- lvl-50
+	CDT = { -- lvl-96
         name = '[[Captain&nbsp;Troi]]',
 		aliases = 'Troi, Captain Deanna Troi',
 		image = 'Captain Deanna Troi.png',
@@ -5901,14 +5900,14 @@ return {
                     datavalues = {  dv1 = 30, dv2 = 24, dv3 = 22, 
                                     dv4 = 11, dv5 = 10, dv6 = 8, },
                 },
-            up09XXX = { currentlevel = 96, skillschosen = '1o4w4y',
-                    hp = 1500,
-                    ag = '+12', 
-                    ar = '+12', 
-                    aw = '+12', 
+            up09 = { currentlevel = 96, skillschosen = '3o4w2y',
+                    hp = 1887,
+                    ag = '+17', 
+                    ar = '+15', 
+                    aw = '+16', 
                     gorder = 'RYPWBO',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43, 
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    datavalues = {  dv1 = 55, dv2 = 44, dv3 = 39, 
+                                    dv4 = 20, dv5 = 17, dv6 = 14, },
                 },
             up15XXX = { currentlevel = 165, skillschosen = '5o5w5y',
                     hp = 2500,
