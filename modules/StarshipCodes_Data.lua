@@ -3,7 +3,7 @@
 -- copied/modified from charactercodes/data module
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  50's = 30 so far 15=tos, 15=tng
---        lvl-95's = 23 so far 12=tos, 11=tng
+--        lvl-95's = 24 so far 12=tos, 12=tng
 --        lvl-165's = 1 (sold) so far 1/0=tos, 0=tng
 -- total = 30 available ships
 -- tier 1 = 6     (3=tos,3=tng)
@@ -662,11 +662,11 @@ return {
 		      },
 		},
 		cargoUpgrades = {
-		    -- tbd...
 		    cupgr1 = { currentlevel = 65, crewamt = 2, weaponamt = 3, },
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
+		    -- tbd...
 		    cupgr5 = { currentlevel = 101, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 102, crewamt = 5, weaponamt = 5, },
 		    --cupgr7 = { currentlevel = 111, crewamt = 5, weaponamt = 6, },
@@ -782,7 +782,7 @@ return {
 		    --cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 7, },
 	    },
 	},
-	BR = { -- lvl-50 1y1p1b c/w-2/2
+	BR = { -- lvl-96
 		name = '[[Renegade]]',
 		aliases = 'Borg Renegade',
 		--image = 'tng-borg-renegade.jpg',
@@ -857,11 +857,11 @@ return {
 		            ag = '+28',
 		            aw = '+28',
 		      },
-		    up09XXX = { currentlevel = 96, skillschosen = '3y3p3b',
-		            hp = 1500,
-		            ar = '+12',
-		            ag = '+12',
-		            aw = '+12',
+		    up09 = { currentlevel = 96, skillschosen = '3y1p5b',
+		            hp = 3329,
+		            ar = '+59',
+		            ag = '+51',
+		            aw = '+51',
 		      },
 		    up15XXX = { currentlevel = 165, skillschosen = '5y5p5b',
 		            hp = 3500,
@@ -871,11 +871,11 @@ return {
 		      },
 		},
 		cargoUpgrades = {
-		    -- tbd...
 		    cupgr1 = { currentlevel = 65, crewamt = 2, weaponamt = 3, },
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
+		    -- tbd...
 		    cupgr5 = { currentlevel = 101, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 102, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 111, crewamt = 5, weaponamt = 6, },

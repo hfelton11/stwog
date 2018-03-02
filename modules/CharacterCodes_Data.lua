@@ -2,7 +2,7 @@
 -- inside: [[Category:Modules]] using this line once...
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 91/91 so far 44/44=tos, 47/47=tng
---        lvl-95's = 14 so far 7=tos, 7=tng
+--        lvl-95's = 16 so far 8=tos, 8=tng
 --        lvl-165's = 0 (sold 1) so far 0=tos, 1/0=tng
 -- total = 91 availables
 -- tier 1 = 31  (14=tos,17=tng)
@@ -1000,7 +1000,7 @@ return {
                 },
         },
 	},
-	B4 = { -- lvl-50
+	B4 = { -- lvl-96
         name = '[[Borg&nbsp;4&nbsp;of&nbsp;4]]',
 		aliases = '4 of 4, 4 de 4',
 		image = 'Borg 4 of 4.png',
@@ -1036,7 +1036,7 @@ return {
 		ag = '+6',
 		ar = '+5',
 		aw = '+5',
-		gorder = 'RPBOYW',
+		gorder = 'RPBYOW',
 		datavalues = { dv1 = 24, dv2 = 21, dv3 = 16, dv4 = 7, dv5 = 7, dv6 = 6, },
 		currentlevel = 40,
 		skillsUpgrades = {
@@ -1062,30 +1062,30 @@ return {
 		      },
 		},
 		othersUpgrades = {
-            up03 = { currentlevel = 50, skillschosen = '1r0w2b',
+            up03 = { currentlevel = 50, skillschosen = '1b0p2r',
                     hp = 960,
                     ag = '+7', 
                     ar = '+7', 
                     aw = '+6', 
-                    gorder = 'RPBOYW',
+                    gorder = 'RPBYOW',
                     datavalues = {  dv1 = 29, dv2 = 26, dv3 = 20, 
                                     dv4 = 8, dv5 = 8, dv6 = 7, },
                 },
-            up09XXX = { currentlevel = 96, skillschosen = '3r1w5b',
-                    hp = 1500,
-                    ag = '+12', 
-                    ar = '+12', 
+            up09 = { currentlevel = 96, skillschosen = '5b1p3r',
+                    hp = 1788,
+                    ag = '+14', 
+                    ar = '+13', 
                     aw = '+12', 
-                    gorder = 'RPBOYW',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43, 
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    gorder = 'RPBYOW',
+                    datavalues = {  dv1 = 54, dv2 = 48, dv3 = 35, 
+                                    dv4 = 14, dv5 = 13, dv6 = 12, },
                 },
-            up15XXX = { currentlevel = 165, skillschosen = '5r5w5b',
+            up15XXX = { currentlevel = 165, skillschosen = '5b5p5r',
                     hp = 2500,
                     ag = '+24', 
                     ar = '+24', 
                     aw = '+24', 
-                    gorder = 'RPBOYW',
+                    gorder = 'RPBYOW',
                     datavalues = {  dv1 = 95, dv2 = 94, dv3 = 93, 
                                     dv4 = 35, dv5 = 35, dv6 = 35, },
                 },
@@ -2533,7 +2533,7 @@ return {
                 },
         },
 	},
-	CPC = { -- lvl-50
+	CPC = { -- lvl-96
 	    -- 40=wrobyp-22.19.15.9.7.7, 23.19.16.9.7.7, 23.20.16.9.7.7, 24.20.16.9.7.7,
 	    -- 24.21.17.9.7.8 (purple-first)
         name = '[[Cmdr.&nbsp;Chekov]]',
@@ -2606,21 +2606,21 @@ return {
                     datavalues = {  dv1 = 27, dv2 = 23, dv3 = 19, 
                                     dv4 = 10, dv5 = 8, dv6 = 8, },
                 },
-            up09XXX = { currentlevel = 96, skillschosen = '5b1p3y',
-                    hp = 1500,
-                    ag = '+12', 
-                    ar = '+12', 
-                    aw = '+12', 
-                    gorder = 'OYWBPR',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43, 
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+            up09 = { currentlevel = 96, skillschosen = '5b1p3y',
+                    hp = 1980,
+                    ag = '+16', 
+                    ar = '+15', 
+                    aw = '+13', 
+                    gorder = 'WROBPY',
+                    datavalues = {  dv1 = 50, dv2 = 42, dv3 = 33, 
+                                    dv4 = 18, dv5 = 14, dv6 = 13, },
                 },
             up15XXX = { currentlevel = 165, skillschosen = '5b5p5y',
                     hp = 2500,
                     ag = '+24', 
                     ar = '+24', 
                     aw = '+24', 
-                    gorder = 'OYWBPR',
+                    gorder = 'WROBPY',
                     datavalues = {  dv1 = 95, dv2 = 94, dv3 = 93, 
                                     dv4 = 35, dv5 = 35, dv6 = 35, },
                 },
