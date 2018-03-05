@@ -174,7 +174,19 @@ local function addRow( crew, cols )
 			row
 				:css('text-align','center;')
                 :tag('td'):wikitext(crew.key):done()
-		end
+        elseif c=='series' then
+            row
+                :tag('td'):wikitext(crew.series):done()
+        elseif c=='hp' then
+            row
+                :tag('td'):wikitext(crew.hp):done()
+        elseif c=='tier' then
+            row
+                :tag('td'):wikitext(crew.tier):done()
+        else
+            row
+                :tag('td'):wikitext('other'):done()
+        end
 	end
 
 	return row

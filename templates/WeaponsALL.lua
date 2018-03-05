@@ -56,11 +56,11 @@
 || 012 [[File:S2 tng borg shield borg.png|thumb|left|50px|link= ]]
 ||     || N/A ||  
 |-
-|| '''nbp''' {{inb}} || y ? || {{w|nbp}} 
+|| '''nbp''' {{inb}} || y || {{w|nbp}} 
 || 013 [[File:G2 tng borg laser.png|thumb|left|50px|link= ]]
 ||     || N/A ||  
 |-
-|| '''nbt''' {{inb}} || y ? || {{w|nbt}} 
+|| '''nbt''' {{inb}} || y || {{w|nbt}} 
 || 014 [[File:R3 tng borg cannon.png|thumb|left|50px|link= ]]
 ||     || N/A ||  
 |-
@@ -76,15 +76,15 @@
 || 017 [[File:R3 tng cardassian positron torpedo.png|thumb|left|50px|link= ]]
 ||     || N/A ||  
 |-
-|| '''nfs'''  || y ? || {{w|nfs}} 
+|| '''nfs'''  || y || {{w|nfs}} 
 || 018 [[File:S2 tng ferengi shield.png|thumb|left|50px|link= ]] [[File:S2 tos vulcan shield cell.png|thumb|right|50px|link= ]]
 || '''ovs''' {{iov}} || y || {{w|ovs}} 
 |-
-|| '''nfp'''  || y ? || {{w|nfp}} 
+|| '''nfp'''  || y || {{w|nfp}} 
 || 019 [[File:G2 tng ferengi laser.png|thumb|left|50px|link= ]] [[File:G2 tos vulcan laser.png|thumb|right|50px|link= ]]
 || '''ovp''' {{iov}} || y || {{w|ovp}} 
 |-
-|| '''nft'''  || y ? || {{w|nft}} 
+|| '''nft'''  || y || {{w|nft}} 
 || 020 [[File:R3 tng ferengi cannon.png|thumb|left|50px|link= ]] [[File:R3 tos vulcan cannon.png|thumb|right|50px|link= ]]
 || '''ovt''' {{iov}} || y || {{w|ovt}} 
 |-
