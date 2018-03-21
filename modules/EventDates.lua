@@ -12,8 +12,9 @@ local glbls = require('Module:Globals')
 
 -- semi-dummy statement because 'out' is going to hold the final html-object...
 glbls.out = true
+glbls.data = {}
 
-local EventSeq = { eom, ad, is, eeq, ms, }  	-- events in sequence 1..5
+local EventSeq = { 'eom', 'ad', 'is', 'eeq', 'ms', }  	-- events in sequence 1..5
 
 local EventNames = { -- abbr to actual-names
                     eom = 'Empty of the Mind' ,
@@ -44,18 +45,52 @@ local EventDates = { -- abbr to known-dates
                     	} ,
                     ms = { 
                     		'2017-03-15', 	'2017-06-28', 	'2017-10-11', 
-                    		'2018-01-24', 
+                    		'2018-01-24', 	'2018-03-21', 
                     	} ,
                     'generic date = ccYY-MM-dd' ,
                   }
 
-
+local function mkTable(inpT,hdrT,flgT)
+	local retOut,inputTable,headerTable
+	local possFlags = { "flgClass", "flgAutoNumRows", }
+	retOut = mw.html.create('table')
+	-- check and DO the flag-Table
+	for _,flg in pairs(possFlags) do
+		if flg == 'flgClass' then
+			-- 'wikitable sortable'
+			if utils.isNotBlank(flgT[flg]) then 
+				retOut:addClass(flgT[flg])
+			else
+				retOut:addClass('wikitable')
+			end
+		end
+		if flg == 'flgAutoNumRows' then
+			-- adjust inputTable, headerTable for first-column-numbering...
+			if utils.isNotBlank(flgT[flg]) then 
+			end
+		end
+	end
+	-- once flags are done, do the headers...
+	-- once headers are done, do the actual rows...
+	retOut:done()
+	return retOut
+end
 
 local function mkIndex()
-	local retstr = ''
-	for k,v in pairs(EventNames) do
-		-- skip the unnamed-events...
-		if v then retstr = retstr..'[['..str(v)..']]\n' end
+	local retstr = '\n'
+--	for k,v in pairs(EventDates) do
+	-- this runs in n-squared time...
+	for i,a in ipairs(EventSeq) do
+		for k,v in pairs(EventNames) do
+			-- skip the unnamed-events...
+			if type(k) == 'string' then 
+				if a==k then 
+					retstr = retstr..tostring(i)..' - '
+					retstr = retstr..'[['..tostring(v)..']]'..'\n\n' 
+					retstr = retstr.. utils.dumpTableSorted(EventDates[k]) ..'\n\n' 
+				end
+			end
+		end
 	end
     return retstr
 end
@@ -71,8 +106,8 @@ function p.main(frame)
     local tempstr=''
     if what=='index' then
         out = mkIndex()
-    elseif (what=='Story') or (what=='Storyline') then
-        out = ''
+    elseif (what=='Events') or (what=='EventsJunk') then
+        out = mkTable(what,what,what)
     else
         out = "Hello, world! - doing..."..tostring(what)..
             "... with ==>"..utils.dumpTable(glbls.data)
