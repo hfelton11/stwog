@@ -2,9 +2,9 @@
 -- inside: [[Category:Modules]] using this line once...
 -- copied/modified from charactercodes/data module
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
--- <pre>  50's = 30 so far 15=tos, 15=tng
---        lvl-95's = 24 so far 12=tos, 12=tng
---        lvl-165's = 1 (sold) so far 1/0=tos, 0=tng
+-- <pre>  lvl-50's = 30/30 so far 15/15=tos, 15/15=tng
+--        lvl-95's = 24/24 so far 12/12=tos, 12/12=tng
+--        lvl-165's = 1/12 so far (sold)-1/6=tos, 0/6=tng
 -- total = 30 available ships
 -- tier 1 = 6     (3=tos,3=tng)
 --      2 = 12    (6=tos,6=tng)
