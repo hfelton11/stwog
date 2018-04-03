@@ -8,8 +8,8 @@
 ! scope="col" | Avail
 ! scope="col" style="width: 45%"| {{T|W}}eapons-call
 |-
-|| '''nas''' {{ina}} || y || {{w|nas}} 
-|| 001 [[File:S2 tng federation (NOT romulan) shield cell.png|thumb|left|50px|link= ]] [[File:S2 tos federation shield cell.png|thumb|right|50px|link= ]]
+|| '''nas''' {{ina}} || '''''NO''''' || {{w|nas}} 
+|| 001 [[File:S2 tos federation shield cell.png|thumb|right|50px|link= ]]
 || '''oas''' {{ioa}} || y || {{w|oas}} 
 |-
 || '''nap''' {{ina}} || y || {{w|nap}} 
@@ -32,8 +32,8 @@
 || 006 [[File:R3 tng klingon photon torpedo.png|thumb|left|50px|link= ]] [[File:R3 tos klingon plasma torpedo.png|thumb|right|50px|link= ]]
 || '''okt''' {{iok}} || y || {{w|okt}} 
 |-
-|| '''nrs''' {{inr}} || '''''NO''''' || {{w|nrs}} 
-|| 007 [[File:Stone.png|thumb|left|5px|link= ]] [[File:S2 tos romulan shield cell.png|thumb|right|50px|link= ]]
+|| '''nrs''' {{inr}} || y || {{w|nrs}} 
+|| 007 [[File:Stone.png|thumb|left|5px|link= ]] [[File:S2 tng romulan shield cell.png|thumb|left|50px|link= ]] [[File:S2 tos romulan shield cell.png|thumb|right|50px|link= ]]
 || '''ors''' {{ior}} || y || {{w|ors}} 
 |-
 || '''nrp''' {{inr}} || y || {{w|nrp}} 
