@@ -53,6 +53,7 @@ local EventDates = { -- abbr to known-dates
 
 local function mkTable(inpT,hdrT,flgT)
 	local retOut,inputTable,headerTable
+	local dbgOut = ''
 	local possFlags = { "flgClass", "flgAutoNumRows", }
 	local dbgOut = '\n\n'
 	dbgOut = dbgOut .. 'begin-dbgOut... \n\n'
