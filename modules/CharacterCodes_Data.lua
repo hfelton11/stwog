@@ -2,7 +2,7 @@
 -- inside: [[Category:Modules]] using this line once...
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 91/91 so far 44/44=tos, 47/47=tng
---        lvl-95's = 38/60 so far 12+9/30=tos, 11+6/30=tng
+--        lvl-95's = 42/60 so far 12+9/30=tos, 11+10/30=tng
 --        lvl-165's = 0/23 so far 0/12=tos, (sold)-1/11=tng
 -- total = 91 availables
 -- tier 1 = 31  (14=tos,17=tng)
@@ -6156,9 +6156,6 @@ return {
                 },
         },
 	},
---	CBC = { -- lvl-50
---        name = '[[Cmdr.&nbsp;Beverly&nbsp;Crusher]]',
---	BC = { -- lvl-50
 	BE = { -- lvl-50
         name = '[[Dr.&nbsp;Beverly&nbsp;Crusher]]',
 		aliases = 'Beverly, Doctor Crusher, Beverly Crusher',
@@ -6965,7 +6962,7 @@ return {
                 },
         },
 	},
-	CBC = { -- lvl-50
+	CBC = { -- lvl-95  white+yellow flipped at same time at lvl-92...
         name = '[[Cmdr.&nbsp;Beverly&nbsp;Crusher]]',
 		aliases = 'Cmdr. Beverly Crusher',
 		image = 'Cmdr. Beverly Picard.png',
@@ -7036,18 +7033,18 @@ return {
                     datavalues = {  dv1 = 30, dv2 = 27, dv3 = 25,
                                     dv4 = 8, dv5 = 8, dv6 = 8, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5b5p5o',
-                    hp = 1500,
+            up15 = { currentlevel = 95, skillschosen = '5b5p5o',
+                    hp = 1671,
                     ag = '+12',
-                    ar = '+12',
-                    aw = '+12',
-                    gorder = 'OYWBPR',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    ar = '+13',
+                    aw = '+13',
+                    gorder = 'BOPWYR',
+                    datavalues = {  dv1 = 56, dv2 = 48, dv3 = 44,
+                                    dv4 = 14, dv5 = 14, dv6 = 13, },
                 },
         },
 	},
-	CLF = { -- lvl-50
+	CLF = { -- lvl-95
         name = '[[Cmdr.&nbsp;La&nbsp;Forge]]',
 		aliases = 'Cmdr. La Forge, Cmdr. Geordi La Forge',
 		image = 'Cmdr. La Forge.png',
@@ -7118,14 +7115,14 @@ return {
                     datavalues = {  dv1 = 31, dv2 = 27, dv3 = 22,
                                     dv4 = 9, dv5 = 8, dv6 = 7, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5o5y5r',
-                    hp = 1500,
-                    ag = '+12',
-                    ar = '+12',
-                    aw = '+12',
+            up15 = { currentlevel = 95, skillschosen = '5o5y5r',
+                    hp = 1672,
+                    ag = '+11',
+                    ar = '+13',
+                    aw = '+14',
                     gorder = 'ROYPBW',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    datavalues = {  dv1 = 57, dv2 = 48, dv3 = 39,
+                                    dv4 = 15, dv5 = 14, dv6 = 12, },
                 },
         },
 	},
@@ -7304,7 +7301,7 @@ return {
                 },
         },
 	},
-	CDA = { -- lvl-50
+	CDA = { -- lvl-95
         name = '[[Cmdr.&nbsp;Data]]',
 		aliases = 'Cmdr. Data',
 		image = 'Cmdr. Data.png',
@@ -7375,18 +7372,18 @@ return {
                     datavalues = {  dv1 = 28, dv2 = 26, dv3 = 21,
                                     dv4 = 8, dv5 = 8, dv6 = 7, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5y5r5w',
-                    hp = 1500,
-                    ag = '+12',
-                    ar = '+12',
+            up15 = { currentlevel = 95, skillschosen = '5y5r5w',
+                    hp = 1874,
+                    ag = '+11',
+                    ar = '+13',
                     aw = '+12',
-                    gorder = 'OYWBPR',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    gorder = 'RWYPBO',
+                    datavalues = {  dv1 = 51, dv2 = 47, dv3 = 37,
+                                    dv4 = 14, dv5 = 13, dv6 = 12, },
                 },
         },
 	},
-	CWR = { -- lvl-50
+	CWR = { -- lvl-95
         name = '[[Captain&nbsp;Riker]]',
 		aliases = 'Capt. William Riker',
 		image = 'Captain William Riker.png',
@@ -7457,14 +7454,14 @@ return {
                     datavalues = {  dv1 = 27, dv2 = 26, dv3 = 18,
                                     dv4 = 9, dv5 = 8, dv6 = 8, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5b5p5o',
-                    hp = 1500,
-                    ag = '+12',
+            up15 = { currentlevel = 95, skillschosen = '5b5p5o',
+                    hp = 2334,
+                    ag = '+10',
                     ar = '+12',
-                    aw = '+12',
-                    gorder = 'OYWBPR',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    aw = '+9',
+                    gorder = 'WBOYRP',
+                    datavalues = {  dv1 = 51, dv2 = 48, dv3 = 33,
+                                    dv4 = 15, dv5 = 13, dv6 = 12, },
                 },
         },
 	},

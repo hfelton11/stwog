@@ -34,7 +34,7 @@ local EventDates = { -- abbr to known-dates
                     	} ,
                     ad = {
                     		'2016-11-23', 	'2017-04-26', 	'2017-08-09',
-                    		'2017-12-13', 	'2018-02-21',
+                    		'2017-12-13', 	'2018-02-21', 	'2018-05-02',
                     	} ,
                     is = {
                     		'2017-02-01', 	'2017-05-17', 	'2017-08-30',
@@ -53,7 +53,8 @@ local EventDates = { -- abbr to known-dates
 
 local function mkTable(inpT,hdrT,flgT)
 	local retOut,inputTable,headerTable
-	local possFlags = { "flgClass", "flgAutoNumRows", }
+	local rowHdr,rowDat
+	local possFlags = { "flgClass", "flgAutoNumRows", "flgHeaderDetails", }
 	local dbgOut = '\n\n'
 	dbgOut = dbgOut .. 'begin-dbgOut... \n\n'
 	dbgOut = dbgOut .. 'flag-Table is \n\n'
@@ -65,7 +66,7 @@ local function mkTable(inpT,hdrT,flgT)
 	dbgOut = dbgOut .. 'end-dbgOut... \n\n '
 	retOut = mw.html.create('table')
 	-- check and DO the flag-Table
-	for _,flg in pairs(possFlags) do
+	for _,flg in ipairs(possFlags) do
 		if flg == 'flgClass' then
 			-- 'wikitable sortable'
 			if utils.isNotBlank(flgT[flg]) then
@@ -77,16 +78,72 @@ local function mkTable(inpT,hdrT,flgT)
 		if flg == 'flgAutoNumRows' then
 			-- adjust inputTable, headerTable for first-column-numbering...
 			if utils.isNotBlank(flgT[flg]) then
-				headerTable = { "###"}
-				utils.mergeTable(headerTable,hdrT)
+				local nr = 0
+				-- local miniTbl
+				-- headerTable = {}
+				table.insert(hdrT,1,"###")
+				-- headerTable = table.insert(hdrT,1,"###")
+				headerTable = utils.tableShallowCopy(hdrT)
+				inputTable = {}
+				for k,v in pairs(inpT) do
+					nr = nr + 1
+					-- miniTbl = {nr}
+					-- working-assumption that v can act-as-a-table...
+					inputTable[k] = table.insert(v,1,nr)
+				end
 			else
 				headerTable = utils.tableShallowCopy(hdrT)
+				inputTable = utils.tableShallowCopy(inpT)
 			end
 		end
 	end
 	-- once flags are done, do the headers...
+	if not glbls.dbg then
+	dbgOut = '\n\n'
+	dbgOut = dbgOut .. 'begin-dbgOut... \n\n'
+	dbgOut = dbgOut .. 'flag-Table is \n\n'
+	dbgOut = dbgOut .. utils.dumpTable(flgT) ..'\n\n'
+	dbgOut = dbgOut .. 'header-Table is \n\n'
+	dbgOut = dbgOut .. utils.dumpTable(hdrT) ..'\n\n'
+	dbgOut = dbgOut .. 'input-Table is \n\n'
+	dbgOut = dbgOut .. utils.dumpTable(inpT) ..'\n\n'
+	dbgOut = dbgOut .. 'end-dbgOut... \n\n '
+	end
+	-- HeaderDetails include formatting, sizing, etc. ???
+	rowHdr = mw.html.create('tr')
+	-- for _,hdr in ipairs(headerTable) do
+	for hdr = 1, #headerTable do
+		local FmtHdr
+		FmtHdr = utils.TitleCase(headerTable[hdr])
+		-- FmtHdr = hdr:upper()
+		-- FmtHdr = hdr:lower()
+		rowHdr
+			:tag('th')
+			:wikitext(FmtHdr)
+			-- :css('width','20%')
+			-- :attr('scope','col')
+			-- :attr('data-sort-type','numeric')
+			:done()
+	end
+	retOut:node(rowHdr)
 	-- once headers are done, do the actual rows...
-	retOut:done()
+	for k,v in pairs(inputTable) do
+		if type(v) == 'table' then
+			local rowDat = mw.html.create('tr')
+			for dat = 1, #v do
+				rowDat
+					:tag('td')
+					:wikitext(tostring(dat))
+					-- :wikitext(tostring(v[dat]))
+					:done()
+			end
+			retOut:node(rowDat)
+		--else
+			retOut:node(rowHdr)
+		end
+	end
+	retOut:node(rowHdr)
+	-- retOut:done()
 	-- returning...
 	if not glbls.dbg then
 		return retOut
@@ -121,7 +178,7 @@ function p.main(frame)
     local a = getargs(frame)
     glbls.data = utils.tableShallowCopy(a)
     local what = a[1]
-    local out,holdstr
+    local out,hold
     local tempstr=''
     if what=='index' then
         out = mkIndex()
@@ -129,7 +186,7 @@ function p.main(frame)
 		if what=='EventsDebug' then
 			glbls.dbg = true
 		end
-		local iT,ht,fT
+		local iT,hT,fT
 		fT = { flgClass='wikitable, sortable', flgAutoNumRows='true', }
 		hT = { 'abbr', 'name', 'datesList', }
 		iT = { 	{ 'ev9', 'event Nine', {'dt9', 'dt8', 'dt7',}, },
@@ -137,7 +194,9 @@ function p.main(frame)
 				{ 'ev5', 'event Five', {'dt5', 'dt6', 'dt7',}, },
 				{ 'ev1', 'event One', {'dt0', 'dt1', 'dt2',}, },
 			}
-        out = mkTable(iT,hT,fT)
+		out = mw.html.create()
+		hold = mkTable(iT,hT,fT)
+		out:node(hold)
     else
         out = "Hello, world! - doing..."..tostring(what)..
             "... with ==>"..utils.dumpTable(glbls.data)
