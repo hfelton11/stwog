@@ -1,13 +1,13 @@
 -- charactercodes/data module
 -- inside: [[Category:Modules]] using this line once...
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
--- <pre>  lvl-50's = 91/91 so far 44/44=tos, 47/47=tng
---        lvl-95's = 42/60 so far 12+9/30=tos, 11+10/30=tng
---        lvl-165's = 0/23 so far 0/12=tos, (sold)-1/11=tng
--- total = 91 availables
+-- <pre>  lvl-50's = 91/98 so far 44/44=tos, 47/54=tng
+--        lvl-95's = 42/67 so far 12+9/30=tos, 11+10/37=tng
+--        lvl-165's = 0/28 so far 0/12=tos, (sold)-1/16=tng
+-- total = 97 availables
 -- tier 1 = 31  (14=tos,17=tng)
---      2 = 37  (18=tos,19=tng)
---      3 = 20  (9+3=tos,11=tng)
+--      2 = 39  (18=tos,21=tng)
+--      3 = 24  (9+3=tos,16=tng)
 --      3.50 = 3 (anniv)
 return {
     aaaaDEFAULT = {
@@ -7647,11 +7647,75 @@ return {
                 },
         },
 	},
+	MEL = { -- lvl-tbd
+        name = '[[Melea]]',
+		aliases = 'Melea Veau',
+		image = 'melea.png',
+		imagecaption = 'Melea Veau',
+		igp = 'veau_melea',
+		tier = 3,
+		series = 'TNG',
+	},
+	BRU = { -- lvl-tbd
+        name = '[[Bruna]]',
+		aliases = 'Bruna Veau',
+		image = 'bruna.png',
+		imagecaption = 'Bruna Veau',
+		igp = 'veau_bruna',
+		tier = 3,
+		series = 'TNG',
+	},
+	NVZ = { -- lvl-tbd
+        name = '[[Navzar]]',
+		aliases = 'Navzar Veau',
+		image = 'navzar.png',
+		imagecaption = 'Navzar Veau',
+		igp = 'veau_navzar',
+		tier = 2,
+		series = 'TNG',
+	},
+	TYL = { -- lvl-tbd
+        name = '[[Ty\'levi]]',
+		aliases = 'Ty\'levi Tychon',
+		image = 'tylevi.png',
+		imagecaption = 'Ty\'levi Tychon',
+		igp = 'tychon_tylevi',
+		tier = 3,
+		series = 'TNG',
+	},
+	TYM = { -- lvl-tbd
+        name = '[[Ty\'moro]]',
+		aliases = 'Ty\'moro Tychon',
+		image = 'tymoro.png',
+		imagecaption = 'Ty\'moro Tychon',
+		igp = 'tychon_tymoro',
+		tier = 3,
+		series = 'TNG',
+	},
+	TYD = { -- lvl-tbd
+        name = '[[Ty\'dollus]]',
+		aliases = 'Ty\'dollus Tychon',
+		image = 'tydollus.png',
+		imagecaption = 'Ty\'dollus Tychon',
+		igp = 'tychon_tydollus',
+		tier = 2,
+		series = 'TNG',
+	},
+	TZZ = { -- lvl-tbd
+        name = '[[Thira zh\'Zoarhi]]',
+		aliases = 'Thira zh\'Zoarhi Andorian',
+		image = 'thira.png',
+		imagecaption = 'Thira zh\'Zoarhi Andorian',
+		igp = 'andorian_thira',
+		tier = 3,
+		series = 'TNG',
+	},
 	junk = {
         name = '',
 		aliases = 'The junk',
 --		image = '.png',
 --		imagecaption = '',
+--		igp = 'junk',
 		tier = 4,
 		series = 'TNG',
 	},

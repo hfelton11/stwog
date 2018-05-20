@@ -15,11 +15,13 @@ glbls.out = true
 glbls.data = {}
 glbls.dbg = false
 
-local EventSeq = { 'eom', 'ad', 'is', 'eeq', 'ms', }  	-- events in sequence 1..5
+-- local EventSeq = { 'eom', 'ad', 'is', 'eeq', 'ms', }  	-- events in sequence 1..5
+local EventSeq = { 'eom', 'ad', 'vi', 'is', 'eeq', 'ms', }  	-- events in sequence 1..6
 
 local EventNames = { -- abbr to actual-names
                     eom = 'Empty of the Mind' ,
                     ad = 'Adrift' ,
+                    vi = 'Virus' ,
                     is = 'Isolated Station' ,
                     eeq = 'Event-Equilibrium' ,
                     ms = 'Missing' ,
@@ -35,6 +37,9 @@ local EventDates = { -- abbr to known-dates
                     ad = {
                     		'2016-11-23', 	'2017-04-26', 	'2017-08-09',
                     		'2017-12-13', 	'2018-02-21', 	'2018-05-02',
+                    	} ,
+                    vi = {
+                    		'2018-05-16',
                     	} ,
                     is = {
                     		'2017-02-01', 	'2017-05-17', 	'2017-08-30',
