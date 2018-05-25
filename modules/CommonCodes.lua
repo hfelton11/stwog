@@ -34,6 +34,16 @@ function p.hello()
     return 'Hello, world!'
 end
 
+local function table_slice(tbl, first, last, step)
+  local sliced = {}
+
+  for i = first or 1, last or #tbl, step or 1 do
+    sliced[#sliced+1] = tbl[i]
+  end
+
+  return sliced
+end
+
 function p.passGLBLsorc(frame)
     local fakeframe = {}
     local a,retval,retstr,teststr,teston
@@ -440,6 +450,95 @@ local function loadDataNow()
     return true
 end
 
+local function listDBstring(argsel)
+	local tempstr='CommonCodes bad-listDBstring :'
+	local fullsel,keyitem,dummy,alldata,allkeys
+	local selitem,selvalue
+	fullsel = argsel[1]
+	keyitem = argsel[2]
+	-- we are done with these items???
+	if #argsel > 2 then
+		--table.remove(argsel,1)
+		--table.remove(argsel,1)
+		--selitem = argsel[1]
+		--selvalue = argsel[2]
+		selitem = argsel[3]
+		selvalue = argsel[4]
+	end
+	-- for now only allow simple tier=2 type of qualifiers...
+	if #argsel > 4 then
+		tempstr = tempstr..'too-many-qualifiers ???'
+		-- force-dump-early...
+		keyitem = 'XXXXXXXXX'
+	end
+	if not string.find(keyitem,'key') then
+		tempstr = tempstr..dumpArgs()
+	else
+	-- currently we ONLY know how to deal with keylist,keycount,keyTbl...
+		-- first, we preload the database...
+			if glbls.sorc=='s' then
+				dummy = getNamefromKey('EN')
+			elseif glbls.sorc=='c' then
+				dummy = getNamefromKey('CK')
+			else
+				dummy = getNamefromKey('XXX')
+			end
+		-- next we make a current sorted-GOOD-key-index...
+			alldata = utils.tableShallowCopy(glbls.data)
+			allkeys = {}
+			for k,_ in utils.tableSort(alldata) do
+				if isGoodKey(k) then
+					-- drops mixedCaseKeys...
+					allkeys[#allkeys+1] = k
+				end
+			end
+			dummy = utils.tableShallowCopy(allkeys)
+		-- next we deal with valid 'full' keywords
+			if fullsel == 'full' then
+				if keyitem == 'keylist' then
+					tempstr = utils.dumpTableSorted(dummy)
+				elseif keyitem == 'keycount' then
+					tempstr = utils.tblFullSize(dummy)
+				else -- keyTbl
+					local fakeFrame = {}
+					glbls.keys = dummy
+						tempstr = utils.dumpTableSorted(dummy)
+						fakeFrame[1] = 'keys'
+						fakeFrame[2] = utils.JSONencodeTable2String(dummy)
+						tempstr = p.passGLBL(fakeFrame)
+				end
+		-- finally we deal with 'selects'
+			else
+				--tempstr = 'select-item='..selitem..'  selval='..selvalue
+				-- create idx_by_subitem...
+				local keys_bysub_match
+				local SL = string.lower
+				--local SFD = string.find
+				keys_bysub_match = {}
+				for _,k in ipairs(allkeys) do
+					for sk,sv in pairs(alldata[k]) do
+						if string.find(SL(sk),SL(selitem)) then
+							if string.find(SL(sv),SL(selvalue)) then
+								keys_bysub_match[#keys_bysub_match + 1] = k
+							end
+						end
+					end
+				end
+				-- BEWARE this is a greedy-match so:
+				-- selitem= tier, selvalue= 3 WILL match...
+				--   BackTieRodeo , 123.45
+				if keyitem == 'keylist' then
+					tempstr = utils.dumpTableSorted(keys_bysub_match)
+				elseif keyitem == 'keycount' then
+					tempstr = utils.tblFullSize(keys_bysub_match)
+				end
+
+			end
+
+	end
+
+	return tempstr
+end
 
 function p.isGoodKey(frame)
     local sorc,k
@@ -611,9 +710,9 @@ function p.main(frame)
                     s='series', series='series',  hp='hp',
                 }
         local okItems1,okItems2,okItems
---        okItems1 = p.mkOKitems('c')
---        okItems1 = p.mkOKitems('s')
---        okItems1 = p.mkOKitems(glbls.sorc)
+        -- we are DONE with sorc, so remove it... ???
+        --table.remove(a,1)
+        -- this returns a table with 'simple' item-values (non-subtables)
         okItems1 = mkOKitems(sorc)
         okItems = utils.mergeTable(okItems1,origokItems)
         retval = nil
@@ -626,56 +725,18 @@ function p.main(frame)
         end
         --retval = utils.dumpTableSorted(okItems1)
         if not retval then
+				local b
+				b = table_slice(a,2)
             if mKey == 'name' then
                 -- allow reversal of arguments
                 -- this should already be covered above...
                 retval = getNamefromKey(mItem)
             elseif mKey == 'list' then
-                -- need to 'drop' the sorc-value from the args-list...
-                local b = {}
-                for i=2,#a do b[i-1]=a[i] end
+				-- this just makes the list pretty...
                 retval = listofCharsorShips(b)
-            elseif mKey == 'full' then
-				if string.find(mItem,'key') then
-					local dummy,alldata
-					local allkeys={}
-					-- use this to load-up everything...
-					-- use TWICE to ensure loading works...
-					if glbls.sorc=='s' then
-						dummy = getNamefromKey('EN')
-						--allkeys[1] = 'EN'
-					elseif glbls.sorc=='c' then
-						dummy = getNamefromKey('CK')
-						--allkeys[1] = 'CK'
-					else
-						dummy = getNamefromKey('XXX')
-						--allkeys[1] = 'XXX'
-					end
-					alldata = utils.tableShallowCopy(glbls.data)
-					for k,_ in utils.tableSort(alldata) do
-						if isGoodKey(k) then
-							-- drops mixedCaseKeys...
-							allkeys[#allkeys+1] = k
-						end
-					end
-					dummy = utils.tableShallowCopy(allkeys)
-					--dummy = utils.tableShallowCopy(alldata)
-					if mItem == 'keylist' then
-						tempStr = utils.dumpTableSorted(dummy)
-					elseif mItem == 'keycount' then
-						tempStr = utils.tblFullSize(dummy)
-					else -- keyTbl
-						local fakeFrame = {}
-						glbls.keys = dummy
-						tempStr = utils.dumpTableSorted(dummy)
-						fakeFrame[1] = 'keys'
-						fakeFrame[2] = utils.JSONencodeTable2String(dummy)
-						tempStr = p.passGLBL(fakeFrame)
-					end
-				else
-					tempStr = utils.dumpTableSorted(getFullKey(mItem))
-				end
-                retval = tempStr
+            elseif mKey == 'full' or
+					mKey == 'select' then
+				retval = listDBstring(b)
             elseif mKey == 'dumpGLBL' then
                 local key,fk,urps
                 key = mItem

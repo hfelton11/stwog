@@ -1,13 +1,13 @@
 -- charactercodes/data module
 -- inside: [[Category:Modules]] using this line once...
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
--- <pre>  lvl-50's = 96/98 so far 44/44=tos, 52/54=tng
---        lvl-95's = 42/67 so far 12+9/30=tos, 11+10/37=tng
+-- <pre>  lvl-50's = 97/98 so far 44/44=tos, 53/54=tng
+--        lvl-95's = 44/67 so far 12[3]+9[2]/30=tos, 11[3]+11[2]/37=tng
 --        lvl-165's = 0/28 so far 0/12=tos, (sold)-1/16=tng
 -- total = 98 availables
 -- tier 1 = 31  (14=tos,17=tng)
 --      2 = 39  (18=tos,21=tng)
---      3 = 25  (9+3=tos,16=tng)
+--      3 = 25+3  (9+3=tos,16=tng)
 --      3.50 = 3 (anniv)
 return {
     aaaaDEFAULT = {
@@ -1274,7 +1274,7 @@ return {
                 },
         },
 	},
-	B2 = { -- lvl-50
+	B2 = { -- lvl-95
         name = '[[Borg&nbsp;2&nbsp;of&nbsp;4]]',
 		aliases = '2 of 4, 2 de 4',
 		image = 'Borg 2 of 4.png',
@@ -1310,7 +1310,7 @@ return {
 		ag = '+2',
 		ar = '+2',
 		aw = '+2',
-		gorder = 'PYRBOW',
+		gorder = 'PYROBW',
 		datavalues = { dv1 = 8, dv2 = 7, dv3 = 6, dv4 = 3, dv5 = 3, dv6 = 3, },
 		currentlevel = 10,
 		skillsUpgrades = {
@@ -1341,18 +1341,18 @@ return {
                     ag = '+6',
                     ar = '+7',
                     aw = '+7',
-                    gorder = 'PYRBOW',
+                    gorder = 'PYROBW',
                     datavalues = {  dv1 = 28, dv2 = 25, dv3 = 22,
                                     dv4 = 8, dv5 = 8, dv6 = 7, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5r5p5y',
-                    hp = 1500,
-                    ag = '+12',
-                    ar = '+12',
+            up15 = { currentlevel = 95, skillschosen = '5r5p5y',
+                    hp = 1778,
+                    ag = '+11',
+                    ar = '+13',
                     aw = '+12',
-                    gorder = 'OYWBPR',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    gorder = 'PYROBW',
+                    datavalues = {  dv1 = 52, dv2 = 44, dv3 = 39,
+                                    dv4 = 14, dv5 = 13, dv6 = 12, },
                 },
         },
 	},
@@ -1522,7 +1522,7 @@ return {
 	},
 	TN = { -- lvl-95
         name = '[[T\'Nesseam]]',
-		aliases = 'T\’Nesseam',
+		aliases = 'T\â€™Nesseam',
 		image = 'Alien TNesseam.png',
 		imagecaption = 'Alien TNesseam',
 		igp = 'francis-1',
@@ -1841,7 +1841,7 @@ return {
 	},
 	WS = { -- lvl-50
         name = '[[W\'Sira]]',
-		aliases = 'W\’Sira',
+		aliases = 'W\â€™Sira',
 		image = 'Klingon WSira.png',
 		imagecaption = 'Klingon WSira',
 		igp = 'sandra',
@@ -1914,7 +1914,7 @@ return {
 	},
 	CHT = { -- lvl-50
         name = '[[Cho\'Ta]]',
-		aliases = 'Cho\’Ta',
+		aliases = 'Cho\â€™Ta',
 		image = 'Klingon ChoTa.png',
 		imagecaption = 'Klingon Cho\'Ta',
 		igp = 'mordi',
@@ -1987,7 +1987,7 @@ return {
 	},
 	TK = { -- lvl-50
         name = '[[T\'Korta]]',
-		aliases = 'T\’Korta',
+		aliases = 'T\â€™Korta',
 		image = 'Klingon TKorta.png',
 		imagecaption = 'Klingon T\'Korta',
 		igp = 'danimetal',
@@ -2060,7 +2060,7 @@ return {
 	},
 	DA = { -- lvl-50
         name = '[[D\'Aindal]]',
-		aliases = 'D\’Aindal',
+		aliases = 'D\â€™Aindal',
 		image = 'Romulan DAindal.png',
 		imagecaption = 'Romulan D\'Aindal',
 		igp = 'anita',
@@ -2133,7 +2133,7 @@ return {
 	},
 	TV = { -- lvl-50
         name = '[[T\'Vralai]]',
-		aliases = 'T\’Vralai',
+		aliases = 'T\â€™Vralai',
 		image = 'Romulan TVralai.png',
 		imagecaption = 'Romulan T\'Vralai',
 		igp = 'ivan-total',
@@ -7829,7 +7829,7 @@ return {
                 },
         },
 	},
-	NVZ = { -- lvl-tbd
+	NVZ = { -- lvl-50
         name = '[[Navzar]]',
 		aliases = 'Navzar, Veau',
 		image = 'navzar.png',
@@ -7850,7 +7850,7 @@ return {
 		nup = 15,
 		skills = {
     		skill1 = 'Petrifying Ray',
-	    	color1 = 'Blue',
+	    	color1 = 'White',
 		    cost1 = 8,
     		desc1 = { t1 = 'Fires his lethal weapon inflicting ', v1 = 220, t2 = ' damage and paralyzing his enemy for ', v2 = 2, t3 = ' turns.', },
     		skill2 = 'Evil Intentions',
@@ -7865,7 +7865,7 @@ return {
 		ag = '+2',
 		ar = '+2',
 		aw = '+2',
-		gorder = 'WOBYPR',
+		gorder = 'WOBPYR',
 		datavalues = { dv1 = 8, dv2 = 7, dv3 = 6, dv4 = 3, dv5 = 3, dv6 = 3, },
 		currentlevel = 10,
 		skillsUpgrades = {
@@ -7890,22 +7890,22 @@ return {
 		      desc3 = { v1 = 243, v2 = 4, v3 = 4, v4 = 151,},
 		      },
 		},
-		othersUpgradesXXX = {
-            up10 = { currentlevel = 50, skillschosen = '5b4o1y',
-                    hp = 800,
+		othersUpgrades = {
+            up10 = { currentlevel = 50, skillschosen = '5w4o1y',
+                    hp = 1019,
                     ag = '+7',
-                    ar = '+7',
+                    ar = '+6',
                     aw = '+7',
-                    gorder = 'WOBYPR',
-                    datavalues = {  dv1 = 29, dv2 = 28, dv3 = 25,
-                                    dv4 = 7, dv5 = 7, dv6 = 7, },
+                    gorder = 'WOBPYR',
+                    datavalues = {  dv1 = 30, dv2 = 27, dv3 = 20,
+                                    dv4 = 8, dv5 = 7, dv6 = 7, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5b5o5y',
+            up15XXX = { currentlevel = 95, skillschosen = '5w5o5y',
                     hp = 1500,
                     ag = '+12',
                     ar = '+12',
                     aw = '+12',
-                    gorder = 'WOBYPR',
+                    gorder = 'WOBPYR',
                     datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
                                     dv4 = 15, dv5 = 15, dv6 = 15, },
                 },

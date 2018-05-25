@@ -215,6 +215,20 @@ local function mkIndex0()
 		retval = comns.main(fakeFrame)
     return retval
 end
+local function mkIndex_N(n)
+	local fakeFrame = {}
+	local retval
+		-- main | s | full | keylist
+		--fakeFrame[1] = 'main'
+		fakeFrame[1] = glbls.sorc
+		fakeFrame[2] = 'select'
+		fakeFrame[3] = 'keylist'
+		fakeFrame[4] = 'tier'
+		fakeFrame[5] = tostring(n)
+		retval = comns.main(fakeFrame)
+    return retval
+end
+
 
 local function mkCount0()
 	local fakeFrame = {}
@@ -224,6 +238,17 @@ local function mkCount0()
 		fakeFrame[1] = glbls.sorc
 		fakeFrame[2] = 'full'
 		fakeFrame[3] = 'keycount'
+		retval = tonumber(comns.main(fakeFrame))
+    return retval
+end
+local function mkCount_N(n)
+	local fakeFrame = {}
+	local retval
+		fakeFrame[1] = glbls.sorc
+		fakeFrame[2] = 'select'
+		fakeFrame[3] = 'keycount'
+		fakeFrame[4] = 'tier'
+		fakeFrame[5] = tostring(n)
 		retval = tonumber(comns.main(fakeFrame))
     return retval
 end
@@ -428,12 +453,34 @@ function p.main(frame)
     local which = a[4]
     local value = a[5]
     local out
+    local capNi,capNc
+    capNi=string.match(what,'index(%d+)')
+    capNc=string.match(what,'count(%d+)')
+    -- subtle, the captures (if worked) will return TRUEs
 	if what=='index' then
 		out = mkIndex()
-	elseif what=='index0' then
-		out = mkIndex0()
-	elseif what=='count0' then
-		out = mkCount0()
+	elseif capNi then
+		if capNi == '0' then
+			out = mkIndex0()
+		else
+			-- replace obscure side-case of 4==3.5
+			if capNi == '4' then
+				out = mkIndex_N(3.5)
+			else
+				out = mkIndex_N(capNi)
+			end
+		end
+	elseif capNc then
+		if capNc == '0' then
+			out = mkCount0()
+		else
+			-- replace obscure side-case of 4==3.5
+			if capNc == '4' then
+				out = mkCount_N(3.5)
+			else
+				out = mkCount_N(capNc)
+			end
+		end
     elseif (what=='testSkills') or (what=='skills') then
 		local begtbl = loadCrewSkillsBegin(how)
 		local endtbl = loadCrewSkillsEnd(how,begtbl)
