@@ -1,7 +1,7 @@
 -- charactercodes/data module
 -- inside: [[Category:Modules]] using this line once...
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
--- <pre>  lvl-50's = 97/98 so far 44/44=tos, 53/54=tng
+-- <pre>  lvl-50's = 98/98 so far 44/44=tos, 54/54=tng
 --        lvl-95's = 44/67 so far 12[3]+9[2]/30=tos, 11[3]+11[2]/37=tng
 --        lvl-165's = 0/28 so far 0/12=tos, (sold)-1/16=tng
 -- total = 98 availables
@@ -8093,7 +8093,7 @@ return {
                 },
         },
 	},
-	TYD = { -- lvl-tbd
+	TYD = { -- lvl-50
         name = '[[Ty\'dollus]]',
 		aliases = 'Ty\'dollus',
 		image = 'tydollus.png',
@@ -8129,7 +8129,7 @@ return {
 		ag = '+2',
 		ar = '+2',
 		aw = '+2',
-		gorder = 'RPOWBY',
+		gorder = 'RPOYBW',
 		datavalues = { dv1 = 8, dv2 = 7, dv3 = 6, dv4 = 3, dv5 = 3, dv6 = 3, },
 		currentlevel = 10,
 		skillsUpgrades = {
@@ -8154,22 +8154,22 @@ return {
 		      desc3 = { v1 = 5, v2 = 40,},
 		      },
 		},
-		othersUpgradesXXX = {
-            up10 = { currentlevel = 50, skillschosen = '5r4w1b',
-                    hp = 800,
+		othersUpgrades = {
+            up10 = { currentlevel = 50, skillschosen = '4r1w5b',
+                    hp = 1019,
                     ag = '+7',
-                    ar = '+7',
+                    ar = '+6',
                     aw = '+7',
-                    gorder = 'RPOWBY',
-                    datavalues = {  dv1 = 29, dv2 = 28, dv3 = 25,
-                                    dv4 = 7, dv5 = 7, dv6 = 7, },
+                    gorder = 'RPOYBW',
+                    datavalues = {  dv1 = 30, dv2 = 27, dv3 = 20,
+                                    dv4 = 9, dv5 = 8, dv6 = 7, },
                 },
             up15XXX = { currentlevel = 95, skillschosen = '5r5w5b',
                     hp = 1500,
                     ag = '+12',
                     ar = '+12',
                     aw = '+12',
-                    gorder = 'RPOWBY',
+                    gorder = 'RPOYBW',
                     datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
                                     dv4 = 15, dv5 = 15, dv6 = 15, },
                 },
