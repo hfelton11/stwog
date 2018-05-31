@@ -1,8 +1,8 @@
 -- charactercodes/data module
 -- inside: [[Category:Modules]] using this line once...
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
--- <pre>  lvl-50's = 98/98 so far 44/44=tos, 54/54=tng
---        lvl-95's = 44/67 so far 12[3]+9[2]/30=tos, 11[3]+11[2]/37=tng
+-- <pre>  lvl-50's = 98/98 so far 43/43=tos, 55/55=tng
+--        lvl-95's = 46/67 so far 12[3]+10[2]/30=tos, 12[3]+12[2]/37=tng
 --        lvl-165's = 0/28 so far 0/12=tos, (sold)-1/16=tng
 -- total = 98 availables
 -- tier 1 = 31  (14=tos,17=tng)
@@ -3541,7 +3541,7 @@ return {
                 },
         },
 	},
-	CAV = { -- lvl-50
+	CAV = { -- lvl-95
         name = '[[Caped&nbsp;Alvaro]]',
 		aliases = 'Caped Alvaro',
 		image = 'Caped Alvaro.png',
@@ -3612,14 +3612,14 @@ return {
                     datavalues = {  dv1 = 28, dv2 = 27, dv3 = 25,
                                     dv4 = 8, dv5 = 8, dv6 = 7, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5y5b5r',
-                    hp = 1500,
-                    ag = '+12',
-                    ar = '+12',
+            up15 = { currentlevel = 95, skillschosen = '5y5b5r',
+                    hp = 1390,
+                    ag = '+13',
+                    ar = '+11',
                     aw = '+12',
                     gorder = 'WBPROY',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    datavalues = {  dv1 = 52, dv2 = 49, dv3 = 44,
+                                    dv4 = 14, dv5 = 13, dv6 = 12, },
                 },
         },
 	},
@@ -7738,7 +7738,7 @@ return {
                 },
         },
 	},
-	BRU = { -- lvl-50
+	BRU = { -- lvl-95
         name = '[[Bruna]]',
 		aliases = 'Bruna, Veau',
 		image = 'bruna.png',
@@ -7809,14 +7809,14 @@ return {
                     datavalues = {  dv1 = 27, dv2 = 27, dv3 = 22,
                                     dv4 = 10, dv5 = 9, dv6 = 8, },
                 },
-            up09XXX = { currentlevel = 96, skillschosen = '5r3o1p',
-                    hp = 1500,
+            up09 = { currentlevel = 96, skillschosen = '5r2o2p',
+                    hp = 2074,
                     ag = '+12',
-                    ar = '+12',
-                    aw = '+12',
+                    ar = '+11',
+                    aw = '+10',
                     gorder = 'BYRPOW',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    datavalues = {  dv1 = 50, dv2 = 49, dv3 = 40,
+                                    dv4 = 17, dv5 = 16, dv6 = 14, },
                 },
             up15XXX = { currentlevel = 165, skillschosen = '5r5o5p',
                     hp = 2500,
@@ -7829,7 +7829,7 @@ return {
                 },
         },
 	},
-	NVZ = { -- lvl-50
+	NVZ = { -- lvl-95
         name = '[[Navzar]]',
 		aliases = 'Navzar, Veau',
 		image = 'navzar.png',
@@ -7900,14 +7900,14 @@ return {
                     datavalues = {  dv1 = 30, dv2 = 27, dv3 = 20,
                                     dv4 = 8, dv5 = 7, dv6 = 7, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5w5o5y',
-                    hp = 1500,
+            up15 = { currentlevel = 95, skillschosen = '5w5o5y',
+                    hp = 1874,
                     ag = '+12',
-                    ar = '+12',
-                    aw = '+12',
+                    ar = '+11',
+                    aw = '+13',
                     gorder = 'WOBPYR',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    datavalues = {  dv1 = 56, dv2 = 49, dv3 = 35,
+                                    dv4 = 13, dv5 = 12, dv6 = 11, },
                 },
         },
 	},
