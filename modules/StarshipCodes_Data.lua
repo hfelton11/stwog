@@ -3,7 +3,7 @@
 -- copied/modified from charactercodes/data module
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 32/32 so far 16/16=tos, 16/16=tng
---        lvl-95's = 24/26 so far 12/13=tos, 12/13=tng
+--        lvl-95's = 25/26 so far 12/13=tos, 13/13=tng
 --        lvl-165's = 1/14 so far (sold)-1/7=tos, 0/7=tng
 -- total = 32 available ships
 -- tier 1 = 6     (3=tos,3=tng)
@@ -804,7 +804,7 @@ return {
     		skill1 = 'Self-repair',
 	    	color1 = 'Yellow',
 		    cost1 = 7,
-    		desc1 = { t1 = 'Regenerates ', v1 = 1, t2 = '\% energy and destroys ', v2 = 1, t3 = ' column.', },
+    		desc1 = { t1 = 'Regenerates ', v1 = 20, t2 = '\% energy and breaks ', v2 = 2, t3 = ' columns.', },
     		skill2 = 'Effective shot',
 	    	color2 = 'Purple',
 		    cost2 = 9,
@@ -830,22 +830,22 @@ return {
 		currentlevel = 40,
 		skillsUpgrades = {
 		    supgr2 = {
-		      desc1 = { v1 = 2, v2 = 2, },
+		      desc1 = { v1 = 22, v2 = 22, },
 		      desc2 = { v1 = -21, v2 = -140, },
 		      desc3 = { v1 = 173, v3 = 80,},
 		      },
 		    supgr3 = {
-		      desc1 = { v1 = 3, v2 = 3, },
+		      desc1 = { v1 = 23, v2 = 23, },
 		      desc2 = { v1 = -25, v2 = -195, },
 		      desc3 = { v1 = 205, v2 = 3, v3 = 100,},
 		      },
 		    supgr4 = {
-		      desc1 = { v1 = 4, v2 = 4, },
+		      desc1 = { v1 = 40, v2 = 3, },
 		      desc2 = { v1 = -28, v2 = -230, },
 		      desc3 = { v1 = 247, v2 = 3, v3 = 120,},
 		      },
 		    supgr5 = {
-		      desc1 = { v1 = 5, v2 = 5, },
+		      desc1 = { v1 = 50, v2 = 3, },
 		      desc2 = { v1 = -31, v2 = -295, },
 		      desc3 = { v1 = 264, v2 = 4, v3 = 120,},
 		      },
@@ -3451,11 +3451,11 @@ return {
 		            ag = '+28',
 		            aw = '+27',
 		      },
-		    up09XXX = { currentlevel = 96, skillschosen = '5b3p1y',
-		            hp = 1500,
-		            ar = '+12',
-		            ag = '+12',
-		            aw = '+12',
+		    up09 = { currentlevel = 96, skillschosen = '3b5p1y',
+		            hp = 2950,
+		            ar = '+57',
+		            ag = '+51',
+		            aw = '+50',
 		      },
 		    up15XXX = { currentlevel = 165, skillschosen = '5b5p5y',
 		            hp = 3500,
@@ -3467,9 +3467,9 @@ return {
 		cargoUpgrades = {
 		    cupgr1 = { currentlevel = 65, crewamt = 2, weaponamt = 3, },
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
-		    -- tbd...
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
+		    -- tbd...
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 --		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 5, },
@@ -3480,7 +3480,7 @@ return {
 --		    cupgrz = { currentlevel = 165, crewamt = 7, weaponamt = 5, },
 	    },
 	},
-    THC = { -- lvl-50
+    THC = { -- lvl-96
         name = '[[Thunderchild]]',
 		aliases = 'Thunderchild, USS Thunderchild',
 		image = 'thunderchild.png',
@@ -3554,11 +3554,11 @@ return {
 		            ag = '+28',
 		            aw = '+27',
 		      },
-		    up09XXX = { currentlevel = 96, skillschosen = '5b3p1o',
-		            hp = 1500,
-		            ar = '+12',
-		            ag = '+12',
-		            aw = '+12',
+		    up09 = { currentlevel = 96, skillschosen = '5b1p3o',
+		            hp = 2667,
+		            ar = '+57',
+		            ag = '+51',
+		            aw = '+49',
 		      },
 		    up15XXX = { currentlevel = 165, skillschosen = '5b5p5o',
 		            hp = 3500,
@@ -3570,9 +3570,9 @@ return {
 		cargoUpgrades = {
 		    cupgr1 = { currentlevel = 65, crewamt = 2, weaponamt = 3, },
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
-		    -- tbd...
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
+		    -- tbd...
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
