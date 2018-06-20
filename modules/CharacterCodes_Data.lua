@@ -2,7 +2,7 @@
 -- inside: [[Category:Modules]] using this line once...
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 98/98 so far 43/43=tos, 55/55=tng
---        lvl-95's = 48/67 so far 12[3]+10[2]/30=tos, 13[3]+13[2]/37=tng
+--        lvl-95's = 49/67 so far 12[3]+10[2]/30=tos, 14[3]+13[2]/37=tng
 --        lvl-165's = 0/28 so far 0/12=tos, (sold)-1/16=tng
 -- total = 98 availables
 -- tier 1 = 31  (14=tos,17=tng)
@@ -7647,7 +7647,7 @@ return {
                 },
         },
 	},
-	MEL = { -- lvl-50
+	MEL = { -- lvl-95
         name = '[[Melea]]',
 		aliases = 'Melea, Veau',
 		image = 'melea.png',
@@ -7718,14 +7718,14 @@ return {
                     datavalues = {  dv1 = 29, dv2 = 25, dv3 = 20,
                                     dv4 = 10, dv5 = 8, dv6 = 7, },
                 },
-            up09XXX = { currentlevel = 96, skillschosen = '3y1b5r',
-                    hp = 1500,
+            up09 = { currentlevel = 96, skillschosen = '2y2b5r',
+                    hp = 1791,
                     ag = '+12',
-                    ar = '+12',
-                    aw = '+12',
+                    ar = '+11',
+                    aw = '+10',
                     gorder = 'PWRBOY',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    datavalues = {  dv1 = 53, dv2 = 46, dv3 = 36,
+                                    dv4 = 17, dv5 = 14, dv6 = 12, },
                 },
             up15XXX = { currentlevel = 165, skillschosen = '5y5b5r',
                     hp = 2500,

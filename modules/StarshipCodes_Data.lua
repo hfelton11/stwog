@@ -3,7 +3,7 @@
 -- copied/modified from charactercodes/data module
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 32/32 so far 16/16=tos, 16/16=tng
---        lvl-95's = 25/26 so far 12/13=tos, 13/13=tng
+--        lvl-95's = 26/26 so far 13/13=tos, 13/13=tng
 --        lvl-165's = 1/14 so far (sold)-1/7=tos, 0/7=tng
 -- total = 32 available ships
 -- tier 1 = 6     (3=tos,3=tng)
