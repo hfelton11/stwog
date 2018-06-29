@@ -2,7 +2,7 @@
 -- inside: [[Category:Modules]] using this line once...
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 98/98 so far 43/43=tos, 55/55=tng
---        lvl-95's = 65/67 so far 12[3]+16[2]/30=tos, 16[3]+21[2]/37=tng
+--        lvl-95's = 67/67 so far 12[3]+18[2]/30=tos, 16[3]+21[2]/37=tng
 --        lvl-165's = 0/28 so far 0/12=tos, (sold)-1/16=tng
 -- total = 98 availables
 -- tier 1 = 31  (14=tos,17=tng)
@@ -467,7 +467,7 @@ return {
                 },
         },
 	},
-    CA = { -- lvl-50
+    CA = { -- lvl-95
         name = '[[Commodore&nbsp;Anton]]',
 		aliases = 'Bad Boss, Anton',
 		image = 'Commodore Anton.png',
@@ -538,14 +538,14 @@ return {
                     datavalues = {  dv1 = 27, dv2 = 26, dv3 = 21,
                                     dv4 = 8, dv5 = 8, dv6 = 7, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5r5w5o',
-                    hp = 1500,
+            up15 = { currentlevel = 95, skillschosen = '5r5w5o',
+                    hp = 1945,
                     ag = '+12',
-                    ar = '+12',
-                    aw = '+12',
+                    ar = '+11',
+                    aw = '+13',
                     gorder = 'WROPYB',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    datavalues = {  dv1 = 49, dv2 = 46, dv3 = 37,
+                                    dv4 = 14, dv5 = 13, dv6 = 12, },
                 },
         },
 	},
@@ -3788,7 +3788,7 @@ return {
                 },
         },
 	},
-	IN = {  -- lvl-50
+	IN = {  -- lvl-95
 	    -- lvl-50 29/26/18/8/8/7 1070 51=1075 wrg-7.6.6 sell=5125 5b5p0y upg=600c
         name = '[[Inagh]]',
 		aliases = 'Inagh',
@@ -3860,14 +3860,14 @@ return {
                     datavalues = {  dv1 = 29, dv2 = 26, dv3 = 18,
                                     dv4 = 8, dv5 = 8, dv6 = 7, },
                 },
-            up15XXX = { currentlevel = 95, skillschosen = '5y5b5p',
-                    hp = 1500,
-                    ag = '+12',
+            up15 = { currentlevel = 95, skillschosen = '5y5b5p',
+                    hp = 1970,
+                    ag = '+11',
                     ar = '+12',
-                    aw = '+12',
+                    aw = '+13',
                     gorder = 'BPYOWR',
-                    datavalues = {  dv1 = 45, dv2 = 44, dv3 = 43,
-                                    dv4 = 15, dv5 = 15, dv6 = 15, },
+                    datavalues = {  dv1 = 53, dv2 = 47, dv3 = 32,
+                                    dv4 = 14, dv5 = 13, dv6 = 12, },
                 },
         },
 	},
