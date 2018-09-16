@@ -214,6 +214,8 @@ function p.main(frame)
     local tempstr=''
     if what=='index' then
         out = mkIndex()
+    elseif what=='count0' then
+        out = tostring(#EventSeq)
     elseif (what=='Events')
 						or (what=='EventsDebug')
 						or (what=='EventsAddRowNums') then
