@@ -88,6 +88,7 @@ return {
 		      },
 		},
 		cargoUpgrades = {
+		    -- tbd...
 		    cupgr1 = { currentlevel = 10, crewamt = 1, weaponamt = 1, },
 		    cupgr2 = { currentlevel = 20, crewamt = 1, weaponamt = 2, },
 		    cupgr3 = { currentlevel = 25, crewamt = 2, weaponamt = 2, },
@@ -178,6 +179,7 @@ return {
 		      },
 		},
 		cargoUpgrades = {
+		    -- tbd...
 		    cupgr1 = { currentlevel = 25, crewamt = 1, weaponamt = 2, },
 		    cupgr2 = { currentlevel = 30, crewamt = 2, weaponamt = 2, },
 		    cupgr3 = { currentlevel = 45, crewamt = 2, weaponamt = 3, },
@@ -283,12 +285,10 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
+		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
 	EN = {
@@ -472,6 +472,8 @@ return {
 	    },
 	},
 	VDK = { -- lvl-96
+	    -- lvl-135 4120 rgw-79.70.69 c/w-7/6 136=2750 165=93375 sell=28800
+	    -- lvl-150 max-cw-8/5
 		name = '[[Dkyr]]',
 		aliases = 'Vulcan D\'kyr, Dkyr',
 		image = 'Dkyr.png',
@@ -565,13 +567,9 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    --cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 6, },
-		    --cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 6, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+	        cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 6, },
+	        cupgr9 = { currentlevel = 150, crewamt = 8, weaponamt = 6, },
 	    },
 	},
 	RVD = { -- lvl-96
@@ -669,16 +667,15 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    --cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 5, },
-		    --cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 5, },
-		    --cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 5, },
+	        cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 5, },
+	        cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 5, },
+	        cupgr9 = { currentlevel = 150, crewamt = 8, weaponamt = 5, },
 	    },
 	},
 	KD5 = { -- lvl-96
 	    -- lvl-50 1425 wgr-27.28.31 c/w-1/1 51=490 upg=350 sell=3300 1y2p0o
+	    -- lvl-135 3720 wgr-67.70.79 c/w-6/6 136=2750 165=93375 sell=28800
+	    -- lvl-145 max-c/w-6/7
 		name = '[[D-5]]',
 		aliases = 'Klingon D-5',
 		--image = 'tos-klingon-d5.jpg',
@@ -773,13 +770,9 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 3, weaponamt = 3, },
 		    cupgr5 = { currentlevel = 105, crewamt = 3, weaponamt = 4, },
 		    cupgr6 = { currentlevel = 115, crewamt = 4, weaponamt = 4, },
-		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 4, weaponamt = 5, },
-		    cupgr8 = { currentlevel = 122, crewamt = 5, weaponamt = 5, },
-		    cupgr9 = { currentlevel = 133, crewamt = 5, weaponamt = 6, },
-		    cupgrx = { currentlevel = 144, crewamt = 6, weaponamt = 6, },
-		    cupgry = { currentlevel = 155, crewamt = 6, weaponamt = 7, },
-		    --cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 7, },
+		    cupgr7 = { currentlevel = 125, crewamt = 5, weaponamt = 5, },
+		    cupgr8 = { currentlevel = 135, crewamt = 6, weaponamt = 6, },
+		    cupgr9 = { currentlevel = 145, crewamt = 6, weaponamt = 7, },
 	    },
 	},
 	BR = { -- lvl-96
@@ -878,12 +871,10 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
+		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
 	VTM = { -- lvl-96
@@ -983,12 +974,10 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
+		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
 	ENB = {
@@ -1176,13 +1165,10 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
+		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
 	END = {
@@ -1366,12 +1352,10 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
+		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
 	SGZ = { -- lvl-96
@@ -1472,12 +1456,10 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
+		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
 	REL = {-- lvl-96
@@ -1575,15 +1557,11 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    --cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    --cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
 	    },
 	},
-    TS = { -- lvl-96
+    TS = { -- lvl-165
         name = '[[Tsiolkovsky]]',
 		aliases = 'SS Tsiolkovsky',
 		image = 'Tsiolkovsky.png',
@@ -1664,11 +1642,11 @@ return {
 		            ag = '+51',
 		            aw = '+52',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5o5b5p',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5o5b5p',
+		            hp = 5018,
+		            ar = '+99',
+		            ag = '+85',
+		            aw = '+87',
 		      },
 		},
 		cargoUpgrades = {
@@ -1678,13 +1656,10 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
+		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
     },
     HOZ = {  -- lvl-96
@@ -1787,12 +1762,10 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
+		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
 	BC2 = { -- lvl-96
@@ -1890,12 +1863,8 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    --cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    --cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
 	    },
 	},
 	BC1 = { -- lvl-95
@@ -3377,7 +3346,7 @@ return {
 		    cupgr6 = { currentlevel = 45, crewamt = 4, weaponamt = 4, },
 	    },
 	},
-    ANT = { -- lvl-50
+    ANT = { -- lvl-96
         name = '[[Antares]]',
 		aliases = 'Antares, (NCC-501) Antares',
 		image = 'antares.png',
@@ -3469,15 +3438,11 @@ return {
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
-		    -- tbd...
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
---		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 5, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 5, },
---		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 5, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 5, },
---		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 5, },
---		    cupgrz = { currentlevel = 165, crewamt = 7, weaponamt = 5, },
+		    -- tbd...
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 5, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 5, },
 	    },
 	},
     THC = { -- lvl-96
@@ -3572,15 +3537,13 @@ return {
 		    cupgr2 = { currentlevel = 70, crewamt = 3, weaponamt = 3, },
 		    cupgr3 = { currentlevel = 90, crewamt = 3, weaponamt = 4, },
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
-		    -- tbd...
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    cupgr7 = { currentlevel = 121, crewamt = 5, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 122, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 133, crewamt = 6, weaponamt = 7, },
-		    cupgrx = { currentlevel = 144, crewamt = 7, weaponamt = 7, },
-		    cupgry = { currentlevel = 155, crewamt = 7, weaponamt = 8, },
-		    cupgrz = { currentlevel = 165, crewamt = 8, weaponamt = 8, },
+		    -- tbd...
+		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
+		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
 }

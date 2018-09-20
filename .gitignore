@@ -2,3 +2,5 @@
 *.pui
 
 *.bak
+
+pywikibot/
