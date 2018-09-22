@@ -1,0 +1,28 @@
+{{Side| ##txtName## | ##numTier## | ##txtCorS## | ##txtNorO## }}
+{{ma| ##txtMemAlpha## }}
+
+== Evolutions ==
+
+{{#invoke:CommonLists | main | ##txtCorS## | EVLnks | ##txtKey## }}
+
+== Trivia ==
+* NONE (since game is now [https://stwog.wikia.com/wiki/Star_Trek_Wrath_of_Gems_Wikia#NOTICE over]...)
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | ##txtCorS## | skills | ##txtKey## }}
+
+==Section heading==
+
+Here is all the info i currently have stored in the data-file...
+
+{{#switch: ##txtCorS## | 
+ | C 
+  | c = {{#invoke:Charactercodes | expand | ##txtKey ##}}
+  {{Characters Navbox}}
+ | S
+  | s = {{#invoke:Starshipcodes | main | full | ##txtKey## }}
+  {{Starships Navbox}}
+ | #default = none
+}}
+

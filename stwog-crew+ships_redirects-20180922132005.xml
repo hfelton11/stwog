@@ -1,0 +1,2359 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Star Trek Wrath of Gems Wikia</sitename>
+    <dbname>stwog</dbname>
+    <base>https://stwog.wikia.com/wiki/Star_Trek_Wrath_of_Gems_Wikia</base>
+    <generator>MediaWiki 1.19.24</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Star Trek Wrath of Gems Wikia</namespace>
+      <namespace key="5" case="first-letter">Star Trek Wrath of Gems Wikia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>CN/AM</title>
+    <ns>0</ns>
+    <id>384</id>
+    <redirect title="Armus" />
+    <revision>
+      <id>2440</id>
+      <parentid>2355</parentid>
+      <timestamp>2016-12-06T10:42:04Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Armus]]</text>
+      <sha1>knu1jhgmqs6prvm4sd4ob1991fu4vhb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/AP</title>
+    <ns>0</ns>
+    <id>386</id>
+    <redirect title="Admiral Picard" />
+    <revision>
+      <id>2442</id>
+      <parentid>2357</parentid>
+      <timestamp>2016-12-06T10:42:54Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="28">#redirect [[Admiral Picard]]</text>
+      <sha1>amuj36foyzdat5i25xcfondsgvs3eej</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/AWR</title>
+    <ns>0</ns>
+    <id>1350</id>
+    <redirect title="Admiral Will Riker" />
+    <revision>
+      <id>8129</id>
+      <timestamp>2018-01-23T20:02:14Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="32">#redirect [[Admiral Will Riker]]</text>
+      <sha1>3vwx3rosx6s1iptvgdpazkqfnwgu8gc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/B1</title>
+    <ns>0</ns>
+    <id>390</id>
+    <redirect title="Borg 1 of 4" />
+    <revision>
+      <id>2446</id>
+      <parentid>2361</parentid>
+      <timestamp>2016-12-06T10:43:18Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Borg 1 of 4]]</text>
+      <sha1>9mro0famvky5r2ooii03wsea16lekeh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/B2</title>
+    <ns>0</ns>
+    <id>391</id>
+    <redirect title="Borg 2 of 4" />
+    <revision>
+      <id>2447</id>
+      <parentid>2362</parentid>
+      <timestamp>2016-12-06T10:43:24Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Borg 2 of 4]]</text>
+      <sha1>0tlqbcn8aelfcktyhpev3kn63snnjjj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/B3</title>
+    <ns>0</ns>
+    <id>392</id>
+    <redirect title="Borg 3 of 4" />
+    <revision>
+      <id>2448</id>
+      <parentid>2363</parentid>
+      <timestamp>2016-12-06T10:43:30Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Borg 3 of 4]]</text>
+      <sha1>ojggj8sa85ucm4prk1qnzq80xgznjzm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/B4</title>
+    <ns>0</ns>
+    <id>393</id>
+    <redirect title="Borg 4 of 4" />
+    <revision>
+      <id>2449</id>
+      <parentid>2364</parentid>
+      <timestamp>2016-12-06T10:43:36Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Borg 4 of 4]]</text>
+      <sha1>336hd6ff1t5anin3q162zfl9k22ithj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/BD</title>
+    <ns>0</ns>
+    <id>395</id>
+    <redirect title="Badar" />
+    <revision>
+      <id>2451</id>
+      <parentid>2366</parentid>
+      <timestamp>2016-12-06T10:43:48Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Badar]]</text>
+      <sha1>mb70y3olxr64l2892rxsnuz6qs3tv7o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/BE</title>
+    <ns>0</ns>
+    <id>396</id>
+    <redirect title="Dr. Beverly Crusher" />
+    <revision>
+      <id>2452</id>
+      <parentid>2367</parentid>
+      <timestamp>2016-12-06T10:43:54Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="33">#redirect [[Dr. Beverly Crusher]]</text>
+      <sha1>5dku8slluanj8fibekwxqq8marjwpw9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/BRU</title>
+    <ns>0</ns>
+    <id>1444</id>
+    <redirect title="Bruna" />
+    <revision>
+      <id>8509</id>
+      <timestamp>2018-05-18T12:16:58Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Bruna]]</text>
+      <sha1>to5zq1uweisaxo4ixzc6ffecdqqq079</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CBC</title>
+    <ns>0</ns>
+    <id>399</id>
+    <redirect title="Cmdr. Beverly Crusher" />
+    <revision>
+      <id>2455</id>
+      <parentid>2370</parentid>
+      <timestamp>2016-12-06T10:44:12Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="35">#redirect [[Cmdr. Beverly Crusher]]</text>
+      <sha1>f28y65a65wo0piojlpfn9fasq74vpwp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CDA</title>
+    <ns>0</ns>
+    <id>400</id>
+    <redirect title="Cmdr. Data" />
+    <revision>
+      <id>2456</id>
+      <parentid>2371</parentid>
+      <timestamp>2016-12-06T10:44:19Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="24">#redirect [[Cmdr. Data]]</text>
+      <sha1>ib9c055viv0syqougqs0cvnqqfvceom</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CDR</title>
+    <ns>0</ns>
+    <id>401</id>
+    <redirect title="Cmdr. Troi" />
+    <revision>
+      <id>2457</id>
+      <parentid>2372</parentid>
+      <timestamp>2016-12-06T10:44:25Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="24">#redirect [[Cmdr. Troi]]</text>
+      <sha1>kwtd3rqygi17hcthj9212y3thsw8t6r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CDT</title>
+    <ns>0</ns>
+    <id>1204</id>
+    <redirect title="Captain Troi" />
+    <revision>
+      <id>7217</id>
+      <timestamp>2017-09-06T07:26:10Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Captain Troi]]</text>
+      <sha1>6afjfmhrcdtzmprif708xzx00t7kbvf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CHT</title>
+    <ns>0</ns>
+    <id>402</id>
+    <redirect title="Cho&#039;Ta" />
+    <revision>
+      <id>5547</id>
+      <parentid>2458</parentid>
+      <timestamp>2017-04-11T17:03:32Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <minor/>
+      <comment>Hfelton moved page [[CN/CH]] to [[CN/CHT]] without leaving a redirect: changing code</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Cho'Ta]]</text>
+      <sha1>dd3xochoo0h0xg163zhvpe5z0it3vmh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CLF</title>
+    <ns>0</ns>
+    <id>404</id>
+    <redirect title="Cmdr. La Forge" />
+    <revision>
+      <id>2460</id>
+      <parentid>2375</parentid>
+      <timestamp>2016-12-06T10:44:44Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="28">#redirect [[Cmdr. La Forge]]</text>
+      <sha1>aijlc6s69hem1kvolx5dwvjb19lfih2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CP</title>
+    <ns>0</ns>
+    <id>408</id>
+    <redirect title="Captain Picard" />
+    <revision>
+      <id>2464</id>
+      <parentid>2379</parentid>
+      <timestamp>2016-12-06T10:45:08Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="28">#redirect [[Captain Picard]]</text>
+      <sha1>qpdh22i1l4mqzanqthtt5pktmhtq6i7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CR</title>
+    <ns>0</ns>
+    <id>409</id>
+    <redirect title="Cmdr. Riker" />
+    <revision>
+      <id>2465</id>
+      <parentid>2380</parentid>
+      <timestamp>2016-12-06T10:45:14Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Cmdr. Riker]]</text>
+      <sha1>8u8o5jmvii00nk5howijhdng8qwlz1n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CT</title>
+    <ns>0</ns>
+    <id>410</id>
+    <redirect title="Counselor Troi" />
+    <revision>
+      <id>2466</id>
+      <parentid>2381</parentid>
+      <timestamp>2016-12-06T10:45:20Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="28">#redirect [[Counselor Troi]]</text>
+      <sha1>jzget5h0tocehhtdyatc8vbxgldwwuz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CWF</title>
+    <ns>0</ns>
+    <id>350</id>
+    <redirect title="Cmdr. Worf" />
+    <revision>
+      <id>2191</id>
+      <timestamp>2016-11-28T07:33:06Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>redirect</comment>
+      <text xml:space="preserve" bytes="24">#redirect [[Cmdr. Worf]]</text>
+      <sha1>9dqbxb09g67i41hql9ibalmhzmckqxp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/CWR</title>
+    <ns>0</ns>
+    <id>411</id>
+    <redirect title="Captain Riker" />
+    <revision>
+      <id>2467</id>
+      <parentid>2382</parentid>
+      <timestamp>2016-12-06T10:45:27Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="27">#redirect [[Captain Riker]]</text>
+      <sha1>hkyb070ev2l3rfbalc60449ynw2xfie</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/DA</title>
+    <ns>0</ns>
+    <id>412</id>
+    <redirect title="D&#039;Aindal" />
+    <revision>
+      <id>5554</id>
+      <parentid>2468</parentid>
+      <timestamp>2017-04-11T17:25:22Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <minor/>
+      <comment>Hfelton moved page [[CO/DA]] to [[CN/DA]] without leaving a redirect: mistake for tos-tng</comment>
+      <text xml:space="preserve" bytes="22">#redirect [[D'Aindal]]</text>
+      <sha1>lni75b989oxnsq21shg7uudqh6wstco</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/DBC</title>
+    <ns>0</ns>
+    <id>1191</id>
+    <redirect title="Dir.sfM. Beverly Crusher" />
+    <revision>
+      <id>7130</id>
+      <timestamp>2017-08-22T12:14:24Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="38">#redirect [[Dir.sfM. Beverly Crusher]]</text>
+      <sha1>iarkvlleydwfisynmk3awflvsv9acx5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/EK</title>
+    <ns>0</ns>
+    <id>415</id>
+    <redirect title="Ekoc Dale" />
+    <revision>
+      <id>2471</id>
+      <parentid>2386</parentid>
+      <timestamp>2016-12-06T10:45:51Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[Ekoc Dale]]</text>
+      <sha1>gywv1n8j8ydndvnqdlvn27nquapalti</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/GLF</title>
+    <ns>0</ns>
+    <id>1279</id>
+    <redirect title="Geordi La Forge" />
+    <revision>
+      <id>7681</id>
+      <timestamp>2017-11-29T12:05:38Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="29">#redirect [[Geordi La Forge]]</text>
+      <sha1>biq7upp0h323guqt2rgo4tta24yqg4g</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/HE</title>
+    <ns>0</ns>
+    <id>416</id>
+    <redirect title="Pretorian" />
+    <revision>
+      <id>2472</id>
+      <parentid>2387</parentid>
+      <timestamp>2016-12-06T10:45:57Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[Pretorian]]</text>
+      <sha1>97xzsoc5ybkputsqkkdd0pjhjbzfuyz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/KG</title>
+    <ns>0</ns>
+    <id>421</id>
+    <redirect title="Kulga" />
+    <revision>
+      <id>2477</id>
+      <parentid>2392</parentid>
+      <timestamp>2016-12-06T10:46:29Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Kulga]]</text>
+      <sha1>5ybaj9xrhp0n279cjia23qa9e9pl4jv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/KO</title>
+    <ns>0</ns>
+    <id>422</id>
+    <redirect title="Kovor Dale" />
+    <revision>
+      <id>2478</id>
+      <parentid>2393</parentid>
+      <timestamp>2016-12-06T10:46:35Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="24">#redirect [[Kovor Dale]]</text>
+      <sha1>fn3ehezrutdk7bm32q72p4nkr0u1stp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/KU</title>
+    <ns>0</ns>
+    <id>423</id>
+    <redirect title="Kurn" />
+    <revision>
+      <id>2479</id>
+      <parentid>2394</parentid>
+      <timestamp>2016-12-06T10:46:41Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="18">#redirect [[Kurn]]</text>
+      <sha1>r2px2t7jvr5hyq0nz0e8xokcbzds8ya</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/LB</title>
+    <ns>0</ns>
+    <id>424</id>
+    <redirect title="L&#039;berch" />
+    <revision>
+      <id>2480</id>
+      <parentid>2395</parentid>
+      <timestamp>2016-12-06T10:46:47Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[L'berch]]</text>
+      <sha1>5foylfs1wdwc2z10kdu7ellcjzv6lo9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/LD</title>
+    <ns>0</ns>
+    <id>425</id>
+    <redirect title="Lt. Data" />
+    <revision>
+      <id>2481</id>
+      <parentid>2396</parentid>
+      <timestamp>2016-12-06T10:46:54Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="22">#redirect [[Lt. Data]]</text>
+      <sha1>0kozngl168xoqz5a8n2q9w2a2ykyui4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/LF</title>
+    <ns>0</ns>
+    <id>427</id>
+    <redirect title="Lt. La Forge" />
+    <revision>
+      <id>2483</id>
+      <parentid>2398</parentid>
+      <timestamp>2016-12-06T10:47:07Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Lt. La Forge]]</text>
+      <sha1>lvetezvg8auukqi77i6uh5m60gyzg3u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/LOP</title>
+    <ns>0</ns>
+    <id>1263</id>
+    <redirect title="Locutus" />
+    <revision>
+      <id>7637</id>
+      <timestamp>2017-11-14T14:27:44Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Locutus]]</text>
+      <sha1>4iccsw8p5hig5smhtp6kq6hb4zmqepc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/MEL</title>
+    <ns>0</ns>
+    <id>1435</id>
+    <redirect title="Melea" />
+    <revision>
+      <id>8475</id>
+      <timestamp>2018-05-16T02:16:32Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[melea]]</text>
+      <sha1>8cbaneorzxpepzblwqcs7pnrq7c18q2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/NL</title>
+    <ns>0</ns>
+    <id>430</id>
+    <redirect title="Nuella" />
+    <revision>
+      <id>2486</id>
+      <parentid>2401</parentid>
+      <timestamp>2016-12-06T10:47:25Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Nuella]]</text>
+      <sha1>c9hcl5gd0iquregrfmzm26mi6lhvltr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/NO</title>
+    <ns>0</ns>
+    <id>431</id>
+    <redirect title="Nodroz" />
+    <revision>
+      <id>2487</id>
+      <parentid>2402</parentid>
+      <timestamp>2016-12-06T10:47:32Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Nodroz]]</text>
+      <sha1>mml6vwu6qo21srttlf82wnkr1cpxvm8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/NVZ</title>
+    <ns>0</ns>
+    <id>1445</id>
+    <redirect title="Navzar" />
+    <revision>
+      <id>8510</id>
+      <timestamp>2018-05-18T12:17:44Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Navzar]]</text>
+      <sha1>kw0x00qos5442v3dfvy4ptq9qogf0lj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/PG</title>
+    <ns>0</ns>
+    <id>435</id>
+    <redirect title="Prugue Sole" />
+    <revision>
+      <id>2491</id>
+      <parentid>2406</parentid>
+      <timestamp>2016-12-06T10:47:56Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Prugue Sole]]</text>
+      <sha1>9yvn5yjfu1xgg4g9mvkwqzhi5plit87</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/QQ</title>
+    <ns>0</ns>
+    <id>437</id>
+    <redirect title="Q" />
+    <revision>
+      <id>2493</id>
+      <parentid>2408</parentid>
+      <timestamp>2016-12-06T10:48:08Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="15">#redirect [[Q]]</text>
+      <sha1>an1pfyu0b03k66d92qyssbjgg7fkoe4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/SG</title>
+    <ns>0</ns>
+    <id>440</id>
+    <redirect title="Shogue Seltell" />
+    <revision>
+      <id>2496</id>
+      <parentid>2411</parentid>
+      <timestamp>2016-12-06T10:48:26Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="28">#redirect [[Shogue Seltell]]</text>
+      <sha1>rhev6mtd1iyd5rq0uw3t60zbvc9ncul</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/SS</title>
+    <ns>0</ns>
+    <id>441</id>
+    <redirect title="Ssysma" />
+    <revision>
+      <id>2497</id>
+      <parentid>2412</parentid>
+      <timestamp>2016-12-06T10:48:33Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Ssysma]]</text>
+      <sha1>1ef99pn4aryekr17swgxi85j4ax323z</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/SWF</title>
+    <ns>0</ns>
+    <id>443</id>
+    <redirect title="Sec.Ofc. Worf" />
+    <revision>
+      <id>2499</id>
+      <parentid>2414</parentid>
+      <timestamp>2016-12-06T10:48:45Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="27">#redirect [[Sec.Ofc. Worf]]</text>
+      <sha1>3rc7ic4aw4p4x7wxh3e5o9zck15yhkh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/TA</title>
+    <ns>0</ns>
+    <id>444</id>
+    <redirect title="DaiMon Tarr" />
+    <revision>
+      <id>2500</id>
+      <parentid>2415</parentid>
+      <timestamp>2016-12-06T10:48:51Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[DaiMon Tarr]]</text>
+      <sha1>mromzower58c4w4chrgtln53n3ul7ia</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/TH</title>
+    <ns>0</ns>
+    <id>446</id>
+    <redirect title="Terrhea" />
+    <revision>
+      <id>2502</id>
+      <parentid>2417</parentid>
+      <timestamp>2016-12-06T10:49:03Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Terrhea]]</text>
+      <sha1>isi0hm7409dg7c63o5hgqaso68rma4l</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/TK</title>
+    <ns>0</ns>
+    <id>447</id>
+    <redirect title="T&#039;Korta" />
+    <revision>
+      <id>2503</id>
+      <parentid>2418</parentid>
+      <timestamp>2016-12-06T10:49:09Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[T'Korta]]</text>
+      <sha1>9nj1ebaiuv39agpy7h03nj6sni3ifon</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/TN</title>
+    <ns>0</ns>
+    <id>449</id>
+    <redirect title="T&#039;Nesseam" />
+    <revision>
+      <id>2505</id>
+      <parentid>2420</parentid>
+      <timestamp>2016-12-06T10:49:21Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[T'Nesseam]]</text>
+      <sha1>p1vaygf4m2he7si4rukiynabi6is2re</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/TV</title>
+    <ns>0</ns>
+    <id>717</id>
+    <redirect title="T&#039;Vralai" />
+    <revision>
+      <id>3628</id>
+      <timestamp>2017-01-10T07:52:22Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>redirect</comment>
+      <text xml:space="preserve" bytes="22">#redirect [[T'Vralai]]</text>
+      <sha1>5hngzc77ypibryiytfunf3wpcs62qxv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/TYD</title>
+    <ns>0</ns>
+    <id>1450</id>
+    <redirect title="Ty&#039;dollus" />
+    <revision>
+      <id>8521</id>
+      <timestamp>2018-05-20T12:24:28Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[Ty'dollus]]</text>
+      <sha1>20t436gjh9mzqe6g1kgf6ohexf5hc6m</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/TYL</title>
+    <ns>0</ns>
+    <id>1451</id>
+    <redirect title="Ty&#039;levi" />
+    <revision>
+      <id>8522</id>
+      <timestamp>2018-05-20T12:26:37Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Ty'levi]]</text>
+      <sha1>7okklkj05iohpuuwwn08x116yhso09c</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/TYM</title>
+    <ns>0</ns>
+    <id>1452</id>
+    <redirect title="Ty&#039;moro" />
+    <revision>
+      <id>8523</id>
+      <timestamp>2018-05-20T12:27:02Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Ty'moro]]</text>
+      <sha1>lr63f0hwukf983ms7wzf8ryihkejhws</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/TZZ</title>
+    <ns>0</ns>
+    <id>1441</id>
+    <redirect title="Thira zh&#039;Zoarhi" />
+    <revision>
+      <id>8505</id>
+      <timestamp>2018-05-18T09:52:14Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="29">#redirect [[Thira zh'Zoarhi]]</text>
+      <sha1>fefsd8xyhwsrah8juq40hks1tkowaty</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/VE</title>
+    <ns>0</ns>
+    <id>454</id>
+    <redirect title="Veidek" />
+    <revision>
+      <id>2510</id>
+      <parentid>2425</parentid>
+      <timestamp>2016-12-06T10:49:51Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Veidek]]</text>
+      <sha1>85ui4tquw6lc6gzp5wjspl5jetlswgh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/WC</title>
+    <ns>0</ns>
+    <id>1091</id>
+    <redirect title="Wesley" />
+    <revision>
+      <id>6422</id>
+      <timestamp>2017-06-13T12:15:36Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>redirect</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Wesley]]</text>
+      <sha1>no43oc4bpn8u68nvtka3rmh2do9lek9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/WF</title>
+    <ns>0</ns>
+    <id>338</id>
+    <redirect title="Lt. Worf" />
+    <revision>
+      <id>2161</id>
+      <timestamp>2016-11-24T14:26:17Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>redirect</comment>
+      <text xml:space="preserve" bytes="22">#redirect [[Lt. Worf]]</text>
+      <sha1>3pqwt19krw3ifo51ja3waam76veo62d</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CN/WS</title>
+    <ns>0</ns>
+    <id>455</id>
+    <redirect title="W&#039;Sira" />
+    <revision>
+      <id>2511</id>
+      <parentid>2426</parentid>
+      <timestamp>2016-12-06T10:49:58Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[W'Sira]]</text>
+      <sha1>lfrval91gzwe7u8257blkqfmw3l0ntw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/AH</title>
+    <ns>0</ns>
+    <id>383</id>
+    <redirect title="Ameh" />
+    <revision>
+      <id>2428</id>
+      <parentid>2354</parentid>
+      <timestamp>2016-12-06T08:50:18Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing links</comment>
+      <text xml:space="preserve" bytes="20">
+
+#redirect [[Ameh]]</text>
+      <sha1>1souyt3xcgzgjr6i26c5ybp4wi6lfz9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/AK</title>
+    <ns>0</ns>
+    <id>345</id>
+    <redirect title="Admiral Kirk" />
+    <revision>
+      <id>3230</id>
+      <parentid>3222</parentid>
+      <timestamp>2016-12-16T23:11:51Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>decided to do level-50 via subdir instead... Undo revision 3222 by [[Special:Contributions/Hfelton|Hfelton]] ([[User talk:Hfelton|talk]])</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Admiral Kirk]]</text>
+      <sha1>mqhm2s3lt0z6vfed9o9jwnq9l07d6dq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/ANU</title>
+    <ns>0</ns>
+    <id>385</id>
+    <redirect title="Admiral Uhura" />
+    <revision>
+      <id>2441</id>
+      <parentid>2356</parentid>
+      <timestamp>2016-12-06T10:42:47Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="27">#redirect [[Admiral Uhura]]</text>
+      <sha1>bwnxhlyoen17nlu4b0pjebddv4yulzk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/AR</title>
+    <ns>0</ns>
+    <id>387</id>
+    <redirect title="Arden" />
+    <revision>
+      <id>2443</id>
+      <parentid>2358</parentid>
+      <timestamp>2016-12-06T10:43:00Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Arden]]</text>
+      <sha1>8px49hh14wepptlpprifppxtxijdmli</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/ASP</title>
+    <ns>0</ns>
+    <id>388</id>
+    <redirect title="Ambassador Spock" />
+    <revision>
+      <id>2444</id>
+      <parentid>2359</parentid>
+      <timestamp>2016-12-06T10:43:06Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="30">#redirect [[Ambassador Spock]]</text>
+      <sha1>dm3hnswul8qknq92cbw71l2l5nw88mb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/AV</title>
+    <ns>0</ns>
+    <id>389</id>
+    <redirect title="Lt. Alvaro" />
+    <revision>
+      <id>2445</id>
+      <parentid>2360</parentid>
+      <timestamp>2016-12-06T10:43:12Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="24">#redirect [[Lt. Alvaro]]</text>
+      <sha1>llbq50ywjpufle606hn7n7euvuicc4n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/BA</title>
+    <ns>0</ns>
+    <id>747</id>
+    <redirect title="Batahr" />
+    <revision>
+      <id>3775</id>
+      <timestamp>2017-01-17T11:27:25Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>redirect</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Batahr]]</text>
+      <sha1>r2h7xjjpsau7478dyejnfnupmenmkkd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/CA</title>
+    <ns>0</ns>
+    <id>397</id>
+    <redirect title="Commodore Anton" />
+    <revision>
+      <id>2453</id>
+      <parentid>2368</parentid>
+      <timestamp>2016-12-06T10:44:00Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="29">#redirect [[Commodore Anton]]</text>
+      <sha1>15cwvvandpci5z9hxt60yq3egvp6juj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/CAV</title>
+    <ns>0</ns>
+    <id>398</id>
+    <redirect title="Caped Alvaro" />
+    <revision>
+      <id>2454</id>
+      <parentid>2369</parentid>
+      <timestamp>2016-12-06T10:44:06Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Caped Alvaro]]</text>
+      <sha1>5jc7ayla8untv0l003s9r2vguhbu0gf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/CCP</title>
+    <ns>0</ns>
+    <id>1278</id>
+    <redirect title="Christopher Pike" />
+    <revision>
+      <id>7680</id>
+      <timestamp>2017-11-29T12:04:36Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="30">#redirect [[Christopher Pike]]</text>
+      <sha1>n6l4k396673y661wqtahllskf9uakwf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/CHS</title>
+    <ns>0</ns>
+    <id>403</id>
+    <redirect title="Cmdr. Sulu" />
+    <revision>
+      <id>2459</id>
+      <parentid>2374</parentid>
+      <timestamp>2016-12-06T10:44:38Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="24">#redirect [[Cmdr. Sulu]]</text>
+      <sha1>suoxke8qp0bh3uzlb8blsnrxzmbjvuu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/CK</title>
+    <ns>0</ns>
+    <id>344</id>
+    <redirect title="Captain Kirk" />
+    <revision>
+      <id>3229</id>
+      <parentid>3207</parentid>
+      <timestamp>2016-12-16T23:10:54Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>decided to do level-50 via sub-page instead... Undo revision 3207 by [[Special:Contributions/Hfelton|Hfelton]] ([[User talk:Hfelton|talk]])</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Captain Kirk]]</text>
+      <sha1>ib0kvk0zyu1v41ggkxd18zk2yolgtm0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/CLM</title>
+    <ns>0</ns>
+    <id>405</id>
+    <redirect title="Cmdr. McCoy" />
+    <revision>
+      <id>2461</id>
+      <parentid>2376</parentid>
+      <timestamp>2016-12-06T10:44:50Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Cmdr. McCoy]]</text>
+      <sha1>j4ply1qk8j6em72lh6zsouu1ozo14zn</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/CMS</title>
+    <ns>0</ns>
+    <id>406</id>
+    <redirect title="Cmdr. Scott" />
+    <revision>
+      <id>2462</id>
+      <parentid>2377</parentid>
+      <timestamp>2016-12-06T10:44:56Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Cmdr. Scott]]</text>
+      <sha1>krj7362f1eya3o2m40t0ejlfz5w1flg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/CNU</title>
+    <ns>0</ns>
+    <id>407</id>
+    <redirect title="Cmdr. Uhura" />
+    <revision>
+      <id>2463</id>
+      <parentid>2378</parentid>
+      <timestamp>2016-12-06T10:45:02Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Cmdr. Uhura]]</text>
+      <sha1>14sjiifpja1pe8joausfm14tlx6j0n7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/CPC</title>
+    <ns>0</ns>
+    <id>1189</id>
+    <redirect title="Cmdr. Chekov" />
+    <revision>
+      <id>7128</id>
+      <timestamp>2017-08-22T12:12:15Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Cmdr. Chekov]]</text>
+      <sha1>p3fsqd8gx64kyfbek5a45vysumv8so4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/DE</title>
+    <ns>0</ns>
+    <id>413</id>
+    <redirect title="Decanus" />
+    <revision>
+      <id>2469</id>
+      <parentid>2384</parentid>
+      <timestamp>2016-12-06T10:45:39Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Decanus]]</text>
+      <sha1>804hqe7z7we3ogoj9qedzpu2gi5bk70</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/DLM</title>
+    <ns>0</ns>
+    <id>1349</id>
+    <redirect title="Dir.sfM. Leonard McCoy" />
+    <revision>
+      <id>8128</id>
+      <timestamp>2018-01-23T20:01:29Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="36">#redirect [[Dir.sfM. Leonard McCoy]]</text>
+      <sha1>ftir2d1ztqv9bq0nairsdlgswk1zang</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/DM</title>
+    <ns>0</ns>
+    <id>414</id>
+    <redirect title="Doctor McCoy" />
+    <revision>
+      <id>2470</id>
+      <parentid>2385</parentid>
+      <timestamp>2016-12-06T10:45:45Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Doctor McCoy]]</text>
+      <sha1>51dmwdfwcnvintpzq8vcqpf6zhukhsb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/EMS</title>
+    <ns>0</ns>
+    <id>1206</id>
+    <redirect title="Eng.Capt. Scott" />
+    <revision>
+      <id>7220</id>
+      <timestamp>2017-09-06T07:30:28Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="29">#redirect [[Eng.Capt. Scott]]</text>
+      <sha1>72fvrwt0u20oz52l12vodpwywdpffwk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/HO</title>
+    <ns>0</ns>
+    <id>417</id>
+    <redirect title="Horta" />
+    <revision>
+      <id>2473</id>
+      <parentid>2388</parentid>
+      <timestamp>2016-12-06T10:46:04Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Horta]]</text>
+      <sha1>5d5onporf3u225mugcjvz0xb5vktkmr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/HS</title>
+    <ns>0</ns>
+    <id>418</id>
+    <redirect title="Lt. Sulu" />
+    <revision>
+      <id>2474</id>
+      <parentid>2389</parentid>
+      <timestamp>2016-12-06T10:46:10Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="22">#redirect [[Lt. Sulu]]</text>
+      <sha1>eduaos9qkcbtjflfu29zmnoqllo8r27</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/HV</title>
+    <ns>0</ns>
+    <id>419</id>
+    <redirect title="Hvaid" />
+    <revision>
+      <id>2475</id>
+      <parentid>2390</parentid>
+      <timestamp>2016-12-06T10:46:16Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Hvaid]]</text>
+      <sha1>5oxkxl3qt5thxa5wrhqxqypvl6v6xf0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/IN</title>
+    <ns>0</ns>
+    <id>420</id>
+    <redirect title="Inagh" />
+    <revision>
+      <id>2476</id>
+      <parentid>2391</parentid>
+      <timestamp>2016-12-06T10:46:23Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Inagh]]</text>
+      <sha1>as4mbrjrzowiza2x8ftguqxxb1bnfhm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/KN</title>
+    <ns>0</ns>
+    <id>335</id>
+    <redirect title="Khan" />
+    <revision>
+      <id>2157</id>
+      <timestamp>2016-11-24T14:17:27Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>redirect</comment>
+      <text xml:space="preserve" bytes="18">#redirect [[Khan]]</text>
+      <sha1>i7mwitl78v83my08jg33b5mc5jkjvxw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/KOR</title>
+    <ns>0</ns>
+    <id>1262</id>
+    <redirect title="Cmdr. Kor" />
+    <revision>
+      <id>7636</id>
+      <timestamp>2017-11-14T14:27:11Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[Cmdr. Kor]]</text>
+      <sha1>6p2sfats9qstquf5dl069thp2g4en69</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/KY</title>
+    <ns>0</ns>
+    <id>1090</id>
+    <redirect title="Kaylar" />
+    <revision>
+      <id>6421</id>
+      <timestamp>2017-06-13T12:14:55Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>redirect</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Kaylar]]</text>
+      <sha1>dy1rftouftmogu2f2iag37692t0dllc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/LE</title>
+    <ns>0</ns>
+    <id>426</id>
+    <redirect title="Legatus" />
+    <revision>
+      <id>2482</id>
+      <parentid>2397</parentid>
+      <timestamp>2016-12-06T10:47:01Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Legatus]]</text>
+      <sha1>cskwknbfi7wzueunmiz18vrd60odzwu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/LPC</title>
+    <ns>0</ns>
+    <id>428</id>
+    <redirect title="Lt. Chekov" />
+    <revision>
+      <id>2484</id>
+      <parentid>2399</parentid>
+      <timestamp>2016-12-06T10:47:13Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="24">#redirect [[Lt. Chekov]]</text>
+      <sha1>ayg3ghxgxmjiyva6e5gwz1jt9grmqx4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/MS</title>
+    <ns>0</ns>
+    <id>429</id>
+    <redirect title="Mister Scott" />
+    <revision>
+      <id>2485</id>
+      <parentid>2400</parentid>
+      <timestamp>2016-12-06T10:47:19Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Mister Scott]]</text>
+      <sha1>jihfppe082p2e70f36nzgzcdo48hjju</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/NU</title>
+    <ns>0</ns>
+    <id>432</id>
+    <redirect title="Lt. Uhura" />
+    <revision>
+      <id>2488</id>
+      <parentid>2403</parentid>
+      <timestamp>2016-12-06T10:47:38Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[Lt. Uhura]]</text>
+      <sha1>ig4yhw4whzksvg498ls1mn1b4s5gb7f</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/OP</title>
+    <ns>0</ns>
+    <id>433</id>
+    <redirect title="Optio" />
+    <revision>
+      <id>2489</id>
+      <parentid>2404</parentid>
+      <timestamp>2016-12-06T10:47:44Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Optio]]</text>
+      <sha1>41gw1mnu88tfoupdeom4ic54t4ykwd4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/PC</title>
+    <ns>0</ns>
+    <id>434</id>
+    <redirect title="Ensign Chekov" />
+    <revision>
+      <id>2490</id>
+      <parentid>2405</parentid>
+      <timestamp>2016-12-06T10:47:50Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="27">#redirect [[Ensign Chekov]]</text>
+      <sha1>e4q03vir515jxqmwvzx0bsh8xglksdu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/PP</title>
+    <ns>0</ns>
+    <id>436</id>
+    <redirect title="Pilus Prior" />
+    <revision>
+      <id>2492</id>
+      <parentid>2407</parentid>
+      <timestamp>2016-12-06T10:48:02Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Pilus Prior]]</text>
+      <sha1>djbqinhgols4maz6lfnmhvlmu1togzb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/RU</title>
+    <ns>0</ns>
+    <id>438</id>
+    <redirect title="Ruk" />
+    <revision>
+      <id>2494</id>
+      <parentid>2409</parentid>
+      <timestamp>2016-12-06T10:48:14Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="17">#redirect [[Ruk]]</text>
+      <sha1>qsd9bsd0cnfe21bvd82az2bx3k6pz9w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/SF</title>
+    <ns>0</ns>
+    <id>439</id>
+    <redirect title="S&#039;Fangudl" />
+    <revision>
+      <id>2495</id>
+      <parentid>2410</parentid>
+      <timestamp>2016-12-06T10:48:20Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[S'Fangudl]]</text>
+      <sha1>b1wrrsewjwbuypck2wp1wvqv2xtpmyd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/SP</title>
+    <ns>0</ns>
+    <id>375</id>
+    <redirect title="Mister Spock" />
+    <revision>
+      <id>2284</id>
+      <timestamp>2016-12-02T03:07:04Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>redirect</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Mister Spock]]</text>
+      <sha1>7ygt7a4h0gghvnb8h9is3iqxc148a55</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/SV</title>
+    <ns>0</ns>
+    <id>442</id>
+    <redirect title="Salt Vampire" />
+    <revision>
+      <id>2498</id>
+      <parentid>2413</parentid>
+      <timestamp>2016-12-06T10:48:39Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Salt Vampire]]</text>
+      <sha1>94ysx89b0vs7uxttxoroc6w7hlgsz61</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/TE</title>
+    <ns>0</ns>
+    <id>445</id>
+    <redirect title="Tenva" />
+    <revision>
+      <id>2501</id>
+      <parentid>2416</parentid>
+      <timestamp>2016-12-06T10:48:57Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Tenva]]</text>
+      <sha1>r3s8f7pn2hbp96g1cyax9766ep2xfsg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/TK50</title>
+    <ns>0</ns>
+    <id>448</id>
+    <redirect title="The Keeper" />
+    <revision>
+      <id>2504</id>
+      <parentid>2419</parentid>
+      <timestamp>2016-12-06T10:49:15Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="24">#redirect [[The Keeper]]</text>
+      <sha1>g0ny08cbr7j64k3nh89b9nhp2ewdgbp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/TO</title>
+    <ns>0</ns>
+    <id>450</id>
+    <redirect title="Tonak" />
+    <revision>
+      <id>2506</id>
+      <parentid>2421</parentid>
+      <timestamp>2016-12-06T10:49:27Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Tonak]]</text>
+      <sha1>px5t1wqgpguh3knbizwhgarkttepm5x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/TR</title>
+    <ns>0</ns>
+    <id>451</id>
+    <redirect title="Tolkir" />
+    <revision>
+      <id>2507</id>
+      <parentid>2422</parentid>
+      <timestamp>2016-12-06T10:49:33Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Tolkir]]</text>
+      <sha1>06xaatjuqvtp9b5zsuni7n79g5fijud</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>CO/TT</title>
+    <ns>0</ns>
+    <id>452</id>
+    <redirect title="Tataur" />
+    <revision>
+      <id>2508</id>
+      <parentid>2423</parentid>
+      <timestamp>2016-12-06T10:49:39Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <comment>/* top */key2pagename2</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Tataur]]</text>
+      <sha1>33l56wwik5xrjlvffp37e5d9hgpl9x3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/BC1</title>
+    <ns>0</ns>
+    <id>808</id>
+    <redirect title="Cube 1" />
+    <revision>
+      <id>4622</id>
+      <parentid>4037</parentid>
+      <timestamp>2017-03-19T06:28:02Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <minor/>
+      <comment>Hfelton moved page [[SN/B1]] to [[SN/BC1]] without leaving a redirect: cube is part-of-name...</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Cube 1]]</text>
+      <sha1>bv8msw8lrjxp2letn0qogoggea0gpt2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/BC2</title>
+    <ns>0</ns>
+    <id>809</id>
+    <redirect title="Cube 2" />
+    <revision>
+      <id>4623</id>
+      <parentid>4038</parentid>
+      <timestamp>2017-03-19T06:28:56Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <minor/>
+      <comment>Hfelton moved page [[SN/B2]] to [[SN/BC2]] without leaving a redirect: cube is part of name...</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Cube 2]]</text>
+      <sha1>tg7m6osjugxijm6c4ppm3ocdyuq6iyo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/BR</title>
+    <ns>0</ns>
+    <id>1136</id>
+    <redirect title="Renegade" />
+    <revision>
+      <id>6846</id>
+      <timestamp>2017-07-24T09:56:18Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="22">#redirect [[Renegade]]</text>
+      <sha1>pydy42syx17a03x0nguo0y80811510v</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/CG</title>
+    <ns>0</ns>
+    <id>810</id>
+    <redirect title="Galor" />
+    <revision>
+      <id>4039</id>
+      <timestamp>2017-02-02T12:50:10Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Galor]]</text>
+      <sha1>hr37fnkfokz7ydu117ecre8a713vi2j</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/CH</title>
+    <ns>0</ns>
+    <id>821</id>
+    <redirect title="Hideki" />
+    <revision>
+      <id>4050</id>
+      <timestamp>2017-02-02T12:50:35Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Hideki]]</text>
+      <sha1>8l0371baz5yeun9tx4qv7dw9oes2xmr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/END</title>
+    <ns>0</ns>
+    <id>803</id>
+    <redirect title="Next Enterprise" />
+    <revision>
+      <id>4032</id>
+      <timestamp>2017-02-02T12:49:56Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="29">#redirect [[Next Enterprise]]</text>
+      <sha1>68m7feht0eo61l32ozgij9gzbphij6h</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/FDM</title>
+    <ns>0</ns>
+    <id>811</id>
+    <redirect title="Marauder" />
+    <revision>
+      <id>4040</id>
+      <timestamp>2017-02-02T12:50:12Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="22">#redirect [[Marauder]]</text>
+      <sha1>ovufuuyjq67zv6pbc844f5fx6urkpwc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/KNV</title>
+    <ns>0</ns>
+    <id>812</id>
+    <redirect title="Negh&#039;var" />
+    <revision>
+      <id>6363</id>
+      <parentid>4041</parentid>
+      <timestamp>2017-06-13T08:19:00Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="22">#redirect [[Negh'var]]</text>
+      <sha1>tdj9cgygedy4hexo466c5i4raqd8u25</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/KV</title>
+    <ns>0</ns>
+    <id>820</id>
+    <redirect title="Ship-Vor&#039;Cha" />
+    <revision>
+      <id>6362</id>
+      <parentid>4049</parentid>
+      <timestamp>2017-06-13T08:18:36Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Ship-Vor'Cha]]</text>
+      <sha1>1909du8ndi7mmensah6vokmqcpik4c3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/RDD</title>
+    <ns>0</ns>
+    <id>817</id>
+    <redirect title="D&#039;deridex" />
+    <revision>
+      <id>6364</id>
+      <parentid>4046</parentid>
+      <timestamp>2017-06-13T08:19:52Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[D'deridex]]</text>
+      <sha1>d21wxju4kbciehotazo16w9bs0a07dw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/RS</title>
+    <ns>0</ns>
+    <id>816</id>
+    <redirect title="Scout" />
+    <revision>
+      <id>4045</id>
+      <timestamp>2017-02-02T12:50:25Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Scout]]</text>
+      <sha1>e6x7wj76ortyd9p50hqptjo0yj451dq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/RVD</title>
+    <ns>0</ns>
+    <id>1315</id>
+    <redirect title="Valdore" />
+    <revision>
+      <id>7771</id>
+      <timestamp>2017-12-29T12:01:32Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Valdore]]</text>
+      <sha1>774bu8o4bqz7d8rftdzjjfefcw8h8wg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/SGZ</title>
+    <ns>0</ns>
+    <id>804</id>
+    <redirect title="Stargazer" />
+    <revision>
+      <id>5546</id>
+      <parentid>4033</parentid>
+      <timestamp>2017-04-11T17:01:20Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <minor/>
+      <comment>Hfelton moved page [[SN/SG]] to [[SN/SGZ]] without leaving a redirect: changing code</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[Stargazer]]</text>
+      <sha1>fik7zzjeq9hn4fbxl67xv6ra7mwszhf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/THC</title>
+    <ns>0</ns>
+    <id>1471</id>
+    <redirect title="Thunderchild" />
+    <revision>
+      <id>8695</id>
+      <timestamp>2018-06-07T10:34:24Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Thunderchild]]</text>
+      <sha1>402em09gb58l3yqukv3st9y8j086b41</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/TS</title>
+    <ns>0</ns>
+    <id>806</id>
+    <redirect title="Tsiolkovsky" />
+    <revision>
+      <id>4035</id>
+      <timestamp>2017-02-02T12:50:02Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Tsiolkovsky]]</text>
+      <sha1>06aefobkyjark6ecf3lr6ejmovdul9v</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SN/VA</title>
+    <ns>0</ns>
+    <id>850</id>
+    <redirect title="Valiant" />
+    <revision>
+      <id>4414</id>
+      <timestamp>2017-03-09T08:12:33Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>redirect</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Valiant]]</text>
+      <sha1>bu6k0zxepraxq97gex3tzekim885t8a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/ANT</title>
+    <ns>0</ns>
+    <id>1470</id>
+    <redirect title="Antares" />
+    <revision>
+      <id>8694</id>
+      <timestamp>2018-06-07T10:33:27Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Antares]]</text>
+      <sha1>bzbibluk1bamksjbs4k3q49akbldbi7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/EN</title>
+    <ns>0</ns>
+    <id>732</id>
+    <redirect title="First Enterprise" />
+    <revision>
+      <id>3725</id>
+      <timestamp>2017-01-11T14:47:04Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="30">#redirect [[First Enterprise]]</text>
+      <sha1>o1h5ap9fcxsg6iahjqg8lq2zpspq133</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/ENA</title>
+    <ns>0</ns>
+    <id>802</id>
+    <redirect title="Enterprise A" />
+    <revision>
+      <id>4031</id>
+      <timestamp>2017-02-02T12:49:46Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="26">#redirect [[Enterprise A]]</text>
+      <sha1>1l8kcp1eg9wkvj6nvl1vxkvte94b603</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/ENB</title>
+    <ns>0</ns>
+    <id>774</id>
+    <redirect title="Enterprise B" />
+    <revision>
+      <id>3985</id>
+      <timestamp>2017-01-29T19:01:47Z</timestamp>
+      <contributor>
+        <username>DiseaseMaster7</username>
+        <id>26986425</id>
+      </contributor>
+      <comment>DiseaseMaster7 moved page [[SO/ENB]] to [[Enterprise B]]</comment>
+      <text xml:space="preserve" bytes="26">#REDIRECT [[Enterprise B]]</text>
+      <sha1>0w559y25nhbhpcyqd0n19c0zidlmj3s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/HOZ</title>
+    <ns>0</ns>
+    <id>807</id>
+    <redirect title="Horizon" />
+    <revision>
+      <id>5545</id>
+      <parentid>4036</parentid>
+      <timestamp>2017-04-11T17:00:14Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <minor/>
+      <comment>Hfelton moved page [[SO/HO]] to [[SO/HOZ]] without leaving a redirect: changing code</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Horizon]]</text>
+      <sha1>358ou8f3xsy6bthupju0vnxuljbev3y</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/KBP</title>
+    <ns>0</ns>
+    <id>822</id>
+    <redirect title="Klingon bop" />
+    <revision>
+      <id>4051</id>
+      <timestamp>2017-02-02T12:50:36Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Klingon bop]]</text>
+      <sha1>5ikimsbwkxvhn3ukcz40vpj92met221</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/KD5</title>
+    <ns>0</ns>
+    <id>1134</id>
+    <redirect title="D-5" />
+    <revision>
+      <id>6844</id>
+      <parentid>6842</parentid>
+      <timestamp>2017-07-24T09:54:41Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="17">#redirect [[D-5]]</text>
+      <sha1>j53yvhg9lnjotta6nlrpu1v41vg2dg6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/KEB</title>
+    <ns>0</ns>
+    <id>813</id>
+    <redirect title="Early bop" />
+    <revision>
+      <id>4042</id>
+      <timestamp>2017-02-02T12:50:17Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="23">#redirect [[Early bop]]</text>
+      <sha1>0c58ig0y5u7lle4br1yy6runmfkl6vr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/KKT</title>
+    <ns>0</ns>
+    <id>814</id>
+    <redirect title="K&#039;Tinga" />
+    <revision>
+      <id>6365</id>
+      <parentid>4043</parentid>
+      <timestamp>2017-06-13T08:20:44Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing redirect</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[K'Tinga]]</text>
+      <sha1>b8q04tr8d85b0y2j284z1ekmjdkiytp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/KR</title>
+    <ns>0</ns>
+    <id>815</id>
+    <redirect title="Raptor" />
+    <revision>
+      <id>4044</id>
+      <timestamp>2017-02-02T12:50:21Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="20">#redirect [[Raptor]]</text>
+      <sha1>sefvf2ze9cpedsrua02nuhzzt34zj9j</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/RBP</title>
+    <ns>0</ns>
+    <id>823</id>
+    <redirect title="Romulan bop" />
+    <revision>
+      <id>4052</id>
+      <timestamp>2017-02-02T12:50:38Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="25">#redirect [[Romulan bop]]</text>
+      <sha1>f3j1hf8wb4l79d0wchcxkv0h6nga7iw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/RD7</title>
+    <ns>0</ns>
+    <id>819</id>
+    <redirect title="D-7" />
+    <revision>
+      <id>4048</id>
+      <timestamp>2017-02-02T12:50:31Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="17">#redirect [[D-7]]</text>
+      <sha1>fru50t21z6ynbr70xds35obw0zsrpnk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/REL</title>
+    <ns>0</ns>
+    <id>805</id>
+    <redirect title="Reliant" />
+    <revision>
+      <id>4034</id>
+      <timestamp>2017-02-02T12:50:00Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="21">#redirect [[Reliant]]</text>
+      <sha1>stidmcc22lte3jy8hcpzilmacabpzqy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/RV7</title>
+    <ns>0</ns>
+    <id>818</id>
+    <redirect title="V-7" />
+    <revision>
+      <id>4047</id>
+      <timestamp>2017-02-02T12:50:30Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* top */creating redirects</comment>
+      <text xml:space="preserve" bytes="17">#redirect [[V-7]]</text>
+      <sha1>opijcf8d5fkyt2mj4vpk0if15f86adj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/VDK</title>
+    <ns>0</ns>
+    <id>1316</id>
+    <redirect title="Dkyr" />
+    <revision>
+      <id>7772</id>
+      <timestamp>2017-12-29T12:04:35Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>first cut</comment>
+      <text xml:space="preserve" bytes="18">#redirect [[Dkyr]]</text>
+      <sha1>9k61q7p4qulsdeqsebfjespj00vumda</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>SO/VTM</title>
+    <ns>0</ns>
+    <id>851</id>
+    <redirect title="Timur" />
+    <revision>
+      <id>7780</id>
+      <parentid>4415</parentid>
+      <timestamp>2017-12-29T13:55:35Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <minor/>
+      <comment>Hfelton moved page [[SO/TM]] to [[SO/VTM]] without leaving a redirect: changing key...</comment>
+      <text xml:space="preserve" bytes="19">#redirect [[Timur]]</text>
+      <sha1>j3cvd6n24bwqenryx65kc4znhuvabc6</sha1>
+    </revision>
+  </page>
+</mediawiki>

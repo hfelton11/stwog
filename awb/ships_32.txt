@@ -1,0 +1,32 @@
+Antares ,					,ANT,	,S,O,  3, The Antares (NCC-501) , Antares 
+Cube 1 ,					,BC1,	,S,N, 2 , Borg Cube Class 1 , Borg Cube 
+Cube 2 ,					,BC2,	,S,N,  3, Borg Cube Class 2 , Borg Cube 
+Renegade ,					,BR, 	,S,N,  3, The Borg Renegade , Borg Type 03 
+Galor ,						,CG, 	,S,N, 2 , Cardassian Galor , Galor class 
+Hideki ,					,CH, 	,S,N,1  , Cardassian Hideki , Hideki class 
+First Enterprise ,			,EN, 	,S,O,1  , TOS Enterprise (Constitution-class) , USS_Enterprise (NCC-1701) 
+Enterprise A ,				,ENA,	,S,O, 2 , Enterprise (Rebuild A) , USS_Enterprise (NCC-1701-A) 
+Enterprise B ,				,ENB,	,S,O,3.5, Enterprise (Excelsior-class) , USS_Enterprise (NCC-1701-B) 
+Next Enterprise ,			,END,	,S,N,1  , TNG Enterprise (Galaxy-class) , USS_Enterprise (NCC-1701-D) 
+Marauder ,					,FDM,	,S,N, 2 , Ferengi D'Kora Marauder , D'Kora class 
+Horizon ,					,HOZ,	,S,O,3.5, The Horizon (NCC-176) , USS Horizon 
+Klingon bop ,				,KBP,	,S,O,1  , Klingon BoP (Bird-of-Prey), Klingon Bird-of-Prey 
+D-5 ,						,KD5,	,S,O,  3, Klingon D-5 Battle Cruiser , D5 class 
+Early bop ,					,KEB,	,S,O, 2 , Klingon Early BoP , Klingon Bird-of-Prey (22nd century) 
+K'Tinga ,					,KKT,	,S,O, 2 , Klingon K't'inga , K't'inga class 
+Negh'var ,					,KNV,	,S,N, 2 , Klingon Negh'var, Negh'var warship 
+Raptor ,					,KR, 	,S,O, 2 , Klingon Raptor , Raptor class 
+Ship-Vor'Cha ,				,KV, 	,S,N,1  , The Klingon ship Vor'Cha , Vor'Cha class 
+Romulan bop ,				,RBP,	,S,O,1  , Romulan BoP (Bird-of-Prey), Romulan Bird-of-Prey (23rd century) 
+D-7 ,						,RD7,	,S,O, 2 , Romulan D-7 Cruiser, D7 class
+D'deridex ,					,RDD,	,S,N, 2 , Romulan D'deridex , D'deridex class 
+Reliant ,					,REL,	,S,O,  3, The Reliant (NCC-1864) , USS Reliant 
+Scout ,						,RS, 	,S,N, 2 , Romulan Scout ,Romulan Scout ship 
+V-7 ,						,RV7,	,S,O, 2 , Romulan V-7 Warbird , Valdore type 
+Valdore ,					,RVD,	,S,N,  3, The Romulan Valdore , Valdore (starship) 
+Stargazer ,					,SGZ,	,S,N,  3, USS Stargazer (NCC-2893), USS Stargazer 
+Thunderchild ,				,THC,	,S,N,  3, USS Thunderchild (NCC-63549) , USS Thunderchild 
+Tsiolkovsky ,				,TS, 	,S,N,  3, The SS Tsiolkovsky (NCC-53911) , SS Tsiolkovsky 
+Valiant ,					,VA, 	,S,N,  3, USS Valiant (Defiant-class) , USS Valiant (NCC-74210) 
+Dkyr ,						,VDK,	,S,O,  3, The Vulcan D'kyr , D'kyr 
+Timur ,						,VTM,	,S,O,3.5, The Vulcan Ti'Mur , Ti'Mur 

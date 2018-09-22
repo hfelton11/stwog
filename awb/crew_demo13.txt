@@ -1,0 +1,13 @@
+﻿Ameh,AH,C,O,2,Hooded Romulan Ameh,Unnamed Romulan military personnel (23rd century) 
+Admiral Kirk,AK,C,O,2,Admiral James T. Kirk,James T. Kirk 
+Armus,AM,C,N,2,Malevolent Entity Armus,Armus 
+Admiral Uhura,ANU,C,O,3.5,Admiral Nyota Uhura,Nyota Uhura 
+Admiral Picard,AP,C,N,2,Admiral Jean-Luc Picard,Jean-Luc Picard 
+Arden,AR,C,O,2,Human Arden,Unnamed Humans (23rd century) 
+Ambassador Spock,ASP,C,O,2,Ambassador Spock,Spock 
+Lt. Alvaro,AV,C,O,1,Redshirt Lt. Alvaro,Unnamed Humans (23rd century) 
+Admiral Will Riker,AWR,C,N,3,Admiral Will Riker,William T. Riker 
+Borg 1 of 4,B1,C,N,2,Borg 1 of 4,Unnamed Borg 
+Borg 2 of 4,B2,C,N,2,Borg 2 of 4,Unnamed Borg 
+Borg 3 of 4,B3,C,N,3,Borg 3 of 4,Unnamed Borg 
+Borg 4 of 4,B4,C,N,3,Borg 4 of 4,Unnamed Borg 
