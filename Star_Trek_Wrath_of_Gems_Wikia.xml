@@ -1,0 +1,129 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Star Trek Wrath of Gems Wikia</sitename>
+    <dbname>stwog</dbname>
+    <base>https://stwog.wikia.com/wiki/Star_Trek_Wrath_of_Gems_Wikia</base>
+    <generator>MediaWiki 1.19.24</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Star Trek Wrath of Gems Wikia</namespace>
+      <namespace key="5" case="first-letter">Star Trek Wrath of Gems Wikia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Star Trek Wrath of Gems Wikia</title>
+    <ns>0</ns>
+    <id>2</id>
+    <revision>
+      <id>9123</id>
+      <parentid>9120</parentid>
+      <timestamp>2018-09-21T06:58:09Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="4584">&lt;mainpage-leftcolumn-start /&gt;
+
+==Welcome to the Star Trek Wrath of Gems Wikia==
+Star Trek Wrath of Gems is a mobile game for iOS and android with a simple match-the-gems gameplay.  However ST:WoG has lots of other details to explore and understand.  This wikia is hopefully a way to help increase that understanding.
+
+==NOTICE==
+
+The game has reached EOL...  effective this morning (2018-09-14) all of the optional recruit and monetary purchase abilities were removed...  there are still 60 days available to play with the game - but after that, they will probably take-down their servers and so it (the game) will be non-functional...
+
+For further discussions about this main-page, please see [[Talk:Star Trek Wrath of Gems Wikia]]... 
+
+[[File:Stwog-eol.png]]
+
+&lt;hr /&gt;
+
+==Goals==
+
+Here are a set of goals, that '''I''' have had for this wikia/fandom space...
+# Document all of the Playable Characters and Ships in the Game
+#* status: afaict, all items are in the data-modules, but the code to auto-populate the ships is still in development...  all the crew pages are accessible via the collections top-menu or searching or ...
+#* status-EOL: all the character and starship data can be perused by looking, altho i did not get my Tier-3 items completed...  if you have any additional information for those items, please add them to the appropriate page - which can be found from [[Level165]] ...  tyvm...
+# Describe how the game works for newer/unfamiliar players
+#* status: this still needs a LOT of work...  i started some of the writeups in the gameplay top-menu but have not fleshed them out...  in particular it has been difficult to determine what is best needed...  so please go to [[Questions]] and edit the page, so that i (or someone else) can help figure out what would be most beneficial to work on next...
+# Provide a place for players of the game to communicate 
+## to each other, for instance - regarding Alliances...
+## to the universe, for instance - to document their current Archive-Collection...
+## to ???, for instance - to ask for game-features or ???
+#* status: feel free to send messages any way that makes sense - since right now, afaict, i (harold) am the only person around most of the time...  :-)
+
+The next question is, what would '''YOU''' like from this space...
+# At this point, there are All-{{#invoke:CommonLists | main | c | count0 }} characters, All-{{#invoke:CommonLists | main | s | count0 }} starships, All-10/10 storylines, All-{{#invoke:EventDates | main | count0 }} events, and NONE-0/??? arenas that have some documentation...
+#* See: [[Hero table]] or [[:Template:TiermaxALL]] to see the list of characters and starships...
+#* See: [[:Category:Story TOS]] and  [[:Category:Story TNG]] for the currently documented details of the two storylines...
+#* See: [[Events]] for the currently-known events...
+# Looking at the [[Calendar]], maybe it is time to start documenting the arenas ?
+# The game seems to take forever to grind up each character/ship to higher levels - are there any shortcuts (besides spending a whole lot of money) available to make things go faster ?
+# Maybe there is something that this space can become - that just needs the outside input of a new user like YOU to make it happen...
+# There might not be much there, but [[tbd...]] has a link to [[project:spoilers]]...
+
+As the experts at wikipedia would say [https://en.wikipedia.org/wiki/Wikipedia:Be_bold Be Bold] !!!
+[[User:Hfelton|Hfelton]] ([[User talk:Hfelton|talk]]) 10:43, May 12, 2017 (UTC)
+
+==Other References==
+# [http://startrekwrathofgems.generamobile.com Exact-Game's Webfront]
+## [https://generagames.helpshift.com/a/star-trek/ Exact-Game's Help Area]
+## [https://www.reddit.com/r/StarTrekWrathofGems/ Reddit Discussions]
+# [https://generagames.com/ Genera-Games = Creator]
+# [http://www.cbsinteractive.com/ CBS-Paramount-StarTrek = Licensor]
+# [https://www.facebook.com/StarTrekWOG/ Facebook News/Fansite]
+# [https://itunes.apple.com/us/app/star-trek-wrath-of-gems/id959515619 Apple Play Store]
+# [https://play.google.com/store/apps/details?id=air.com.gi.startrek Google Play Store]
+
+{{Navbox}}
+
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;!--leave me here!--&gt;&lt;/div&gt;&lt;hr /&gt;
+
+&lt;div class=&quot;mw-collapsible mw-collapsed&quot;&gt;
+
+==Latest activity==
+&lt;activityfeed/&gt;
+&lt;mainpage-endcolumn /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mw-collapsible mw-collapsed&quot;&gt;
+&lt;mainpage-rightcolumn-start /&gt;
+Photos and videos are a great way to add visuals to your wiki. Find videos about your topic by exploring Wikia's [[w:c:video|Video Library]].
+[[File:Placeholder|298px]]
+&lt;mainpage-endcolumn /&gt;
+&lt;/div&gt;
+[[Category:Browse]]</text>
+      <sha1>0f5co20ivm310r2zkc2eht706ids19p</sha1>
+    </revision>
+  </page>
+</mediawiki>

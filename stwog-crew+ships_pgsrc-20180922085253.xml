@@ -1,0 +1,4726 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Star Trek Wrath of Gems Wikia</sitename>
+    <dbname>stwog</dbname>
+    <base>https://stwog.wikia.com/wiki/Star_Trek_Wrath_of_Gems_Wikia</base>
+    <generator>MediaWiki 1.19.24</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Star Trek Wrath of Gems Wikia</namespace>
+      <namespace key="5" case="first-letter">Star Trek Wrath of Gems Wikia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Captain Kirk</title>
+    <ns>0</ns>
+    <id>104</id>
+    <revision>
+      <id>9048</id>
+      <parentid>3807</parentid>
+      <timestamp>2018-09-17T00:03:48Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="614">{{#invoke:Charactercodes| doInfobox | CK }} 
+
+{{Side|Captain James T. Kirk|1|c|o}}
+{{ma|James T Kirk}}
+
+== Evolutions ==
+
+{{#invoke:CommonLists | main | c | EVLnks | CK }}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CK }}
+
+==Level 50 Upgrade==
+
+{{#invoke:CharacterLists|main| printUp10 | CK }}
+{{#invoke:CharacterLists|main| mkUp10 | CK }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CK}}
+[[Category:TOS Crew]]
+[[Category:Tier 1]]
+[[Category:Red]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>7nf8rrxxacdujx2h4e0r0a7ia54zqmz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Mister Spock</title>
+    <ns>0</ns>
+    <id>212</id>
+    <revision>
+      <id>8301</id>
+      <parentid>3806</parentid>
+      <timestamp>2018-03-03T10:02:58Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="441">{{#invoke:Charactercodes| doInfobox | SP }} 
+
+{{Side|Mister Spock|1|c|o}}
+{{ma|Spock}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | SP }}
+
+==Section heading==
+
+now it is time to work on further details like auto-categorizations...
+
+{{#invoke:Charactercodes | expand | SP}}
+[[Category:TOS Crew]]
+[[Category:Tier 1]]
+[[Category:White]]
+[[Category:Yellow]]
+[[Category:Orange]]
+[[Category:Federation]]
+[[Category:Vulcan]]</text>
+      <sha1>dzedqu0bkrrgau0bvcj5whgbs0h2bjc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Admiral Kirk</title>
+    <ns>0</ns>
+    <id>105</id>
+    <revision>
+      <id>3813</id>
+      <parentid>3088</parentid>
+      <timestamp>2017-01-18T15:31:03Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="429">{{#invoke:Charactercodes| doInfobox | AK }} 
+
+{{Side|Admiral James T. Kirk|2|c|o}}
+{{ma|James T Kirk}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | AK }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | AK}}
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Red]]
+[[Category:TOS Crew]]
+[[Category:Tier 2]]
+[[Category:Federation]]</text>
+      <sha1>m7cewe2sslqvieibkwwq6bwlbh6n010</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Khan</title>
+    <ns>0</ns>
+    <id>327</id>
+    <revision>
+      <id>2841</id>
+      <parentid>2800</parentid>
+      <timestamp>2016-12-07T13:39:54Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing bot-mistake</comment>
+      <text xml:space="preserve" bytes="408">{{#invoke:Charactercodes| doInfobox | KN }} 
+
+{{Side|Khan Noonien Singh|3|c|o}}
+{{ma|Khan Noonien Singh}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | KN }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | KN}}
+[[Category:White]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:TOS Crew]]
+[[Category:Tier 3]]</text>
+      <sha1>99mc8rck90wp6p6ikz0sf8ij2ch90p6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Admiral Uhura</title>
+    <ns>0</ns>
+    <id>460</id>
+    <revision>
+      <id>6170</id>
+      <parentid>5472</parentid>
+      <timestamp>2017-05-23T14:06:34Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>removing tbd...</comment>
+      <text xml:space="preserve" bytes="449">{{#invoke:Charactercodes| doInfobox | ANU }} 
+
+{{Side|Admiral Nyota Uhura|3|c|O}}
+{{ma|Nyota Uhura}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | ANU }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | ANU}}
+[[Category:Tier 3]]
+[[Category:TOS Crew]]
+[[Category:Tier 3.5]]
+[[Category:Red]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>19xxgk1z2pv44dzhd9svt6eqtp4mare</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Arden</title>
+    <ns>0</ns>
+    <id>462</id>
+    <revision>
+      <id>4091</id>
+      <parentid>4076</parentid>
+      <timestamp>2017-02-05T12:37:45Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>/* Trivia */ adding more data</comment>
+      <text xml:space="preserve" bytes="758">{{#invoke:Charactercodes| doInfobox | AR }} 
+
+{{Side|Human Arden|2|c|O}}
+{{ma|Unnamed Humans (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | AR }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | AR}}
+
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;!--leave me here!--&gt;&lt;/div&gt;&lt;hr /&gt;
+
+== Trivia ==
+
+Arden is one of the antagonists in the Event called [[Isolated Station]].  Inside the storyline, he is referred to as ''Antonio'' which might be a minor mistake.  Presumably Antonio is the first-name of the actor who sat for the costume-headshot.
+[[Category:Tier 2]]
+[[Category:TOS Crew]]
+[[Category:Blue]]
+[[Category:Orange]]
+[[Category:White]]
+[[Category:Federation]]</text>
+      <sha1>8kxafx1a4raxb1g5sxk8o9096r8q9d1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ambassador Spock</title>
+    <ns>0</ns>
+    <id>463</id>
+    <revision>
+      <id>8302</id>
+      <parentid>2934</parentid>
+      <timestamp>2018-03-03T10:03:19Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="437">{{#invoke:Charactercodes| doInfobox | ASP }} 
+
+{{Side|Ambassador Spock|2|c|O}}
+{{ma|Spock}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | ASP }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | ASP}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Yellow]][[Category:Orange]][[Category:White]]
+[[Category:Federation]]
+[[Category:Vulcan]]</text>
+      <sha1>n4hpzx5x6xcfasrwu9690asc6rwvyhw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lt. Alvaro</title>
+    <ns>0</ns>
+    <id>464</id>
+    <revision>
+      <id>3812</id>
+      <parentid>2935</parentid>
+      <timestamp>2017-01-18T15:30:38Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="423">{{#invoke:Charactercodes| doInfobox | AV }} 
+
+{{Side|Redshirt Lt. Alvaro|1|c|O}}
+{{ma|Unnamed Humans (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | AV }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | AV}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:Orange]][[Category:Purple]]
+[[Category:Federation]]</text>
+      <sha1>95181jr3w13qxgqqgzy8c44kqhgex9z</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Commodore Anton</title>
+    <ns>0</ns>
+    <id>472</id>
+    <revision>
+      <id>3809</id>
+      <parentid>2943</parentid>
+      <timestamp>2017-01-18T15:29:20Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="414">{{#invoke:Charactercodes| doInfobox | CA }} 
+
+{{Side|Commodore Anton|2|c|O}}
+{{ma|Commodore}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CA }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CA}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:White]][[Category:Orange]][[Category:Red]]
+[[Category:Federation]]</text>
+      <sha1>egji8nauzk65sgo83r8cera74mu14zp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Caped Alvaro</title>
+    <ns>0</ns>
+    <id>473</id>
+    <revision>
+      <id>2944</id>
+      <parentid>2774</parentid>
+      <timestamp>2016-12-09T09:47:29Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="409">{{#invoke:Charactercodes| doInfobox | CAV }} 
+
+{{Side|Caped Alvaro|2|c|O}}
+{{ma|Unnamed Humans (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CAV }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CAV}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Blue]][[Category:Red]][[Category:Yellow]]</text>
+      <sha1>razx08xdksmvrlwoeezsewi0udyunyk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Sulu</title>
+    <ns>0</ns>
+    <id>478</id>
+    <revision>
+      <id>3817</id>
+      <parentid>2949</parentid>
+      <timestamp>2017-01-18T15:32:50Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="421">{{#invoke:Charactercodes| doInfobox | CHS }} 
+
+{{Side|Cmdr. Hikaru Sulu|2|c|O}}
+{{ma|Hikaru Sulu}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CHS }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CHS}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Yellow]][[Category:White]][[Category:Red]]
+[[Category:Federation]]</text>
+      <sha1>5y9k5rmicq4gfe3vcmo37hwdmbl8vqa</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. McCoy</title>
+    <ns>0</ns>
+    <id>480</id>
+    <revision>
+      <id>3822</id>
+      <parentid>2951</parentid>
+      <timestamp>2017-01-18T15:35:01Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="427">{{#invoke:Charactercodes| doInfobox | CLM }} 
+
+{{Side|Cmdr. Leonard McCoy|2|c|O}}
+{{ma|Leonard McCoy}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CLM }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CLM}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Purple]][[Category:Orange]][[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>6uls1s25sk95z4e3n43fvj75qtpgmn3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Scott</title>
+    <ns>0</ns>
+    <id>481</id>
+    <revision>
+      <id>3820</id>
+      <parentid>2952</parentid>
+      <timestamp>2017-01-18T15:34:00Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="432">{{#invoke:Charactercodes| doInfobox | CMS }} 
+
+{{Side|Cmdr. Montgomery Scott|2|c|O}}
+{{ma|Montgomery Scott}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CMS }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CMS}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:White]][[Category:Blue]][[Category:Yellow]]
+[[Category:Federation]]</text>
+      <sha1>bjhc48g9d5bawem7xp8dq3dpa2ze5gt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Uhura</title>
+    <ns>0</ns>
+    <id>482</id>
+    <revision>
+      <id>3819</id>
+      <parentid>2953</parentid>
+      <timestamp>2017-01-18T15:33:35Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="422">{{#invoke:Charactercodes| doInfobox | CNU }} 
+
+{{Side|Cmdr. Nyota Uhura|2|c|O}}
+{{ma|Nyota Uhura}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CNU }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CNU}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:White]][[Category:Blue]][[Category:Purple]]
+[[Category:Federation]]</text>
+      <sha1>igho428jdedl4hthaauq6ceo792922q</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Decanus</title>
+    <ns>0</ns>
+    <id>488</id>
+    <revision>
+      <id>2959</id>
+      <parentid>2791</parentid>
+      <timestamp>2016-12-09T09:48:24Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="416">{{#invoke:Charactercodes| doInfobox | DE }} 
+
+{{Side|Masked Human Decanus|1|c|O}}
+{{ma|Unnamed Humans (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | DE }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | DE}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:White]][[Category:Orange]][[Category:Blue]]</text>
+      <sha1>1nv8b367lp4j77eeb04d61ded6t20u2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Doctor McCoy</title>
+    <ns>0</ns>
+    <id>489</id>
+    <revision>
+      <id>3821</id>
+      <parentid>2960</parentid>
+      <timestamp>2017-01-18T15:34:23Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="425">{{#invoke:Charactercodes| doInfobox | DM }} 
+
+{{Side|Doctor Leonard McCoy|1|c|O}}
+{{ma|Leonard McCoy}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | DM }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | DM}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:Purple]][[Category:Orange]][[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>ohzhajzmijadnfb01hqdxttd32qqyip</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Horta</title>
+    <ns>0</ns>
+    <id>492</id>
+    <revision>
+      <id>2963</id>
+      <parentid>2795</parentid>
+      <timestamp>2016-12-09T09:48:34Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="391">{{#invoke:Charactercodes| doInfobox | HO }} 
+
+{{Side|Alien Horta|2|c|O}}
+{{ma|Mother Horta}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | HO }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | HO}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Blue]][[Category:Orange]][[Category:Purple]]</text>
+      <sha1>7fy4aqn1453kidh8rp3pgxmelp5tdt5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lt. Sulu</title>
+    <ns>0</ns>
+    <id>493</id>
+    <revision>
+      <id>3810</id>
+      <parentid>2964</parentid>
+      <timestamp>2017-01-18T15:29:47Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="419">{{#invoke:Charactercodes| doInfobox | HS }} 
+
+{{Side|Lt. Hikaru Sulu|1|c|O}}
+{{ma|Hikaru Sulu}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | HS }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | HS}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:Purple]][[Category:Orange]][[Category:White]]
+[[Category:Federation]]</text>
+      <sha1>4dhze4itz1cemn93a1nmyapcs5zlogo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Hvaid</title>
+    <ns>0</ns>
+    <id>494</id>
+    <revision>
+      <id>3682</id>
+      <parentid>2965</parentid>
+      <timestamp>2017-01-11T08:38:26Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="450">{{#invoke:Charactercodes| doInfobox | HV }} 
+
+{{Side|Romulan Hvaid|1|c|O}}
+{{ma|Unnamed Romulan military personnel (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | HV }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | HV}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:Purple]][[Category:Orange]][[Category:Red]]
+[[Category:Romulan]]</text>
+      <sha1>gecs92mwf9blhcwkazfuf6p8jbozqee</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Inagh</title>
+    <ns>0</ns>
+    <id>495</id>
+    <revision>
+      <id>5447</id>
+      <parentid>3684</parentid>
+      <timestamp>2017-04-11T11:51:09Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="469">{{#invoke:Charactercodes| doInfobox | IN }} 
+
+{{Side|Klingon Inagh|2|c|O}}
+{{ma|Unnamed Klingon military personnel (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | IN }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | IN}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Blue]][[Category:Blue]][[Category:Yellow]]
+[[Category:Klingon]]
+[[Category:Purple]]</text>
+      <sha1>81nm9vr53kzmynthef7e4m5luujbzlu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Legatus</title>
+    <ns>0</ns>
+    <id>501</id>
+    <revision>
+      <id>2972</id>
+      <parentid>2805</parentid>
+      <timestamp>2016-12-09T09:49:06Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="416">{{#invoke:Charactercodes| doInfobox | LE }} 
+
+{{Side|Masked Human Legatus|2|c|O}}
+{{ma|Unnamed Humans (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | LE }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | LE}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Yellow]][[Category:Orange]][[Category:Red]]</text>
+      <sha1>c9wnf29y3es6jhrzw5seots22utn6r1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lt. Chekov</title>
+    <ns>0</ns>
+    <id>503</id>
+    <revision>
+      <id>3816</id>
+      <parentid>2974</parentid>
+      <timestamp>2017-01-18T15:32:25Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="424">{{#invoke:Charactercodes| doInfobox | LPC }} 
+
+{{Side|Lt. Pavel Chekov|2|c|O}}
+{{ma|Pavel Chekov}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | LPC }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | LPC}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Yellow]][[Category:White]][[Category:Purple]]
+[[Category:Federation]]</text>
+      <sha1>7ypwdz03cftc5xwwhx9rixqgi14ddo0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Mister Scott</title>
+    <ns>0</ns>
+    <id>504</id>
+    <revision>
+      <id>3815</id>
+      <parentid>2975</parentid>
+      <timestamp>2017-01-18T15:31:56Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="431">{{#invoke:Charactercodes| doInfobox | MS }} 
+
+{{Side|Engineer Montgomery Scott|1|c|O}}
+{{ma|Montgomery Scott}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | MS }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | MS}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:White]][[Category:Purple]][[Category:Red]]
+[[Category:Federation]]</text>
+      <sha1>7em0uw99qpncu83bhqy91ztqd25ghee</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lt. Uhura</title>
+    <ns>0</ns>
+    <id>507</id>
+    <revision>
+      <id>3811</id>
+      <parentid>2978</parentid>
+      <timestamp>2017-01-18T15:30:12Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="398">{{#invoke:Charactercodes| doInfobox | NU }} 
+
+{{Side|Lt. Nyota Uhura|1|c|O}}
+{{ma|Nyota Uhura}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | NU }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | NU}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:Orange]][[Category:Red]]
+[[Category:Federation]]</text>
+      <sha1>dlygsdmme6pr64o74bpk26jbgqoc5c5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Optio</title>
+    <ns>0</ns>
+    <id>508</id>
+    <revision>
+      <id>2979</id>
+      <parentid>2812</parentid>
+      <timestamp>2016-12-09T09:49:24Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="414">{{#invoke:Charactercodes| doInfobox | OP }} 
+
+{{Side|Masked Human Optio|1|c|O}}
+{{ma|Unnamed Humans (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | OP }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | OP}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:Orange]][[Category:Red]][[Category:Yellow]]</text>
+      <sha1>2dbp5fzn2en4he8vz9zfcphi7sc1916</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ensign Chekov</title>
+    <ns>0</ns>
+    <id>509</id>
+    <revision>
+      <id>3808</id>
+      <parentid>2980</parentid>
+      <timestamp>2017-01-18T15:28:48Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="404">{{#invoke:Charactercodes| doInfobox | PC }} 
+
+{{Side|Ensign Pavel Chekov|1|c|O}}
+{{ma|Pavel Chekov}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | PC }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | PC}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:Purple]][[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>0dhp0gz9okrk4v4qydnjzlzeezy0fl3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Pilus Prior</title>
+    <ns>0</ns>
+    <id>511</id>
+    <revision>
+      <id>2982</id>
+      <parentid>2815</parentid>
+      <timestamp>2016-12-09T09:49:30Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="418">{{#invoke:Charactercodes| doInfobox | PP }} 
+
+{{Side|Masked Human Pilus Prior|1|c|O}}
+{{ma|Unnamed Humans (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | PP }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | PP}}[[Category:Tier 1]][[Category:TOS Crew]][[Category:Blue]][[Category:Purple]][[Category:Red]]</text>
+      <sha1>r33tdt85l5vk774alqaq8xj7czvo7bo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ruk</title>
+    <ns>0</ns>
+    <id>513</id>
+    <revision>
+      <id>2984</id>
+      <parentid>2818</parentid>
+      <timestamp>2016-12-09T09:49:36Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="383">{{#invoke:Charactercodes| doInfobox | RU }} 
+
+{{Side|Android Ruk|2|c|O}}
+{{ma|Ruk}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | RU }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | RU}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Purple]][[Category:Orange]][[Category:White]]</text>
+      <sha1>bodi0gjyvsc7f8gvfnj5gek97t4xv5s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>S'Fangudl</title>
+    <ns>0</ns>
+    <id>514</id>
+    <revision>
+      <id>2985</id>
+      <parentid>2819</parentid>
+      <timestamp>2016-12-09T09:49:38Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="393">{{#invoke:Charactercodes| doInfobox | SF }} 
+
+{{Side|Gorn S\'Fangudl|3|c|O}}
+{{ma|Unnamed Gorn}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | SF }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | SF}}[[Category:Tier 3]][[Category:TOS Crew]][[Category:Red]][[Category:White]][[Category:Orange]]</text>
+      <sha1>mbiifjl1mpsd11hu6m3kuow30meprfo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Salt Vampire</title>
+    <ns>0</ns>
+    <id>517</id>
+    <revision>
+      <id>2988</id>
+      <parentid>2823</parentid>
+      <timestamp>2016-12-09T09:49:50Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="406">{{#invoke:Charactercodes| doInfobox | SV }} 
+
+{{Side|Alien M-113 Salt Vampire|2|c|O}}
+{{ma|M-113 creature}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | SV }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | SV}}[[Category:Tier 2]][[Category:TOS Crew]][[Category:Blue]][[Category:Yellow]][[Category:Purple]]</text>
+      <sha1>tbf62ni9zv8vnyv9nll1485xxi1pyx4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Tenva</title>
+    <ns>0</ns>
+    <id>520</id>
+    <revision>
+      <id>5062</id>
+      <parentid>2991</parentid>
+      <timestamp>2017-03-30T10:09:32Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="429">{{#invoke:Charactercodes| doInfobox | TE }} 
+
+{{Side|[[Entellan]] Tenva|3|c|O}}
+{{ma|Unnamed humanoids}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TE }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TE}}
+[[Category:Tier 3]]
+[[Category:TOS Crew]]
+[[Category:Red]]
+[[Category:Purple]]
+[[Category:Yellow]]
+[[Category:Entellan]]</text>
+      <sha1>jup3sep3jqpnd496cr1ya5os5h45kkt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>The Keeper</title>
+    <ns>0</ns>
+    <id>523</id>
+    <revision>
+      <id>3238</id>
+      <parentid>2994</parentid>
+      <timestamp>2016-12-17T04:04:12Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="415">{{#invoke:Charactercodes| doInfobox | TK50 }} 
+
+{{Side|The Keeper|3|c|O}}
+{{ma|The Keeper}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TK50 }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TK50}}[[Category:Tier 3]][[Category:TOS Crew]][[Category:Purple]][[Category:Orange]][[Category:Red]]
+[[Category:Tier 3.5]]</text>
+      <sha1>rmcors6vf9vcg9qedvefyyqk0p39w11</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Tonak</title>
+    <ns>0</ns>
+    <id>525</id>
+    <revision>
+      <id>5064</id>
+      <parentid>2996</parentid>
+      <timestamp>2017-03-30T10:11:12Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="428">{{#invoke:Charactercodes| doInfobox | TO }} 
+
+{{Side|[[Entellan]] Tonak|2|c|O}}
+{{ma|Unnamed humanoids}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TO }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TO}}
+[[Category:Tier 2]]
+[[Category:TOS Crew]]
+[[Category:White]]
+[[Category:Red]]
+[[Category:Orange]]
+[[Category:Entellan]]</text>
+      <sha1>hxh9p4fyxyugmac76pqv2m8n9yg9md3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Tolkir</title>
+    <ns>0</ns>
+    <id>526</id>
+    <revision>
+      <id>5063</id>
+      <parentid>2997</parentid>
+      <timestamp>2017-03-30T10:10:22Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="437">{{#invoke:Charactercodes| doInfobox | TR }} 
+
+{{Side|[[Entellan]] Female Tolkir|2|c|O}}
+{{ma|Unnamed humanoids}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TR }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TR}}
+[[Category:Tier 2]]
+[[Category:TOS Crew]]
+[[Category:Red]]
+[[Category:Purple]]
+[[Category:Yellow]]
+[[Category:Entellan]]</text>
+      <sha1>4zzn7x5x60mfifwfp0on6nwmo8vwfw3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Tataur</title>
+    <ns>0</ns>
+    <id>527</id>
+    <revision>
+      <id>5061</id>
+      <parentid>5060</parentid>
+      <timestamp>2017-03-30T10:08:34Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="431">{{#invoke:Charactercodes| doInfobox | TT }} 
+
+{{Side|[[Entellan]] Tataur|3|c|O}}
+{{ma|Unnamed humanoids}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TT }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TT}}
+[[Category:Tier 3]]
+[[Category:TOS Crew]]
+[[Category:Purple]]
+[[Category:Orange]]
+[[Category:Blue]]
+[[Category:Entellan]]</text>
+      <sha1>rmn0cu5pyksmx9kkvq5281oal5703ay</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ameh</title>
+    <ns>0</ns>
+    <id>458</id>
+    <revision>
+      <id>5207</id>
+      <parentid>5206</parentid>
+      <timestamp>2017-04-06T02:48:17Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="472">{{#invoke:Charactercodes| doInfobox | AH }} 
+
+{{Side|Hooded Romulan Ameh|2|c|O}}
+{{ma|Unnamed Romulan military personnel (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | AH }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+{{#invoke:Charactercodes | expand | AH}}
+
+
+{{Navbox}}
+[[Category:Yellow]]
+[[Category:Red]]
+[[Category:White]]
+[[Category:Tier 2]]
+[[Category:TOS Crew]]
+[[Category:Romulan]]</text>
+      <sha1>deax0t97uzhy1h81d2t3estx14exp83</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Kaylar</title>
+    <ns>0</ns>
+    <id>1089</id>
+    <revision>
+      <id>6536</id>
+      <parentid>6535</parentid>
+      <timestamp>2017-06-15T21:30:45Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>category adjustment</comment>
+      <text xml:space="preserve" bytes="431">{{#invoke:Charactercodes| doInfobox | KY }} 
+
+{{Side|Warrior Kaylar|3|c|O}}
+{{ma|Kalar)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | KY }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | KY}}
+[[Category:TOS Crew]]
+[[Category:Alien]]
+[[Category:Tier 3]]
+[[Category:Tier 3.5]]
+[[Category:Red]]
+[[Category:Blue]]
+[[Category:Purple]]</text>
+      <sha1>qfq510qtal7ewcjz42g31jahr7mps04</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Chekov</title>
+    <ns>0</ns>
+    <id>1186</id>
+    <revision>
+      <id>7191</id>
+      <parentid>7125</parentid>
+      <timestamp>2017-09-01T11:47:07Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="430">{{#invoke:Charactercodes| doInfobox | CPC }} 
+
+{{Side|Cmdr. Pavel Chekov|3|c|O}}
+{{ma|Pavel Chekov}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CPC }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CPC}}
+[[Category:TOS Crew]]
+[[Category:Tier 3]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Yellow]]
+[[Category:Federation]]</text>
+      <sha1>hj7f6w9qctyype9gfow06vvroj79fvk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Eng.Capt. Scott</title>
+    <ns>0</ns>
+    <id>1205</id>
+    <revision>
+      <id>7251</id>
+      <parentid>7219</parentid>
+      <timestamp>2017-09-06T16:52:47Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="451">{{#invoke:Charactercodes| doInfobox | EMS }} 
+
+{{Side|Engineering, Captain Montgomery Scott|3|c|O}}
+{{ma|Montgomery Scott}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | EMS }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | EMS}}
+[[Category:TOS Crew]]
+[[Category:Tier 3]]
+[[Category:White]]
+[[Category:Red]]
+[[Category:Yellow]]
+[[Category:Federation]]</text>
+      <sha1>p7jxtrkyi15hb4w7m6ukv20vzurkicl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Batahr</title>
+    <ns>0</ns>
+    <id>469</id>
+    <revision>
+      <id>7254</id>
+      <parentid>3801</parentid>
+      <timestamp>2017-09-15T10:25:38Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>category adjustment</comment>
+      <text xml:space="preserve" bytes="436">{{#invoke:Charactercodes| doInfobox | BA }} 
+
+{{Side|Klingon Batahr|1|c|O}}
+{{ma|Unnamed Klingon military personnel (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | BA }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | BA}}
+[[Category:Tier 1]]
+[[Category:TOS Crew]]
+[[Category:Blue]]
+[[Category:White]]
+[[Category:Klingon]]</text>
+      <sha1>tbbqgj9puwwf0kyl9wx3vu4s8kgt88u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Kor</title>
+    <ns>0</ns>
+    <id>1259</id>
+    <revision>
+      <id>7634</id>
+      <parentid>7626</parentid>
+      <timestamp>2017-11-14T14:23:15Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="420">{{#invoke:Charactercodes| doInfobox | KOR }} 
+
+{{Side|Klingon Commander Kor|3|c|o}}
+{{ma|Kor}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | KOR }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | KOR}}
+[[Category:TOS Crew]]
+[[Category:Tier 3]]
+[[Category:Orange]]
+[[Category:Red]]
+[[Category:Purple]]
+[[Category:Klingon]]</text>
+      <sha1>q4nnwkdvpu15g9aeofri11eqsi26y7w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Christopher Pike</title>
+    <ns>0</ns>
+    <id>1277</id>
+    <revision>
+      <id>9038</id>
+      <parentid>9017</parentid>
+      <timestamp>2018-09-16T23:16:53Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="513">{{#invoke:Charactercodes| doInfobox | CCP }} 
+
+{{Side|Captain Christopher Pike|3|c|O}}
+{{ma|Christopher Pike}}
+
+== Evolutions ==
+
+{{#invoke:CommonLists | main | c | EVLnks | CCP }}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | c | skills | CCP }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CCP}}
+[[Category:TOS Crew]]
+[[Category:Tier 3]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:White]]
+[[Category:Federation]]</text>
+      <sha1>75fcwc1s0r5iqewpy0nox79yeyj7izg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dir.sfM. Leonard McCoy</title>
+    <ns>0</ns>
+    <id>1348</id>
+    <revision>
+      <id>8135</id>
+      <parentid>8127</parentid>
+      <timestamp>2018-01-23T21:16:30Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="455">{{#invoke:Charactercodes| doInfobox | DLM }} 
+
+{{Side|Director of StarFleet-Medical Leonard McCoy|3|c|O}}
+{{ma|Leonard McCoy}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | DLM }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | DLM}}
+[[Category:TOS Crew]]
+[[Category:Tier 3]]
+[[Category:Purple]]
+[[Category:Blue]]
+[[Category:White]]
+[[Category:Federation]]</text>
+      <sha1>h80wo56qjikedupd76few3nb66r3x9w</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lt. Worf</title>
+    <ns>0</ns>
+    <id>337</id>
+    <revision>
+      <id>3987</id>
+      <parentid>3829</parentid>
+      <timestamp>2017-01-29T19:11:32Z</timestamp>
+      <contributor>
+        <username>DiseaseMaster7</username>
+        <id>26986425</id>
+      </contributor>
+      <minor/>
+      <comment>My own observation while fighting against, or using, Lt. Worf.</comment>
+      <text xml:space="preserve" bytes="963">{{#invoke:Charactercodes| doInfobox | WF }} 
+
+{{Side|Lieutenant Worf|1|c|n}}
+{{ma|Worf}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | WF }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | WF}}
+
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;!--leave me here!--&gt;&lt;/div&gt;&lt;hr /&gt;
+
+== For fun trying miniInfobox ==
+
+is this a better-box than the big-one ?  how about things-to-add/delete from it ?  idk...
+
+{{#invoke:Charactercodes| doMiniInfobox | WF }}
+
+== Trivia ==
+Considering that Lt. Worf's R'uustai is an AoE (or Area of Effect) attack, this skill can be used to allow more powerful characters to launch powerful attacks, making Lt. Worf a very dangerous Tier 1 character that can decimate teams with ease if not taken out early in the fight.[[Category:Yellow]]
+[[Category:Red]]
+[[Category:White]]
+[[Category:TNG Crew]]
+[[Category:Tier 1]]
+[[Category:Klingon]]
+[[Category:Federation]]</text>
+      <sha1>pt6fh3kbvgid8wf9esrgs51klyg6w94</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Worf</title>
+    <ns>0</ns>
+    <id>349</id>
+    <revision>
+      <id>3834</id>
+      <parentid>3693</parentid>
+      <timestamp>2017-01-18T15:40:21Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="437">{{#invoke:Charactercodes| doInfobox | CWF }} 
+
+{{Side|Commander Worf|2|c|n}}
+{{ma|Worf}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CWF }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CWF}}
+[[Category:Yellow]]
+[[Category:Red]]
+[[Category:White]]
+[[Category:Tier 2]]
+[[Category:TNG Crew]]
+[[Category:Klingon]]
+[[Category:Federation]]</text>
+      <sha1>1ia5u109wq79pv84yz8z8wfnj7gpkav</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Armus</title>
+    <ns>0</ns>
+    <id>459</id>
+    <revision>
+      <id>3006</id>
+      <parentid>2930</parentid>
+      <timestamp>2016-12-09T09:59:10Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>fixing bot-mistake</comment>
+      <text xml:space="preserve" bytes="400">{{#invoke:Charactercodes| doInfobox | AM }} 
+
+{{Side|Malevolent Entity Armus|2|c|N}}
+{{ma|Armus}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | AM }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | AM}}
+[[Category:Tier 2]]
+[[Category:TNG Crew]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Red]]</text>
+      <sha1>s9rff2xump27pji1959bwwz3dunn6fw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Admiral Picard</title>
+    <ns>0</ns>
+    <id>461</id>
+    <revision>
+      <id>9047</id>
+      <parentid>3831</parentid>
+      <timestamp>2018-09-17T00:02:11Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="504">{{#invoke:Charactercodes| doInfobox | AP }} 
+
+{{Side|Admiral Jean-Luc Picard|2|c|N}}
+{{ma|Jean-Luc Picard}}
+
+== Evolutions ==
+
+{{#invoke:CommonLists | main | c | EVLnks | AP }}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | AP }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | AP}}
+[[Category:Tier 2]]
+[[Category:TNG Crew]]
+[[Category:Purple]]
+[[Category:Orange]]
+[[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>9yzbovfu29meuaolyqe9acbrhylrfzo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Borg 1 of 4</title>
+    <ns>0</ns>
+    <id>465</id>
+    <revision>
+      <id>3648</id>
+      <parentid>2936</parentid>
+      <timestamp>2017-01-11T00:25:52Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="409">{{#invoke:Charactercodes| doInfobox | B1 }} 
+
+{{Side|Borg 1 of 4|2|c|N}}
+{{ma|Unnamed Borg}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | B1 }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | B1}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Purple]][[Category:Orange]][[Category:Blue]]
+[[Category:Borg]]</text>
+      <sha1>idmcq4tdqzerllxw5ltps738mcovb4p</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Borg 2 of 4</title>
+    <ns>0</ns>
+    <id>466</id>
+    <revision>
+      <id>3649</id>
+      <parentid>2937</parentid>
+      <timestamp>2017-01-11T00:26:34Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="408">{{#invoke:Charactercodes| doInfobox | B2 }} 
+
+{{Side|Borg 2 of 4|2|c|N}}
+{{ma|Unnamed Borg}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | B2 }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | B2}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Purple]][[Category:Yellow]][[Category:Red]]
+[[Category:Borg]]</text>
+      <sha1>avftw5kwhz3koz02osooptexzmvqrk0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Borg 3 of 4</title>
+    <ns>0</ns>
+    <id>467</id>
+    <revision>
+      <id>5446</id>
+      <parentid>3650</parentid>
+      <timestamp>2017-04-11T11:17:21Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>category adjustment</comment>
+      <text xml:space="preserve" bytes="412">{{#invoke:Charactercodes| doInfobox | B3 }} 
+
+{{Side|Borg 3 of 4|3|c|N}}
+{{ma|Unnamed Borg}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | B3 }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | B3}}
+[[Category:Tier 3]]
+[[Category:TNG Crew]]
+[[Category:Purple]]
+[[Category:Red]]
+[[Category:Borg]]
+[[Category:White]]</text>
+      <sha1>cft6vp7mm2xxn5wxoy25hex2tl59ruk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Borg 4 of 4</title>
+    <ns>0</ns>
+    <id>468</id>
+    <revision>
+      <id>3651</id>
+      <parentid>3549</parentid>
+      <timestamp>2017-01-11T00:27:39Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="418">{{#invoke:Charactercodes| doInfobox | B4 }} 
+
+{{Side|Female Borg 4 of 4|3|c|N}}
+{{ma|Unnamed Borg}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | B4 }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | B4}}
+[[Category:Tier 3]]
+[[Category:TNG Crew]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Red]]
+[[Category:Borg]]</text>
+      <sha1>czxkra1q63wiiadlnnrp9vr1kzaydc5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Badar</title>
+    <ns>0</ns>
+    <id>470</id>
+    <revision>
+      <id>2941</id>
+      <parentid>2771</parentid>
+      <timestamp>2016-12-09T09:47:23Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="396">{{#invoke:Charactercodes| doInfobox | BD }} 
+
+{{Side|Canine Antican Badar|2|c|N}}
+{{ma|Badar N'D'D}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | BD }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | BD}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Red]][[Category:Blue]][[Category:Yellow]]</text>
+      <sha1>sgwd5f9vi1r0fycemwogs5bosoayel4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dr. Beverly Crusher</title>
+    <ns>0</ns>
+    <id>471</id>
+    <revision>
+      <id>3828</id>
+      <parentid>2942</parentid>
+      <timestamp>2017-01-18T15:37:44Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="428">{{#invoke:Charactercodes| doInfobox | BE }} 
+
+{{Side|Doctor Beverly Crusher|1|c|N}}
+{{ma|Beverly Crusher}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | BE }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | BE}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:Yellow]][[Category:Red]][[Category:Purple]]
+[[Category:Federation]]</text>
+      <sha1>lhsw5cau1g45eafj0jmgpv1fc2ah1xf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Beverly Crusher</title>
+    <ns>0</ns>
+    <id>474</id>
+    <revision>
+      <id>3832</id>
+      <parentid>2945</parentid>
+      <timestamp>2017-01-18T15:39:31Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="431">{{#invoke:Charactercodes| doInfobox | CBC }} 
+
+{{Side|Cmdr. Beverly Crusher|2|c|N}}
+{{ma|Beverly Crusher}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CBC }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CBC}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Purple]][[Category:Orange]][[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>p9cj7yhwjumy26hi5qdmd9wt3js7fzr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Data</title>
+    <ns>0</ns>
+    <id>475</id>
+    <revision>
+      <id>3835</id>
+      <parentid>2946</parentid>
+      <timestamp>2017-01-18T15:40:50Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="407">{{#invoke:Charactercodes| doInfobox | CDA }} 
+
+{{Side|Cmdr. Data|2|c|N}}
+{{ma|Data}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CDA }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CDA}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Red]][[Category:White]][[Category:Yellow]]
+[[Category:Federation]]</text>
+      <sha1>ae4y98jl9cm4phqnjtei60mkb7lv9ht</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Troi</title>
+    <ns>0</ns>
+    <id>476</id>
+    <revision>
+      <id>3830</id>
+      <parentid>2947</parentid>
+      <timestamp>2017-01-18T15:38:47Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="421">{{#invoke:Charactercodes| doInfobox | CDR }} 
+
+{{Side|Cmdr. Deanna Troi|2|c|N}}
+{{ma|Deanna Troi}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CDR }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CDR}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:White]][[Category:Yellow]][[Category:Red]]
+[[Category:Federation]]</text>
+      <sha1>3muk20i0qidgz8zemvct4vfrnm9erxt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cho'Ta</title>
+    <ns>0</ns>
+    <id>477</id>
+    <revision>
+      <id>5551</id>
+      <parentid>3687</parentid>
+      <timestamp>2017-04-11T17:08:36Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="458">{{#invoke:Charactercodes| doInfobox | CHT }} 
+
+{{Side|Klingon Cho\'Ta|1|c|N}}
+{{ma|Unnamed Klingon military personnel (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CHT }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CHT}}
+[[Category:Tier 1]]
+[[Category:TNG Crew]]
+[[Category:Yellow]]
+[[Category:Red]]
+[[Category:Blue]]
+[[Category:Klingon]]</text>
+      <sha1>2fh1azbl1tszkxjgmx3qcq8pelsebpo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. La Forge</title>
+    <ns>0</ns>
+    <id>479</id>
+    <revision>
+      <id>3833</id>
+      <parentid>2950</parentid>
+      <timestamp>2017-01-18T15:39:52Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="430">{{#invoke:Charactercodes| doInfobox | CLF }} 
+
+{{Side|Cmdr. Geordi La Forge|2|c|N}}
+{{ma|Geordi La Forge}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CLF }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CLF}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Yellow]][[Category:Red]][[Category:Orange]]
+[[Category:Federation]]</text>
+      <sha1>3lv6sm2ksj6vi8mt8l4puido79ogac7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Captain Picard</title>
+    <ns>0</ns>
+    <id>483</id>
+    <revision>
+      <id>3824</id>
+      <parentid>2954</parentid>
+      <timestamp>2017-01-18T15:36:08Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="428">{{#invoke:Charactercodes| doInfobox | CP }} 
+
+{{Side|Captain Jean-Luc Picard|1|c|N}}
+{{ma|Jean-Luc Picard}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CP }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CP}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:Yellow]][[Category:Red]][[Category:White]]
+[[Category:Federation]]</text>
+      <sha1>g18gbu8tkmyzw8ckhykbgf18j0heznb</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cmdr. Riker</title>
+    <ns>0</ns>
+    <id>484</id>
+    <revision>
+      <id>3827</id>
+      <parentid>2955</parentid>
+      <timestamp>2017-01-18T15:37:13Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="424">{{#invoke:Charactercodes| doInfobox | CR }} 
+
+{{Side|Cmdr. Will Riker|1|c|N}}
+{{ma|William T. Riker}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CR }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CR}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:Purple]][[Category:Orange]][[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>0182p8gjty6gk4tthzn79w8to9x8r0p</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Counselor Troi</title>
+    <ns>0</ns>
+    <id>485</id>
+    <revision>
+      <id>3826</id>
+      <parentid>2956</parentid>
+      <timestamp>2017-01-18T15:36:52Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="426">{{#invoke:Charactercodes| doInfobox | CT }} 
+
+{{Side|Counselor Deanna Troi|1|c|N}}
+{{ma|Deanna Troi}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CT }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CT}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:Orange]][[Category:Yellow]][[Category:Purple]]
+[[Category:Federation]]</text>
+      <sha1>mzd9shux30s5ba9wibwkpk1v9ondxwy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Captain Riker</title>
+    <ns>0</ns>
+    <id>486</id>
+    <revision>
+      <id>3836</id>
+      <parentid>2957</parentid>
+      <timestamp>2017-01-18T15:41:15Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="429">{{#invoke:Charactercodes| doInfobox | CWR }} 
+
+{{Side|Captain Will Riker|2|c|N}}
+{{ma|William T. Riker}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CWR }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CWR}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Purple]][[Category:Orange]][[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>assdjnaynudwl2sqghuo47t6g73nt2k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ekoc Dale</title>
+    <ns>0</ns>
+    <id>490</id>
+    <revision>
+      <id>3700</id>
+      <parentid>2961</parentid>
+      <timestamp>2017-01-11T09:18:26Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="431">{{#invoke:Charactercodes| doInfobox | EK }} 
+
+{{Side|Cardassian Ekoc Dale|2|c|N}}
+{{ma|Unnamed Cardassians}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | EK }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | EK}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Purple]][[Category:Orange]][[Category:Blue]]
+[[Category:Cardassian]]</text>
+      <sha1>5pjyoar3764ovcr817tk0sknlfa58iw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Pretorian</title>
+    <ns>0</ns>
+    <id>491</id>
+    <revision>
+      <id>2962</id>
+      <parentid>2794</parentid>
+      <timestamp>2016-12-09T09:48:31Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="400">{{#invoke:Charactercodes| doInfobox | HE }} 
+
+{{Side|Helmetted Pretorian|1|c|N}}
+{{ma|Unnamed humanoids}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | HE }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | HE}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:White]][[Category:Blue]][[Category:Red]]</text>
+      <sha1>dtzh79m019jrlibkihfyl2w0i0hoshi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Kulga</title>
+    <ns>0</ns>
+    <id>496</id>
+    <revision>
+      <id>3691</id>
+      <parentid>2967</parentid>
+      <timestamp>2017-01-11T09:00:02Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="450">{{#invoke:Charactercodes| doInfobox | KG }} 
+
+{{Side|Klingon Kulga|2|c|N}}
+{{ma|Unnamed Klingon military personnel (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | KG }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | KG}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:White]][[Category:Purple]][[Category:Blue]]
+[[Category:Klingon]]</text>
+      <sha1>dsxvnoituyya1pfsryyd6eqbouydu1x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Kovor Dale</title>
+    <ns>0</ns>
+    <id>497</id>
+    <revision>
+      <id>3697</id>
+      <parentid>2968</parentid>
+      <timestamp>2017-01-11T09:16:30Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="432">{{#invoke:Charactercodes| doInfobox | KO }} 
+
+{{Side|Cardassian Kovor Dale|1|c|N}}
+{{ma|Unnamed Cardassians}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | KO }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | KO}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:Blue]][[Category:Orange]][[Category:Yellow]]
+[[Category:Cardassian]]</text>
+      <sha1>agvutzbirhampk83i7ajwlwufhb64fi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Kurn</title>
+    <ns>0</ns>
+    <id>498</id>
+    <revision>
+      <id>3689</id>
+      <parentid>2969</parentid>
+      <timestamp>2017-01-11T08:57:41Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="404">{{#invoke:Charactercodes| doInfobox | KU }} 
+
+{{Side|Klingon Kurn|3|c|N}}
+{{ma|Kurn}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | KU }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | KU}}[[Category:Tier 3]][[Category:TNG Crew]][[Category:Yellow]][[Category:Orange]][[Category:Red]]
+[[Category:Klingon]]</text>
+      <sha1>e4zu4ti9w5yb5uakdhhq8msjyq3r6t7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>L'berch</title>
+    <ns>0</ns>
+    <id>499</id>
+    <revision>
+      <id>2970</id>
+      <parentid>2803</parentid>
+      <timestamp>2016-12-09T09:49:01Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="397">{{#invoke:Charactercodes| doInfobox | LB }} 
+
+{{Side|Alien L\'berch|2|c|N}}
+{{ma|Unnamed humanoids}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | LB }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | LB}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Red]][[Category:Purple]][[Category:White]]</text>
+      <sha1>ajg4cq3wgyoedr1y4xcjkw5uiy4a2r3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lt. Data</title>
+    <ns>0</ns>
+    <id>500</id>
+    <revision>
+      <id>3825</id>
+      <parentid>2971</parentid>
+      <timestamp>2017-01-18T15:36:31Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="403">{{#invoke:Charactercodes| doInfobox | LD }} 
+
+{{Side|Lt. Data|1|c|N}}
+{{ma|Data}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | LD }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | LD}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:White]][[Category:Orange]][[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>q6ob8rfetwi15d8el1tlvae0py09nhw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Lt. La Forge</title>
+    <ns>0</ns>
+    <id>502</id>
+    <revision>
+      <id>3814</id>
+      <parentid>2973</parentid>
+      <timestamp>2017-01-18T15:31:31Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="422">{{#invoke:Charactercodes| doInfobox | LF }} 
+
+{{Side|Lt. Geordi La Forge|1|c|N}}
+{{ma|Geordi La Forge}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | LF }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | LF}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:White]][[Category:Blue]][[Category:Red]]
+[[Category:Federation]]</text>
+      <sha1>3qgjs438y8skhwfmf984ematg7fwd8r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nuella</title>
+    <ns>0</ns>
+    <id>505</id>
+    <revision>
+      <id>2976</id>
+      <parentid>2809</parentid>
+      <timestamp>2016-12-09T09:49:17Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="404">{{#invoke:Charactercodes| doInfobox | NL }} 
+
+{{Side|Alien Female Nuella|1|c|N}}
+{{ma|Unnamed humanoids}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | NL }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | NL}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:Blue]][[Category:Orange]][[Category:Yellow]]</text>
+      <sha1>a2oa43e8sep7hsr2tye7t1sa09eb301</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Nodroz</title>
+    <ns>0</ns>
+    <id>506</id>
+    <revision>
+      <id>2977</id>
+      <parentid>2810</parentid>
+      <timestamp>2016-12-09T09:49:19Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="397">{{#invoke:Charactercodes| doInfobox | NO }} 
+
+{{Side|Hologram Nodroz|1|c|N}}
+{{ma|Unnamed holograms}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | NO }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | NO}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:Purple]][[Category:Red]][[Category:Blue]]</text>
+      <sha1>nn3v4jmn474duicyu7xrydl849y03l4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Prugue Sole</title>
+    <ns>0</ns>
+    <id>510</id>
+    <revision>
+      <id>3698</id>
+      <parentid>2981</parentid>
+      <timestamp>2017-01-11T09:17:35Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="434">{{#invoke:Charactercodes| doInfobox | PG }} 
+
+{{Side|Cardassian Prugue Sole|1|c|N}}
+{{ma|Unnamed Cardassians}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | PG }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | PG}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:Purple]][[Category:White]][[Category:Yellow]]
+[[Category:Cardassian]]</text>
+      <sha1>lvs89vulqnspezilkmcvy9q908m72sk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Q</title>
+    <ns>0</ns>
+    <id>512</id>
+    <revision>
+      <id>9046</id>
+      <parentid>2983</parentid>
+      <timestamp>2018-09-17T00:00:29Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="452">{{#invoke:Charactercodes| doInfobox | QQ }} 
+
+{{Side|Q of the Q|3|c|N}}
+{{ma|Q}}
+
+== Evolutions ==
+
+{{#invoke:CommonLists | main | c | EVLnks | QQ }}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | QQ }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | QQ}}
+[[Category:Tier 3]]
+[[Category:TNG Crew]]
+[[Category:Purple]]
+[[Category:Orange]]
+[[Category:Red]]</text>
+      <sha1>k6r3cb4yfi9iz5xa4d1z2q20yfpa7oz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Shogue Seltell</title>
+    <ns>0</ns>
+    <id>515</id>
+    <revision>
+      <id>3699</id>
+      <parentid>2986</parentid>
+      <timestamp>2017-01-11T09:18:01Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="432">{{#invoke:Charactercodes| doInfobox | SG }} 
+
+{{Side|Cardassian Shogue Seltell|1|c|N}}
+{{ma|Unnamed Cardassians}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | SG }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | SG}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:Blue]][[Category:Red]][[Category:White]]
+[[Category:Cardassian]]</text>
+      <sha1>lh6od7qakhdpsv8ilyuuq4d2u8r6gm0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ssysma</title>
+    <ns>0</ns>
+    <id>516</id>
+    <revision>
+      <id>2987</id>
+      <parentid>2822</parentid>
+      <timestamp>2016-12-09T09:49:47Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="391">{{#invoke:Charactercodes| doInfobox | SS }} 
+
+{{Side|Selay Ssysma|2|c|N}}
+{{ma|Unnamed Selay}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | SS }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | SS}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Red]][[Category:Purple]][[Category:White]]</text>
+      <sha1>pgbbhekpwk04r8ae58590upzcc4stmk</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Sec.Ofc. Worf</title>
+    <ns>0</ns>
+    <id>518</id>
+    <revision>
+      <id>6171</id>
+      <parentid>5471</parentid>
+      <timestamp>2017-05-23T14:07:27Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>removing tbd...</comment>
+      <text xml:space="preserve" bytes="421">{{#invoke:Charactercodes| doInfobox | SWF }} 
+
+{{Side|Security Officer Worf|3|c|N}}
+{{ma|Worf}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | SWF }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | SWF}}
+[[Category:Tier 3]]
+[[Category:TNG Crew]]
+[[Category:Red]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Klingon]]</text>
+      <sha1>hvvo4pona3m4tubfq6vte9p49ymit8i</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>DaiMon Tarr</title>
+    <ns>0</ns>
+    <id>519</id>
+    <revision>
+      <id>5065</id>
+      <parentid>2990</parentid>
+      <timestamp>2017-03-30T10:13:37Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="422">{{#invoke:Charactercodes| doInfobox | TA }} 
+
+{{Side|[[Ferengi]] DaiMon Tarr|2|c|N}}
+{{ma|Tarr}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TA }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TA}}
+[[Category:Tier 2]]
+[[Category:TNG Crew]]
+[[Category:Yellow]]
+[[Category:Orange]]
+[[Category:White]]
+[[Category:Ferengi]]</text>
+      <sha1>td885yata0oc56ygt6fwkbi6006zon1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Terrhea</title>
+    <ns>0</ns>
+    <id>521</id>
+    <revision>
+      <id>7728</id>
+      <parentid>3677</parentid>
+      <timestamp>2017-12-26T23:03:28Z</timestamp>
+      <contributor>
+        <username>DiseaseMaster7</username>
+        <id>26986425</id>
+      </contributor>
+      <minor/>
+      <text xml:space="preserve" bytes="1054">{{#invoke:Charactercodes| doInfobox | TH }}
+
+{{Side|Romulan Terrhea|2|c|N}}
+{{ma|Unnamed Romulan military personnel (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TH }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TH}}
+==Trivia==
+[SPOILER ALERT]
+*During the &quot;Adrift&quot; event, Terrhea is first encountered while apparently fleeing for his life. It is later revealed that he was using a derelict ship from the Battle of Cheron as a means to ignite a war between the Alliance and the Romulan Star Empire.
+*When he realizes that his plot has failed, Terrhea destroys his own ship, presumably perishing in the process.
+*Although it is not certain, it is possible that Terrhea was negatively affected by the derelict ship, which contained a psychoactive gas that would cause Romulans to go into a blind rage upon inhalation.
+[[Category:Tier 2]]
+[[Category:TNG Crew]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:White]]
+[[Category:Romulan]]</text>
+      <sha1>pqgzoeulw1g26ru4ch6hp78er3as5wg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>T'Korta</title>
+    <ns>0</ns>
+    <id>522</id>
+    <revision>
+      <id>3688</id>
+      <parentid>2993</parentid>
+      <timestamp>2017-01-11T08:57:03Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="452">{{#invoke:Charactercodes| doInfobox | TK }} 
+
+{{Side|Klingon T\'Korta|1|c|N}}
+{{ma|Unnamed Klingon military personnel (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TK }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TK}}[[Category:Tier 1]][[Category:TNG Crew]][[Category:White]][[Category:Purple]][[Category:Red]]
+[[Category:Klingon]]</text>
+      <sha1>gua37qdqjjrbrzajjzgelhcfnp0umht</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>T'Nesseam</title>
+    <ns>0</ns>
+    <id>524</id>
+    <revision>
+      <id>2995</id>
+      <parentid>2832</parentid>
+      <timestamp>2016-12-09T09:50:16Z</timestamp>
+      <contributor>
+        <username>Hfelton2BOT</username>
+        <id>28629682</id>
+      </contributor>
+      <minor/>
+      <comment>/* Section heading */add color categories</comment>
+      <text xml:space="preserve" bytes="400">{{#invoke:Charactercodes| doInfobox | TN }} 
+
+{{Side|Alien T\'Nesseam|2|c|N}}
+{{ma|Unnamed humanoids}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TN }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TN}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:White]][[Category:Blue]][[Category:Orange]]</text>
+      <sha1>knbfc8dgmtb99bjgirq3r2xp45cseus</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Veidek</title>
+    <ns>0</ns>
+    <id>529</id>
+    <revision>
+      <id>3679</id>
+      <parentid>3000</parentid>
+      <timestamp>2017-01-11T08:36:43Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="452">{{#invoke:Charactercodes| doInfobox | VE }} 
+
+{{Side|Romulan Veidek|2|c|N}}
+{{ma|Unnamed Romulan military personnel (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | VE }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | VE}}[[Category:Tier 2]][[Category:TNG Crew]][[Category:Purple]][[Category:Orange]][[Category:Blue]]
+[[Category:Romulan]]</text>
+      <sha1>50g06k594198flaetlxv3omhtbpt3g4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>W'Sira</title>
+    <ns>0</ns>
+    <id>530</id>
+    <revision>
+      <id>3686</id>
+      <parentid>3001</parentid>
+      <timestamp>2017-01-11T08:55:48Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="460">{{#invoke:Charactercodes| doInfobox | WS }} 
+
+{{Side|Klingon Female W\'Sira|1|c|N}}
+{{ma|Unnamed Klingon military personnel (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | WS }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | WS}}
+[[Category:Tier 1]][[Category:TNG Crew]][[Category:Yellow]][[Category:Red]][[Category:Orange]]
+[[Category:Klingon]]</text>
+      <sha1>mmhlae1uk32502a3y261n6hns9jiw3x</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>T'Vralai</title>
+    <ns>0</ns>
+    <id>528</id>
+    <revision>
+      <id>3678</id>
+      <parentid>3630</parentid>
+      <timestamp>2017-01-11T08:36:11Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="457">{{#invoke:Charactercodes| doInfobox | TV }} 
+
+{{Side|Romulan T\'Vralai|1|c|N}}
+{{ma|Unnamed Romulan military personnel (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TV }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TV}}
+[[Category:Tier 1]]
+[[Category:Orange]]
+[[Category:Blue]]
+[[Category:Red]]
+[[Category:TNG Crew]]
+[[Category:Romulan]]</text>
+      <sha1>p6b0irp5c41nckjg00pzp842971693t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>D'Aindal</title>
+    <ns>0</ns>
+    <id>487</id>
+    <revision>
+      <id>5558</id>
+      <parentid>5557</parentid>
+      <timestamp>2017-04-11T17:29:47Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>typo</comment>
+      <text xml:space="preserve" bytes="461">{{#invoke:Charactercodes| doInfobox | DA }} 
+
+{{Side|Romulan D\'Aindal|1|c|N}}
+{{ma|Unnamed Romulan military personnel (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | DA }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | DA}}
+[[Category:Tier 1]]
+[[Category:White]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Romulan]]
+[[Category:TNG Crew]]</text>
+      <sha1>si0uzyb92giqt75ae6qpzp854yzqo93</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Wesley</title>
+    <ns>0</ns>
+    <id>1088</id>
+    <revision>
+      <id>8699</id>
+      <parentid>6877</parentid>
+      <timestamp>2018-06-07T10:45:18Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="430">{{#invoke:Charactercodes| doInfobox | WC }} 
+
+{{Side|Cadet Wesley Crusher|3|c|N}}
+{{ma|Wesley Crusher}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | WC }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | WC}}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:White]]
+[[Category:Blue]]
+[[Category:Yellow]]
+[[Category:Federation]]</text>
+      <sha1>n3f4447f241y8tod3mhcux2kgd05es3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dir.sfM. Beverly Crusher</title>
+    <ns>0</ns>
+    <id>1190</id>
+    <revision>
+      <id>7192</id>
+      <parentid>7129</parentid>
+      <timestamp>2017-09-01T11:48:37Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="459">{{#invoke:Charactercodes| doInfobox | DBC }} 
+
+{{Side|Director of StarFleet-Medical Beverly Crusher|3|c|N}}
+{{ma|Beverly Crusher}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | DBC }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | DBC}}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:Purple]]
+[[Category:Yellow]]
+[[Category:Red]]
+[[Category:Federation]]</text>
+      <sha1>s5q53z7tj5vsktz4sprm6t43swjm0mg</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Captain Troi</title>
+    <ns>0</ns>
+    <id>1203</id>
+    <revision>
+      <id>7253</id>
+      <parentid>7216</parentid>
+      <timestamp>2017-09-15T10:18:24Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="431">{{#invoke:Charactercodes| doInfobox | CDT }} 
+
+{{Side|Captain Deanna Troi|3|c|N}}
+{{ma|Deanna Troi}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | CDT }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | CDT}}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:Orange]]
+[[Category:White]]
+[[Category:Yellow]]
+[[Category:Federation]]</text>
+      <sha1>19dp9id0p1isnanyi8kqvk6m22e9gws</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Locutus</title>
+    <ns>0</ns>
+    <id>1260</id>
+    <revision>
+      <id>7635</id>
+      <parentid>7629</parentid>
+      <timestamp>2017-11-14T14:24:11Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="431">{{#invoke:Charactercodes| doInfobox | LOP }} 
+
+{{Side|Locutus of Borg (Picard)|3|c|N}}
+{{ma|Locutus of Borg}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | LOP }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | LOP}}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:White]]
+[[Category:Purple]]
+[[Category:Red]]
+[[Category:Borg]]</text>
+      <sha1>cecsyir4lzzxjh8d3n5c4wpnqbcin2k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Geordi La Forge</title>
+    <ns>0</ns>
+    <id>1276</id>
+    <revision>
+      <id>8094</id>
+      <parentid>7675</parentid>
+      <timestamp>2018-01-13T14:16:30Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="427">{{#invoke:Charactercodes| doInfobox | GLF }} 
+
+{{Side|Geordi La Forge|3|c|N}}
+{{ma|Geordi La Forge}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | GLF }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | GLF}}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:Blue]]
+[[Category:Yellow]]
+[[Category:Red]]
+[[Category:Federation]]</text>
+      <sha1>1a4yetc19zxvbrzcbp5w1sigj5p5cc7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Admiral Will Riker</title>
+    <ns>0</ns>
+    <id>1347</id>
+    <revision>
+      <id>8134</id>
+      <parentid>8126</parentid>
+      <timestamp>2018-01-23T21:15:48Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="434">{{#invoke:Charactercodes| doInfobox | AWR }} 
+
+{{Side|Admiral Will Riker|3|c|N}}
+{{ma|William T. Riker}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | AWR }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | AWR}}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:Purple]]
+[[Category:Blue]]
+[[Category:Orange]]
+[[Category:Federation]]</text>
+      <sha1>p3uvjsfybnr992po2u7ojrw0pcypc21</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Thira zh'Zoarhi</title>
+    <ns>0</ns>
+    <id>1440</id>
+    <revision>
+      <id>8574</id>
+      <parentid>8562</parentid>
+      <timestamp>2018-05-23T05:40:35Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="451">{{#invoke:Charactercodes| doInfobox | TZZ }} 
+
+{{Side|Andorian Thira zh'Zoarhi|3|c|N}}
+{{ma|Unnamed Andorians (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TZZ }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TZZ }}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:Alien]]
+[[Category:Red]]
+[[Category:Purple]]
+[[Category:Yellow]]</text>
+      <sha1>dqbjmwlk36npspe6psa2hze5fl94kxv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Melea</title>
+    <ns>0</ns>
+    <id>1436</id>
+    <revision>
+      <id>8564</id>
+      <parentid>8563</parentid>
+      <timestamp>2018-05-22T15:52:24Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="435">{{#invoke:Charactercodes| doInfobox | MEL }} 
+
+{{Side|Melea Veau|3|c|N}}
+{{ma|Unnamed individuals (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | MEL }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | MEL}}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:Veau]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Red]]</text>
+      <sha1>8sn8uxwhanqr73ryfucqhih0kdcmzpl</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Bruna</title>
+    <ns>0</ns>
+    <id>1442</id>
+    <revision>
+      <id>8569</id>
+      <parentid>8507</parentid>
+      <timestamp>2018-05-22T17:18:01Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="438">{{#invoke:Charactercodes| doInfobox | BRU }} 
+
+{{Side|Bruna Veau|3|c|N}}
+{{ma|Unnamed individuals (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | BRU }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | BRU }}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:Veau]]
+[[Category:Red]]
+[[Category:Orange]]
+[[Category:Purple]]</text>
+      <sha1>6lypmo9yjxte3kc7391ywazgf9y2ef7</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Navzar</title>
+    <ns>0</ns>
+    <id>1443</id>
+    <revision>
+      <id>8570</id>
+      <parentid>8508</parentid>
+      <timestamp>2018-05-22T17:21:13Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="440">{{#invoke:Charactercodes| doInfobox | NVZ }} 
+
+{{Side|Navzar Veau|2|c|N}}
+{{ma|Unnamed individuals (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | NVZ }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | NVZ }}
+[[Category:TNG Crew]]
+[[Category:Tier 2]]
+[[Category:Veau]]
+[[Category:Blue]]
+[[Category:Orange]]
+[[Category:Yellow]]</text>
+      <sha1>rhmmrxd5db26micmh1crnq3f9o5gho5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ty'levi</title>
+    <ns>0</ns>
+    <id>1448</id>
+    <revision>
+      <id>8586</id>
+      <parentid>8519</parentid>
+      <timestamp>2018-05-23T09:47:07Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="444">{{#invoke:Charactercodes| doInfobox | TYL}} 
+
+{{Side|Ty'levi Tychon|3|c|N}}
+{{ma|Unnamed humanoids (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TYL }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TYL }}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:Tychon]]
+[[Category:Purple]]
+[[Category:Orange]]
+[[Category:Yellow]]</text>
+      <sha1>2wsu5fblqs25nsi4paqr1lw2ubd47c4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ty'moro</title>
+    <ns>0</ns>
+    <id>1449</id>
+    <revision>
+      <id>8589</id>
+      <parentid>8520</parentid>
+      <timestamp>2018-05-23T10:22:41Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="442">{{#invoke:Charactercodes| doInfobox | TYM}} 
+
+{{Side|Ty'moro Tychon|3|c|N}}
+{{ma|Unnamed humanoids (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TYM }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TYM }}
+[[Category:TNG Crew]]
+[[Category:Tier 3]]
+[[Category:Tychon]]
+[[Category:Blue]]
+[[Category:Orange]]
+[[Category:Yellow]]</text>
+      <sha1>g51j9jwd2p88r6jni0k9t6s74qn2ebo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ty'dollus</title>
+    <ns>0</ns>
+    <id>1447</id>
+    <revision>
+      <id>8591</id>
+      <parentid>8518</parentid>
+      <timestamp>2018-05-23T10:29:40Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="440">{{#invoke:Charactercodes| doInfobox | TYD}} 
+
+{{Side|Ty'dollus Tychon|2|c|N}}
+{{ma|Unnamed humanoids (24th century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CharacterLists|main| skills | TYD }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Charactercodes | expand | TYD }}
+[[Category:TNG Crew]]
+[[Category:Tier 2]]
+[[Category:Tychon]]
+[[Category:Red]]
+[[Category:Blue]]
+[[Category:White]]</text>
+      <sha1>81tlgxnqe2jn5epimkswbs3nghdqato</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>First Enterprise</title>
+    <ns>0</ns>
+    <id>292</id>
+    <revision>
+      <id>9056</id>
+      <parentid>3726</parentid>
+      <timestamp>2018-09-17T00:15:48Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="1247">&lt;!--  to-be-new version
+{{#invoke:Starshipcodes | doInfobox | EN}}
+--&gt;
+{{infobox starship
+ | name         =
+ | image        = Enterprise.png
+ | imagecaption = USS Enterprise NCC-1701
+ | aliases      = Enterprise, Old Girl
+ | govt         = Federation
+ | series       = TOS
+ | xnpc    = yes
+ | sdate   = 2015-01-01
+ | aenu    = Ally
+ | tier       = 1
+ | igpt       = enterprise-1
+ | lmin       = 1
+ | lmax       = 3
+ | limit      = 50
+ | hp         = 100
+ | nup            = 10
+ | skill1 = Phaser Beam
+ | color1 = Orange
+ | cost1  = 7
+ | desc1  = Does 63 damage and adds 1 counter of 5 turns which recharge 10 shield points when used up.
+ | skill2 = Quantum Torpedo Launcher
+ | color2 = Yellow
+ | cost2  = 12
+ | desc2  = Does 125 damage and paralyzes the enemy for 1 turn
+ | skill3 = Reconnaissance Plan
+ | color3 = Blue
+ | cost3  = 9
+ | desc3  = Converts 5 blue gems in an attack.  Each one does 12 damage per turn.
+ | ar    = +4
+ | ag    = +4
+ | aw    = +3
+ | crewamt = 0,
+ | crmin = 0,
+ | crmax = 4,
+ | crtyp = 'any',
+ | weaponamt = 0,
+ | wpmin = 0,
+ | wpmax = 4,
+ | wptyp = 'federation',
+}}
+
+==tbd...==
+* go check at [[Original Enterprise]] also...
+
+
+
+&lt;!--  to-be-new version
+
+
+{{#invoke:Starshipcodes | expand | EN}}
+
+--&gt;
+[[Category:TOS Ship]]</text>
+      <sha1>nz7gng95nybtgqd6a6ktz5ojxmxgkvd</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Enterprise B</title>
+    <ns>0</ns>
+    <id>773</id>
+    <revision>
+      <id>9039</id>
+      <parentid>8896</parentid>
+      <timestamp>2018-09-16T23:21:54Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="2822">{{#invoke:Starshipcodes| doInfobox | ENB }} 
+
+{{Side| Enterprise Rebuild B |3.5|s|O}}
+{{ma|USS Enterprise (NCC-1701-B)}}
+
+== Evolutions ==
+
+{{#invoke:CommonLists | main | s | EVLnks | ENB }}
+
+== Trivia ==
+* none
+* EXPIRED, AFAICT: There currently is a bug with the blue Special of this ship, where even a single counter can do upwards of 4,000 damage, easily obliterating even Tier 3 ships the same level as the NCC-1701-B.
+** Personal experience:
+*** with o0b1p0, bug did not activate...
+*** with o+b1-3p+, bug was active - levels 50 thru 96
+*** with o5b5p5, bug reverted/is-different/doesnt-work - level 96
+** Since I am no longer encountering the bug, I cannot tell if the code has changed (unlikely, since the apk did not update) - or whether it is due to some subtle interactions of gameplay...
+** The bug manifested independently of how-many-counters were left on the board (iirc) and indeed caused damage in chunks of mult-thousand-points (up to a high in the 4k-area...  Like many bugs, it is probably due to an out-of-range error in the code...
+*** original-input had o3b1p3 ? (according to data-below) which i was unable to confirm...
+*** i was encountering the bug with b1, b2, and b3 (various o/p-levels) iirc...
+** after selling and repurchasing the ship, i thought the bug was gone - but it has started to manifest again...
+*** it (bug) was not manifesting at o1b2p1, but when i noticed that an opponent was using it - i tracked their upgrades as o5b3p4...  upgrading my ship to o1b3p1 activated it again...
+*** i am unclear on whether the bug manifests due to time-held (ie: multiple weeks?) or some other combination of factors...  and again, the amount of damage is typically in the high-3k to mid-4k points...  however, i did have it negated by an opponent who neutralized all special-gems, iirc...
+*** at this point, i will again upgrade the ship thru the lvl-96 series - but for now it (the bug) is manifesting at lvl-51 and o1-2b3p1...  and even as a lvl-51 ship, it is killing most any lvl-91+ ships that i encounter...  my baseline is up at lvl-96 again due to other-ships being at lvl-96...
+*** still manifesting at 2o3b4p at lvl-80 and lvl-90, never higher than 4.7K even when multiple-blue expirations...  thought i mightve noticed lower (only in 3k-area) blasts as i upgraded o (to 2) when p was also at 2 - so am wondering if there is something about the 'difference' btwn o and p levels involved...  whatever...
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | ENB }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | ENB}}
+
+{{Starships Navbox}}
+[[Category:TOS Ship]]
+[[Category:Tier 3]]
+[[Category:Tier 3.5]]
+[[Category:Orange]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Federation]]</text>
+      <sha1>b93thof609wvcqcgxgrjpxuuvvrjhg2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Original Enterprise</title>
+    <ns>0</ns>
+    <id>910</id>
+    <revision>
+      <id>9040</id>
+      <parentid>7500</parentid>
+      <timestamp>2018-09-16T23:25:04Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="534">{{#invoke:Starshipcodes| doInfobox | EN }} 
+
+{{Side|TOS Enterprise|1|s|O}}
+{{ma|USS Enterprise (NCC-1701)}}
+
+== Evolutions ==
+
+{{#invoke:CommonLists | main | s | EVLnks | EN }}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | EN }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | EN}}
+
+{{Starships Navbox}}
+[[Category:Tier 1]]
+[[Category:TOS Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>eiq4n47dqm13onnlkoe3p7cpmf80iyw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Enterprise A</title>
+    <ns>0</ns>
+    <id>911</id>
+    <revision>
+      <id>9049</id>
+      <parentid>7493</parentid>
+      <timestamp>2018-09-17T00:06:22Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="546">{{#invoke:Starshipcodes| doInfobox | ENA }} 
+
+{{Side|Enterprise Rebuild A|2|s|O}}
+{{ma|USS Enterprise (NCC-1701-A)}}
+
+== Evolutions ==
+
+{{#invoke:CommonLists | main | s | EVLnks | ENA }}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | ENA }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | ENA}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TOS Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>aavsjliql9pdfgss4ffr2wdlr5ypwjc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Reliant</title>
+    <ns>0</ns>
+    <id>913</id>
+    <revision>
+      <id>7492</id>
+      <parentid>5488</parentid>
+      <timestamp>2017-11-07T09:44:07Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="451">{{#invoke:Starshipcodes| doInfobox | REL }} 
+
+{{Side|USS Reliant|3|s|O}}
+{{ma|USS Reliant}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | REL }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | REL}}
+
+{{Starships Navbox}}
+[[Category:Tier 3]]
+[[Category:TOS Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>qndgkvrrxz1p36rkya1r0me4wamn24o</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Horizon</title>
+    <ns>0</ns>
+    <id>915</id>
+    <revision>
+      <id>7489</id>
+      <parentid>6174</parentid>
+      <timestamp>2017-11-07T09:42:12Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="475">{{#invoke:Starshipcodes| doInfobox | HOZ }} 
+
+{{Side|USS Horizon|3.5|s|O}}
+{{ma|USS Horizon}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | HOZ }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | HOZ}}
+
+{{Starships Navbox}}
+[[Category:TOS Ship]]
+[[Category:Tier 3]]
+[[Category:Tier 3.5]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>q8hof5dllw6blharaxocv7cjfqn5j6u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Early bop</title>
+    <ns>0</ns>
+    <id>921</id>
+    <revision>
+      <id>7496</id>
+      <parentid>5477</parentid>
+      <timestamp>2017-11-07T09:47:49Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="478">{{#invoke:Starshipcodes| doInfobox | KEB }} 
+
+{{Side|Klingon Early BoP|2|s|O}}
+{{ma|Klingon Bird-of-Prey (22nd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | KEB }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | KEB}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TOS Ship]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Klingon]]</text>
+      <sha1>r167v9268mymhtdfzj6pqvs3fqhyv4s</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>K'Tinga</title>
+    <ns>0</ns>
+    <id>922</id>
+    <revision>
+      <id>7494</id>
+      <parentid>5481</parentid>
+      <timestamp>2017-11-07T09:46:45Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="456">{{#invoke:Starshipcodes| doInfobox | KKT }} 
+
+{{Side|Klingon K't'inga|2|s|O}}
+{{ma|K't'inga class}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | KKT }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | KKT}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TOS Ship]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Klingon]]</text>
+      <sha1>ns0mrrp8r8bdedyskwpg0hfr52b1rx9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Raptor</title>
+    <ns>0</ns>
+    <id>923</id>
+    <revision>
+      <id>7495</id>
+      <parentid>5487</parentid>
+      <timestamp>2017-11-07T09:47:16Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="451">{{#invoke:Starshipcodes| doInfobox | KR }} 
+
+{{Side|Klingon Raptor|2|s|O}}
+{{ma|Raptor class}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | KR }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | KR}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TOS Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Klingon]]</text>
+      <sha1>hqssewwq47nskjzfhue4o341mygem9a</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>V-7</title>
+    <ns>0</ns>
+    <id>926</id>
+    <revision>
+      <id>7691</id>
+      <parentid>7498</parentid>
+      <timestamp>2017-12-11T16:25:54Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="636">{{#invoke:Starshipcodes| doInfobox | RV7 }} 
+
+{{Side|Romulan Valdore V-7|2|s|O}}
+{{ma|Valdore type}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | RV7 }}
+
+==Trivia==
+
+* unlike most tier-2 ships, at lvl-65 - BOTH crew/weapons increased to 4-items...
+* unlike most tier-2 ships, at lvl-85 - BOTH crew/weapons increased to 5-items...
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | RV7}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TOS Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Romulan]]</text>
+      <sha1>4sr98wukrfjpdmw9g4olt0ffmhmji6f</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>D-7</title>
+    <ns>0</ns>
+    <id>927</id>
+    <revision>
+      <id>7497</id>
+      <parentid>5476</parentid>
+      <timestamp>2017-11-07T09:48:22Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="453">{{#invoke:Starshipcodes| doInfobox | RD7 }} 
+
+{{Side|Romulan D-7 Cruiser|2|s|O}}
+{{ma|D7 class}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | RD7 }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | RD7}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TOS Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Romulan]]</text>
+      <sha1>nvb8oqe7643aptuuxhcjh7xxmwnkgb8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Klingon bop</title>
+    <ns>0</ns>
+    <id>930</id>
+    <revision>
+      <id>9088</id>
+      <parentid>7499</parentid>
+      <timestamp>2018-09-19T04:13:31Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="684">{{#invoke:Starshipcodes| doInfobox | KBP }} 
+
+{{Side|Klingon BoP|1|s|O}}
+{{ma|Klingon Bird-of-Prey}}
+
+==Trivis==
+* BUG: Using the Photon-Torpedo when your own HP is low, will cause infinite-damage to the opponent alongside killing yourself...  Since the opponent dies FIRST, you will win the battle with this suicidal move...
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | KBP }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | KBP}}
+
+{{Starships Navbox}}
+[[Category:Tier 1]]
+[[Category:TOS Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Klingon]]</text>
+      <sha1>lq6xz6pnzyzpsw1jfvovguj1q6rc04c</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Romulan bop</title>
+    <ns>0</ns>
+    <id>931</id>
+    <revision>
+      <id>7501</id>
+      <parentid>5489</parentid>
+      <timestamp>2017-11-07T09:51:26Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="472">{{#invoke:Starshipcodes| doInfobox | RBP }} 
+
+{{Side|Romulan BoP|1|s|O}}
+{{ma|Romulan Bird-of-Prey (23rd century)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | RBP }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | RBP}}
+
+{{Starships Navbox}}
+[[Category:Tier 1]]
+[[Category:TOS Ship]]
+[[Category:Orange]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Romulan]]</text>
+      <sha1>9q6w70l0ez1pncy10ibwzid3nei12qh</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Timur</title>
+    <ns>0</ns>
+    <id>1032</id>
+    <revision>
+      <id>7783</id>
+      <parentid>7490</parentid>
+      <timestamp>2017-12-29T14:01:27Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="741">{{#invoke:Starshipcodes| doInfobox | VTM }} 
+
+{{Side|Timur|3.5|s|O}}
+{{ma|Ti'Mur}}
+
+==Trivia==
+* currently, there are only 5 slots for crew - rather than the normal amount of 8.
+* also, there are no weapons available (other than general-laser) because TOS only recognizes Federation, Klingon, and Romulan ships.  this is similar to the ferengi ship on TNG-side...
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | VTM }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | VTM}}
+
+{{Starships Navbox}}
+[[Category:TOS Ship]]
+[[Category:Tier 3]]
+[[Category:Tier 3.5]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Orange]]
+[[Category:Vulcan]]</text>
+      <sha1>te4wy8ednjy43kvlxtbyeq3lqqkhqfm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>D-5</title>
+    <ns>0</ns>
+    <id>1135</id>
+    <revision>
+      <id>7491</id>
+      <parentid>6857</parentid>
+      <timestamp>2017-11-07T09:43:29Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="462">{{#invoke:Starshipcodes| doInfobox | KD5 }} 
+
+{{Side|The Klingon ship, [[D-5]],|3|s|O}}
+{{ma|D5 class}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | SGZ }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | KD5}}
+
+{{Starships Navbox}}
+[[Category:TOS Ship]]
+[[Category:Tier 3]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Orange]]
+[[Category:Klingon]]</text>
+      <sha1>9ibe5mv2kw81i5le3rrfoldf7qu4ryo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Dkyr</title>
+    <ns>0</ns>
+    <id>1303</id>
+    <revision>
+      <id>8578</id>
+      <parentid>8091</parentid>
+      <timestamp>2018-05-23T06:00:18Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="451">{{#invoke:Starshipcodes| doInfobox | VDK }} 
+
+{{Side|Timur|3|s|O}}
+{{ma|D'kyr}}
+
+==Trivia==
+* 
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | VDK }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | VDK }}
+
+{{Starships Navbox}}
+[[Category:TOS Ship]]
+[[Category:Tier 3]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Orange]]
+[[Category:Vulcan]]</text>
+      <sha1>f5t8p3eda8gboj1z1rn7l0kqzbh2yn3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Antares</title>
+    <ns>0</ns>
+    <id>1467</id>
+    <revision>
+      <id>8696</id>
+      <parentid>8689</parentid>
+      <timestamp>2018-06-07T10:36:40Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="457">{{#invoke:Starshipcodes| doInfobox | ANT }} 
+
+{{Side|Antares|3|s|O}}
+{{ma|Antares}}
+
+==Trivia==
+*
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | ANT }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | ANT }}
+
+{{Starships Navbox}}
+[[Category:TOS Ship]]
+[[Category:Tier 3]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Yellow]]
+[[Category:Federation]]</text>
+      <sha1>cjumihwl88dd64ngh84q7jvrm2drn8m</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Borg Cube</title>
+    <ns>0</ns>
+    <id>750</id>
+    <revision>
+      <id>3797</id>
+      <parentid>3789</parentid>
+      <timestamp>2017-01-18T14:51:31Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="253">{{Disambig}}
+Borg Cube refers to the [[SN|Next Generation]] [[:Category:TNG Ship|starships]] :
+* [[:Category:Tier 2| T-2 ]] [[SN/BC1| Borg Cube Class 1]] 
+* [[:Category:Tier 3| T-3 ]] [[SN/BC2| Borg Cube Class 2]]
+[[Category:Borg]]
+[[Category:TNG Ship]]</text>
+      <sha1>hyfgtinec9228kqj8pkwrrnzynlv2ct</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Stargazer</title>
+    <ns>0</ns>
+    <id>912</id>
+    <revision>
+      <id>7487</id>
+      <parentid>7476</parentid>
+      <timestamp>2017-11-07T09:38:50Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="453">{{#invoke:Starshipcodes| doInfobox |SGZ}} 
+
+{{Side|USS Stargazer|3|s|N}}
+{{ma|USS Stargazer}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | SGZ }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | SGZ}}
+
+{{Starships Navbox}}
+[[Category:Tier 3]]
+[[Category:TNG Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>207kgn0a2v0anh1735cl8mldf6v8wgw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Tsiolkovsky</title>
+    <ns>0</ns>
+    <id>914</id>
+    <revision>
+      <id>9085</id>
+      <parentid>7504</parentid>
+      <timestamp>2018-09-19T04:05:43Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="527">{{#invoke:Starshipcodes| doInfobox | TS }} 
+
+{{Side|The SS Tsiolkovsky|3|s|N}}
+{{ma|SS Tsiolkovsky}}
+
+== Evolutions ==
+
+{{#invoke:CommonLists | main | s | EVLnks | TS }}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | TS }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | TS}}
+
+{{Starships Navbox}}
+[[Category:Tier 3]]
+[[Category:TNG Ship]]
+[[Category:Orange]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Federation]]</text>
+      <sha1>kbcw24v6jk2y430y9jh6t29h4js15vm</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cube 1</title>
+    <ns>0</ns>
+    <id>916</id>
+    <revision>
+      <id>7506</id>
+      <parentid>5473</parentid>
+      <timestamp>2017-11-07T09:54:19Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="449">{{#invoke:Starshipcodes| doInfobox | BC1 }} 
+
+{{Side|Borg Cube Class 1|2|s|N}}
+{{ma|Borg cube}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | BC1 }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | BC1}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TNG Ship]]
+[[Category:Orange]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Borg]]</text>
+      <sha1>i7h00xvclhxlqtw30d6uuva9jy3ci1r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Cube 2</title>
+    <ns>0</ns>
+    <id>917</id>
+    <revision>
+      <id>7502</id>
+      <parentid>5474</parentid>
+      <timestamp>2017-11-07T09:51:58Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="451">{{#invoke:Starshipcodes| doInfobox | BC2 }} 
+
+{{Side|Borg Cube Class 2|3|s|N}}
+{{ma|Borg cube}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | BC2 }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | BC2}}
+
+{{Starships Navbox}}
+[[Category:Tier 3]]
+[[Category:TNG Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Borg]]</text>
+      <sha1>qkaa5agwx3zzzy9ngd8vmh7msuby2fc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Galor</title>
+    <ns>0</ns>
+    <id>918</id>
+    <revision>
+      <id>7508</id>
+      <parentid>5479</parentid>
+      <timestamp>2017-11-07T09:55:45Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="453">{{#invoke:Starshipcodes| doInfobox | CG }} 
+
+{{Side|Cardassian Galor|2|s|N}}
+{{ma|Galor class}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | CG }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | CG}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TNG Ship]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Cardassian]]</text>
+      <sha1>3i1ju3nx0xmq627x9o7q0pw6glscsjo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Marauder</title>
+    <ns>0</ns>
+    <id>919</id>
+    <revision>
+      <id>7509</id>
+      <parentid>6275</parentid>
+      <timestamp>2017-11-07T09:56:25Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="461">{{#invoke:Starshipcodes| doInfobox | FDM }} 
+
+{{Side|Ferengi D'Kora Marauder|2|s|N}}
+{{ma|D'Kora class}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | FDM }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | FDM}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TNG Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Ferengi]]</text>
+      <sha1>rfm0w0wvgddlqk8odn4nv4coadczty3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Negh'var</title>
+    <ns>0</ns>
+    <id>920</id>
+    <revision>
+      <id>7510</id>
+      <parentid>5484</parentid>
+      <timestamp>2017-11-07T09:57:00Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="458">{{#invoke:Starshipcodes| doInfobox | KNV }} 
+
+{{Side|Klingon Negh'Var|2|s|N}}
+{{ma|Negh'Var warship}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | KNV }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | KNV}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TNG Ship]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Klingon]]</text>
+      <sha1>gy7q2nyae2l4bg6x3blc2qgr0pngirc</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Scout</title>
+    <ns>0</ns>
+    <id>924</id>
+    <revision>
+      <id>7511</id>
+      <parentid>5490</parentid>
+      <timestamp>2017-11-07T09:57:34Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="454">{{#invoke:Starshipcodes| doInfobox | RS }} 
+
+{{Side|Romulan Scout|2|s|N}}
+{{ma|Romulan scout ship}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | RS }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | RS}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TNG Ship]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Romulan]]</text>
+      <sha1>92je8yphexjqptyeakwtplob47ukk8u</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>D'deridex</title>
+    <ns>0</ns>
+    <id>925</id>
+    <revision>
+      <id>7507</id>
+      <parentid>5475</parentid>
+      <timestamp>2017-11-07T09:55:08Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="460">{{#invoke:Starshipcodes| doInfobox | RDD }} 
+
+{{Side|Romulan D'deridex|2|s|N}}
+{{ma|D'deridex class}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | RDD }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | RDD}}
+
+{{Starships Navbox}}
+[[Category:Tier 2]]
+[[Category:TNG Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Romulan]]</text>
+      <sha1>m0fc2s7mwb6nissz5nsc2zykav6hp98</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Ship-Vor'Cha</title>
+    <ns>0</ns>
+    <id>928</id>
+    <revision>
+      <id>7516</id>
+      <parentid>7514</parentid>
+      <timestamp>2017-11-07T10:01:40Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="479">{{#invoke:Starshipcodes| doInfobox | KV }} 
+
+{{Side|The Klingon ship, [[Ship-Vor'Cha|Vor'Cha]],|1|s|N}}
+{{ma|Vor'cha class}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | KV }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | KV}}
+
+{{Starships Navbox}}
+[[Category:Tier 1]]
+[[Category:TNG Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Klingon]]</text>
+      <sha1>lkur6mutnxmbso0u3upyqarde68n3pu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Hideki</title>
+    <ns>0</ns>
+    <id>929</id>
+    <revision>
+      <id>7512</id>
+      <parentid>5480</parentid>
+      <timestamp>2017-11-07T09:58:28Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="455">{{#invoke:Starshipcodes| doInfobox | CH }} 
+
+{{Side|Cardassian Hideki|1|s|N}}
+{{ma|Hideki class}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | CH }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | CH}}
+
+{{Starships Navbox}}
+[[Category:Tier 1]]
+[[Category:TNG Ship]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Cardassian]]</text>
+      <sha1>4y8rpinzgziv2jd0ffdk7xf73wais0t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Next Enterprise</title>
+    <ns>0</ns>
+    <id>909</id>
+    <revision>
+      <id>7513</id>
+      <parentid>5485</parentid>
+      <timestamp>2017-11-07T09:59:02Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>another try</comment>
+      <text xml:space="preserve" bytes="470">{{#invoke:Starshipcodes| doInfobox | END }} 
+
+{{Side|TNG Enterprise|1|s|N}}
+{{ma|USS Enterprise (NCC-1701-D)}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | END }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | END}}
+
+{{Starships Navbox}}
+[[Category:TNG Ship]]
+[[Category:Tier 1]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Blue]]
+[[Category:Federation]]</text>
+      <sha1>obxjoc265nlp10tksm5fy1z2vuci1y0</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Valiant</title>
+    <ns>0</ns>
+    <id>1033</id>
+    <revision>
+      <id>8698</id>
+      <parentid>7505</parentid>
+      <timestamp>2018-06-07T10:44:02Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="479">{{#invoke:Starshipcodes| doInfobox | VA }} 
+
+{{Side|Valiant|3|s|N}}
+{{ma|USS Valiant (NCC-74210)}}
+
+==Trivia==
+* tbd...
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | VA }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | VA}}
+
+{{Starships Navbox}}
+[[Category:Tier 3]]
+[[Category:TNG Ship]]
+[[Category:Purple]]
+[[Category:Yellow]]
+[[Category:Orange]]
+[[Category:Federation]]</text>
+      <sha1>klos1ifem1qr8b2bcjxmvrro1klgia5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Renegade</title>
+    <ns>0</ns>
+    <id>1137</id>
+    <revision>
+      <id>8730</id>
+      <parentid>8713</parentid>
+      <timestamp>2018-06-16T02:21:16Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="887">{{#invoke:Starshipcodes| doInfobox | BR }} 
+
+{{Side|The Borg Assimliation ship, [[Renegade]],|3|s|N}}
+{{ma|Borg type 03}}
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | BR }}
+
+==Trivia==
+* Need to double-check the first-skill values because translations/inputs were added after i had already upgraded to 4-th version...  (could also check default-value 1-st version) ie - 4 and 5 should be ok, but 2 and 3 are only guesses...
+* Currently, the second skill is using negative numbers of damage in the description - i have not tried this ship to see what the skills are ACTUALLY doing yet...
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | BR}}
+
+{{Starships Navbox}}
+[[Category:TNG Ship]]
+[[Category:Tier 3]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Blue]]
+[[Category:Borg]]</text>
+      <sha1>ov0kq3tld72guv0h84otc23zsmicmz2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Valdore</title>
+    <ns>0</ns>
+    <id>1304</id>
+    <revision>
+      <id>8092</id>
+      <parentid>7741</parentid>
+      <timestamp>2018-01-13T14:14:21Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>Adding categories</comment>
+      <text xml:space="preserve" bytes="467">{{#invoke:Starshipcodes| doInfobox | RVD }} 
+
+{{Side|Valdore|3|s|N}}
+{{ma|Valdore (starship)}}
+
+==Trivia==
+*
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | RVD }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | RVD }}
+
+{{Starships Navbox}}
+[[Category:TNG Ship]]
+[[Category:Tier 3]]
+[[Category:Orange]]
+[[Category:Yellow]]
+[[Category:Purple]]
+[[Category:Romulan]]</text>
+      <sha1>lctgj9v8hzrtzg28asugxgcnk4bwhij</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Thunderchild</title>
+    <ns>0</ns>
+    <id>1468</id>
+    <revision>
+      <id>8703</id>
+      <parentid>8697</parentid>
+      <timestamp>2018-06-09T15:33:55Z</timestamp>
+      <contributor>
+        <username>Hfelton</username>
+        <id>27730799</id>
+      </contributor>
+      <comment>adding more data</comment>
+      <text xml:space="preserve" bytes="519">{{#invoke:Starshipcodes| doInfobox | THC }} 
+
+{{Side|Thunderchild|3|s|N}}
+{{ma|USS Thunderchild}}
+
+==Trivia==
+* orange upgrades 2-to-3 seem backwards to me...
+
+==Skills Tables/Updates ==
+
+{{#invoke:CommonLists | main | s | skills | THC }}
+
+==Section heading==
+
+Here is all the info i currently have stored in his data-file...
+
+{{#invoke:Starshipcodes | main | full | THC }}
+
+{{Starships Navbox}}
+[[Category:TNG Ship]]
+[[Category:Tier 3]]
+[[Category:Blue]]
+[[Category:Purple]]
+[[Category:Orange]]
+[[Category:Federation]]</text>
+      <sha1>8muufohfrhccewvwur9jg02szywn9or</sha1>
+    </revision>
+  </page>
+</mediawiki>

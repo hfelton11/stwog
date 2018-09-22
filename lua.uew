@@ -1,3 +1,49 @@
+/L19"MediaWiki" Nocase String Chars = ¦ File Extensions = WIKI
+/Line Comment = 
+/Block Comment On = <!--
+/Block Comment Off = -->
+/Delimiters = .:;/\? '"	!%&^*()-`
+/Marker Characters = "[]{}==<>" 
+/C1"Keywords" STYLE_KEYWORD
+br
+color
+div
+expand
+if ifeq ifexpr include includeonly
+len
+noinclude
+p pos
+span sub
+wp
+/C2"delimited text square"
+[]
+/C3"delimited text curly"
+{}
+/C4"delimited text html"
+<>
+/C5"headers"
+==
+/C6"urls"
+http https
+ftp
+mailto
+/C7"url ends"
+com
+org
+net
+pdf
+htm
+html
+php
+php3
+phtml
+/C8"Separators"
+[
+] ]]
+{
+}
+
+
 /L20"Lua" LUA_LANG Line Comment = -- Escape Char = \ String Chars = "' File Extensions = LUA BIN
 /TGBegin "Functions"
 /TGFindStr = "(?:local)?\s*?function\s+(.*?)\s*(\(.*?\))"
