@@ -6,8 +6,8 @@
 -- <pre>
 
 local p = {}
--- see: http://stackoverflow.com/questions/13964764/lua-how-to-avoid-circular-requires?noredirect=1&lq=1
---local cc = cc or require('Module:Charactercodes')
+local Mcc = Mcc or require('Module:Charactercodes')
+local Mss = Mss or require('Module:Starshipcodes')
 
 local comns = comns or require('Module:CommonCodes')
 local getargs = getargs or require('Dev:Arguments').getArgs
@@ -490,6 +490,20 @@ function p.main(frame)
 			out = utils.dumpTable(begtbl)
 			out = out..'\n\n'..utils.dumpTable(endtbl)
 		end
+    elseif (what=='dbgInfoBox') or (what=='InfoBox') then
+		local junk = 'beginning-InfoBox stuff...'
+		local fakeFrame = {}
+		local ok,retstr
+			fakeFrame[1]=glbls.sorc
+			fakeFrame[2]=tostring(how)
+			fakeFrame[3]=tostring(which)
+			fakeFrame[4]=tostring(value)  -- bad, cuz extra...
+		ok, retstr = comns.infoBoxes(fakeFrame)
+--		if ok then
+--			out = junk
+--		else
+			out = tostring(retstr)..tostring(ok)
+--		end
 	else
 --        out = "Hello, world! - doing..."..what..utils.dumpTable(glbls.data)
         out = "Hello, world! - for... "..tostring(sorc)..

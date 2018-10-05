@@ -14,6 +14,9 @@ local getargs = getargs or require('Dev:Arguments').getArgs
 local utils = utils or require('Module:Utilities')
 local glbls = glbls or require('Module:Globals')
 local blnks = blnks or require('Module:BlankCommons')
+--local Mcc = Mcc or require('Module:Charactercodes')
+--  circular reasoning, cuz starships use commons...  doh !!!
+--local Mss = Mss or require('Module:Starshipcodes')
 
 glbls.sorc = 'x'
 glbls.typenameS = 'Module:Starshipcodes/'
@@ -29,6 +32,9 @@ glbls.character = 'crewch'
 glbls.starship = 'starsh'
 glbls.dumpGLBL = 'TEST-dumpGLBL'
 glbls.useMixedCaseKeys = false
+--
+--glbls.debug = true
+--glbls.debug = false
 
 function p.hello()
     return 'Hello, world!'
@@ -136,6 +142,20 @@ local function isGoodSkill(k,sknum)
     retval = true
     return retval
 end
+local function isGoodInfoBoxCmd(cmd)
+	local retval = false
+	local k,v
+	local goodCmds = { 	'mkInfobox', 'mkMiniInfobox', 'mkLevelInfobox',
+						'doInfobox', 'doMiniInfobox', 'doLevelInfobox',
+						}
+	for _,v in ipairs(goodCmds) do
+		if cmd == v then
+			retval = true
+		end
+	end
+	return retval
+end
+
 
 function mkOKitems(sorc)
     local items = {},chkr
@@ -667,7 +687,6 @@ end
 function p._main(frame)
     -- this cleans up outside (or INside) calls for args
     local a
-    local one,chkpairs
     a = utils.tableShallowCopy(getargs(frame))
     if #a == 0 then return false end
     glbls.args = a
@@ -753,6 +772,67 @@ function p.main(frame)
     end
     return retval
 end
+
+function p._infoBoxes(frame)
+    local retval_F = 'invalid call to Commoncodes-infoBoxes: '
+	local retval_T = 'Commoncodes-infoBoxes ok so far: '
+    local a
+    local retval = ''
+    if not p._main(frame) then
+        retval = retval_F..'zero arguments passed'
+        return retval
+    end
+    a = glbls.args
+    local sorc = a[1]
+    local what = a[2]
+    local mKey = a[3]
+	local retOK = false
+    if p.passGLBLsorc(frame) then
+        retval = retval_T..'sorc = >>'..sorc..'<<'
+    else
+        retval = retval_F..'invalid sorc-value >>'..sorc..'<<'
+        return false,retval  -- early...
+    end
+	if isGoodInfoBoxCmd(what) then
+        retval = retval..', cmd = >>'..what..'<<'
+    else
+        retval = retval_F..'invalid command >>'..tostring(what)..'<<'
+        return false,retval  -- early...
+    end
+    if not loadDataNow() then
+		retval = retval_F..'cannot loadData...'
+		return false,retval  -- early...
+	else
+		if not isGoodKey(mKey) then
+			retval = retval_F..'invalid key >>'..tostring(mKey)..'<<'
+			return false,retval  -- early...
+		else
+			-- at this point everything __should__ be ok...
+			if #a > 3 then
+				retval = retval_F..'too many args...'
+				return false,retval  -- early...
+			else
+				retval = retval..', key = >>'..mKey..'<<'
+				retOK = true
+			end
+		end
+	end
+	return retOK,retval
+end
+
+function p.infoBoxes(frame)
+	local ok,retstr
+	ok, retstr = p._infoBoxes(frame)
+	if not ok or glbls.debug then
+		if retstr then
+			return retstr
+		else
+			return 'no retstring?'
+		end
+	end
+	return 'ok...'
+end
+
 
 
 return p

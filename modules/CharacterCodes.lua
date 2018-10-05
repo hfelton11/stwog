@@ -6,9 +6,9 @@
 -- <pre>
 
 local p = {}
-local getargs = require('Dev:Arguments').getArgs
-local utils = require('Module:Utilities')
-local glbls = require('Module:Globals')
+local getargs = getargs or require('Dev:Arguments').getArgs
+local utils = utils or require('Module:Utilities')
+local glbls = glbls or require('Module:Globals')
 
 -- this was only for checking 'key' for all-caps...
 glbls.skipchks = false
