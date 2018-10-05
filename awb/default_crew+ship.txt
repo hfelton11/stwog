@@ -1,3 +1,5 @@
+{{#invoke:Charactercodes| doInfobox | ##txtKey## }} 
+
 {{Side| ##txtName## | ##numTier## | ##txtCorS## | ##txtNorO## }}
 {{ma| ##txtMemAlpha## }}
 
@@ -26,3 +28,10 @@ Here is all the info i currently have stored in the data-file...
  | #default = none
 }}
 
+[[Category:##catCSON##]]
+{{#ifeq: ##numTier### | 3.5 | [[Category:Tier 3]] | }}
+[[Category:Tier ##numTier##]]
+[[Category:##catColor1##]]
+[[Category:##catColor2##]]
+[[Category:##catColor3##]]
+[[Category:##catGovt##]]

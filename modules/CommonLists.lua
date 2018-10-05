@@ -131,7 +131,8 @@ local function loadCrewOne(k,chosens)
         if not chosens then chosens = possibles end
         if type(chosens)~='table' then chosens = possibles end
 		for _,c in ipairs(chosens) do
-		    fakeFrame[2] = c
+			-- fakeFrame[2] = c
+			fakeFrame[2] = glbls.sorc
 		    chkreadargs = cc.expand(fakeFrame)
 		    if isGoodExpansion(chkreadargs) then
 	            rtbl[c] = tostring(chkreadargs)
@@ -227,6 +228,60 @@ local function mkIndex_N(n)
 		fakeFrame[5] = tostring(n)
 		retval = comns.main(fakeFrame)
     return retval
+end
+local function getFullKey(k)
+	local fakeFrame = {}
+	local retval
+		fakeFrame[1] = glbls.sorc
+		fakeFrame[2] = k
+		retval = comns.getFullKey(fakeFrame)
+end
+local function getItemfromKey(k,item)
+	local fakeFrame = {}
+	local retval
+		fakeFrame[1] = glbls.sorc
+		fakeFrame[2] = k
+		fakeFrame[3] = tostring(item)
+		retval = comns.getItemfromKey(fakeFrame)
+    return retval
+end
+
+
+local function mkEvolutionLinks(k)
+-- local function mkRow(k,cols)
+    local retstr
+--    local crew = loadCrewOne(k)
+    local rettbl = {}
+--        crew.key = k
+        -- icky manual cache of minimal items...
+        rettbl.tier = getItemfromKey(k,'tier')
+        rettbl.series = getItemfromKey(k,'series')
+        --
+	    retstr = '[['..string.upper(glbls.sorc)
+        if rettbl.series == 'TNG' then
+        	retstr = retstr..'N'
+        elseif rettbl.series == 'TOS' then
+        	retstr = retstr..'O'
+        else
+        	retstr = retstr..'-unk'
+        end
+       	rettbl.pt1 = retstr
+        rettbl.pt3 = string.upper(k)..']]'
+        retstr = ''
+        retstr = retstr..'<p> Tier-1-max = '
+		retstr = retstr.. rettbl.pt1 .. '/L50/' .. rettbl.pt3.. ' </p>'
+		if rettbl.tier == 2 then
+	        retstr = retstr..'<p> Tier-2-max = '
+			retstr = retstr.. rettbl.pt1 .. '/L95/' .. rettbl.pt3.. ' </p>'
+		end
+		if rettbl.tier == 3 or rettbl.tier == 3.5 then
+	        retstr = retstr..'<p> Tier-2-max = '
+			retstr = retstr.. rettbl.pt1 .. '/L96/' .. rettbl.pt3.. ' </p>'
+	        retstr = retstr..'<p> Tier-3-max = '
+			retstr = retstr.. rettbl.pt1 .. '/L165/' .. rettbl.pt3.. ' </p>'
+		end
+		return retstr
+        	
 end
 
 
@@ -459,6 +514,8 @@ function p.main(frame)
     -- subtle, the captures (if worked) will return TRUEs
 	if what=='index' then
 		out = mkIndex()
+	elseif what=='EVLnks' then
+		out = mkEvolutionLinks(how)
 	elseif capNi then
 		if capNi == '0' then
 			out = mkIndex0()

@@ -1,92 +1,92 @@
-Ameh , 						AH,  	,C,O, 2 , Hooded Romulan Ameh , Unnamed Romulan military personnel (23rd century) 
-Admiral Kirk , 				AK,  	,C,O, 2 , Admiral James T. Kirk , James T. Kirk 
-Armus , 					AM,  	,C,N, 2 , Malevolent Entity Armus , Armus 
-Admiral Uhura , 			ANU, 	,C,O,3.5, Admiral Nyota Uhura , Nyota Uhura 
-Admiral Picard , 			AP,  	,C,N, 2 , Admiral Jean-Luc Picard , Jean-Luc Picard 
-Arden , 					AR,  	,C,O, 2 , Human Arden , Unnamed Humans (23rd century) 
-Ambassador Spock , 			ASP, 	,C,O, 2 , Ambassador Spock , Spock 
-Lt. Alvaro , 				AV,  	,C,O,1  , Redshirt Lt. Alvaro, Unnamed Humans (23rd century) 
-Admiral Will Riker , 		AWR, 	,C,N,  3, Admiral Will Riker , William T. Riker 
-Borg 1 of 4 , 				B1,  	,C,N, 2 , Borg 1 of 4 , Unnamed Borg 
-Borg 2 of 4 , 				B2,  	,C,N, 2 , Borg 2 of 4 , Unnamed Borg 
-Borg 3 of 4 , 				B3,  	,C,N,  3, Borg 3 of 4 , Unnamed Borg 
-Borg 4 of 4 , 				B4,  	,C,N,  3, Borg 4 of 4 , Unnamed Borg 
-Batahr , 					BA,  	,C,O,1  , , , Klingon Batahr	Batahr	Batahr	tos-pnj-9-cigarrito-1	1	TOS	110
-Badar , 					BD,  	,C,N, 2 , , , Antican Badar	Badar	Badar	tng-antican-2	2	TNG	255
+Ameh , 						AH,  	,C,O, 2 , Hooded Romulan Ameh , Unnamed Romulan military personnel (23rd century) 		, White 	, Yellow 	, Red 		, TOS Crew , Romulan 
+Admiral Kirk , 				AK,  	,C,O, 2 , Admiral James T. Kirk , James T. Kirk 										, Red 		, Yellow 	, Purple 	, TOS Crew , Federation 
+Armus , 					AM,  	,C,N, 2 , Malevolent Entity Armus , Armus 												, Red 		, Yellow 	, Purple 	, TNG Crew , Alien 
+Admiral Uhura , 			ANU, 	,C,O,3.5, Admiral Nyota Uhura , Nyota Uhura 											, Red 		, Yellow 	, Blue 		, TOS Crew , Federation 
+Admiral Picard , 			AP,  	,C,N, 2 , Admiral Jean-Luc Picard , Jean-Luc Picard 									, Blue 		, Purple 	, Orange 	, TNG Crew , Federation 
+Arden , 					AR,  	,C,O, 2 , Human Arden , Unnamed Humans (23rd century) 									, White 	, Blue 		, Orange 	, TOS Crew , GovtTBD 
+Ambassador Spock , 			ASP, 	,C,O, 2 , Ambassador Spock , Spock 														, White 	, Yellow 	, Orange 	, TOS Crew , Vulcan 
+Lt. Alvaro , 				AV,  	,C,O,1  , Redshirt Lt. Alvaro, Unnamed Humans (23rd century) 							, Purple 	, Orange 	, ColorsTBD , TOS Crew , Federation 
+Admiral Will Riker , 		AWR, 	,C,N,  3, Admiral Will Riker , William T. Riker 										, Purple 	, Blue 		, Orange 	, TNG Crew , Federation 
+Borg 1 of 4 , 				B1,  	,C,N, 2 , Borg 1 of 4 , Unnamed Borg 													, Blue 		, Purple 	, Orange 	, TNG Crew , Borg 
+Borg 2 of 4 , 				B2,  	,C,N, 2 , Borg 2 of 4 , Unnamed Borg 													, Red 		, Purple 	, Yellow 	, TNG Crew , Borg 
+Borg 3 of 4 , 				B3,  	,C,N,  3, Borg 3 of 4 , Unnamed Borg 													, Red 		, Purple 	, White 	, TNG Crew , Borg 
+Borg 4 of 4 , 				B4,  	,C,N,  3, Female Borg 4 of 4 , Unnamed Borg 											, Blue 		, Purple 	, Red 		, TNG Crew , Borg 
+Batahr , 					BA,  	,C,O,1  , Klingon Batahr , Unnamed Klingon military personnel (23rd century) 			, White 	, Blue 		, ColorsTBD , TOS Crew , Klingon 
+Badar , 					BD,  	,C,N, 2 , Canine Antican Badar , Badar N'D'D 											, Yellow 	, Red 		, Blue 		, TNG Crew , Alien 
 Dr. Beverly Crusher , 		BE,  	,C,N,1  , , , Beverly Crusher	Dr. Beverly Crusher	Beverly, Doctor Crusher, Beverly Crusher	beverly-1	1	TNG	70
 Bruna , 					BRU, 	,C,N,  3, , , Bruna	Bruna	Bruna, Veau	veau_bruna-3	3	TNG	898
-Commodore Anton , 			CA,  	,C,O, 2 , , , Commodore Anton	Commodore Anton	Bad Boss, Anton	tos-pnj-3-boss-2	2	TOS	245
-Caped Alvaro , 				CAV, 	,C,O, 2 , , , Caped Alvaro	Caped Alvaro	Caped Alvaro	tos-human-alvaro-2	2	TOS	200
+Commodore Anton , 			CA,  	,C,O, 2 , Commodore Anton , Commodore 													, Red 		, White 	, Orange 	, TOS Crew , Federation 
+Caped Alvaro , 				CAV, 	,C,O, 2 , Caped Alvaro , Unnamed Humans (23rd century) 									, Yellow 	, Blue 		, Red 		, TOS Crew , GovtTBD 
 Cmdr. Beverly Crusher , 	CBC, 	,C,N, 2 , , , Cmdr. Beverly Picard	Cmdr. Beverly Crusher	Cmdr. Beverly Crusher	beverly-2	2	TNG	226
-Christopher Pike , 			CCP, 	,C,O,  3, , , Capt. Christopher Pike	Christopher Pike	Capt. Pike, Captain Christopher Pike	pike-3	3	TOS	785
+Christopher Pike , 			CCP, 	,C,O,  3, Captain Christopher Pike , Christopher Pike 									, Yellow 	, Blue 		, White 	, TOS Crew , Federation 
 Cmdr. Data , 				CDA, 	,C,N, 2 , , , Cmdr. Data	Cmdr. Data	Cmdr. Data	data-2	2	TNG	259
 Cmdr. Troi , 				CDR, 	,C,N, 2 , , , Cmdr. Deanna Troi	Cmdr. Troi	Troi, Cmdr. Deanna Troi	troi-2	2	TNG	260
 Captain Troi , 				CDT, 	,C,N,  3, , , Captain Deanna Troi	Captain Troi	Troi, Captain Deanna Troi	troi-3	3	TNG	823
-Cmdr. Sulu , 				CHS, 	,C,O, 2 , , , Cmdr. Hikaru Sulu	Cmdr. Sulu	Cmdr. Sulu	sulu-2	2	TOS	261
+Cmdr. Sulu , 				CHS, 	,C,O, 2 , Cmdr. Hikaru Sulu , Hikaru Sulu 												, Red 		, Yellow 	, White 	, TOS Crew , Federation 
 Cho'Ta , 					CHT, 	,C,N,1  , , , Klingon ChoTa	Cho'Ta	Cho’Ta	mordi-1	1	TNG	75
-Captain Kirk , 				CK,  	,C,O,1  , , , Captain Kirk	Captain Kirk	Capt. James T. Kirk, Captain James Tiberius Kirk	kirk-1	1	TOS	85
+Captain Kirk , 				CK,  	,C,O,1  , Captain James T. Kirk , James T. Kirk 										, Red 		, Yellow 	, Blue 		, TOS Crew , Federation 
 Cmdr. La Forge , 			CLF, 	,C,N, 2 , , , Cmdr. La Forge	Cmdr. La Forge	Cmdr. La Forge, Cmdr. Geordi La Forge	laforge-2	2	TNG	227
-Cmdr. McCoy , 				CLM, 	,C,O, 2 , , , Doctor Leonard McCoy	Cmdr. McCoy	Doctor Leonard McCoy	mccoy-2	2	TOS	281
-Cmdr. Scott , 				CMS, 	,C,O, 2 , , , Cmdr. Montgomery Scott	Cmdr. Scott	Cmdr. Scott	scott-2	2	TOS	234
-Cmdr. Uhura , 				CNU, 	,C,O, 2 , , , Cmdr. Nyota Uhura	Cmdr. Uhura	Cmdr. Uhura	uhura-2	2	TOS	200
+Cmdr. McCoy , 				CLM, 	,C,O, 2 , Cmdr. Leonard McCoy , Leonard McCoy 											, Blue 		, Purple 	, Orange 	, TOS Crew , Federation 
+Cmdr. Scott , 				CMS, 	,C,O, 2 , Cmdr. Montgomery Scott , Montgomery Scott 									, Yellow 	, White 	, Blue 		, TOS Crew , Federation 
+Cmdr. Uhura , 				CNU, 	,C,O, 2 , Cmdr. Nyota Uhura , Nyota Uhura 												, Purple 	, White 	, Blue 		, TOS Crew , Federation 
 Captain Picard , 			CP,  	,C,N,1  , , , Captain Picard	Captain Picard	Picard, Capt. Picard, Jean-Luc Picard, Jean-Luc	picard-1	1	TNG	85
-Cmdr. Chekov , 				CPC, 	,C,O,  3, , , Cmdr. Pavel Chekov	Cmdr. Chekov	Cmdr. Chekov	chekov-3	3	TOS	860
+Cmdr. Chekov , 				CPC, 	,C,O,  3, Cmdr. Pavel Chekov , Pavel Chekov 											, Blue 		, Purple 	, Yellow 	, TOS Crew , Federation 
 Cmdr. Riker , 				CR,  	,C,N,1  , , , Cmndr. Riker	Cmdr. Riker	Cmdr. Riker, William Riker, Riker	riker-1	1	TNG	75
 Counselor Troi , 			CT,  	,C,N,1  , , , Counselor Troi	Counselor Troi	Troi, Deanna Troi, Counselor Troi	troi-1	1	TNG	75
 Cmdr. Worf , 				CWF, 	,C,N, 2 , , , Cmdr. Worf	Cmdr. Worf	Cmdr. Worf	worf-2	2	TNG	255
 Captain Riker , 			CWR, 	,C,N, 2 , , , Captain William Riker	Captain Riker	Capt. William Riker	riker-2	2	TNG	294
 D'Aindal , 					DA,  	,C,N,1  , , , Romulan DAindal	D'Aindal	D’Aindal	anita-1	1	TNG	60
 Dir.sfM. Beverly Crusher , 	DBC, 	,C,N,  3, , , Dir.sfM. Beverly Crusher	Dir.sfM. Beverly Crusher	Director StarFleet-Medical Crusher	beverly-3	3	TNG	783
-Decanus , 					DE,  	,C,O,1  , , , Masked Decanus	Decanus	Decanus	tos-pnj-4-mask-1	1	TOS	80
-Dir.sfM. Leonard McCoy , 	DLM, 	,C,O,  3, , , Dir.sfM. Leonard McCoy	Dir.sfM. Leonard McCoy	McCoy, Director StarFleet-Medical Leonard McCoy	mccoy-3	3	TOS	823
-Doctor McCoy , 				DM,  	,C,O,1  , , , Doctor McCoy	Doctor McCoy	Doctor McCoy, Bones	mccoy-1	1	TOS	60
+Decanus , 					DE,  	,C,O,1  , Masked Human Decanus , Unnamed Humans (23rd century) 							, Blue 		, White 	, Orange 	, TOS Crew , GovtTBD 
+Dir.sfM. Leonard McCoy , 	DLM, 	,C,O,  3, Director of StarFleet-Medical Leonard McCoy , Leonard McCoy 					, Purple 	, Blue 		, White 	, TOS Crew , Federation 
+Doctor McCoy , 				DM,  	,C,O,1  , Doctor Leonard McCoy , Leonard McCoy 											, Blue 		, Purple 	, Orange 	, TOS Crew , Federation 
 Ekoc Dale , 				EK,  	,C,N, 2 , , , Cardassian Ekoc Dale	Ekoc Dale	Ekoc	clayton-1-2	2	TNG	265
-Eng.Capt. Scott , 			EMS, 	,C,O,  3, , , Eng. Captain Scott	Eng.Capt. Scott	Scotty, Engineering Captain Scott	scott-3	3	TOS	823
+Eng.Capt. Scott , 			EMS, 	,C,O,  3, Captain Montgomery Scott, Montgomery Scott 									, White 	, Red 		, Yellow 	, TOS Crew , Federation 
 Geordi La Forge , 			GLF, 	,C,N,  3, , , Geordi La Forge	Geordi La Forge	Cmdr. Geordi La Forge	geordi-3	3	TNG	820
 Pretorian , 				HE,  	,C,N,1  , , , Pretorian Helmet	Pretorian	Pretorian, Helmet	helmet-1	1	TNG	68
-Horta , 					HO,  	,C,O, 2 , , , Alien Horta	Horta	Horta, Alien Horta	horta-2	2	TOS	302
-Lt. Sulu , 					HS,  	,C,O,1  , , , Hikaru Sulu	Lt. Sulu	Sulu, Mr. Sulu, H. Sulu	sulu-1	1	TOS	58
-Hvaid , 					HV,  	,C,O,1  , , , Romulan HVaid	Hvaid	HVaid	tos-pnj-10-alberto-1	1	TOS	85
-Inagh , 					IN,  	,C,O, 2 , , , Klingon Inagh	Inagh	Inagh	tos-pnj-7-ivan-2	2	TOS	270
+Horta , 					HO,  	,C,O, 2 , Alien Horta , Mother 															, Purple 	, Blue 		, Orange 	, TOS Crew , Alien 
+Lt. Sulu , 					HS,  	,C,O,1  , Lt. Hikaru Sulu , Hikaru Sulu 												, White 	, Purple 	, Orange 	, TOS Crew , Federation 
+Hvaid , 					HV,  	,C,O,1  , Romulan HVaid , Unnamed Romulan military personnel (23rd century) 			, Red 		, Purple 	, Orange 	, TOS Crew , Romulan 
+Inagh , 					IN,  	,C,O, 2 , Klingon Inagh	, Unnamed Klingon military personnel (23rd century) 			, Yellow 	, Blue 		, Purple 	, TOS Crew , Klingon 
 Kulga , 					KG,  	,C,N, 2 , , , Klingon Kulga	Kulga	Kulga	fonsi-1-2	2	TNG	265
-Khan , 						KN,  	,C,O,  3, , , Khan Noonien	Khan	Khan, Khan Noonien, Khan Noonien Singh	khan-3	3	TOS	813
+Khan , 						KN,  	,C,O,  3, Khan Noonien Singh , Khan Noonien Singh 										, White 	, Yellow 	, Blue 		, TOS Crew , GovtTBD 
 Kovor Dale , 				KO,  	,C,N,1  , , , Cardassian Kovor	Kovor Dale	Kovor, Kovor Dale	borja-1	1	TNG	80
-Cmdr. Kor , 				KOR, 	,C,O,  3, , , Cmdr. Kor	Cmdr. Kor	Commander Kor	kor-3	3	TOS	860
+Cmdr. Kor , 				KOR, 	,C,O,  3, Klingon Commander Kor , Kor 													, Orange 	, Red 		, Purple 	, TOS Crew , Klingon 
 Kurn , 						KU,  	,C,N,  3, , , Klingon Kurn	Kurn	Kurn	klingon-kurn-3	3	TNG	813
-Kaylar , 					KY,  	,C,O,3.5, , , Kaylar	Kaylar	Rigellan warrior Kaylar	kaylar-3.5	3.5	TOS	889
+Kaylar , 					KY,  	,C,O,3.5, Rigellan warrior Kaylar, Kalar 												, Red 		, Blue 		, Purple 	, TOS Crew , Alien 
 L'berch , 					LB,  	,C,N, 2 , , , Alien Lberch	L'berch	L'berch	flopez-1-2	2	TNG	241
 Lt. Data , 					LD,  	,C,N,1  , , , Lt. Data	Lt. Data	Data, Lt. Data	data-1	1	TNG	72
-Legatus , 					LE,  	,C,O, 2 , , , Masked Legatus	Legatus	Legatus	tos-pnj-12-masked-boss-2	2	TOS	246
+Legatus , 					LE,  	,C,O, 2 , Masked Human Legatus , Unnamed Humans (23rd century) 							, Red 		, Yellow 	, Orange 	, TOS Crew , GovtTBD 
 Lt. La Forge , 				LF,  	,C,N,1  , , , Lt. La Forge	Lt. La Forge	La Forge, Geordi La Forge	laforge-1	1	TNG	75
 Locutus , 					LOP, 	,C,N,  3, , , Locutus	Locutus	Locutus of Borg, Borg Picard	locutus-3	3	TNG	936
-Lt. Chekov , 				LPC, 	,C,O, 2 , , , Lt. Pavel Chekov	Lt. Chekov	Lt. Chekov	chekov-2	2	TOS	259
+Lt. Chekov , 				LPC, 	,C,O, 2 , Lt. Pavel Chekov , Pavel Chekov 												, Purple 	, Yellow 	, White 	, TOS Crew , Federation 
 Melea , 					MEL, 	,C,N,  3, , , Melea	Melea	Melea, Veau	veau_melea-3	3	TNG	783
-Mister Scott , 				MS,  	,C,O,1  , , , Mister Scott	Mister Scott	Montgomery Scott, Mr. Scott, Scotty	scott-1	1	TOS	68
+Mister Scott , 				MS,  	,C,O,1  , Engineer Montgomery Scott, Montgomery Scott 									, Red 		, White 	, Purple 	, TOS Crew , Federation 
 Nuella , 					NL,  	,C,N,1  , , , Alien Nuella	Nuella	Nuella	mhigueras-1	1	TNG	75
 Nodroz , 					NO,  	,C,N,1  , , , Alien Nodroz	Nodroz	Nodroz	nodroz-1	1	TNG	80
-Lt. Uhura , 				NU,  	,C,O,1  , , , Nyota Uhura	Lt. Uhura	N. Uhura, Uhura, Lt. Uhura	uhura-1	1	TOS	60
+Lt. Uhura , 				NU,  	,C,O,1  , Lt. Nyota Uhura , Nyota Uhura 												, Red 		, Orange 	, ColorsTBD , TOS Crew , Federation 
 Navzar , 					NVZ, 	,C,N, 2 , , , Navzar	Navzar	Navzar, Veau	veau_navzar-2	2	TNG	259
-Optio , 					OP,  	,C,O,1  , , , Masked Optio	Optio	Optio	tos-masked-2-1	1	TOS	75
-Ensign Chekov , 			PC,  	,C,O,1  , , , Pavel Chekov	Ensign Chekov	Chekov, P. Chekov, Mr. Chekov	chekov-1	1	TOS	58
+Optio , 					OP,  	,C,O,1  , Masked Human Optio, Unnamed Humans (23rd century) 							, Yellow 	, Orange 	, Red 		, TOS Crew , GovtTBD 
+Ensign Chekov , 			PC,  	,C,O,1  , Ensign Pavel Chekov , Pavel Chekov 											, Blue 		, Purple 	, ColorsTBD , TOS Crew , Federation 
 Prugue Sole , 				PG,  	,C,N,1  , , , Cardassian Prugue	Prugue Sole	Prugue, Prugue Sole	carlos-1	1	TNG	75
-Pilus Prior , 				PP,  	,C,O,1  , , , Masked Pilus Prior	Pilus Prior	Pilus Prior	tos-masked-3-1	1	TOS	78
+Pilus Prior , 				PP,  	,C,O,1  , Masked Human Pilus Prior , Unnamed Humans (23rd century) 						, Red 		, Blue 		, Purple 	, TOS Crew , GovtTBD 
 Q , 						QQ,  	,C,N,  3, , , Q of The Q	Q	Q, Q of The Q	q-3	3	TNG	813
-Ruk , 						RU,  	,C,O, 2 , , , Android Ruk	Ruk	Ruk, Android Ruk	ruk-2	2	TOS	321
-S'Fangudl , 				SF,  	,C,O,  3, , , Gorn SFangudl	S'Fangudl	S'Fangudl, Gorn SFangudl	tos-gorn-3	3	TOS	928
+Ruk , 						RU,  	,C,O, 2 , Android Ruk , Ruk 															, White 	, Purple 	, Orange 	, TOS Crew , GovtTBD 
+S'Fangudl , 				SF,  	,C,O,  3, Gorn S'Fangudl , Unnamed Gorn 												, Orange 	, Red 		, White 	, TOS Crew , Alien 
 Shogue Seltell , 			SG,  	,C,N,1  , , , Cardassian Shogue	Shogue Seltell	Shogue, Shogue Seltell	pablo-1	1	TNG	65
-Mister Spock , 				SP,  	,C,O,1  , , , Mister Spock	Mister Spock	Spock, Mr. Spock	spock-1	1	TOS	75
+Mister Spock , 				SP,  	,C,O,1  , Mister Spock, Spock 															, White 	, Yellow 	, Orange 	, TOS Crew , Vulcan 
 Ssysma , 					SS,  	,C,N, 2 , , , Selay Ssysma	Ssysma	Ssysma	tng-selay-2	2	TNG	268
-Salt Vampire , 				SV,  	,C,O, 2 , , , Alien Salt Vampire	Salt Vampire	Salt V., Salt Vampire	tos-m113-2	2	TOS	281
+Salt Vampire , 				SV,  	,C,O, 2 , Alien M-113 Salt Vampire, M-113 creature 										, Purple 	, Blue 		, Yellow 	, TOS Crew , Alien 
 Sec.Ofc. Worf , 			SWF, 	,C,N,  3, , , Sec.Ofc. Worf	Sec.Ofc. Worf	Security Officer Worf, Worf	worf-3	3	TNG	813
 DaiMon Tarr , 				TA,  	,C,N, 2 , , , Ferengi DaiMon Tarr	DaiMon Tarr	Tar, Tarr, Ferengi Tarr	tarr-2	2	TNG	303
-Tenva , 					TE,  	,C,O,  3, , , Entellan Tenva	Tenva	Tenva	entellan-tenva-3	3	TOS	813
+Tenva , 					TE,  	,C,O,  3, Entellan Tenva , Unnamed humanoids 											, Yellow 	, Red 		, Purple 	, TOS Crew , Entellan 
 Terrhea , 					TH,  	,C,N, 2 , , , Romulan Terrhea	Terrhea	Terrhea	romulan-antonio-2	2	TNG	227
 T'Korta , 					TK,  	,C,N,1  , , , Klingon TKorta	T'Korta	T’Korta	danimetal-1	1	TNG	80
-The Keeper , 				TK50,	,C,O,3.5, , , 	Talosian Keeper	The Keeper	The Keeper	talosian-keeper-3-3.5	3.5	TOS	813
+The Keeper , 				TK50,	,C,O,3.5, Talosian Keeper, The Keeper 													, Red 		, Purple 	, Orange 	, TOS Crew , Alien 
 T'Nesseam , 				TN,  	,C,N, 2 , , , Alien TNesseam	T'Nesseam	T’Nesseam	francis-1-2	2	TNG	270
-Tonak , 					TO,  	,C,O, 2 , , , Entellan Tonak	Tonak	Tonak	entellan-tonak-2	2	TOS	200
-Tolkir , 					TR,  	,C,O, 2 , , , Entellan Tolkir	Tolkir	Tolkir	entellan-tolkir-2	2	TOS	259
-Tataur , 					TT,  	,C,O,  3, , , Entellan Tataur	Tataur	Tataur	entellan-tataur-3	3	TOS	813
+Tonak , 					TO,  	,C,O, 2 , Entellan Tonak , Unnamed humanoids 											, Orange 	, White 	, Red 		, TOS Crew , Entellan 
+Tolkir , 					TR,  	,C,O, 2 , Entellan Tolkir , Unnamed humanoids 											, Yellow 	, Red 		, Purple 	, TOS Crew , Entellan 
+Tataur , 					TT,  	,C,O,  3, Entellan Tataur , Unnamed humanoids 											, Blue 		, Purple 	, Orange 	, TOS Crew , Entellan 
 T'Vralai , 					TV,  	,C,N,1  , , , Romulan TVralai	T'Vralai	T’Vralai	ivan-total-1	1	TNG	75
 Ty'dollus , 				TYD, 	,C,N, 2 , , , Tydollus	Ty'dollus	Ty'dollus	tychon_tydollus-2	2	TNG	259
 Ty'levi , 					TYL, 	,C,N,  3, , , Tylevi	Ty'levi	Ty'levi	tychon_tylevi-3	3	TNG	908

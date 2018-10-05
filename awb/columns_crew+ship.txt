@@ -1,1 +1,1 @@
-##pgName##,##txtKey##,##txtCorS##,##txtNorO##,##numTier##,##txtName##,##txtMemAlpha##
+##pgName##,##txtKey##,##txtCorS##,##txtNorO##,##numTier##,##txtName##,##txtMemAlpha##,##catColor1##,##catColor2##,##catColor3##,##catCSON##,##catGovt##
