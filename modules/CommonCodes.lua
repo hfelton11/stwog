@@ -26,6 +26,7 @@ glbls.keysLoaded = false
 glbls.keys = {}
 glbls.data = {}
 glbls.holdtbl = {}
+glbls.iboxtbl = {'ibox',}
 glbls.frame0 = nil
 glbls.args = {'junk',}
 glbls.character = 'crewch'
@@ -124,6 +125,40 @@ local function isGoodKey(k)
     end
 --    found = #glbls.keys
     return found
+end
+local function isGoodTier(t)
+	local retval = false
+	if tostring(t) == '1' then retval=true end
+	if tostring(t) == '2' then retval=true end
+	if tostring(t) == '3' then retval=true end
+--	if tostring(t) == '3.5' then retval=true end
+	return retval
+end
+local function isGoodEvolution(inT,inEv)
+    local retval = false
+    -- stupid string issues...
+    local sT = tostring(inT)
+    local sEv = tostring(inEv)
+    local nT = utils.toNum(sT)
+    local nEv = utils.toNum(sEv)
+    -- tier is currently tbd...  (1,2,3) not 3.5 ?!?!
+	if isGoodTier(nT) then
+		if nEv == 0 then retval = true end
+		-- 1 and 2 here...
+		if nT < 3 then
+			if nEv == 10 then retval = true end
+		end
+		-- 2 and 3 here...
+		if nT > 1 then
+			if nEv == 15 then retval = true end
+		end
+		-- 3-only here...
+		if nT == 3 then
+			if nEv == 3 then retval = true end
+			if nEv == 9 then retval = true end
+		end
+	end
+    return retval
 end
 local function isGoodSkill(k,sknum)
     local retval = false
@@ -365,6 +400,13 @@ local function chooseSK(key,sknum,item,skupg)
     return retstr
 end
 
+local function createInfoBoxCall(k,ev)
+	local retstr='createInfoBoxCall: '
+	retstr = retstr..tostring(k)..tostring(ev)
+	retstr_QQ_09 = '{{Infobox character2 |image = Q of The Q.png |name = Q |series = TNG |limit = 165 |tier = 3 |lmin = 40 |ag = +13 |ar = +12 |aw = +11 |hp = 1877 |gorder = ROPWYB |currentlevel = 96 |skillschosen = 5r3p1o |dv1 = 52 |dv2 = 49 |dv3 = 38 |dv4 = 15 |dv5 = 14 |dv6 = 13 }}'
+	return retstr
+end
+
 local function createSkillsValues(tbl)
     -- this function returns the skill1 thru desc3 section of Infoboxes...
     local retStr = ''
@@ -441,6 +483,11 @@ end
 local function dumpArgs()
     local retstr='glbls.args='
     retstr = retstr..utils.dumpTable(glbls.args)
+    return retstr
+end
+local function dumpIBox()
+    local retstr='glbls.iboxtbl='
+    retstr = retstr..utils.dumpTable(glbls.iboxtbl)
     return retstr
 end
 local function loadDataNow()
@@ -786,6 +833,7 @@ function p._infoBoxes(frame)
     local sorc = a[1]
     local what = a[2]
     local mKey = a[3]
+    local theEvo = a[4]
 	local retOK = false
     if p.passGLBLsorc(frame) then
         retval = retval_T..'sorc = >>'..sorc..'<<'
@@ -808,7 +856,7 @@ function p._infoBoxes(frame)
 			return false,retval  -- early...
 		else
 			-- at this point everything __should__ be ok...
-			if #a > 3 then
+			if #a > 4 then
 				retval = retval_F..'too many args...'
 				return false,retval  -- early...
 			else
@@ -816,12 +864,37 @@ function p._infoBoxes(frame)
 				retOK = true
 			end
 		end
+		if retOK == true then
+			local theLevel='START'
+			--local mTier='tbd'
+			local mTier,tier
+				tier = getItemfromKey(mKey,'tier')
+				glbls.iboxtbl['key']=mKey
+				glbls.iboxtbl['tier']=tier
+				-- drop 3.5 to 3...
+				mTier = string.sub(tostring(tier),1,1)
+			if #a == 4 then
+				if not isGoodEvolution(mTier,theEvo) then
+					retval = retval_F..'invalid evo >>'
+					retval = retval..tostring(theEvo)..'<<'
+					retval = retval..' for tier-'
+					retval = retval..tostring(mTier)
+					return false,retval  -- early...
+				else
+					theLevel = tostring(theEvo)
+					--theEvo = '00'
+				end
+			end
+			retval = retval..', evol = >>'..tostring(theLevel)..'<<'
+			--tempOK,newLevel = mkEvolution(mKey,theEvo)
+		end
 	end
 	return retOK,retval
 end
 
 function p.infoBoxes(frame)
 	local ok,retstr
+	local prtCall=''
 	ok, retstr = p._infoBoxes(frame)
 	if not ok or glbls.debug then
 		if retstr then
@@ -830,7 +903,10 @@ function p.infoBoxes(frame)
 			return 'no retstring?'
 		end
 	end
-	return 'ok...'
+	prtCall=dumpArgs()
+--	prtCall=dumpIBox()
+--	prtCall=createInfoBoxCall()
+	return 'ok...'..prtCall
 end
 
 

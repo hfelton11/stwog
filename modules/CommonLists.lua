@@ -7,7 +7,9 @@
 
 local p = {}
 local Mcc = Mcc or require('Module:Charactercodes')
-local Mss = Mss or require('Module:Starshipcodes')
+local McL = McL or require('Module:CharacterLists')
+--local Mss = Mss or require('Module:Starshipcodes')
+--local MsL = MsL or require('Module:StarshipLists')
 
 local comns = comns or require('Module:CommonCodes')
 local getargs = getargs or require('Dev:Arguments').getArgs
@@ -105,6 +107,21 @@ local function addHeader(cols)
 end
 
 
+local function isValidEvol(val)
+	local retval=false
+	local nEv=utils.toNum(val,9999)
+	if utils.isBlank(val) then
+		retval = true
+	else
+		local possEV = {9999,3,9,10,15}
+		for _,v in pairs(possEV) do
+			if nEv == v then retval = true end
+		end
+	end
+	return retval
+end
+
+
 local function chkCrew(c)
     -- assume dummy-values, but put in valid ones if available...
     assert(type(c)=='table')
@@ -131,8 +148,7 @@ local function loadCrewOne(k,chosens)
         if not chosens then chosens = possibles end
         if type(chosens)~='table' then chosens = possibles end
 		for _,c in ipairs(chosens) do
-			-- fakeFrame[2] = c
-			fakeFrame[2] = glbls.sorc
+		    fakeFrame[2] = c
 		    chkreadargs = cc.expand(fakeFrame)
 		    if isGoodExpansion(chkreadargs) then
 	            rtbl[c] = tostring(chkreadargs)
@@ -228,60 +244,6 @@ local function mkIndex_N(n)
 		fakeFrame[5] = tostring(n)
 		retval = comns.main(fakeFrame)
     return retval
-end
-local function getFullKey(k)
-	local fakeFrame = {}
-	local retval
-		fakeFrame[1] = glbls.sorc
-		fakeFrame[2] = k
-		retval = comns.getFullKey(fakeFrame)
-end
-local function getItemfromKey(k,item)
-	local fakeFrame = {}
-	local retval
-		fakeFrame[1] = glbls.sorc
-		fakeFrame[2] = k
-		fakeFrame[3] = tostring(item)
-		retval = comns.getItemfromKey(fakeFrame)
-    return retval
-end
-
-
-local function mkEvolutionLinks(k)
--- local function mkRow(k,cols)
-    local retstr
---    local crew = loadCrewOne(k)
-    local rettbl = {}
---        crew.key = k
-        -- icky manual cache of minimal items...
-        rettbl.tier = getItemfromKey(k,'tier')
-        rettbl.series = getItemfromKey(k,'series')
-        --
-	    retstr = '[['..string.upper(glbls.sorc)
-        if rettbl.series == 'TNG' then
-        	retstr = retstr..'N'
-        elseif rettbl.series == 'TOS' then
-        	retstr = retstr..'O'
-        else
-        	retstr = retstr..'-unk'
-        end
-       	rettbl.pt1 = retstr
-        rettbl.pt3 = string.upper(k)..']]'
-        retstr = ''
-        retstr = retstr..'<p> Tier-1-max = '
-		retstr = retstr.. rettbl.pt1 .. '/L50/' .. rettbl.pt3.. ' </p>'
-		if rettbl.tier == 2 then
-	        retstr = retstr..'<p> Tier-2-max = '
-			retstr = retstr.. rettbl.pt1 .. '/L95/' .. rettbl.pt3.. ' </p>'
-		end
-		if rettbl.tier == 3 or rettbl.tier == 3.5 then
-	        retstr = retstr..'<p> Tier-2-max = '
-			retstr = retstr.. rettbl.pt1 .. '/L96/' .. rettbl.pt3.. ' </p>'
-	        retstr = retstr..'<p> Tier-3-max = '
-			retstr = retstr.. rettbl.pt1 .. '/L165/' .. rettbl.pt3.. ' </p>'
-		end
-		return retstr
-        	
 end
 
 
@@ -507,6 +469,7 @@ function p.main(frame)
     local how = a[3]
     local which = a[4]
     local value = a[5]
+    local dummy = a[6]
     local out
     local capNi,capNc
     capNi=string.match(what,'index(%d+)')
@@ -514,8 +477,6 @@ function p.main(frame)
     -- subtle, the captures (if worked) will return TRUEs
 	if what=='index' then
 		out = mkIndex()
-	elseif what=='EVLnks' then
-		out = mkEvolutionLinks(how)
 	elseif capNi then
 		if capNi == '0' then
 			out = mkIndex0()
@@ -548,19 +509,55 @@ function p.main(frame)
 			out = out..'\n\n'..utils.dumpTable(endtbl)
 		end
     elseif (what=='dbgInfoBox') or (what=='InfoBox') then
-		local junk = 'beginning-InfoBox stuff...'
+		local dbgstr = 'CommonLists-InfoBox:'
+		local junk = dbgstr..' FAIL: '
 		local fakeFrame = {}
 		local ok,retstr
+		local tempstr,mKey,mPassCmd
+		local mEV
+			mPassCmd = tostring(how)
+			mKey = tostring(which)
 			fakeFrame[1]=glbls.sorc
-			fakeFrame[2]=tostring(how)
-			fakeFrame[3]=tostring(which)
-			fakeFrame[4]=tostring(value)  -- bad, cuz extra...
-		ok, retstr = comns.infoBoxes(fakeFrame)
---		if ok then
---			out = junk
---		else
-			out = tostring(retstr)..tostring(ok)
---		end
+			fakeFrame[2]=mPassCmd
+			fakeFrame[3]=mKey
+			if utils.isBlank(value) then
+				fakeFrame[4]='00'
+				mEV=false
+			else
+				mEV=string.format("%02u",utils.toNum(value))
+			end
+			if utils.isNotBlank(dummy) then
+				retstr = junk..'too many arguments...'
+				return retstr
+			end
+			if not isValidEvol(value) then
+				retstr = junk..'bad LevelUP...>>'..tostring(value)..'<<'
+				return retstr
+			else
+				-- this runs thru default-start-level...
+				tempstr = comns.infoBoxes(fakeFrame)
+			end
+			ok = string.lower(string.sub(tempstr,1,2))
+			if not (ok == "ok") then
+				retstr = junk..tostring(tempstr)
+			else
+				retstr = dbgstr..'do the real call now...'..tempstr
+				-- by now i should know it will work...
+				fakeFrame = {}
+				if string.lower(glbls.sorc) == 'c' then
+					if mEV then
+						fakeFrame[1]='printUp'..mEV
+						fakeFrame[2]=mKey
+						retstr = McL.main(fakeFrame)
+					else
+						fakeFrame[1]=mKey
+						retstr = Mcc.mkLevelInfobox(fakeFrame)
+					end
+				end
+						--tempstr = comns.infoBoxes(fakeFrame)
+					--end
+			end
+	    out = tostring(retstr)
 	else
 --        out = "Hello, world! - doing..."..what..utils.dumpTable(glbls.data)
         out = "Hello, world! - for... "..tostring(sorc)..

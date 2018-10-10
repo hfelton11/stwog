@@ -473,7 +473,7 @@ return {
 	},
 	VDK = { -- lvl-96
 	    -- lvl-135 4120 rgw-79.70.69 c/w-7/6 136=2750 165=93375 sell=28800
-	    -- lvl-150 max-cw-8/5
+	    -- lvl-150 max-cw-8/6
 		name = '[[Dkyr]]',
 		aliases = 'Vulcan D\'kyr, Dkyr',
 		image = 'Dkyr.png',
@@ -573,6 +573,8 @@ return {
 	    },
 	},
 	RVD = { -- lvl-96
+		-- lvl-115 3975 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
+	    -- lvl-125 cw-6/5 max-cw=8/5
 		name = '[[Valdore]]',
 		aliases = 'Romulan Valdore',
 		image = 'Valdore.png',
@@ -776,6 +778,8 @@ return {
 	    },
 	},
 	BR = { -- lvl-96
+		-- lvl-115 3975 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
+	    -- lvl-125 cw-6/6 max-cw=8/8
 		name = '[[Renegade]]',
 		aliases = 'Borg Renegade',
 		--image = 'tng-borg-renegade.jpg',
@@ -878,6 +882,8 @@ return {
 	    },
 	},
 	VTM = { -- lvl-96
+		-- lvl-135 4120 rgw-79.70.69 c/w-7/7 136=2750 165=93375 sell=28800
+	    -- lvl-145 cw-7/8 ; lvl-150 max-cw=8/8
 		name = '[[Timur]]',
 		aliases = 'Vulcan Ti\'Mur, Timur',
 		image = 'Timur.png',
@@ -973,9 +979,9 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+            -- tbd... --
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
@@ -1040,6 +1046,7 @@ return {
 	    -- lvl-94 56.50.49 2795 95=1725 /
 	    -- lvl-95 57.50.49 2824 96=1750 c/w=4/4
 	    -- lvl-96 57.51.50 2853 97=1775 4/4 sell=17,100
+		-- lvl-115 3404 rgw-68.60.59 c/w-5/5 116=2250 165=143125 sell=22800
 	    -- lvl-126 rgw-74.66.64 3723 127=2525 6/6 165=117,000  sell=26,100
 	    -- lvl-134 78.70.68 3955 135=2725 6/6 sell=28,500
 	    -- lvl-135 79.70.69 3984 136=2750 7/7 sell=28,800
@@ -1258,6 +1265,8 @@ return {
 	    },
 	},
 	VA = { -- lvl-96
+		-- lvl-115 3518 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
+	    -- lvl-125 cw-6/6 max-cw=8/8
 		name = '[[Valiant]]',
 		aliases = 'Valiant, USS Valiant',
 		image = 'Valiant.png',
@@ -1361,6 +1370,8 @@ return {
 	SGZ = { -- lvl-96
         -- lvl-50 rgw-32.28.28 1518 cr2wp2 sell=3300 2o1y0b  51=490 upg=350c
         -- lvl-96 rgw-59.51.51 2852 cr4wp4 sell=17100 3o4y2b  97=1775 upg=950
+		-- lvl-115 3403 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
+	    -- lvl-125 cw-6/6 max-cw=8/8
 		name = '[[Stargazer]]',
 		aliases = 'USS Stargazer',
 		image = 'Stargazer.png',
@@ -1463,6 +1474,8 @@ return {
 	    },
 	},
 	REL = {-- lvl-96
+		-- lvl-115 3173 rgw-68.60.59 c/w-5/5 116=2250 165=143125 sell=22800
+	    -- lvl-125 cw-5/6; lvl-135 cw-6/6; max-cw=7/7
 		name = '[[Reliant]]',
 		aliases = 'USS Reliant',
 		image = 'Reliant.png',
@@ -1557,8 +1570,10 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr7 = { currentlevel = 125, crewamt = 5, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 6, weaponamt = 6, },
+		    cupgr9 = { currentlevel = 144, crewamt = 6, weaponamt = 7, },
+		    cupgr0 = { currentlevel = 155, crewamt = 7, weaponamt = 7, },
 	    },
 	},
     TS = { -- lvl-165
@@ -1667,6 +1682,8 @@ return {
         -- lvl-42 1330 27.24.23 43=165 44=375 upg=300 sell=900 1o1y0b cr2/wp2
         -- lvl-44 1390 28.25.24 45=255 50=2150 upg=350 sell=1500 1o1y1b nc
         -- lvl-50 1570 31.28.27 51=490 upg=350 sell=3300 nc
+		-- lvl-115 3520 rgw-68.60.59 c/w-5/5 116=2250 165=143125 sell=22800
+	    -- lvl-125 cw-6/6 max-cw=8/8
         name = '[[Horizon]]',
 		aliases = 'USS Horizon NCC-176',
 		image = 'Horizon.png',
@@ -1769,6 +1786,8 @@ return {
 	    },
 	},
 	BC2 = { -- lvl-96
+		-- lvl-115 3173 rgw-68.59.59 c/w-5/5 116=2250 165=143125 sell=22800
+	    -- lvl-125 cw-5/6 ; lvl-135 cw-6/6 ; max-cw=7/7
 		name = '[[Cube&nbsp;2]]',
 		aliases = 'Borg Cube Class 2',
 		image = 'Cube 2.png',
@@ -1863,8 +1882,10 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    -- tbd...
-		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
-		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    cupgr7 = { currentlevel = 125, crewamt = 5, weaponamt = 6, },
+		    cupgr8 = { currentlevel = 135, crewamt = 6, weaponamt = 6, },
+		    cupgr9 = { currentlevel = 144, crewamt = 6, weaponamt = 7, },
+		    cupgr0 = { currentlevel = 155, crewamt = 7, weaponamt = 7, },
 	    },
 	},
 	BC1 = { -- lvl-95
@@ -3347,6 +3368,8 @@ return {
 	    },
 	},
     ANT = { -- lvl-96
+		-- lvl-115 3520 rgw-68.60.59 c/w-5/5 116=2250 165=143125 sell=22800
+	    -- lvl-125 cw-6/5 max-cw=7/5
         name = '[[Antares]]',
 		aliases = 'Antares, (NCC-501) Antares',
 		image = 'antares.png',
@@ -3446,6 +3469,8 @@ return {
 	    },
 	},
     THC = { -- lvl-96
+		-- lvl-115 3180 rgw-68.60.58 c/w-5/5 116=2250 165=143125 sell=22800
+	    -- lvl-125 cw-6/6 max-cw=8/8
         name = '[[Thunderchild]]',
 		aliases = 'Thunderchild, USS Thunderchild',
 		image = 'thunderchild.png',
