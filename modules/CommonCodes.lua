@@ -411,10 +411,35 @@ local function chooseSK(key,sknum,item,skupg)
 end
 
 local function makeShipUpgradeVals(k,tblUp)
-	local item,rv,ok
+	local item,rv,needZero
 	local cr,wp
-	cr = -1
-	wp = -1
+	local LvlNm='currentlevel'
+	local nm='cupgr'
+	local curLvl = tonumber(glbls.iboxtbl[LvlNm])
+	local testLvl
+	--itS02 = {'crewamt','weaponamt',}
+	cr = tonumber(glbls.iboxtbl['crewamt'])
+	wp = tonumber(glbls.iboxtbl['weaponamt'])
+	needZero = false
+	for i=1,9 do
+		local nmi = nm..tostring(i)
+		if type(tblUp[nmi]) == 'table' then
+			testLvl = tonumber(tblUp[nmi][LvlNm])
+			-- just keep increasing until max...
+			if curLvl >= testLvl then
+				cr = tonumber(tblUp[nmi]['crewamt'])
+				wp = tonumber(tblUp[nmi]['weaponamt'])
+			end
+			if i==9 then needZero = true end
+		end
+	end
+	if needZero then
+		-- hack, since 0 gives max-vals anyways...
+		cr = tonumber(glbls.iboxtbl['crmax'])
+		wp = tonumber(glbls.iboxtbl['wpmax'])
+	end
+	glbls.iboxtbl['crewamt'] = cr
+	glbls.iboxtbl['weaponamt'] = wp
 	return cr,wp
 end
 local function makeSkillInfoboxVals(k,upgr)
@@ -513,6 +538,7 @@ local function mkInfoboxVars()
 			local tmpUP = getTablefromKey(k,'cargoUpgrades')
 			local upTbls = utils.JSONdecodeString2Table(tmpUP)
 			local crewLvl,weapLvl
+			--upTbls = utils.JSONdecodeString2Table(tmpUP)
 			glbls.iboxtbl['tbd'] = 'ship-specific'
 			if not loopInfoboxVars(k,itS00) then
 				ok = false
@@ -528,7 +554,7 @@ local function mkInfoboxVars()
 					glbls.iboxtbl[item] = rv
 				end
 			end
-				crewLvl,weapLvl = makeShipUpgradeVals(k,upTbls)
+			--	crewLvl,weapLvl = makeShipUpgradeVals(k,upTbls)
 		elseif glbls.sorc == 'c' then
 			local tmp = getTablefromKey(k,'datavalues')
 			local dvs = utils.JSONdecodeString2Table(tmp)
@@ -554,6 +580,23 @@ local function mkInfoboxVars()
 		else
 			glbls.iboxtbl['tbd'] = 'impossible'
 		end
+	-- fixup SPECIFIC level-values
+--[[
+		if glbls.iboxtbl['evol'] == 'START'
+			or glbls.iboxtbl['evol'] == '00' then
+			local dummy='dummy'
+		else
+			if glbls.sorc == 's' then
+			local crewLvl,weapLvl
+			local upTbls=glbls.data[k]['cargoUpgrades']
+				crewLvl,weapLvl = makeShipUpgradeVals(k,upTbls)
+			elseif glbls.sorc == 'c' then
+				local dummy='dummy'
+			else
+				glbls.iboxtbl['tbd'] = 'impossible'
+			end
+		end
+--]]
 	return ok
 end
 local function createInfoBoxCall()

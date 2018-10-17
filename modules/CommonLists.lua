@@ -6,16 +6,17 @@
 -- <pre>
 
 local p = {}
-local Mcc = Mcc or require('Module:Charactercodes')
-local McL = McL or require('Module:CharacterLists')
---local Mss = Mss or require('Module:Starshipcodes')
---local MsL = MsL or require('Module:StarshipLists')
 
 local comns = comns or require('Module:CommonCodes')
 local getargs = getargs or require('Dev:Arguments').getArgs
 local glbls = require('Module:Globals')
 local gems = gems or require('Module:Gems')
 local utils = utils or require('Module:Utilities')
+
+local Mcc = Mcc or require('Module:Charactercodes')
+local McL = McL or require('Module:CharacterLists')
+--local Mss = Mss or require('Module:Starshipcodes')
+--local MsL = MsL or require('Module:StarshipLists')
 
 -- semi-dummy statement because 'out' is going to hold the final html-object...
 glbls.out = true
@@ -553,6 +554,15 @@ function p.main(frame)
 						fakeFrame[1]=mKey
 						retstr = Mcc.mkLevelInfobox(fakeFrame)
 					end
+				elseif string.lower(glbls.sorc) == 's' then
+						fakeFrame[1]=mKey
+						--retstr = Mss.hello(fakeFrame)
+						--retstr = Mss.mkInfobox(fakeFrame)
+						--retstr = Mss.mkLevelInfobox(fakeFrame)
+				else
+					-- NEVER gets here ???
+					retstr = junk..'somehow skipped sorc ?'
+					return retstr
 				end
 						--tempstr = comns.infoBoxes(fakeFrame)
 					--end

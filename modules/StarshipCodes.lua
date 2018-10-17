@@ -236,6 +236,12 @@ end
 function p.mkInfobox(frame)
     return chooseInfobox('mkInfobox',frame)
 end
+function p.mkMiniInfobox(frame)
+    return chooseInfobox('mkMiniInfobox',frame)
+end
+function p.mkLevelInfobox(frame)
+    return chooseInfobox('mkLevelInfobox',frame)
+end
 
 function p.doInfobox(frame)
     return frame:preprocess(p.mkInfobox(frame))
