@@ -172,7 +172,8 @@ local function isGoodSkill(k,sknum)
     glbls.holdtbl = utils.tableShallowCopy(chkTbl)
     -- this assumes the input-data has a 't1' beginning...
     local chkTV = chkTbl[chose]
-    if not chkTV['t1'] then return retval end
+    --if not chkTV['t1'] then return retval end
+	if not chkTV then return retval end
     -- at this point, it should be good...
     retval = true
     return retval
@@ -187,6 +188,15 @@ local function isGoodInfoBoxCmd(cmd)
 		if cmd == v then
 			retval = true
 		end
+	end
+		-- cleanup calling-info
+	if retval then
+		--local stripDM={'do','mk',}
+		--local stripIB={'Mini','Level',}
+		local dm = string.sub(cmd,1,2)
+		local ib = string.sub(cmd,3,-8)
+		glbls.iboxtbl['IBdo']=dm
+		glbls.iboxtbl['IBextra']=ib
 	end
 	return retval
 end
@@ -400,10 +410,174 @@ local function chooseSK(key,sknum,item,skupg)
     return retstr
 end
 
-local function createInfoBoxCall(k,ev)
-	local retstr='createInfoBoxCall: '
-	retstr = retstr..tostring(k)..tostring(ev)
-	retstr_QQ_09 = '{{Infobox character2 |image = Q of The Q.png |name = Q |series = TNG |limit = 165 |tier = 3 |lmin = 40 |ag = +13 |ar = +12 |aw = +11 |hp = 1877 |gorder = ROPWYB |currentlevel = 96 |skillschosen = 5r3p1o |dv1 = 52 |dv2 = 49 |dv3 = 38 |dv4 = 15 |dv5 = 14 |dv6 = 13 }}'
+local function makeShipUpgradeVals(k,tblUp)
+	local item,rv,ok
+	local cr,wp
+	cr = -1
+	wp = -1
+	return cr,wp
+end
+local function makeSkillInfoboxVals(k,upgr)
+	local skmax = 3
+	local skup = 1
+	-- just handle the special crew-cases directly...
+	--local skTWOs = {'NU',}
+    for i=1,skmax do
+		if isGoodSkill(k,i) then
+			for _,nm in ipairs({'skill','color','cost','desc',}) do
+				local nmi = nm..tostring(i)
+				local chkSkFt = chooseSK(k,i,nm,skup)
+				glbls.iboxtbl[nmi] = chkSkFt
+			end
+		end
+    end
+	return
+end
+
+local function loopInfoboxVars(k,tbl)
+	local item,rv,ok
+	ok = true
+		for _,item in ipairs(tbl) do
+			rv = getItemfromKey(k,item)
+			-- magic-value
+			if rv=='tbd...' then ok=false end
+			--store it away...
+			glbls.iboxtbl[item] = rv
+		end
+	return ok
+end
+local function mkInfoboxVars()
+	local ok=true
+	local retstr='mkInfoboxVars: '
+	local k,it,rv,itL,itC00,itS00,itC01,itS01,itC02,itS02
+	-- always need these...
+	k = glbls.iboxtbl['key']
+	-- already have tier...
+	-- extras already have (evol,IBtype,IBcmd)
+	it = {'name','image','imagecaption','aliases',
+			'series','limit','lmin','currentlevel',}
+	itL = {'hp','ar','ag','aw','currentlevel'}
+	itC01 = {'gorder',}
+	itC02 = {'dv1','dv2','dv3','dv4','dv5','dv6',}
+	itS01 = {'crmin','crmax','wpmin','wpmax','crewamt','weaponamt',}
+	itS02 = {'crewamt','weaponamt',}
+	itC00 = {'govt','race','gender','xnpc','aenu','sdate','lmax','nup',}
+	itS00 = {'govt','xnpc','aenu','sdate','lmax','nup',}
+	-- minimum baseline stuff...
+		if not loopInfoboxVars(k,it) then
+			ok = false
+			glbls.iboxtbl['FAILURE']='baseline-item missing...'
+		end
+		glbls.iboxtbl['igpt'] = makeIGPTfromKey(k)
+		-- flat call with no retvals...
+			makeSkillInfoboxVals(k,1)
+	-- fixup baseline level-values
+		if glbls.iboxtbl['evol'] == 'START'
+			or glbls.iboxtbl['evol'] == '00' then
+				if not loopInfoboxVars(k,itL) then
+					ok = false
+					glbls.iboxtbl['FAILURE']='levelUP-item missing...'
+				end
+		else
+				local tmp = getTablefromKey(k,'othersUpgrades')
+				local upTbls = utils.JSONdecodeString2Table(tmp)
+				-- now we need correct sub-table...
+				local upN = 'up'..glbls.iboxtbl['evol']
+				local upChosen = upTbls[upN]
+				local nogood = 'XXX'
+				if not upChosen then
+					upN = upN..nogood
+					upChosen = upTbls[upN]
+					ok = false
+					glbls.iboxtbl['FAILURE']='levelUP TABLE missing...'
+				end
+				--glbls.iboxtbl['evoTbls'] = utils.dumpTable(upTbls)
+				--glbls.iboxtbl['upN'] = upN
+				--glbls.iboxtbl['evoTbl'] = utils.dumpTable(upChosen)
+				glbls.holdtbl = upChosen
+				for _,item in ipairs(itL) do
+					if ok then
+						glbls.iboxtbl[item] = upChosen[item]
+					else
+						glbls.iboxtbl[item] = nogood..tostring(upChosen[item])
+					end
+				end
+		end
+	-- fixup crew/ship-values XXXXX - need more work here...
+	-- fixup crew/ship-values XXXXX - need more work here...
+	-- fixup crew/ship-values XXXXX - ONLY missing LevelUp-stuff...
+	-- fixup crew/ship-values XXXXX - ONLY missing LevelUp-stuff...
+		if glbls.sorc == 's' then
+			local tmp = getTablefromKey(k,'cargo')
+			local cargo = utils.JSONdecodeString2Table(tmp)
+			local tmpUP = getTablefromKey(k,'cargoUpgrades')
+			local upTbls = utils.JSONdecodeString2Table(tmpUP)
+			local crewLvl,weapLvl
+			glbls.iboxtbl['tbd'] = 'ship-specific'
+			if not loopInfoboxVars(k,itS00) then
+				ok = false
+				glbls.iboxtbl['FAILURE']='ship00-item missing...'
+			end
+			for _,item in ipairs(itS01) do
+				rv = cargo[item]
+				if not rv then
+					ok=false
+					glbls.iboxtbl['FAILURE']='ship01-crwp missing...'
+				else
+					--store it away...
+					glbls.iboxtbl[item] = rv
+				end
+			end
+				crewLvl,weapLvl = makeShipUpgradeVals(k,upTbls)
+		elseif glbls.sorc == 'c' then
+			local tmp = getTablefromKey(k,'datavalues')
+			local dvs = utils.JSONdecodeString2Table(tmp)
+			glbls.iboxtbl['tbd'] = 'crew-specific'
+			if not loopInfoboxVars(k,itC00) then
+				ok = false
+				glbls.iboxtbl['FAILURE']='crew00-item missing...'
+			end
+			if not loopInfoboxVars(k,itC01) then
+				ok = false
+				glbls.iboxtbl['FAILURE']='crew01-item missing...'
+			end
+			for _,item in ipairs(itC02) do
+				rv = dvs[item]
+				if not rv then
+					ok=false
+					glbls.iboxtbl['FAILURE']='crew02-dv missing...'
+				else
+					--store it away...
+					glbls.iboxtbl[item] = rv
+				end
+			end
+		else
+			glbls.iboxtbl['tbd'] = 'impossible'
+		end
+	return ok
+end
+local function createInfoBoxCall()
+	-- local retstr='{{infobox '..glbls.iboxtbl['IBtype']..'\n'
+	local retstr='{{infobox '
+	local sp=' | '
+	local eq=' = '
+	local retstr_QQ_09 = '{{Infobox character2 |image = Q of The Q.png |name = Q |series = TNG |limit = 165 |tier = 3 |lmin = 40 |ag = +13 |ar = +12 |aw = +11 |hp = 1877 |gorder = ROPWYB |currentlevel = 96 |skillschosen = 5r3p1o |dv1 = 52 |dv2 = 49 |dv3 = 38 |dv4 = 15 |dv5 = 14 |dv6 = 13 }}'
+	if glbls.iboxtbl['IBextra']=='Mini' then
+		retstr = retstr..sp..'\n'
+	elseif glbls.iboxtbl['IBextra']=='Level' then
+		retstr = retstr..glbls.iboxtbl['IBtype']..'2'..sp..'\n'
+	else
+		retstr = retstr..glbls.iboxtbl['IBtype']..sp..'\n'
+	end
+	--if glbls.iboxtbl['IBdo']=='do' then
+		--retstr = retstr..'\n'
+		for k,v in pairs(glbls.iboxtbl) do
+			-- note - extra items like IBtype,IBcmd,tbd get ignored...
+			if type(k)=='string' then
+				retstr = retstr..k..eq..tostring(v)..sp
+			end
+		end
+	retstr = retstr..'}}'
 	return retstr
 end
 
@@ -820,7 +994,7 @@ function p.main(frame)
     return retval
 end
 
-function p._infoBoxes(frame)
+local function infoBoxes1(frame)
     local retval_F = 'invalid call to Commoncodes-infoBoxes: '
 	local retval_T = 'Commoncodes-infoBoxes ok so far: '
     local a
@@ -837,12 +1011,21 @@ function p._infoBoxes(frame)
 	local retOK = false
     if p.passGLBLsorc(frame) then
         retval = retval_T..'sorc = >>'..sorc..'<<'
+        -- fixes upper/lowercase in glbl - so use it...
+        if glbls.sorc == 's' then
+			glbls.iboxtbl['IBtype']='starship'
+        elseif glbls.sorc == 'c' then
+			glbls.iboxtbl['IBtype']='character'
+        else
+			glbls.iboxtbl['IBtype']='impossible'
+		end
     else
         retval = retval_F..'invalid sorc-value >>'..sorc..'<<'
         return false,retval  -- early...
     end
 	if isGoodInfoBoxCmd(what) then
         retval = retval..', cmd = >>'..what..'<<'
+			glbls.iboxtbl['IBcmd']=what
     else
         retval = retval_F..'invalid command >>'..tostring(what)..'<<'
         return false,retval  -- early...
@@ -866,7 +1049,7 @@ function p._infoBoxes(frame)
 		end
 		if retOK == true then
 			local theLevel='START'
-			--local mTier='tbd'
+			local tempOK=false
 			local mTier,tier
 				tier = getItemfromKey(mKey,'tier')
 				glbls.iboxtbl['key']=mKey
@@ -886,7 +1069,13 @@ function p._infoBoxes(frame)
 				end
 			end
 			retval = retval..', evol = >>'..tostring(theLevel)..'<<'
-			--tempOK,newLevel = mkEvolution(mKey,theEvo)
+				glbls.iboxtbl['evol']=theLevel
+			tempOK = mkInfoboxVars()
+			if not tempOK then
+				retOK = false
+				retval = retval..'\n BUT...'
+				retval = retval..'failure: '..glbls.iboxtbl['FAILURE']
+			end
 		end
 	end
 	return retOK,retval
@@ -895,7 +1084,7 @@ end
 function p.infoBoxes(frame)
 	local ok,retstr
 	local prtCall=''
-	ok, retstr = p._infoBoxes(frame)
+	ok, retstr = infoBoxes1(frame)
 	if not ok or glbls.debug then
 		if retstr then
 			return retstr
@@ -903,10 +1092,14 @@ function p.infoBoxes(frame)
 			return 'no retstring?'
 		end
 	end
-	prtCall=dumpArgs()
+--	prtCall=dumpArgs()
 --	prtCall=dumpIBox()
---	prtCall=createInfoBoxCall()
-	return 'ok...'..prtCall
+	prtCall=createInfoBoxCall()
+	if glbls.iboxtbl['IBdo']=='do' then
+		return frame:preprocess(prtCall)
+	else
+		return 'ok...'..prtCall
+	end
 end
 
 
