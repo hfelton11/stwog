@@ -13,8 +13,8 @@ local glbls = require('Module:Globals')
 local gems = gems or require('Module:Gems')
 local utils = utils or require('Module:Utilities')
 
-local Mcc = Mcc or require('Module:Charactercodes')
-local McL = McL or require('Module:CharacterLists')
+--local Mcc = Mcc or require('Module:Charactercodes')
+--local McL = McL or require('Module:CharacterLists')
 --local Mss = Mss or require('Module:Starshipcodes')
 --local MsL = MsL or require('Module:StarshipLists')
 
@@ -45,6 +45,12 @@ local function getTablefromKey(k,tblNm)
     -- set SorC before this call...
 	fake[1]=glbls.sorc
 	fake[2]=tostring(k)
+	if not tblNm then
+		retval='Get FullKey...'
+		retTBL=comns.getFullKey(fake)
+		glbls.data = utils.tableShallowCopy(retTBL)
+	    return retval  -- early
+	end
 	fake[3]=tostring(tblNm)
 	retval=comns.passTBL(fake)
 	if not retval or retval ~= 'false' then
@@ -509,9 +515,53 @@ function p.main(frame)
 			out = utils.dumpTable(begtbl)
 			out = out..'\n\n'..utils.dumpTable(endtbl)
 		end
+    elseif (what=='dbgEVLnks') or (what=='EVLnks') then
+		local dbgstr = 'CommonLists-EVLnks:'
+		local junk = dbgstr..' FAIL: '
+		local LvlNms = {'50','95','96','165',}
+		local OKitems = {'name','series','tier',}
+		local beg,mid,tr,sl,nl
+		local ok,retstr
+		local tempstr,mKey
+			mKey = tostring(how)
+			-- string is JUNK, glbls.data holds table, sorc predone
+			tempStr = getTablefromKey(mKey,nil)
+		beg = '* [['
+		mid = string.upper(glbls.sorc)
+		mid = mid..string.sub(glbls.data['series'],2,2)  -- tNg or tOs
+		-- sigh...
+		beg = beg..mid
+		tr = tonumber( string.sub(glbls.data['tier'],1,1) )  -- shorten 3.5 to 3
+		sl = '/'
+		nl = ']] \n\n'
+		--retstr = beg..sl..mid..sl..mKey..nl
+		retstr = ''
+		if tr == 1  then
+			tempstr = beg..sl..'L50'..sl..mKey..nl
+			retstr = retstr..tempstr
+		elseif tr == 2  then
+			tempstr = beg..sl..'L50'..sl..mKey..nl
+			retstr = retstr..tempstr
+			tempstr = beg..sl..'L95'..sl..mKey..nl
+			retstr = retstr..tempstr
+		elseif tr == 3 then
+			tempstr = beg..sl..'L50'..sl..mKey..nl
+			retstr = retstr..tempstr
+			tempstr = beg..sl..'L96'..sl..mKey..nl
+			retstr = retstr..tempstr
+			tempstr = beg..sl..'L165'..sl..mKey..nl
+			retstr = retstr..tempstr
+		else
+			retstr = junk
+		end
+		--retstr = utils.dumpTable(glbls.data)			
+		--out = dbgstr..mKey..retstr
+		out = retstr
     elseif (what=='dbgInfoBox') or (what=='InfoBox') then
 		local dbgstr = 'CommonLists-InfoBox:'
 		local junk = dbgstr..' FAIL: '
+		retstr = junk
+--[[
 		local fakeFrame = {}
 		local ok,retstr
 		local tempstr,mKey,mPassCmd
@@ -567,6 +617,7 @@ function p.main(frame)
 						--tempstr = comns.infoBoxes(fakeFrame)
 					--end
 			end
+--]]
 	    out = tostring(retstr)
 	else
 --        out = "Hello, world! - doing..."..what..utils.dumpTable(glbls.data)
