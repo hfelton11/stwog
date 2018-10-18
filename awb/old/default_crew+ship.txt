@@ -1,4 +1,4 @@
-{{#invoke:CommonCodes| infoBoxes | ##txtCorS## | doInfobox | ##txtKey## }} 
+{{#invoke:Charactercodes| doInfobox | ##txtKey## }} 
 
 {{Side| ##txtName## | ##numTier## | ##txtCorS## | ##txtNorO## }}
 {{ma| ##txtMemAlpha## }}

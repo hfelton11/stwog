@@ -411,36 +411,44 @@ local function chooseSK(key,sknum,item,skupg)
 end
 
 local function makeShipUpgradeVals(k,tblUp)
+	local retval='shipUP: '
 	local item,rv,needZero
 	local cr,wp
 	local LvlNm='currentlevel'
+	local crNm='crewamt'
+	local wpNm='weaponamt'
 	local nm='cupgr'
+	local nmSuf={'1','2','3','4','5','6','7','8','9','0',}
 	local curLvl = tonumber(glbls.iboxtbl[LvlNm])
 	local testLvl
 	--itS02 = {'crewamt','weaponamt',}
 	cr = tonumber(glbls.iboxtbl['crewamt'])
 	wp = tonumber(glbls.iboxtbl['weaponamt'])
 	needZero = false
-	for i=1,9 do
+	--retval = retval..utils.dumpTable(tblUp)
+	retval = retval..'chk='..curLvl..'... '
+	retval = retval..'c/w='..cr..'/'..wp..', '
+	--for i=1,9 do
+	for _,i in ipairs(nmSuf) do
 		local nmi = nm..tostring(i)
 		if type(tblUp[nmi]) == 'table' then
 			testLvl = tonumber(tblUp[nmi][LvlNm])
+			retval = retval..nmi..'='..testLvl..'; '
 			-- just keep increasing until max...
 			if curLvl >= testLvl then
-				cr = tonumber(tblUp[nmi]['crewamt'])
-				wp = tonumber(tblUp[nmi]['weaponamt'])
+				cr = tonumber(tblUp[nmi][crNm])
+				wp = tonumber(tblUp[nmi][wpNm])
 			end
-			if i==9 then needZero = true end
+			retval = retval..'c/w='..cr..'/'..wp..', '
 		end
 	end
-	if needZero then
 		-- hack, since 0 gives max-vals anyways...
-		cr = tonumber(glbls.iboxtbl['crmax'])
-		wp = tonumber(glbls.iboxtbl['wpmax'])
-	end
+		--cr = tonumber(glbls.iboxtbl['crmax'])
+		--wp = tonumber(glbls.iboxtbl['wpmax'])
 	glbls.iboxtbl['crewamt'] = cr
 	glbls.iboxtbl['weaponamt'] = wp
-	return cr,wp
+	--return cr,wp
+	return retval
 end
 local function makeSkillInfoboxVals(k,upgr)
 	local skmax = 3
@@ -581,21 +589,50 @@ local function mkInfoboxVars()
 			glbls.iboxtbl['tbd'] = 'impossible'
 		end
 	-- fixup SPECIFIC level-values
---[[
-		if glbls.iboxtbl['evol'] == 'START'
-			or glbls.iboxtbl['evol'] == '00' then
-			local dummy='dummy'
-		else
-			if glbls.sorc == 's' then
-			local crewLvl,weapLvl
-			local upTbls=glbls.data[k]['cargoUpgrades']
-				crewLvl,weapLvl = makeShipUpgradeVals(k,upTbls)
-			elseif glbls.sorc == 'c' then
+		if ok then
+			if glbls.iboxtbl['evol'] == 'START'
+				or glbls.iboxtbl['evol'] == '00' then
 				local dummy='dummy'
 			else
-				glbls.iboxtbl['tbd'] = 'impossible'
-			end
+				if glbls.sorc == 's' then
+					--itS02 = {'crewamt','weaponamt',}
+					local crewLvl,weapLvl
+					local tempStr
+					local upTbls=glbls.data[k]['cargoUpgrades']
+						--crewLvl,weapLvl = makeShipUpgradeVals(k,upTbls)
+						tempStr = makeShipUpgradeVals(k,upTbls)
+						--glbls.iboxtbl['crewamt']='1111'
+						--glbls.iboxtbl['weaponamt']=tempStr
+				elseif glbls.sorc == 'c' then
+					--itC01 = {'gorder',}
+					--itC02 = {'dv1','dv2','dv3','dv4','dv5','dv6',}
+					local upChosen
+					local dvsNm='datavalues'
+					-- already worked this out...  (and it is ok...)
+					upChosen = glbls.holdtbl
+					glbls.iboxtbl['gorder']=upChosen['gorder']
+					for _,item in ipairs(itC02) do
+						rv = upChosen[dvsNm][item]
+						if not rv then
+							ok=false
+							glbls.iboxtbl['FAILURE']='UPDATED crew02-dv missing...'
+						else
+							--store it away...
+							glbls.iboxtbl[item] = rv
+						end
+					end
+					--glbls.iboxtbl['dv1']='101'
+					--glbls.iboxtbl['dv2']='102'
+					--glbls.iboxtbl['dv3']='103'
+					--glbls.iboxtbl['dv4']='104'
+					--glbls.iboxtbl['dv5']='105'
+					--glbls.iboxtbl['dv6']='106'
+				else
+					glbls.iboxtbl['tbd'] = 'impossible'
+				end
+			end  -- if.ok (no-else)
 		end
+--[[
 --]]
 	return ok
 end
@@ -1113,11 +1150,15 @@ local function infoBoxes1(frame)
 			end
 			retval = retval..', evol = >>'..tostring(theLevel)..'<<'
 				glbls.iboxtbl['evol']=theLevel
+			-- THIS IS IT !!!  BIG ONE !!!
+			-- THIS IS IT !!!  BIG ONE !!!
+			-- THIS IS IT !!!  BIG ONE !!!
 			tempOK = mkInfoboxVars()
 			if not tempOK then
 				retOK = false
 				retval = retval..'\n BUT...'
 				retval = retval..'failure: '..glbls.iboxtbl['FAILURE']
+				retval = retval..'; tbd: '..glbls.iboxtbl['tbd']
 			end
 		end
 	end
