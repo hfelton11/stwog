@@ -1,0 +1,83 @@
+==Description==
+To use this template, copy the following code and fill in the appropriate fields.
+
+This template is used for shorthand comparisons at higher-levels, like [[Level 50]] or [[Level 95]] or [[Level 165]], for a character or starship.
+
+==Syntax==
+<pre>
+{{infobox character2
+ | name         =
+ | image        =
+ | imagecaption =
+ | aliases      =
+ | series       =
+ | tier       =
+ | lmin       =
+ | currentlevel       =
+ | limit      =
+ | hp         =
+ | ar    =
+ | ag    =
+ | aw    =
+ | gorder      =
+ | dv1         =
+ | dv2         =
+ | dv3         =
+ | dv4         =
+ | dv5         =
+ | dv6         =
+}}
+</pre>
+
+==Samples==
+<pre>
+{{infobox character2
+ | name         = Flowa (pagename)
+ | image        = Example.jpg
+ | imagecaption = Flowa, at rest
+ | aliases      = Flo
+ | series       = TOS
+ | tier       = 9
+ | lmin       = 99
+ | currentlevel       = 103
+ | limit      = 6000
+ | hp         = 21
+ | ar    = +20
+ | ag    = 
+ | aw    = -4
+ | gorder      = RYBWPO
+ | dv1         = 4
+ | dv2         = 3
+ | dv3         =
+ | dv4         = 2
+ | dv5         = 1
+ | dv6         =
+}}
+</pre>
+
+Results in...
+
+{{infobox character2
+ | name         = Flowa (pagename)
+ | image        = Example.jpg
+ | imagecaption = Flowa, at rest
+ | aliases      = Flo
+ | series       = TOS
+ | tier       = 9
+ | lmin       = 99
+ | currentlevel       = 103
+ | limit      = 6000
+ | hp         = 21
+ | ar    = +20
+ | ag    = 
+ | aw    = -4
+ | gorder      = RYBWPO
+ | dv1         = 4
+ | dv2         = 3
+ | dv3         =
+ | dv4         = 2
+ | dv5         = 1
+ | dv6         =
+}}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

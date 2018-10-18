@@ -1,0 +1,138 @@
+==Description==
+To use this template, copy the following code and fill in the appropriate fields.
+
+==Syntax==
+<pre>
+{{infobox character
+ | name         =
+ | image        =
+ | imagecaption =
+ | aliases      =
+ | race         =
+ | gender       =
+ | series       =
+ | xnpc    =
+ | sdate   =
+ | aenu    =
+ | tier       =
+ | igpt       =
+ | lmin       =
+ | lmax       =
+ | limit      =
+ | hp         =
+ | nup            =
+ | skill1         =
+ | color1         =
+ | cost1          =
+ | desc1          =
+ | skill2         =
+ | color2         =
+ | cost2          =
+ | desc2          =
+ | skill3         =
+ | color3         =
+ | cost3          =
+ | desc3          =
+ | ar    =
+ | ag    =
+ | aw    =
+ | gorder      =
+ | dv1         =
+ | dv2         =
+ | dv3         =
+ | dv4         =
+ | dv5         =
+ | dv6         =
+}}
+</pre>
+
+==Samples==
+<pre>
+{{infobox character
+ | name         = Flowa (pagename)
+ | image        = Example.jpg
+ | imagecaption = Flowa, at rest
+ | aliases      = Flo
+ | race         = Flora
+ | gender       = Female
+ | series       = TOS
+ | xnpc    = yes
+ | sdate   = 2020-02-10
+ | aenu    = neutral
+ | tier       = 9
+ | igpt       = flo-9
+ | lmin       = 99
+ | lmax       = 103
+ | limit      = 6000
+ | hp         = 21
+ | nup            = 15
+ | skill1         = Shoot Pollen
+ | color1         = Yellow
+ | cost1          = 3
+ | desc1          = Does 200 damage to enemy selected, 100 damage to others.
+ | skill2         = Wilt
+ | color2         = Blue
+ | cost2          = 8
+ | desc2          = (passive) If hp < 10%, then does 10 damage and paralyzes self 2 turns
+ | skill3         = Strangle
+ | color3         = Red
+ | cost3          = 12
+ | desc3          = Paralyzes enemy for 1 turn
+ | ar    = +20
+ | ag    = 
+ | aw    = -4
+ | gorder      = RYBWPO
+ | dv1         = 4
+ | dv2         = 3
+ | dv3         =
+ | dv4         = 2
+ | dv5         = 1
+ | dv6         =
+}}
+</pre>
+
+Results in...
+
+{{infobox character
+ | name         = Flowa (pagename)
+ | image        = Example.jpg
+ | imagecaption = Flowa, at rest
+ | aliases      = Flo
+ | race         = Flora
+ | gender       = Female
+ | series       = TOS
+ | xnpc    = yes
+ | sdate   = 2020-02-10
+ | aenu    = neutral
+ | tier       = 9
+ | igpt       = flo-9
+ | lmin       = 99
+ | lmax       = 103
+ | limit      = 6000
+ | hp         = 21
+ | nup            = 15
+ | skill1         = Shoot Pollen
+ | color1         = Yellow
+ | cost1          = 3
+ | desc1          = Does 200 damage to enemy selected, 100 damage to others.
+ | skill2         = Wilt
+ | color2         = Blue
+ | cost2          = 8
+ | desc2          = (passive) If hp < 10%, then does 10 damage and paralyzes self 2 turns
+ | skill3         = Strangle
+ | color3         = Red
+ | cost3          = 12
+ | desc3          = Paralyzes enemy for 1 turn
+ | ar    = +20
+ | ag    = 
+ | aw    = -4
+ | gorder      = RYBWPO
+ | dv1         = 4
+ | dv2         = 3
+ | dv3         =
+ | dv4         = 2
+ | dv5         = 1
+ | dv6         =
+}}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

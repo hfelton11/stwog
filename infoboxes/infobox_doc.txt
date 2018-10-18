@@ -1,0 +1,61 @@
+==Description==
+This template is a sample infobox, for a general character or starship.
+
+Recommended usage: copy the template code to a new template page, and edit it there ???
+
+===Infobox and template background===
+See [[Help:Templates]], [[Help:Infobox]] for some background on how templates and infoboxes work.
+
+===Notes===
+* The Title, First, Second, and Third rows show ''"Unknown"'' if their values are not specified.
+* The Image, Imagecaption, Fourth, Fifth, and Sixth rows won't show up if their values are not specified.
+
+==Syntax==
+<pre>
+{{infobox
+ | name          = 
+ | image         = [e.g. "Example.jpg"]
+ | imagecaption  = 
+ | name2         =
+ | series        =
+ | tier          =
+ | available     =
+ | dates         =
+ | sixth         =
+ | previous      =
+ | next          =
+}}
+</pre>
+
+==Samples==
+<pre>
+{{infobox
+ | name          = A pretty flower
+ | image         = Example.jpg
+ | imagecaption  = Floweris flowerum
+ | name2         = Pink and green
+ | series        = Outdoors
+ | tier          = Annual
+ | available     = Yes 2016-08-04
+ | dates         = 2016-08-04, 2016-02-01
+ | previous      = I
+ | next          = III
+}}
+</pre>
+
+Results in...
+
+{{infobox
+ | name          = A pretty flower
+ | image         = Example.jpg
+ | imagecaption  = Floweris flowerum
+ | name2         = Pink and green
+ | series        = Outdoors
+ | tier          = Annual
+ | available     = Yes 2016-08-04
+ | dates         = 2016-08-04, 2016-02-01
+ | previous      = I
+ | next          = III
+}}
+
+<includeonly>[[Category:Templates| ]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

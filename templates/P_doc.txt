@@ -1,0 +1,35 @@
+Template for writing prizes (rewards).  Actually invokes module:prizes. See its [[Module talk:Prizes |talk-page]] for further details.
+
+==Usage==
+<code>{{t|P|initial-of-prize|quantity-of-prize|icon-for-prize}}</code>
+
+===Parameters===
+<pre><unnamed 1></pre> 
+:Required, Default = _blank_ 
+:Which prize listing should be chosen (assumes lowercase initial-letter)
+: initials-available: bcdefghirstwxy
+
+<pre><unnamed 2></pre> 
+:optional, Default = _blank_
+:Number of these Prizes given. (blank assumes 1)
+: use integers, without commas (but will place commas in output)
+
+<pre><unnamed 3></pre> 
+:optional, Default = _blank_
+:Picture (infoicon) to add at end of text.
+: same initials as parameter-1, with subtleties noted below.
+
+===Sample code===
+:<code><nowiki>{{p|b}}</nowiki></code> gives...
+:{{p|b}}
+:<code><nowiki>{{p|c|10}}</nowiki></code> gives...
+:{{p|c|10}}
+:<code><nowiki>{{p|d|2000|x}}</nowiki></code> gives...
+:{{p|d|2000|x}}
+
+==Full Set==
+callouts can be subtle for single-plural currency items, otherwise just use initial letters of word...
+
+{{PrizesALL}}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

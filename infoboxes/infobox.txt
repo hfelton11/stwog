@@ -1,0 +1,27 @@
+<onlyinclude><infobox>
+	<title source="name">
+		<default>{{PAGENAME}}</default>
+	</title>
+	<image source="image">
+		<caption source="imagecaption" />
+	</image>
+		<data source="aliases"><label>Aliases</label><default>''aka''</default></data>
+	<group show="incomplete">
+		<header>Basic information</header>
+		<data source="tier"><label>Tier</label></data>
+		<data source="igpt"><label>IGPT</label></data>
+		<data source="race"><label>Race</label></data>
+		<data source="gender"><label>Gender</label></data>
+		<data source="series"><label>Series</label><default>''TOS/TNG''</default></data>
+		<data source="hp"><label>Health Points</label></data>
+	</group>
+	<group collapse="closed" show="incomplete">
+		<header>Ally...Enemy...Neutral...Unknown</header>
+		<data source="xnpc"><label>Playable ?</label><default>''yes/no''</default></data>
+		<data source="sdate"><label>Date Added</label></data>
+		<data source="aenu"><label>Alliance</label><default>''Unknown''</default></data>
+		<data source="gorder"><label>Color-order</label><default>''RYBWPO''</default><format>{{{gorder}}}<br/>{{GemSix|{{{gorder}}}|20}}</format></data>
+	</group>
+</infobox></onlyinclude><noinclude><br style="clear:both;"/>
+{{documentation}}</noinclude>
+

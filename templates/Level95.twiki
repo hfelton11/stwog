@@ -1,0 +1,22 @@
+<!-- 
+just use {{Level95}} for either of L95 or L96 
+-->
+<div class="infobox-hero-tabbl" style="float:left;">
+<!-- fancy way of doing... {{invoke...|infoBoxes| S |doLevelInfobox| SGZ }} -->
+{{#invoke:CommonCodes | infoBoxes | {{#sub: {{#explode:{{PAGENAME}}|/| 0 }} |0|1}} | doLevelInfobox | {{#explode:{{PAGENAME}}|/|2}} }}
+</div>
+<div class="infobox-hero-tabbr" style="float:right;">
+<!-- fancy way of doing... {{if Level-95 use 15, else Level-96 uses 09}} -->
+<!-- fancy way of doing... {{invoke...|infoBoxes| S |doLevelInfobox| ENA | up-15 }} -->
+<!-- fancy way of doing... {{invoke...|infoBoxes| S |doLevelInfobox| SGZ | up-09 }} -->
+{{#switch: {{#explode:{{{1|{{PAGENAME}}}}} |/| 1 }}
+          | L95 
+          | l95 = 
+{{#invoke:CommonCodes | infoBoxes | {{#sub: {{#explode:{{PAGENAME}}|/| 0 }} |0|1}} | doLevelInfobox | {{#explode:{{PAGENAME}}|/|2}} | 15 }}
+          | L96 
+          | l96 = 
+{{#invoke:CommonCodes | infoBoxes | {{#sub: {{#explode:{{PAGENAME}}|/| 0 }} |0|1}} | doLevelInfobox | {{#explode:{{PAGENAME}}|/|2}} | 09 }}
+          | #default = no [[Level95]] (char-or-ship) infobox 
+}}
+</div><includeonly>[[Category:Level95]]</includeonly><noinclude>
+{{documentation}}</noinclude>

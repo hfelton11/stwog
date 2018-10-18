@@ -1,0 +1,45 @@
+Template for writing ships (rewards).  Actually invokes module:ships. See its [[Module talk:Ships |talk-page]] for further details.
+
+==Usage==
+<code>{{t|Ships|3-letter-shipcode|quantity-of-ships.icon-size}}</code>
+
+===Parameters===
+<pre><unnamed 1></pre> 
+:Required, Default = _blank_ 
+:Which ship should be chosen (3-letters for coding)
+: letter-1 = o or n (for TOS/TNG)
+: letter-2 = govt (alliedfederation,klingon,romulan,cardassian,borg,ferengi/alien)
+: letter-3 = code (E is enterprise, etc...)
+
+<pre><unnamed 2></pre> 
+:optional, Default = _blank_
+:Number of these ships given. (blank assumes 1)
+: normally, just use integers, without commas (but will place commas in output)
+: if integer is negative, then remove-icon from listing
+: otoh, if use a decimal-value - then fractional-part is the size-value
+: single-decimal-point gives simple-link with only the name...
+: actual assumption is 1.50 (for 50px-wide icon) with trailing zeros being important
+
+===Sample code===
+:<code><nowiki>{{ships|oaE}}</nowiki></code> gives...
+:{{ships|oaE}}
+:<code><nowiki>{{ships|naE|.}}</nowiki></code> gives...
+:{{ships|naE|.}}
+:<code><nowiki>{{ships|naE|..}}</nowiki></code> gives...
+:{{ships|naE|..}}
+:<code><nowiki>{{ships|nfD}}</nowiki></code> gives...
+:{{ships|nfD}}
+:<code><nowiki>{{ships|orB|2}}</nowiki></code> gives...
+:{{ships|orB|2}}
+:<code><nowiki>{{ships|oaE|-3}}</nowiki></code> gives...
+:{{ships|oaE|-3}}
+:<code><nowiki>{{ships|oaE|4.100}}</nowiki></code> gives...
+:{{ships|oaE|4.100}}
+:   
+
+===Full set===
+Pairs-column is used to recreate original-sequence...
+
+{{ShipsALL}}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

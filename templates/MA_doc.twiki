@@ -1,0 +1,13 @@
+
+== Description ==
+:This template is used in the introductory section for most every character or starship page.  It mainly creates a context-link to the Memory-Alpha Wiki so that the reader can learn some more information.
+
+;Syntax
+:<code>{{t|ma|PAGENAME for link on Memory-Alpha wiki}}</code>
+
+== Samples ==
+* <pre>{{ma|Enterprise}}</pre> gives ==> {{ma|Enterprise}}
+* <pre>{{ma|USS Enterprise (NCC-1701)}}</pre> gives ==> {{ma|USS Enterprise (NCC-1701)}}
+* <pre>{{ma|Unnamed Humans (23rd century)}}</pre> gives ==> {{ma|Unnamed Humans (23rd century)}}
+
+<includeonly>[[Category:General wiki templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

@@ -1,0 +1,14 @@
+
+== Description ==
+:This template is used to create a six-gem infoicon for a character in their infoboxes.  It is used to delineate the ordering of the diplomacy-values section of the infobox for a character.
+
+;Syntax
+:<code>{{t|GemSix|six initials for colors, in Left-to-Right order}}</code>
+
+== Samples ==
+* <pre>{{GemSix}}</pre> gives ==> {{GemSix}}
+* <pre>{{GemSix|RY}}</pre> gives ==> {{GemSix|RY}}
+* <pre>{{GemSix|RYBWOP}}</pre> gives ==> {{GemSix|RYBWOP}}
+* <pre>{{GemSix|RARARA}}</pre> gives ==> {{GemSix|RARARA}}
+
+<includeonly>[[Category:General wiki templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

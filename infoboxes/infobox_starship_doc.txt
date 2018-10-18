@@ -1,0 +1,138 @@
+==Description==
+To use this template, copy the following code and fill in the appropriate fields.
+
+==Syntax==
+<pre>
+{{infobox starship
+ | name         =
+ | image        =
+ | imagecaption =
+ | aliases      =
+ | govt         =
+ | series       =
+ | xnpc    =
+ | sdate   =
+ | aenu    =
+ | tier       =
+ | igpt       =
+ | lmin       =
+ | lmax       =
+ | limit      =
+ | hp         =
+ | nup            =
+ | skill1         =
+ | color1         =
+ | cost1          =
+ | desc1          =
+ | skill2         =
+ | color2         =
+ | cost2          =
+ | desc2          =
+ | skill3         =
+ | color3         =
+ | cost3          =
+ | desc3          =
+ | ar    =
+ | ag    =
+ | aw    =
+ | crewamt      =
+ | crmin        =
+ | crmax        =
+ | crtyp        =
+ | weaponamt      =
+ | wpmin          =
+ | wpmax          =
+ | wptyp          =
+}}
+</pre>
+
+==Samples==
+<pre>
+{{infobox starship
+ | name         = Flowa (pagename)
+ | image        = Example.jpg
+ | imagecaption = Flowa, at rest
+ | aliases      = Flo
+ | govt         = Hedgemony
+ | series       = TOS
+ | xnpc    = yes
+ | sdate   = 2020-02-10
+ | aenu    = neutral
+ | tier       = 9
+ | igpt       = flo-9
+ | lmin       = 99
+ | lmax       = 103
+ | limit      = 6000
+ | hp         = 21
+ | nup            = 15
+ | skill1         = Shoot Pollen
+ | color1         = Yellow
+ | cost1          = 3
+ | desc1          = Does 200 damage to enemy selected, 100 damage to others.
+ | skill2         = Wilt
+ | color2         = Blue
+ | cost2          = 8
+ | desc2          = (passive) If hp < 10%, then does 10 damage and paralyzes self 2 turns
+ | skill3         = Strangle
+ | color3         = Red
+ | cost3          = 12
+ | desc3          = Paralyzes enemy for 1 turn
+ | ar    = +20
+ | ag    = 
+ | aw    = -4
+ | crewamt      = 2
+ | crmin        = 0
+ | crmax        = 4
+ | crtyp        = Flora
+ | weaponamt      = 2
+ | wpmin          = 0
+ | wpmax          = 4
+ | wptyp          = Botanical
+}}
+</pre>
+
+Results in...
+
+{{infobox starship
+ | name         = Flowa (pagename)
+ | image        = Example.jpg
+ | imagecaption = Flowa, at rest
+ | aliases      = Flo
+ | govt         = Hedgemony
+ | series       = TOS
+ | xnpc    = yes
+ | sdate   = 2020-02-10
+ | aenu    = neutral
+ | tier       = 9
+ | igpt       = flo-9
+ | lmin       = 99
+ | lmax       = 103
+ | limit      = 6000
+ | hp         = 21
+ | nup            = 15
+ | skill1         = Shoot Pollen
+ | color1         = Yellow
+ | cost1          = 3
+ | desc1          = Does 200 damage to enemy selected, 100 damage to others.
+ | skill2         = Wilt
+ | color2         = Blue
+ | cost2          = 8
+ | desc2          = (passive) If hp < 10%, then does 10 damage and paralyzes self 2 turns
+ | skill3         = Strangle
+ | color3         = Red
+ | cost3          = 12
+ | desc3          = Paralyzes enemy for 1 turn
+ | ar    = +20
+ | ag    = 
+ | aw    = -4
+ | crewamt      = 2
+ | crmin        = 0
+ | crmax        = 4
+ | crtyp        = Flora
+ | weaponamt      = 2
+ | wpmin          = 0
+ | wpmax          = 4
+ | wptyp          = Botanical
+}}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

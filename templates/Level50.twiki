@@ -1,0 +1,32 @@
+<!-- see: http://community.wikia.com/wiki/Thread:758373 for rpos/sub-fcns 
+and https://www.mediawiki.org/wiki/Extension:StringFunctions ... 
+* this is just debugging...
+* zero-param {{#explode:{{{1|{{PAGENAME}}}}} |/| 0 }} 
+* one-param {{#explode:{{{1|{{PAGENAME}}}}} |/| 1 }} 
+* two-param {{#explode:{{{1|{{PAGENAME}}}}} |/| 2 }} 
+* minus1-param {{#explode:{{{1|{{PAGENAME}}}}}|/|-1}} 
+* minus2-param {{#explode:{{{1| {{PAGENAME}} }}} | / | -2 }} 
+* minus3-param {{#explode:{{{1|{{PAGENAME}}}}}|/|-3}} 
+* lua 1 (CO) {{#invoke:ParsePN|slash|{{{1|{{PAGENAME}}}}}|1}}
+* lua 2 (L50) {{#invoke:ParsePN|slash|{{{1|{{PAGENAME}}}}}|2}}
+* lua 3 (DE) {{#invoke:ParsePN|slash|{{{1|{{PAGENAME}}}}}|3}}
+* lua full (L001-data) {{#invoke:ParsePN|slash|{{{1|{{PAGENAME}}}}}|L001}}
+{{#invoke:Charactercodes| doLevelInfobox | {{#explode:{{{1|{{PAGENAME}}}}}|/|2}} }}
+-->
+<div class="infobox-hero-tabbl" style="float:left;">
+<!-- fancy way of doing... {{invoke...|infoBoxes| S |doLevelInfobox| SGZ }} -->
+{{#invoke:CommonCodes | infoBoxes | {{#sub: {{#explode:{{PAGENAME}}|/| 0 }} |0|1}} | doLevelInfobox | {{#explode:{{PAGENAME}}|/|2}} }}
+</div>
+<div class="infobox-hero-tabbr" style="float:right;">
+<!-- fancy way of doing... {{if Levlel-95 use 15, else Level-96 uses 09}} -->
+<!-- fancy way of doing... {{invoke...|infoBoxes| S |doLevelInfobox|  | up-15 }} -->
+<!-- fancy way of doing... {{invoke...|infoBoxes| S |doLevelInfobox| SGZ | up-09 }} -->
+{{#switch: {{#sub: {{{2|mkUp10}}} |-2|2}}
+          | 10 =
+{{#invoke:CommonCodes | infoBoxes | {{#sub: {{#explode:{{PAGENAME}}|/| 0 }} |0|1}} | doLevelInfobox | {{#explode:{{PAGENAME}}|/|2}} | 10 }}
+          | 03 =
+{{#invoke:CommonCodes | infoBoxes | {{#sub: {{#explode:{{PAGENAME}}|/| 0 }} |0|1}} | doLevelInfobox | {{#explode:{{PAGENAME}}|/|2}} | 03 }}
+          | #default = no [[Level50]] (char-or-ship) infobox 
+}}
+</div><includeonly>[[Category:Level50]]</includeonly><noinclude>
+{{documentation}}</noinclude>

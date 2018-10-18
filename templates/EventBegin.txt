@@ -1,0 +1,5 @@
+<includeonly>Beginning of the '''[[ {{{1|{{PAGENAME}}}}} ]]''' Event for {{#switch: {{lc:{{{2|}}}}} |o=[[:Category:TOS|TOS]] |n=[[:Category:TNG|TNG]]|???}} characters and starships.  Duration: 2 weeks for Easy and Normal versions;  with staggered-start 1 week for Legendary version.
+
+Levels of the Event are timed to open throughout the first week, revealing the storyline about {{#if: {{{3|}}} |{{{3}}}|???}}.  By the end of week one, all levels are open for Easy and Normal versions.  Also, at the end of week one, the Legendary version becomes available (all levels, open immediately).</includeonly><noinclude>{{documentation}}</noinclude>
+
+<!-- the silly #if on 3 is to trim trailing-spaces , normally is {{{3|???}}}-->

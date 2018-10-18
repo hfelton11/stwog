@@ -1,0 +1,4 @@
+<includeonly>Midpoint of the '''[[ {{{1|{{PAGENAME}}}}} ]]''' Event for {{#switch: {{lc:{{{2|}}}}} |o=[[:Category:TOS|TOS]] |n=[[:Category:TNG|TNG]]|???}} characters and starships.  At this point all levels of all versions should finally be unlocked.
+</includeonly><noinclude>{{documentation}}</noinclude>
+
+<!-- the 3rd parameter is ignored -->

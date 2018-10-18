@@ -1,0 +1,86 @@
+==Description==
+To use this template, copy the following code and fill in the appropriate fields.
+
+This template is used for shorthand comparisons at higher-levels, like [[Level 50]] or [[Level 95]] or [[Level 165]], for a character or starship.
+
+==Syntax==
+<pre>
+{{infobox character2
+ | name         =
+ | image        =
+ | imagecaption =
+ | aliases      =
+ | series       =
+ | tier       =
+ | lmin       =
+ | currentlevel       =
+ | limit      =
+ | hp         =
+ | ar    =
+ | ag    =
+ | aw    =
+ | crewamt      =
+ | crmin        =
+ | crmax        =
+ | crtyp        =
+ | weaponamt      =
+ | wpmin          =
+ | wpmax          =
+ | wptyp          =
+}}
+</pre>
+
+==Samples==
+<pre>
+{{infobox character2
+ | name         = Flowa (pagename)
+ | image        = Example.jpg
+ | imagecaption = Flowa, at rest
+ | aliases      = Flo
+ | series       = TOS
+ | tier       = 9
+ | lmin       = 99
+ | currentlevel       = 103
+ | limit      = 6000
+ | hp         = 21
+ | ar    = +20
+ | ag    = 
+ | aw    = -4
+ | crewamt      = 2
+ | crmin        = 0
+ | crmax        = 4
+ | crtyp        = Flora
+ | weaponamt      = 2
+ | wpmin          = 0
+ | wpmax          = 4
+ | wptyp          = Botanical
+}}
+</pre>
+
+Results in...
+
+{{Infobox starship2 
+ | name         = Flowa (pagename)
+ | image        = Example.jpg
+ | imagecaption = Flowa, at rest
+ | aliases      = Flo
+ | series       = TOS
+ | tier       = 9
+ | lmin       = 99
+ | currentlevel       = 103
+ | limit      = 6000
+ | hp         = 21
+ | ar    = +20
+ | ag    = 
+ | aw    = -4
+ | crewamt      = 2
+ | crmin        = 0
+ | crmax        = 4
+ | crtyp        = Flora
+ | weaponamt      = 2
+ | wpmin          = 0
+ | wpmax          = 4
+ | wptyp          = Botanical
+}}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

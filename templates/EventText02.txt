@@ -1,0 +1,8 @@
+The storyline is split into {{#if:{{{1|}}}|{{{1}}}|?p1?}} missions and {{#if:{{{2|}}}|{{{2}}}|?p2?}} bonus missions.  These {{#if:{{{1|}}}|{{{1}}}+|}}{{#if:{{{2|}}}|{{{2}}}|}} missions are further described by:
+* The storyline chart:
+** Summarizes the storyline and each mission's prize amounts.
+** For example, if there are 12-missions with 8-bonus-missions and each mission rewards 4 prizes; then the summary reads '''?/20 and ?/80'''.
+* The enemies chart gives details (for each difficulty) of your opponents.
+* The scoring charts (one chart per difficulty-level):
+** Gives details of all the prizes (up to 4) that can be earned for each mission.
+** The points earned can also activate more prizes described later.

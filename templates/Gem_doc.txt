@@ -1,0 +1,71 @@
+Template for displaying small gem icons.  Actually invokes module:gems. See its [[Module talk:Gems |talk-page]] for further details.
+
+==Usage==
+<pre>{{gem|name or initial}}</pre>
+
+===Parameters===
+<pre><unnamed 1></pre> 
+:Required, Default = _blank_ 
+:Which gem color icon should be displayed.
+:RYBWPO, STV ; QACZ
+
+<pre><unnamed 2></pre> 
+:optional, Default = _blank_
+:Size in pixels to make icon (module-default is 25px)
+
+===Default===
+If the template is called without any parameters, rather than printing an error - it will provide a tiny 5-pixel stone-icon : {{gem}} ...
+
+==Primary icons==
+{| class="article-table"
+|-
+! style="width: 90%;" | Name(s)
+! style="width: 30%;" | Icon
+|-
+| '''Red''' / '''r'''
+| style="text-align: center;" | {{gem|r}}
+|-
+| '''Yellow''' / '''y'''
+| {{gem|y}}
+|-
+| '''Blue''' / '''b'''
+| {{gem|b}}
+|-
+| '''White''' / '''w'''
+| {{gem|w}}
+|-
+| '''Purple''' / '''p'''
+| {{gem|p}}
+|-
+| '''Orange''' / '''o'''
+| {{gem|o}}
+|-
+| '''Shield''' / '''s''' = White from ship-game
+| {{gem|s}}
+|-
+| '''Torpedo''' / '''t''' = Red from ship-game
+| {{gem|t}}
+|-
+| '''Vaser''' / '''v''' = Green from ship-game
+| {{gem|v}}
+|}
+
+
+==Extra icons==
+{| class="article-table"
+|-
+! style="width: 90%;" | Name(s)
+! style="width: 30%;" | Icon
+|-
+|  '''All -or- Combo''' / '''a -or- c'''
+| {{gem|a}} {{nowrap|-or-}} {{gem|c}}
+|-
+| '''Queen-purple''' / '''q''' for ship-game
+| {{gem|q}}
+|-
+| '''Hidden-green''' / '''h''' (unused)
+| {{gem|h}}
+|-
+| '''Stone''' / '''z''' (unused)
+| {{gem|z}}
+|}

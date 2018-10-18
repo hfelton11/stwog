@@ -1,0 +1,3 @@
+This page describes the [[:Category:Events|Event]] called '''''[[ {{{1|{{PAGENAME}}}}} ]]''''' for {{#switch: {{lc:{{{2|}}}}} |o=[[:Category:TOS|TOS]] |n=[[:Category:TNG|TNG]]|???}} characters and starships.  This Event features {{#if: {{{3|}}} |{{{3}}}|???}}.<noinclude>{{documentation}}</noinclude>
+
+<!-- the silly #if on 3 is to trim trailing-spaces , normally is {{{3|???}}}-->

@@ -1,0 +1,30 @@
+;'''Description'''
+
+:This template is a simple font-coloring template.  Rather than a full background, foreground, and font-color template - this template only takes a color and some text. For creating a simple html-span, this template takes two parameters - a color, and some text. See the [[Template_talk:Color|talk page]] for examples. Feel free to copy this template and use it on another wiki.
+
+
+;'''Syntax:'''
+<pre>
+{{Color (note: can use British-spelling via redirect of ''colour'')
+ | (1) = Name of color (or #HTMLcode)
+ | (2) = Text to be colored (via a font-color within an html-span item)
+}}
+</pre>
+
+;Sample(s)
+:<pre>{{Color| Red | Danger, WIll Robinson !!! }}</pre>
+
+Results in...
+
+{{Color| Red | Danger, WIll Robinson !!! }}
+
+----
+
+:<pre>{{Colour| #00FF00 | text= Green = GO, GO, GO !!! }}</pre>
+
+Results in...
+
+{{Colour| #00FF00 | text= Green = GO, GO, GO !!! }}
+
+nb - needed to use #if rather than normal default-param-value to get stripping of whitespace in unnamed parameter-1 for color...
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

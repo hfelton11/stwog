@@ -1,0 +1,2 @@
+<includeonly><span style="white-space:nowrap">{{#if:{{{1|}}}{{{text|}}}|{{{1|}}}{{{text|}}}|<Nowrap template incorrectly used. Please see {{t|Nowrap}} for usage.>}}</span></includeonly><noinclude>
+{{documentation}}</noinclude>

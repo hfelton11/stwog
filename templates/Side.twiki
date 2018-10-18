@@ -1,0 +1,10 @@
+<!-- simple text that is adjusted based upon logic as-follows:
+1 - Name: first-element semi-defaults to PAGENAME
+2 - #: second-element chooses tier (link)
+3 - c or s: third-element chooses the word 'character' or 'starship' [or 'item']
+4 - o or n: fourth-element chooses TOS or TNG (link) [or '???' plain-text]
+with no default values except PAGENAME for param-1; 
+but for example params-2,3,4 being 1,c,o gives a tier-1, TOS, crew-member
+#ifeq true being between first | and second |
+#switch values are labelled xyz= after each | whereas default is after final |
+--><includeonly>'''{{{1|{{PAGENAME}}}}} ''' is a {{#switch: {{{2|}}} |1=[[:Category:Tier 1|Tier 1]] |2=[[:Category:Tier 2|Tier 2]] |3=[[:Category:Tier 3|Tier 3]] |3.5=[[:Category:Tier 3.5|Tier 3.5]] |4=[[:Category:Tier 4|Tier 4]] |tier-tbd... }} {{#switch: {{{3|}}} |c=character who |s=starship which |item that }} is only playable from the {{#switch: {{lc:{{{4|}}}}} |o=[[:Category:TOS|TOS-side]] |n=[[:Category:TNG|TNG-side]]|??? side}} of the game.</includeonly><noinclude>{{documentation}}</noinclude>

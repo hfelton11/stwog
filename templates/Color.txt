@@ -1,0 +1,1 @@
+<includeonly><span style = "color:{{#if:{{{1}}}|{{{1}}}|black}};">{{#if:{{{2|}}}{{{text|}}}|{{{text|}}}{{{2|}}}{{{3|}}}{{{4|}}}{{{5|}}}{{{6|}}}{{{7|}}}{{{8|}}}{{{9|}}}|<Color template incorrectly used. Please see {{t|Color}} for usage.>}}</span></includeonly><noinclude>{{documentation}}</noinclude>

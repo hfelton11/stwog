@@ -1,0 +1,3 @@
+<includeonly>{{#switch: {{uc:{{{1|}}}}} |B={{EventBegin|{{{2|}}}|{{{3|}}}|{{{4|}}}}} |M={{EventMid|{{{2|}}}|{{{3|}}}|{{{4|}}}}} |E={{EventEnd|{{{2|}}}|{{{3|}}}|{{{4|}}}}} |Y={{StoryIntro|{{{2|}}}|{{{3|}}}|{{{4|}}}}} |I={{EventIntro|{{{2|}}}|{{{3|}}}|{{{4|}}}}} |please choose b/e/m or y/i only.}}</includeonly><noinclude>{{documentation}}</noinclude>
+
+<!-- the passes 3 parameters to sub-templates-->

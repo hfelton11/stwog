@@ -1,0 +1,35 @@
+Template for writing weapons (rewards).  Actually invokes module:weapons. See its [[Module talk:Weapons |talk-page]] for further details.
+
+==Usage==
+<code>{{t|W|3-letter-weapon|quantity-of-weapon}}</code>
+
+===Parameters===
+<pre><unnamed 1></pre> 
+:Required, Default = _blank_ 
+:Which weapon item should be chosen (3-letters for coding)
+: letter-1 = o or n (for TOS/TNG)
+: letter-2 = govt (alliedfederation,klingon,romulan,cardassian,borg,ferengi)
+: letter-3 = type (s-or-w==shield, p-or-g==phaser, t-or-r==torpedo)
+
+<pre><unnamed 2></pre> 
+:optional, Default = _blank_
+:Number of these weapons given. (blank assumes 1)
+: use integers, without commas (but will place commas in output)
+: if integer is negative, then remove-icon from listing
+
+===Sample code===
+:<code><nowiki>{{w|nrS}}</nowiki></code> gives...
+:{{w|nrs}}
+:<code><nowiki>{{w|okP}}</nowiki></code> gives...
+:{{w|okP}}
+:<code><nowiki>{{w|naT|2}}</nowiki></code> gives...
+:{{w|naT|2}}
+:<code><nowiki>{{w|ogg|-3}}</nowiki></code> gives...
+:{{w|ogg|-3}}
+
+===Full set===
+Pairs-column is used to recreate original-ordering...
+
+{{WeaponsALL}}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

@@ -1,0 +1,20 @@
+;Description
+:This template is used to for a quick ending section in the [[:Star Trek Wrath of Gems Wikia:Calendar]] for an Event.  It is the last of 3 templates used for [[:Category:Events]] - EventBegin, EventMid, and EventEnd. It can be called-directly, or called as an E-parameter for the template:Event.  It assumes that the details of the Event itself will be fully described at {{PAGENAME}}.
+
+;Syntax
+<pre>
+{{EventEnd
+ | (1)  = Name, defaults to PAGENAME
+ | (2)  = Type-(O/N), ignored/unused...
+ | (3)  = Description, ignored/unused...
+}}
+</pre>
+
+;Sample(s)
+:<pre>{{EventEnd| Empty of the Mind | O | the Entellans }}</pre>
+
+Results in...
+
+{{EventEnd| Empty of the Mind | O | the Entellans }}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

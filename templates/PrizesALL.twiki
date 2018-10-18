@@ -1,0 +1,52 @@
+{| class="wikitable sortable"
+|-
+! scope="col" style="width: 5%; text-align: center;" | init
+! scope="col" style="width: 5%; text-align: center;" | order
+! scope="col" style="width: 45%; text-align: center;" | Name(s)
+! scope="col" style="width: 45%; text-align: center;" | Callout w/Icon
+|- style="text-align: center;"
+| '''b''' || 01 || Blue/(Basic)/Individual 1-Pack || {{p|b|1|b}}
+|- style="text-align: center;"
+| '''i''' || 02 || Blue/(Basic)/Individual 1-Pack || {{p|i|1|i}}
+|- style="text-align: center;"
+| '''c''' || 03 || Coin (not crystal, not plural icon)
+| {{p|c|1|c}}
+|- style="text-align: center;"
+| '''g''' || 04 || Coins/Gold (plural icon)
+| {{p|g|1|g}}
+|- style="text-align: center;"
+| '''d''' || 05 || Dilithium crystal (not plural icon)
+| {{p|d|1|d}}
+|- style="text-align: center;"
+| '''x''' || 06 || Dilithium X-tals (plural icon)
+| {{p|x|1|x}}
+|- style="text-align: center;"
+| '''h''' || 07 || Health/Energy for crew-restore
+| {{p|h|1|h}}
+|- style="text-align: center;"
+| '''e''' || 08 || Health/Energy for crew-restore
+| {{p|e|1|e}}
+|- style="text-align: center;"
+| '''w''' || 09 || Fixup/Wrench for ship-restore
+| {{p|w|1|w}}
+|- style="text-align: center;"
+| '''f''' || 10 || Fixup/Wrench for ship-restore
+| {{p|f|1|f}}
+|- style="text-align: center;"
+| '''r''' || 11 || Red/(normal)/Some 5-Pack
+| {{p|r|1|r}}
+|- style="text-align: center;"
+| '''s''' || 12 || Red/(normal)/Some 5-Pack
+| {{p|s|1|s}}
+|- style="text-align: center;"
+| '''t''' || 13 || Yellow/(deluxe)/Ten 10-Pack
+| {{p|t|1|t}}
+|- style="text-align: center;"
+| '''y''' || 14 || Yellow/(deluxe)/Ten 10-Pack
+| {{p|y|1|y}}
+|-
+|}
+
+odds are, you want to return to an [[:Category:Events|event]] now...
+
+<noinclude>[[Category:Collections|{{PAGENAME}}]]</noinclude>

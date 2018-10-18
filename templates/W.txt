@@ -1,0 +1,2 @@
+<onlyinclude>{{#invoke:Weapons|choice|{{{1|}}}|{{{2|1}}}}}</onlyinclude><noinclude>
+{{documentation}}</noinclude>

@@ -1,0 +1,12 @@
+<!-- 
+  since L165 pages only exist for tier-3-max, ignore other parameters...
+-->
+<div class="infobox-hero-tabbl" style="float:left;">
+<!-- fancy way of doing... {{invoke...|infoBoxes| S |doLevelInfobox| SGZ }} -->
+{{#invoke:CommonCodes | infoBoxes | {{#sub: {{#explode:{{PAGENAME}}|/| 0 }} |0|1}} | doLevelInfobox | {{#explode:{{PAGENAME}}|/|2}} }}
+</div>
+<div class="infobox-hero-tabbr" style="float:right;">
+<!-- fancy way of doing... {{invoke...|infoBoxes| S |doLevelInfobox| SGZ | up-15 }} -->
+{{#invoke:CommonCodes | infoBoxes | {{#sub: {{#explode:{{PAGENAME}}|/| 0 }} |0|1}} | doLevelInfobox | {{#explode:{{PAGENAME}}|/|2}} | 15 }}
+</div><includeonly>[[Category:Level165]]</includeonly><noinclude>
+{{documentation}}</noinclude>

@@ -1,0 +1,2 @@
+<onlyinclude>{{#invoke:Prizes|prize|{{{1|}}}|{{{2|}}}|{{{3|}}}}}</onlyinclude><noinclude>
+{{documentation}}</noinclude>

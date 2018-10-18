@@ -1,0 +1,53 @@
+;Description
+:This template is a wrapper to call FIVE templates - three templates are used for [[:Category:Events]] in the [[:Star Trek Wrath of Gems Wikia:Calendar]], and the other two templates are used for the introductory paragraphs for either the event-itself, or a story-act .  This template takes four parameters, the first one (B/M/E or I/Y) passes everything else down to the sub-templates - [[:Template:EventBegin]], [[:Template:EventMid]], and [[:Template:EventEnd]], or [[:Template:EventIntro]] / [[:Template:StoryIntro]].  See their documentation for further descriptions..
+
+;Syntax
+<pre>
+{{Event
+ | (1)  = Choice-(b/e/m/i), defaults to question...
+ | (2)  = Name of the Event
+ | (3)  = Type (TOS/TNG) of the Event
+ | (4)  = Short description of the Event / #-missions in the Story
+}}
+</pre>
+
+;Sample(s)
+:<pre>{{Event| B | Empty of the Mind | O | the [[:Category:Entellan|Entellans]] }}</pre>
+
+Results in...
+
+{{Event| B | Empty of the Mind | O | the [[:Category:Entellan|Entellans]] }}
+
+----
+
+:<pre>{{Event| M | Empty of the Mind | O | the [[:Category:Entellan|Entellans]] }}</pre>
+
+Results in...
+
+{{Event| M | Empty of the Mind | O | the [[:Category:Entellan|Entellans]] }}
+
+----
+
+:<pre>{{Event| E | Empty of the Mind | O | the [[:Category:Entellan|Entellans]] }}</pre>
+
+Results in...
+
+{{Event| E | Empty of the Mind | O | the [[:Category:Entellan|Entellans]] }}
+
+----
+
+:<pre>{{Event| I | Empty of the Mind | O | the [[:Category:Entellan|Entellans]] }}</pre>
+
+Results in...
+
+{{Event| I | Empty of the Mind | O | the [[:Category:Entellan|Entellans]] }}
+
+----
+
+:<pre>{{Event| Y | The Beginning | O | 6 }}</pre>
+
+Results in...
+
+{{Event| Y | The Beginning | O | 6 }}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

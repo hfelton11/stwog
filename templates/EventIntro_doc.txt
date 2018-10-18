@@ -1,0 +1,20 @@
+;Description
+:This template is used for a quick introductory paragraph on the page describing an  Event.  It is one of 4 templates used for [[:Category:Events]] - EventBegin, EventMid, and EventEnd are for the [[:Star Trek Wrath of Gems Wikia:Calendar|calendar]]; while EventIntro is used on the actual Event-page, itself. It can be called-directly, or called as an I-parameter for the template:Event.  It assumes that the details of the Event itself will be fully described at {{PAGENAME}}.
+
+;Syntax
+<pre>
+{{EventIntro
+ | (1)  = Name, defaults to PAGENAME
+ | (2)  = Type-(O/N), defaults to the string <TOS or TNG>
+ | (3)  = Description, defaults to <???>
+}}
+</pre>
+
+;Sample(s)
+:<pre>{{EventIntro| Empty of the Mind | O | the Entellans }}</pre>
+
+Results in...
+
+{{EventIntro| Empty of the Mind | O | the Entellans }}
+
+<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

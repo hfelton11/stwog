@@ -1,0 +1,5 @@
+<!-- complex call to module:ships that is adjusted based upon logic as-follows:
+
+
+--><onlyinclude>{{#invoke:Ships|choice|{{{1|}}}|{{{2|}}}}}</onlyinclude><noinclude>
+{{documentation}}</noinclude>

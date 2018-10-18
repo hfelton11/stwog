@@ -1,0 +1,37 @@
+<onlyinclude><infobox>
+	<title source="name">
+		<default>{{PAGENAME}}</default>
+	</title>
+		<data source="currentlevel"><label>Chosen.Level</label></data>
+	<group show="incomplete" collapse="closed">
+		<header>Basic information</header>
+		<image source="image">
+			<caption source="imagecaption" />
+		</image>
+		<data source="aliases"><label>Aliases</label></data>
+		<data source="series"><label>Series</label><default>''TOS/TNG''</default></data>
+		<data source="tier"><label>Tier</label></data>
+		<data source="lmin"><label>Min.Level</label></data>
+		<data source="currentlevel"><label>Max.Level</label></data>
+		<data source="limit"><label>Limit Level</label></data>
+		<data source="hp"><label>Health Points</label></data>
+	</group>
+	<group layout="horizontal">
+		<header>Color Starship Feature</header>
+		<data source="ar"><label>Red-Torpedos Bonus</label><default>''+0''</default><format>{{gem|t}} {{{ar}}}</format>></data>
+		<data source="ag"><label>Green-Phasers Bonus</label><default>''+0''</default><format>{{gem|v}} {{{ag}}}</format></data>
+		<data source="aw"><label>White-Shields Bonus</label><default>''+0''</default><format>{{gem|s}} {{{aw}}}</format></data>
+	</group>
+	<group collapse="open">
+		<header>Color Diplomacy Feature</header>
+		<data source="gorder"><label>Color-order</label><default>''RYBWPO''</default><format>{{{gorder}}}<br/>{{GemSix|{{{gorder}}}|20}}</format></data>
+		<data source="dv1"><label>Value.1</label><format>{{GemOrdered|{{{gorder}}}|1}} {{{dv1}}}</format><default>''0''</default></data>
+		<data source="dv2"><label>Value.2</label><format>{{GemOrdered|{{{gorder}}}|2}} {{{dv2}}}</format><default>''0''</default></data>
+		<data source="dv3"><label>Value.3</label><format>{{GemOrdered|{{{gorder}}}|3}} {{{dv3}}}</format><default>''0''</default></data>
+		<data source="dv4"><label>Value.4</label><format>{{GemOrdered|{{{gorder}}}|4}} {{{dv4}}}</format><default>''0''</default></data>
+		<data source="dv5"><label>Value.5</label><format>{{GemOrdered|{{{gorder}}}|5}} {{{dv5}}}</format><default>''0''</default></data>
+		<data source="dv6"><label>Value.6</label><format>{{GemOrdered|{{{gorder}}}|6}} {{{dv6}}}</format><default>''0''</default></data>
+	</group>
+</infobox></onlyinclude><noinclude><br style="clear:both;"/>
+{{documentation}}</noinclude>
+

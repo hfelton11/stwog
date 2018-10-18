@@ -1,0 +1,63 @@
+<onlyinclude><infobox>
+	<title source="name">
+		<default>{{PAGENAME}}</default>
+	</title>
+	<image source="image">
+		<caption source="imagecaption" />
+	</image>
+	<group>
+		<data source="aliases"><label>Aliases</label></data>
+		<data source="govt"><label>Govt.</label><default>''Federation''</default></data>
+		<data source="series"><label>Series</label><default>''TOS/TNG''</default></data>
+	</group>
+	<group collapse="closed" show="incomplete">
+		<header>Ally...Enemy...Neutral...Unknown</header>
+		<data source="xnpc"><label>Playable ?</label><default>''yes/no''</default></data>
+		<data source="sdate"><label>Date Added</label></data>
+		<data source="aenu"><label>Alliance</label><default>''Unknown''</default></data>
+	</group>
+	<group show="incomplete">
+		<header>Basic information</header>
+		<data source="tier"><label>Tier</label></data>
+		<data source="igpt"><label>IGPT</label><default>''default-0''</default></data>
+		<data source="lmin"><label>Min.Level</label></data>
+		<data source="lmax"><label>Max.Level</label></data>
+		<data source="limit"><label>Limit Level</label></data>
+		<data source="hp"><label>Health Points</label></data>
+	</group>
+	<group collapse="closed" show="incomplete">
+		<header>Skills information (5 Upgrades Each)</header>
+		<data source="nup"><label>Overall No.Upgrades</label><default>''10''</default></data>
+		<data source="skill1"><label>Skill.1</label><default>''Unknown''</default></data>
+		<data source="color1"><label>Color.1</label><format>{{Gem|{{{color1}}}}} {{{color1}}}</format><default>''RYBWPO''</default></data>
+		<data source="cost1"><label>Cost.1</label><format>Cost = '''{{{cost1}}}''' {{Gem|{{{color1}}}|13}}</format><default>''0''</default></data>
+		<data source="desc1"><label>Desc.1</label><default>''Description''</default></data>
+		<data source="skill2"><label>Skill.2</label><default>''Unknown''</default></data>
+		<data source="color2"><label>Color.2</label><format>{{Gem|{{{color2}}}}} {{{color2}}}</format><default>''RYBWPO''</default></data>
+		<data source="cost2"><label>Cost.2</label><format>Cost = '''{{{cost2}}}''' {{Gem|{{{color2}}}|13}}</format><default>''0''</default></data>
+		<data source="desc2"><label>Desc.2</label><default>''Description''</default></data>
+		<data source="skill3"><label>Skill.3</label></data>
+		<data source="color3"><label>Color.3</label><format>{{Gem|{{{color3}}}}} {{{color3}}}</format></data>
+		<data source="cost3"><label>Cost.3</label><format>Cost = '''{{{cost3}}}''' {{Gem|{{{color3}}}|13}}</format></data>
+		<data source="desc3"><label>Desc.3</label></data>
+	</group>
+	<group layout="horizontal">
+		<header>Color Starship Feature</header>
+		<data source="ar"><label>Red-Torpedos Bonus</label><default>''+0''</default><format>{{gem|t}} {{{ar}}}</format>></data>
+		<data source="ag"><label>Green-Phasers Bonus</label><default>''+0''</default><format>{{gem|v}} {{{ag}}}</format></data>
+		<data source="aw"><label>White-Shields Bonus</label><default>''+0''</default><format>{{gem|s}} {{{aw}}}</format></data>
+	</group>
+	<group collapse="closed">
+		<header>Cargo Offense/Defense Features</header>
+		<data source="crewamt"><label>Crew Onboard</label><default>''none''</default></data>
+		<data source="weaponamt"><label>Shields/Weapons</label><default>''none''</default></data>
+		<data source="crmin"><label>Crew.min</label></data>
+		<data source="crmax"><label>Crew.max</label></data>
+		<data source="crtyp"><label>Crew.type</label></data>
+		<data source="wpmin"><label>Weapon.min</label></data>
+		<data source="wpmax"><label>Weapon.max</label></data>
+		<data source="wptyp"><label>Weapon.type</label></data>
+	</group>
+</infobox></onlyinclude><noinclude><br style="clear:both;"/>
+{{documentation}}</noinclude>
+

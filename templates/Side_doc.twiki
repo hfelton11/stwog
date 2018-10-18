@@ -1,0 +1,16 @@
+
+== Description ==
+:This template is for autotyping an introductory sentence on every character or starship page.
+
+;Syntax
+:<code>{{t|side|name-to-use|tier-#|Crew-or-Ship|TOS-or-TNG}}</code>
+
+== Samples ==
+* <pre>{{side}}</pre> gives ==> {{side}}
+* <pre>{{side||1|}}</pre> gives ==> {{side||1|}}
+* <pre>{{side|Kirk|2|c|o}}</pre> gives ==> {{side|Kirk|2|c|o}}
+* <pre>{{side|Data|1|c|n}}</pre> gives ==> {{side|Data|1|c|n}}
+* <pre>{{side|Enterprise-B|3.5|s|o}}</pre> gives ==> {{side|Enterprise-B|3.5|s|o}}
+* <pre>{{side|Blah-Blah|200|X|Y}}</pre> gives ==> {{side|Blah-Blah|200|X|Y}}
+
+<includeonly>[[Category:General wiki templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

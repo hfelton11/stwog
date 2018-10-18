@@ -1,0 +1,3 @@
+<includeonly>Ending of the '''[[ {{{1|{{PAGENAME}}}}} ]]''' Event.</includeonly><noinclude>{{documentation}}</noinclude>
+
+<!-- the 2nd and 3rd parameters are ignored -->

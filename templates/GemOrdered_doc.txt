@@ -1,0 +1,22 @@
+
+== Description ==
+:This template is used for ''PICKING'' a single gem color out of a listing of the six-colors for a character in their infoboxes.  It is used within the diplomacy-values section of the infobox for a character.
+
+;Syntax
+:<code>{{t|GemOrdered|six initials for colors, in Left-to-Right order|position-to-pick}}</code>
+
+See also: {{t|GemSix}}
+
+== Samples ==
+* <pre>{{GemOrdered}}</pre> gives ==> {{GemOrdered}}
+* <pre>{{GemOrdered|RY}}</pre> gives ==> {{GemOrdered|RY}}
+* <pre>{{GemOrdered|RYBWOP}}</pre> gives ==> {{GemOrdered|RYBWOP}}
+* <pre>{{GemOrdered|RYBWOP|1}}</pre> gives ==> {{GemOrdered|RYBWOP|1}}
+* <pre>{{GemOrdered|RYBWOP|2}}</pre> gives ==> {{GemOrdered|RYBWOP|2}}
+* <pre>{{GemOrdered|RYBWOP|3}}</pre> gives ==> {{GemOrdered|RYBWOP|3}}
+* <pre>{{GemOrdered|RYBWOP|4}}</pre> gives ==> {{GemOrdered|RYBWOP|4}}
+* <pre>{{GemOrdered|RYBWOP|5}}</pre> gives ==> {{GemOrdered|RYBWOP|5}}
+* <pre>{{GemOrdered|RYBWOP|6}}</pre> gives ==> {{GemOrdered|RYBWOP|6}}
+* <pre>{{GemOrdered|RYBWOP|7}}</pre> gives ==> {{GemOrdered|RYBWOP|7}}
+
+<includeonly>[[Category:General wiki templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>

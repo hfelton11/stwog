@@ -1,0 +1,29 @@
+;Description
+:This template is used to prevent a newline during text where it isn't good for readability.
+;Syntax
+:<code>{{t|nowrap|text that shouldn't be wrapped}}</code>
+
+;Example
+:<pre>{{nowrap|text that shouldn't be wrapped even tho it is a really really long line of text...  in fact it is sooo long that it should require its own special scroll-bar...}}</pre>
+:gives
+:{{nowrap|text that shouldn't be wrapped even tho it is a really really long line of text...  in fact it is sooo long that it should require its own special scroll-bar...}}
+
+;Beware of text containing special characters, like <code>|</code> or <code>=</code>
+;They might need special treatment.
+
+;Alternate syntax to allow special-characters (but trims lead/trail-spaces)
+:<pre>{{nowrap|text= a Named-parameter can use = signs, but still has trouble with pipe-chars. (|) ... }}</pre>
+:gives
+:{{nowrap|text= a Named-parameter can use = signs, but still has trouble with pipe-chars. (|) ... }}
+
+;Beware - the alternate-syntax example here ended up having BOTH parameters...
+: the unnamed-1-parameter (after the pipe) was ") ... " which prints FIRST...
+: the named-text-parameter (up to the pipe) printed second which ends at "("...
+: also, other unnamed-parameters are ignored to highlight pipe-char issues...
+
+;Error-text
+:<pre>{{Nowrap}}</pre>
+:gives
+:{{Nowrap}}
+
+<includeonly>[[Category:General wiki templates|{{PAGENAME}}]]</includeonly><noinclude>[[Category:Template documentation|{{PAGENAME}}]]</noinclude>
