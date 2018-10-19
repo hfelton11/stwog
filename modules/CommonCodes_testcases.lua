@@ -104,6 +104,10 @@ function p:test_NewerCalls()
     self:preprocess_equals('{{#invoke:CommonCodes | makeIGPTfromKey | S | SGZ }}', 'stargazer-3')
 end
 
+local SGZencJSON = '{"xnpc":"yes","cargoUpgrades":{"cupgr6":{"crewamt":5,"weaponamt":5,"currentlevel":115},"cupgr7":{"crewamt":6,"weaponamt":6,"currentlevel":125},"cupgr0":{"crewamt":8,"weaponamt":8,"currentlevel":150},"cupgr3":{"crewamt":3,"weaponamt":4,"currentlevel":90},"cupgr1":{"crewamt":2,"weaponamt":3,"currentlevel":65},"cupgr2":{"crewamt":3,"weaponamt":3,"currentlevel":70},"cupgr9":{"crewamt":7,"weaponamt":8,"currentlevel":145},"cupgr5":{"crewamt":4,"weaponamt":5,"currentlevel":105},"cupgr4":{"crewamt":4,"weaponamt":4,"currentlevel":95},"cupgr8":{"crewamt":7,"weaponamt":7,"currentlevel":135}},"hp":1228,"aliases":"USS Stargazer","image":"Stargazer.png","limit":165,"tier":3,"othersUpgrades":{"up03":{"skillschosen":"2o1y0b","aw":"+28","currentlevel":50,"ar":"+32","hp":1518,"ag":"+28"},"up09":{"skillschosen":"3o4y2b","aw":"+51","currentlevel":96,"ar":"+59","hp":2852,"ag":"+51"},"up15XXX":{"skillschosen":"5o5y5b","aw":"+35","currentlevel":165,"ar":"+35","hp":3500,"ag":"+35"}},"lmax":42,"aenu":"Ally","ag":"+23","lmin":40,"cargo":{"crtyp":"tbd = any, universal, federation, klingon, romulan","weaponamt":2,"crmax":8,"wpmin":0,"crmin":0,"crewamt":2,"wptyp":"{{ina}}","wpmax":8},"imagecaption":"USS Stargazer","skills":{"cost3":7,"cost1":9,"skill2":"Picard Maneuver","color1":"Orange","color2":"Yellow","cost2":"passive","desc1":{"t2":" blue gems to strike. Does ","v1":2,"v2":32,"t1":"Changes ","t3":" damage for each orange gem that the team has. Max ","v3":170,"t4":"."},"desc2":{"t2":"% life remaining, each strike will cause a damage of ","v1":10,"v2":17,"t1":"If you have less than ","t3":", for each yellow gem on the board. Max ","v3":170,"t4":"."},"skill1":"Constellation Class","desc3":{"t2":" and adds ","v1":50,"v2":2,"t1":"Repairs the shield by ","t3":" defensive gems that protext ","v3":18,"t4":" life during each turn."},"color3":"Blue","skill3":"Skirmish"},"series":"TNG","currentlevel":40,"igp":"stargazer","skillsUpgrades":{"supgr3":{"desc3":{"v1":86,"v3":36},"desc1":{"v1":3,"v2":55,"v3":300},"desc2":{"v2":29,"v3":290}},"supgr5":{"desc3":{"v1":122,"v3":50},"desc1":{"v1":5,"v2":78,"v3":420},"desc2":{"v2":41,"v3":410}},"supgr2":{"desc3":{"v1":70,"v3":24},"desc1":{"v1":3,"v2":48,"v3":250},"desc2":{"v2":21,"v3":210}},"supgr4":{"desc3":{"v1":108,"v3":44},"desc1":{"v1":4,"v2":68,"v3":360},"desc2":{"v2":37,"v3":370}}},"name":"[[Stargazer]]","aw":"+23","sdate":"2015-01-01","ar":"+27","nup":15,"govt":"[[Federation]]"} '
+local PCencJSON = '{"gorder":"WBPROY","xnpc":"yes","datavalues":{"dv6":2,"dv5":2,"dv4":2,"dv3":2,"dv2":3,"dv1":3},"hp":58,"aliases":"Chekov, P. Chekov, Mr. Chekov","image":"Pavel Chekov.png","limit":50,"tier":1,"othersUpgrades":{"up10":{"currentlevel":50,"gorder":"WBPROY","aw":"+6","datavalues":{"dv6":7,"dv5":8,"dv4":8,"dv3":18,"dv2":27,"dv1":29},"skillschosen":"5b5p","ar":"+5","hp":793,"ag":"+7"}},"lmax":3,"aenu":"Ally","ag":"+1","lmin":1,"imagecaption":"P. Chekov","ar":"+0","series":"TOS","gender":"Male","race":"Human","currentlevel":1,"igp":"chekov","skillsUpgrades":{"supgr3":{"desc1":{"v2":24},"desc2":{"v2":4,"v1":84}},"supgr5":{"desc1":{"v2":37},"desc2":{"v2":5,"v1":107}},"supgr2":{"desc1":{"v2":18},"desc2":{"v1":72}},"supgr4":{"desc1":{"v2":31},"desc2":{"v2":4,"v1":96}}},"name":"[[Ensign Chekov]]","aw":"+1","sdate":"2015-01-01","skills":{"color2":"Purple","color1":"Blue","desc1":{"t2":" defensive gems that protect ","v1":3,"v2":10,"t1":"Adds ","t3":" damage points each."},"desc2":{"t2":" damage to the selected enemy and confuses him for ","v1":60,"v2":3,"t1":"Does ","t3":" turns."},"cost2":8,"skill1":"Tactical Deployment","skill2":"Scientific Trap","cost1":6},"nup":10,"govt":"[[Federation]]"} '
+
+
 function p:test_keys()
     self:preprocess_equals('{{#invoke:CommonCodes | isGoodKey | s | SGZ }}', 'true')
     self:preprocess_equals('{{#invoke:CommonCodes | isGoodKey | s | XXX }}', 'false')
@@ -115,19 +119,23 @@ function p:test_keys()
     self:preprocess_equals('{{#invoke:CommonCodes | getNamefromKey | c | PC }}', '[[Ensign&nbsp;Chekov]]')
     self:preprocess_equals('{{#invoke:CommonCodes | getNamefromKey | SGZ }}', 'false')
     self:preprocess_equals('{{#invoke:CommonCodes | getNamefromKey | S | SGZ }}', '[[Stargazer]]')
-    self:preprocess_equals('{{#invoke:CommonCodes | getFullKey | s | SGZ }}', 'table')
+    self:preprocess_equals('{{#invoke:CommonCodes | getFullKey | s | SGZ }}', SGZencJSON)
     self:preprocess_equals('{{#invoke:CommonCodes | getFullKey | x | SGZ }}', 'false')
     self:preprocess_equals('{{#invoke:CommonCodes | getFullKey | s | XXX }}', 'false')
     self:preprocess_equals('{{#invoke:CommonCodes | getFullKey | x | XXX }}', 'false')
-    self:preprocess_equals('{{#invoke:CommonCodes | getFullKey | c | PC }}', 'table')
+    self:preprocess_equals('{{#invoke:CommonCodes | getFullKey | c | PC }}', PCencJSON)
     self:preprocess_equals('{{#invoke:CommonCodes | getFullKey | SGZ }}', 'false')
 end
 
+-- utils.dumpTableSorted() not useful as opposed to JSON...
 local currentCrewKeys = '{ [1] = AH,[2] = AK,[3] = AM,[4] = ANU,[5] = AP,[6] = AR,[7] = ASP,[8] = AV,[9] = AWR,[10] = B1,[11] = B2,[12] = B3,[13] = B4,[14] = BA,[15] = BD,[16] = BE,[17] = BRU,[18] = CA,[19] = CAV,[20] = CBC,[21] = CCP,[22] = CDA,[23] = CDR,[24] = CDT,[25] = CHS,[26] = CHT,[27] = CK,[28] = CLF,[29] = CLM,[30] = CMS,[31] = CNU,[32] = CP,[33] = CPC,[34] = CR,[35] = CT,[36] = CWF,[37] = CWR,[38] = DA,[39] = DBC,[40] = DE,[41] = DLM,[42] = DM,[43] = EK,[44] = EMS,[45] = GLF,[46] = HE,[47] = HO,[48] = HS,[49] = HV,[50] = IN,[51] = KG,[52] = KN,[53] = KO,[54] = KOR,[55] = KU,[56] = KY,[57] = LB,[58] = LD,[59] = LE,[60] = LF,[61] = LOP,[62] = LPC,[63] = MEL,[64] = MS,[65] = NL,[66] = NO,[67] = NU,[68] = NVZ,[69] = OP,[70] = PC,[71] = PG,[72] = PP,[73] = QQ,[74] = RU,[75] = SF,[76] = SG,[77] = SP,[78] = SS,[79] = SV,[80] = SWF,[81] = TA,[82] = TE,[83] = TH,[84] = TK,[85] = TK50,[86] = TN,[87] = TO,[88] = TR,[89] = TT,[90] = TV,[91] = TYD,[92] = TYL,[93] = TYM,[94] = TZZ,[95] = VE,[96] = WC,[97] = WF,[98] = WS,} '
-
 local currentShipKeys = '{ [1] = ANT,[2] = BC1,[3] = BC2,[4] = BR,[5] = CG,[6] = CH,[7] = EN,[8] = ENA,[9] = ENB,[10] = END,[11] = FDM,[12] = HOZ,[13] = KBP,[14] = KD5,[15] = KEB,[16] = KKT,[17] = KNV,[18] = KR,[19] = KV,[20] = RBP,[21] = RD7,[22] = RDD,[23] = REL,[24] = RS,[25] = RV7,[26] = RVD,[27] = SGZ,[28] = THC,[29] = TS,[30] = VA,[31] = VDK,[32] = VTM,} '
+local currentCrewKeysJSON = '["AH","AK","AM","ANU","AP","AR","ASP","AV","AWR","B1","B2","B3","B4","BA","BD","BE","BRU","CA","CAV","CBC","CCP","CDA","CDR","CDT","CHS","CHT","CK","CLF","CLM","CMS","CNU","CP","CPC","CR","CT","CWF","CWR","DA","DBC","DE","DLM","DM","EK","EMS","GLF","HE","HO","HS","HV","IN","KG","KN","KO","KOR","KU","KY","LB","LD","LE","LF","LOP","LPC","MEL","MS","NL","NO","NU","NVZ","OP","PC","PG","PP","QQ","RU","SF","SG","SP","SS","SV","SWF","TA","TE","TH","TK","TK50","TN","TO","TR","TT","TV","TYD","TYL","TYM","TZZ","VE","WC","WF","WS"]'
+local currentShipKeysJSON = '["ANT","BC1","BC2","BR","CG","CH","EN","ENA","ENB","END","FDM","HOZ","KBP","KD5","KEB","KKT","KNV","KR","KV","RBP","RD7","RDD","REL","RS","RV7","RVD","SGZ","THC","TS","VA","VDK","VTM"]'
 
-local currentEnc = 'glbls.keys=["ANT","BC1","BC2","BR","CG","CH","EN","ENA","ENB","END","FDM","HOZ","KBP","KD5","KEB","KKT","KNV","KR","KV","RBP","RD7","RDD","REL","RS","RV7","RVD","SGZ","THC","TS","VA","VDK","VTM"]'
+
+local currentNOTEnc = 'glbls.keys=["ANT","BC1","BC2","BR","CG","CH","EN","ENA","ENB","END","FDM","HOZ","KBP","KD5","KEB","KKT","KNV","KR","KV","RBP","RD7","RDD","REL","RS","RV7","RVD","SGZ","THC","TS","VA","VDK","VTM"]'
+local currentEnc = '["ANT","BC1","BC2","BR","CG","CH","EN","ENA","ENB","END","FDM","HOZ","KBP","KD5","KEB","KKT","KNV","KR","KV","RBP","RD7","RDD","REL","RS","RV7","RVD","SGZ","THC","TS","VA","VDK","VTM"]'
 
 
 function p:test_items()
@@ -148,7 +156,7 @@ function p:test_items()
 end
 
 function p:test_encoding()
-    self:preprocess_equals('{{#invoke:CommonCodes | main | s | full | keyTbl }}', currentEnc )
+    self:preprocess_equals('{{#invoke:CommonCodes | main | s | full | keyTbl }}', currentNOTEnc )
 end
 
 function p:test_mains()
@@ -165,8 +173,8 @@ function p:test_mains()
     self:preprocess_equals('{{#invoke:CommonCodes | main | s | ZZZZ | SGZ }}', ans1..ans3..' [1] = s,[2] = ZZZZ,[3] = SGZ,} ')
     self:preprocess_equals('{{#invoke:CommonCodes | main | s | blank | SGZ }}', ans1..ans3..' [1] = s,[2] = blank,[3] = SGZ,} ')
 --    self:preprocess_equals('{{#invoke:CommonCodes | main | s | full | keyTbl }}', currentEnc )
-    self:preprocess_equals('{{#invoke:CommonCodes | main | s | full | keylist }}', currentShipKeys )
-    self:preprocess_equals('{{#invoke:CommonCodes | main | c | full | keylist }}', currentCrewKeys )
+    self:preprocess_equals('{{#invoke:CommonCodes | main | s | full | keylist }}', currentShipKeysJSON )
+    self:preprocess_equals('{{#invoke:CommonCodes | main | c | full | keylist }}', currentCrewKeysJSON )
     self:preprocess_equals('{{#invoke:CommonCodes | main | s | full | keycount }}', '32' )
     self:preprocess_equals('{{#invoke:CommonCodes | main | c | full | keycount }}', '98' )
     self:preprocess_equals('{{#invoke:CommonCodes | main | s | select | keycount | tier | 1 }}', '6' )

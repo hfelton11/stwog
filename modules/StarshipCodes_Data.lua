@@ -1120,7 +1120,7 @@ return {
 		    weaponamt = 2,
 		    wpmin = 0,
 		    wpmax = 8,
-            wptyp = '[[File:federation-tos.png|thumb|20px|link=Weapons#Federation]]',
+            wptyp = '{{ioa}}',
 		},
 		currentlevel = 40,
 		skillsUpgrades = {

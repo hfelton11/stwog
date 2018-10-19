@@ -221,12 +221,20 @@ function mkOKitems(sorc)
     return items
 end
 function getFullKey(key)
+	local retval = false
     if isGoodKey(key) then
-        return glbls.data[key]
-    else
-        -- never hits here ...
-        return 'really nothing found'
+		local tempval = glbls.data[key]
+		if type(tempval) == 'table' then
+			local enc = utils.JSONencodeTable2String(tempval)
+			--  retval = 'YEAH!'
+			retval = enc
+		end
+		--return glbls.data[key]
+	else
+		-- never hits here ...
+		retval = 'really nothing found'
     end
+    return retval
 end
 local function getTablefromKey(key,item)
     -- assumes prechecks already done...
@@ -817,7 +825,8 @@ local function listDBstring(argsel)
 		-- next we deal with valid 'full' keywords
 			if fullsel == 'full' then
 				if keyitem == 'keylist' then
-					tempstr = utils.dumpTableSorted(dummy)
+					--tempstr = utils.dumpTableSorted(dummy)
+					tempstr = utils.JSONencodeTable2String(dummy)
 				elseif keyitem == 'keycount' then
 					tempstr = utils.tblFullSize(dummy)
 				else -- keyTbl
