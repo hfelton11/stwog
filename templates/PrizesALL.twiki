@@ -5,6 +5,8 @@
 ! scope="col" style="width: 45%; text-align: center;" | Name(s)
 ! scope="col" style="width: 45%; text-align: center;" | Callout w/Icon
 |- style="text-align: center;"
+| '''a''' || 00 || Award (Trophies won) || {{p|a|1|a}}
+|- style="text-align: center;"
 | '''b''' || 01 || Blue/(Basic)/Individual 1-Pack || {{p|b|1|b}}
 |- style="text-align: center;"
 | '''i''' || 02 || Blue/(Basic)/Individual 1-Pack || {{p|i|1|i}}

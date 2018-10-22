@@ -21,9 +21,10 @@ glbls.usenbspnumbers = false
 -- pixels
 local NORMALSIZE = 25
 local PrizePictures = { -- see discussion at: ???
-                        c = 'Currency-coin.png',
+                        a = 'Trophy-badges.png', 
+                        c = 'Currency-coin.png', 
                         g = 'Currency-coins.png',        --gold, plural=pile
-                        d = 'Currency-dilithium.png',
+                        d = 'Currency-dilithium.png', 
                         x = 'Currency-dilithiums.png',   --xtal, plural=pile
                         b = 'Pack-blue.png',
                         i = 'Pack-blue2.png',            --Individual-pack
@@ -37,6 +38,7 @@ local PrizePictures = { -- see discussion at: ???
                         f = 'Repair-Wrench.png',        --fixup
                     }
 local PrizeNames = {
+                        a = 'Awards [trophy-badge]',
                         b = '1'..glbls.hyphen..'Pack [blue]',
                         c = 'Coins [gold]',
                         d = 'Dilithium [purple]',
@@ -54,6 +56,7 @@ local PrizeNames = {
                         y = '10'..glbls.hyphen..'Pack [yellow]',
                     }
 local PrizeNamesShort = {
+                        a = 'awards',
                         b = 'blue'..glbls.hyphen..'packs',
                         c = 'coins',
                         d = 'dilithium',
@@ -191,7 +194,7 @@ function p._main(frame)
     -- 3-at-a-time possible-arguments (for prizes)...
     local a
     a = utils.tableShallowCopy(getargs(frame))
-    if #a == 0 then
+    if #a == 0 then 
 --        return 'bad argument list'
         return false
     else
