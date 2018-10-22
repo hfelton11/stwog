@@ -42,8 +42,12 @@ glbls.sorc = 'x'
 glbls.data = {}
 -- chkTbl was used for main-myList-fcn
 glbls.chkTbl = {}
+glbls.holdTbl = {}
 -- used in mkIndex-fcn...
 glbls.keys = {}
+
+-- forward declaration does NOT work ???
+--local mkTableTextListOne
 
 -- since TWILIGHT means no-new-info, can hard-code these two lists...
 -- however, these are just the dumpTable() strings - NOT the tables...
@@ -78,7 +82,8 @@ local function getTablefromKey(k,tblNm)
 			retTBL["key"]=k
 		end
 		glbls.data = utils.tableShallowCopy(retTBL)
-	    return retval  -- early
+		glbls.holdTbl = utils.tableShallowCopy(retTBL)
+		return retval  -- early
 	end
 	fake[3]=tostring(tblNm)
 	retval=comns.passTBL(fake)
@@ -281,13 +286,63 @@ local function chkCrew(c)
     local dummy = 'dummy'
     local rettbl = {}
 	for _,k in ipairs(possibles) do
-        if utils.isNotBlank(c[k]) then
-            rettbl[k] = c[k]
+		local ans = tostring(c[k])
+        if utils.isNotBlank(ans) then
+            rettbl[k] = ans
         else
             rettbl[k] = dummy
         end
     end
     return rettbl
+end
+
+
+local function mkTableTextListOne(chooseHero,levelReached)
+	--local r,ok
+	--local outDiv = mw.html.create('div')
+	local row = mw.html.create('tr')
+	local key = glbls.data['key']
+	local name = glbls.data['name']
+	-- we do not get FULL glbls.data, just the single selected one...
+	--local heroName = glbls.data[chooseHero]['name']
+
+	--outDiv
+	--	:attr('id',key)
+	--	:wikitext('Key '..chooseHero..' is called ')
+	--	:wikitext("'''[["..heroName.."]]'''.")
+	--	:newline()
+	--	:newline()
+
+	if key == chooseHero then
+		row
+			:css('text-align','center;')
+			:tag('td'):wikitext(key):done()
+			:tag('td'):wikitext(name):done()
+			:tag('td'):wikitext(levelReached):done()
+	else
+		row
+			:css('text-align','right;')
+			:tag('td'):wikitext('FAIL'):done()
+	end
+
+
+    return row
+	--return outDiv
+end
+
+local function addRowSkills( idx, tbl )
+	local row = mw.html.create('tr')
+	local cost = tbl[idx]['cost']
+    row
+        :css('text-align','center;')
+        :tag('td'):wikitext(idx):done()
+        :tag('td'):wikitext(cost):done()
+
+	local desc = tbl[idx]['desc']
+    row
+        :css('text-align','left;')
+        :tag('td'):wikitext(desc):done()
+    return row
 end
 
 
@@ -301,7 +356,10 @@ local function loadCrewOne(k,chosens)
 	tempStr = getTablefromKey(k)
 	--rtbl = utils.tableShallowCopy(glbls.data)
 	rtbl = utils.JSONdecodeString2Table(tempStr)
+	--r = mkTableTextListOne(key,level)
+
 	if rtbl.key ~= k then return false end   -- early...
+	--if rtbl.key ~= k then return mkTableTextListOne(k,'Level 3') end
 --[[
         if not chosens then chosens = possibles end
         if type(chosens)~='table' then chosens = possibles end
@@ -319,19 +377,12 @@ local function loadCrewOne(k,chosens)
 end
 
 
-local function addRowSkills( idx, tbl )
-	local row = mw.html.create('tr')
-	local cost = tbl[idx]['cost']
-    row
-        :css('text-align','center;')
-        :tag('td'):wikitext(idx):done()
-        :tag('td'):wikitext(cost):done()
-
-	local desc = tbl[idx]['desc']
-    row
-        :css('text-align','left;')
-        :tag('td'):wikitext(desc):done()
-    return row
+local function chooseCols( cols )
+	local retcols = {}
+	for _,c in ipairs(cols) do
+		retcols.c = string.lower(c)
+	end
+	return retcols
 end
 
 
@@ -352,25 +403,26 @@ local function addRow( crew, cols )
 		if c=='key' then
 			row
 				:css('text-align','center;')
-                :tag('td'):wikitext(crew.key):done()
+                :tag('td'):wikitext(crew.key)
         elseif c=='series' then
             row
-                :tag('td'):wikitext(crew.series):done()
+                :tag('td'):wikitext(crew.series)
         elseif c=='hp' then
             row
-                :tag('td'):wikitext(crew.hp):done()
+                :tag('td'):wikitext(crew.hp)
         elseif c=='tier' then
             row
-                :tag('td'):wikitext(crew.tier):done()
+                :tag('td'):wikitext(crew.tier)
         else
             row
-                :tag('td'):wikitext('other'):done()
+				:tag('td'):wikitext(crew.c)
+				--:tag('td'):wikitext('other'):done()
         end
 	end
 
-	return row
+	--return row
+	return row:done()
 end
-
 
 
 local function mkRow(k,cols)
@@ -380,7 +432,7 @@ local function mkRow(k,cols)
 	-- retval is stupid string, table is at glbls.data
 	local chkvals
 		-- hardcoded for now...
-		chkcols = {"key","tier","name",}
+		chkcols = {'key',"tier","name",}
 		if not dummy then
 			-- false passback is bad...
 			newrow = addHeader(chkcols)
@@ -388,6 +440,7 @@ local function mkRow(k,cols)
 		else
 			crew = utils.tableShallowCopy(glbls.data)
 			chkvals = chkCrew(crew)
+			--chkvals = crew
 		end
 --[[
 		-- fill this in...
@@ -454,6 +507,118 @@ local function mkCount_N(n)
 		fakeFrame[5] = tostring(n)
 		retval = tonumber(comns.main(fakeFrame))
     return retval
+end
+
+local function mkList()
+	local fakeFrame = {}
+	local retOut
+    local r  -- to hold extra nodes/rows
+	local row
+	local retval,tempStr,allKeys
+	-- too many cols invokes script-errors...
+	--local myCols = {'key','level','limit','name','tier','series',}
+	-- hack !!! so that level can be compared inline semi-quickly...
+	local myCols = {'key','limit','level','name',}
+	--local myCols = {'key','level','limit','name',}
+	local gdKeys = {}
+	local mkRowWanted = {}
+	local doTbl = utils.tableShallowCopy(glbls.chkTbl)
+	-- table has key/level pairs...
+	retOut = utils.dumpTableSorted(doTbl)..'\n\n* '
+
+	-- first loadup the glbl-fullKeys...
+		fakeFrame[1] = glbls.sorc
+		fakeFrame[2] = 'full'
+		fakeFrame[3] = 'keylist'
+		tempStr = comns.main(fakeFrame)
+		allKeys = utils.JSONdecodeString2Table(tempStr)
+		--glbls.keys = utils.tableShallowCopy(allKeys)
+	retOut = mw.html.create('table'):addClass('wikitable sortable')
+	r = addHeader(myCols)
+	retOut:node(r)
+	for _,key in ipairs(allKeys) do
+		for k,v in pairs(doTbl) do
+			if k==key then
+				local doJust = 'right;'
+				local doit = false
+				local chkDone = false
+				row = mw.html.create('tr')
+				--row
+				--	:tag('td'):wikitext(k):done()
+				--	:tag('td'):wikitext(v):done()
+				mkRowWanted = {}
+				mkRowWanted['key'] = tostring(k)
+				mkRowWanted['level'] = tostring(v)
+				fakeFrame[2] = key
+				for _,item in ipairs(myCols) do
+					local chk = tonumber(mkRowWanted['level'])
+					local getit
+					fakeFrame[3] = item
+					if not mkRowWanted[item] then
+						getit = comns.getItemfromKey(fakeFrame)
+						mkRowWanted[item] = tostring(getit)
+					end
+					if item=='limit' then
+						doit = true
+					else
+						doit = false
+					end
+					if not chkDone and doit then
+						chkDone = true
+						if chk < tonumber(getit)  then
+							doJust = 'left;'
+							--bkColor = 'fuschia;'
+						elseif chk == tonumber(getit) then
+							doJust = 'center;'
+						--else
+							-- BAD BAD - cuz higher-level-than-possible ?
+							-- doJust = 'right;'
+							-- pre-defined at beginning...
+						end
+					end
+					if chkDone then
+						row
+							:css('text-align',doJust)
+							:tag('td'):wikitext(mkRowWanted[item]):done()
+					else
+						row
+							:css('text-align','inherit;')
+							:tag('td'):wikitext(mkRowWanted[item]):done()
+					end
+				end
+				retOut:node(row)
+			end
+		end
+	end
+--[[
+	for _,key in ipairs(allKeys) do
+		for k,v in pairs(doTbl) do
+			if k==key then
+				local mkRowWanted = {}
+				gdKeys[#gdKeys+1] = key
+				mkRowWanted['key'] = tostring(k)
+				mkRowWanted['level'] = tostring(v)
+				--for _,item in ipairs(myCols) do
+				--	-- yes, this is mostly repetitious...
+				--	fakeFrame[2] = key
+				--	fakeFrame[3] = item
+				--	mkRowWanted[item] = comns.getItemfromKey(fakeFrame)
+				--end
+				r = addRow(mkRowWanted,myCols)
+				retOut:node(r)
+			end
+		end
+	end
+--]]
+--	for _,key in ipairs(gdKeys) do
+--		r = addRow(mkRowWanted,myCols)
+--		retOut:node(r)
+--    end
+	r = addHeader(myCols)
+	retOut:node(r)
+
+	return retOut
+
 end
 
 local function mkIndex(k)
@@ -803,7 +968,8 @@ function p.main(frame)
 		if what=='MyList' then
 			--out = dbgstr..tOstNg..enTbl..tbdVals..'\n\n* '
 			--out = out..utils.dumpTable(glbls.chkTbl)
-			out = utils.dumpTable(glbls.chkTbl)..'\n\n* '
+			out = mkList()
+			--out = utils.dumpTable(glbls.chkTbl)..'\n\n* '
 		else
 			--out = dbgstr..tOstNg..enTbl..tbdVals
 			out = dbgstr..'prt-'..glbls.sorc

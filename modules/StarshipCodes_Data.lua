@@ -473,6 +473,7 @@ return {
 	},
 	VDK = { -- lvl-96
 	    -- lvl-135 4120 rgw-79.70.69 c/w-7/6 136=2750 165=93375 sell=28800
+	    -- lvl-150 4570 rgw-87.78.76 c/w-8/6 151=3125 165=49500 sell=33300
 	    -- lvl-150 max-cw-8/6
 		name = '[[Dkyr]]',
 		aliases = 'Vulcan D\'kyr, Dkyr',
@@ -677,6 +678,7 @@ return {
 	KD5 = { -- lvl-96
 	    -- lvl-50 1425 wgr-27.28.31 c/w-1/1 51=490 upg=350 sell=3300 1y2p0o
 	    -- lvl-135 3720 wgr-67.70.79 c/w-6/6 136=2750 165=93375 sell=28800
+	    -- lvl-145 3990 rgw-85.75.72 c/w-6/7 146=3000 165=64750 sell=31800
 	    -- lvl-145 max-c/w-6/7
 		name = '[[D-5]]',
 		aliases = 'Klingon D-5',
@@ -981,7 +983,6 @@ return {
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
-            -- tbd... --
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
@@ -1266,7 +1267,8 @@ return {
 	},
 	VA = { -- lvl-96
 		-- lvl-115 3518 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
-	    -- lvl-125 cw-6/6 max-cw=8/8
+		-- lvl-125 3818 rgw-75.65.67 c/w-6/6 126=2500 165=119500 sell=25800
+	    -- lvl-135 cw-7/7 max-cw=8/8
 		name = '[[Valiant]]',
 		aliases = 'Valiant, USS Valiant',
 		image = 'Valiant.png',
@@ -1360,9 +1362,9 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
+		    -- tbd...
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
@@ -1787,7 +1789,8 @@ return {
 	},
 	BC2 = { -- lvl-96
 		-- lvl-115 3173 rgw-68.59.59 c/w-5/5 116=2250 165=143125 sell=22800
-	    -- lvl-125 cw-5/6 ; lvl-135 cw-6/6 ; max-cw=7/7
+		-- lvl-125 3443 rgw-73.64.64 c/w-5/6 116=2500 165=119500 sell=25800
+	    -- lvl-135 cw-6/6 ;lvl-145 cw-???/7 ; max-cw=7/7
 		name = '[[Cube&nbsp;2]]',
 		aliases = 'Borg Cube Class 2',
 		image = 'Cube 2.png',
@@ -1881,11 +1884,11 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 		    cupgr7 = { currentlevel = 125, crewamt = 5, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 144, crewamt = 6, weaponamt = 7, },
-		    cupgr0 = { currentlevel = 155, crewamt = 7, weaponamt = 7, },
+		    cupgr9 = { currentlevel = 145, crewamt = 6, weaponamt = 7, },
+		    -- tbd...
+		    cupgr0 = { currentlevel = 150, crewamt = 7, weaponamt = 7, },
 	    },
 	},
 	BC1 = { -- lvl-95
