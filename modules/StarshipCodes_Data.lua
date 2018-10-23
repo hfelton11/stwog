@@ -482,7 +482,7 @@ return {
 		igp = 'dkyr',
 		tier = 3,
 		series = 'TOS',
-		govt = '[[Alien]], Vulcan',
+		govt = '[[Vulcan]]',
 		xnpc = 'yes',
 		sdate = '2017-12-26',
 		aenu = 'Ally',
@@ -669,8 +669,8 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 	        cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 5, },
+		    -- tbd...
 	        cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 5, },
 	        cupgr9 = { currentlevel = 150, crewamt = 8, weaponamt = 5, },
 	    },
@@ -876,8 +876,8 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    -- tbd...
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
@@ -893,7 +893,7 @@ return {
 		igp = 'timur',
 		tier = 3.50,
 		series = 'TOS',
-		govt = 'vulcan? [[Alien]]',
+		govt = '[[Vulcan]]',
 		xnpc = 'yes',
 		sdate = '2017-05-23',
 		aenu = 'Ally',
@@ -1468,8 +1468,8 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    -- tbd...
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
@@ -1477,6 +1477,7 @@ return {
 	},
 	REL = {-- lvl-96
 		-- lvl-115 3173 rgw-68.60.59 c/w-5/5 116=2250 165=143125 sell=22800
+		--XXXX -- lvl-125 3173 rgw-68.60.59 c/w-5/6 126=2500 165=119500 sell=25800
 	    -- lvl-125 cw-5/6; lvl-135 cw-6/6; max-cw=7/7
 		name = '[[Reliant]]',
 		aliases = 'USS Reliant',
@@ -1571,11 +1572,11 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 		    cupgr7 = { currentlevel = 125, crewamt = 5, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 6, weaponamt = 6, },
-		    cupgr9 = { currentlevel = 144, crewamt = 6, weaponamt = 7, },
-		    cupgr0 = { currentlevel = 155, crewamt = 7, weaponamt = 7, },
+		    -- tbd...
+		    cupgr9 = { currentlevel = 145, crewamt = 6, weaponamt = 7, },
+		    cupgr0 = { currentlevel = 150, crewamt = 7, weaponamt = 7, },
 	    },
 	},
     TS = { -- lvl-165
@@ -1780,8 +1781,8 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    -- tbd...
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
@@ -1789,8 +1790,9 @@ return {
 	},
 	BC2 = { -- lvl-96
 		-- lvl-115 3173 rgw-68.59.59 c/w-5/5 116=2250 165=143125 sell=22800
-		-- lvl-125 3443 rgw-73.64.64 c/w-5/6 116=2500 165=119500 sell=25800
-	    -- lvl-135 cw-6/6 ;lvl-145 cw-???/7 ; max-cw=7/7
+		-- lvl-125 3443 rgw-73.64.64 c/w-5/6 126=2500 165=119500 sell=25800
+		-- lvl-135 3713 rgw-79.69.69 c/w-6/6 136=2750 165=93375 sell=28800
+	    -- lvl-145 cw-6/7 ; lvl-150 max-cw=7/7
 		name = '[[Cube&nbsp;2]]',
 		aliases = 'Borg Cube Class 2',
 		image = 'Cube 2.png',
@@ -1887,7 +1889,6 @@ return {
 		    cupgr7 = { currentlevel = 125, crewamt = 5, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 6, weaponamt = 6, },
 		    cupgr9 = { currentlevel = 145, crewamt = 6, weaponamt = 7, },
-		    -- tbd...
 		    cupgr0 = { currentlevel = 150, crewamt = 7, weaponamt = 7, },
 	    },
 	},
@@ -2094,7 +2095,7 @@ return {
 		igp = 'tbd',
 		tier = 2,
 		series = 'TNG',
-		govt = '[[Alien]]',
+		govt = '[[Ferengi]]',
 		xnpc = 'yes',
 		sdate = '2015-01-01',
 		aenu = 'Ally',
@@ -3372,7 +3373,8 @@ return {
 	},
     ANT = { -- lvl-96
 		-- lvl-115 3520 rgw-68.60.59 c/w-5/5 116=2250 165=143125 sell=22800
-	    -- lvl-125 cw-6/5 max-cw=7/5
+		-- lvl-125 3520 rgw-73.65.64 c/w-6/5 116=2500 165=119500 sell=25800
+	    -- lvl-135 max-cw=7/5
         name = '[[Antares]]',
 		aliases = 'Antares, (NCC-501) Antares',
 		image = 'antares.png',
@@ -3466,7 +3468,6 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 5, },
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 5, },
 	    },
@@ -3567,8 +3568,8 @@ return {
 		    cupgr4 = { currentlevel = 95, crewamt = 4, weaponamt = 4, },
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
-		    -- tbd...
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
+		    -- tbd...
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },

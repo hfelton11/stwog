@@ -49,13 +49,13 @@
 	</group>
 	<group collapse="closed">
 		<header>Cargo Offense/Defense Features</header>
-		<data source="crewamt"><label>Crew Onboard</label><default>''none''</default></data>
-		<data source="weaponamt"><label>Shields/Weapons</label><default>''none''</default></data>
+		<data source="crewamt"><label>Possible Crew Onboard</label></data>
+		<data source="weaponamt"><label>Possible Shields/Weapons</label></data>
 		<data source="crmin"><label>Crew.min</label></data>
-		<data source="crmax"><label>Crew.max</label></data>
+		<data source="crmax"><label>Crew.max</label><default>''none''</default></data>
 		<data source="crtyp"><label>Crew.type</label></data>
 		<data source="wpmin"><label>Weapon.min</label></data>
-		<data source="wpmax"><label>Weapon.max</label></data>
+		<data source="wpmax"><label>Weapon.max</label><default>''none''</default></data>
 		<data source="wptyp"><label>Weapon.type</label></data>
 	</group>
 </infobox></onlyinclude><noinclude><br style="clear:both;"/>
