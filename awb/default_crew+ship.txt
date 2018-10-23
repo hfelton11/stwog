@@ -1,4 +1,4 @@
-{{#invoke:CommonCodes| infoBoxes | ##txtCorS## | doInfobox | ##txtKey## }} 
+{{#invoke:CommonCodes| infoBoxes | ##txtCorS## | doInfobox | ##txtKey## }}
 
 {{Side| ##txtName## | ##numTier## | ##txtCorS## | ##txtNorO## }}
 {{ma| ##txtMemAlpha## }}
@@ -8,7 +8,8 @@
 {{#invoke:CommonLists | main | ##txtCorS## | EVLnks | ##txtKey## }}
 
 == Trivia ==
-* NONE (since game is now [https://stwog.wikia.com/wiki/Star_Trek_Wrath_of_Gems_Wikia#NOTICE over]...)
+* Section removed due to game closure...
+* Please add any known/older trivia to the comments section, below...
 
 ==Skills Tables/Updates ==
 
@@ -17,14 +18,13 @@
 ==Section heading==
 
 Here is all the info i currently have stored in the data-file...
+{{#invoke:CommonCodes| getFullKey | ##txtCorS## | ##txtKey## }}
 
-{{#switch: ##txtCorS## | 
- | C 
-  | c = {{#invoke:Charactercodes | expand | ##txtKey ##}}
-  {{Characters Navbox}}
+{{#switch: ##txtCorS## |
+ | C
+  | c = {{Characters Navbox}}
  | S
-  | s = {{#invoke:Starshipcodes | main | full | ##txtKey## }}
-  {{Starships Navbox}}
+  | s = {{Starships Navbox}}
  | #default = none
 }}
 
