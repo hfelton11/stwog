@@ -1,0 +1,98 @@
+Ameh,AH,C,O,2,Hooded Romulan Ameh,Unnamed Romulan military personnel (23rd century),White,Yellow,Red,TOS Crew,Romulan 
+Admiral Kirk,AK,C,O,2,Admiral James T. Kirk,James T. Kirk,Red,Yellow,Purple,TOS Crew,Federation 
+Armus,AM,C,N,2,Malevolent Entity Armus,Armus,Red,Yellow,Purple,TNG Crew,Alien 
+Admiral Uhura,ANU,C,O,3.5,Admiral Nyota Uhura,Nyota Uhura,Red,Yellow,Blue,TOS Crew,Federation 
+Admiral Picard,AP,C,N,2,Admiral Jean-Luc Picard,Jean-Luc Picard,Blue,Purple,Orange,TNG Crew,Federation 
+Arden,AR,C,O,2,Human Arden,Unnamed Humans (23rd century),White,Blue,Orange,TOS Crew,GovtTBD 
+Ambassador Spock,ASP,C,O,2,Ambassador Spock,Spock,White,Yellow,Orange,TOS Crew,Vulcan 
+Lt. Alvaro,AV,C,O,1,Redshirt Lt. Alvaro,Unnamed Humans (23rd century),Purple,Orange,ColorsTBD,TOS Crew,Federation 
+Admiral Will Riker,AWR,C,N,3,Admiral Will Riker,William T. Riker,Purple,Blue,Orange,TNG Crew,Federation 
+Borg 1 of 4,B1,C,N,2,Borg 1 of 4,Unnamed Borg,Blue,Purple,Orange,TNG Crew,Borg 
+Borg 2 of 4,B2,C,N,2,Borg 2 of 4,Unnamed Borg,Red,Purple,Yellow,TNG Crew,Borg 
+Borg 3 of 4,B3,C,N,3,Borg 3 of 4,Unnamed Borg,Red,Purple,White,TNG Crew,Borg 
+Borg 4 of 4,B4,C,N,3,Female Borg 4 of 4,Unnamed Borg,Blue,Purple,Red,TNG Crew,Borg 
+Batahr,BA,C,O,1,Klingon Batahr,Unnamed Klingon military personnel (23rd century),White,Blue,ColorsTBD,TOS Crew,Klingon 
+Badar,BD,C,N,2,Canine Antican Badar,Badar N'D'D,Yellow,Red,Blue,TNG Crew,Alien 
+Dr. Beverly Crusher,BE,C,N,1,Doctor Beverly Crusher,Beverly Crusher,Purple,Yellow,Red,TNG Crew,Federation 
+Bruna,BRU,C,N,3,Veau Bruna,Unnamed individuals (24th century),Red,Orange,Purple,TNG Crew,Veau 
+Commodore Anton,CA,C,O,2,Commodore Anton,Commodore,Red,White,Orange,TOS Crew,Federation 
+Caped Alvaro,CAV,C,O,2,Caped Alvaro,Unnamed Humans (23rd century),Yellow,Blue,Red,TOS Crew,GovtTBD 
+Cmdr. Beverly Crusher,CBC,C,N,2,Cmdr. Beverly Crusher,Beverly Crusher,Blue,Purple,Orange,TNG Crew,Federation 
+Christopher Pike,CCP,C,O,3,Captain Christopher Pike,Christopher Pike,Yellow,Blue,White,TOS Crew,Federation 
+Cmdr. Data,CDA,C,N,2,Cmdr. Data,Data,Yellow,Red,White,TNG Crew,Federation 
+Cmdr. Troi,CDR,C,N,2,Cmdr. Deanna Troi,Deanna Troi,Red,White,Yellow,TNG Crew,Federation 
+Captain Troi,CDT,C,N,3,Captain Deanna Troi,Deanna Troi,Orange,White,Yellow,TNG Crew,Federation 
+Cmdr. Sulu,CHS,C,O,2,Cmdr. Hikaru Sulu,Hikaru Sulu,Red,Yellow,White,TOS Crew,Federation 
+Cho'Ta,CHT,C,N,1,Klingon Cho'Ta,Unnamed Klingon military personnel (24th century),Blue,Yellow,Red,TNG Crew,Klingon 
+Captain Kirk,CK,C,O,1,Captain James T. Kirk,James T. Kirk,Red,Yellow,Blue,TOS Crew,Federation 
+Cmdr. La Forge,CLF,C,N,2,Cmdr. Geordi La Forge,Geordi La Forge,Orange,Yellow,Red,TNG Crew,Federation 
+Cmdr. McCoy,CLM,C,O,2,Cmdr. Leonard McCoy,Leonard McCoy,Blue,Purple,Orange,TOS Crew,Federation 
+Cmdr. Scott,CMS,C,O,2,Cmdr. Montgomery Scott,Montgomery Scott,Yellow,White,Blue,TOS Crew,Federation 
+Cmdr. Uhura,CNU,C,O,2,Cmdr. Nyota Uhura,Nyota Uhura,Purple,White,Blue,TOS Crew,Federation 
+Captain Picard,CP,C,N,1,Captain Jean-Luc Picard,Jean-Luc Picard,White,Yellow,Red,TNG Crew,Federation 
+Cmdr. Chekov,CPC,C,O,3,Cmdr. Pavel Chekov,Pavel Chekov,Blue,Purple,Yellow,TOS Crew,Federation 
+Cmdr. Riker,CR,C,N,1,Cmdr. Will Riker,William T. Riker,Blue,Purple,Orange,TNG Crew,Federation 
+Counselor Troi,CT,C,N,1,Counselor Deanna Troi,Deanna Troi,Purple,Orange,Yellow,TNG Crew,Federation 
+Cmdr. Worf,CWF,C,N,2,Commander Worf,Worf,Yellow,Red,White,TNG Crew,Federation 
+Captain Riker,CWR,C,N,2,Captain Will Riker,William T. Riker,Blue,Purple,Orange,TNG Crew,Federation 
+D'Aindal,DA,C,N,1,Romulan D'Aindal,Unnamed Romulan military personnel (23rd century),Purple,White,Yellow,TNG Crew,Romulan 
+Dir.sfM. Beverly Crusher,DBC,C,N,3,Director of StarFleet-Medical Beverly Crusher,Beverly Crusher,Purple,Yellow,Red,TNG Crew,Federation 
+Decanus,DE,C,O,1,Masked Human Decanus,Unnamed Humans (23rd century),Blue,White,Orange,TOS Crew,GovtTBD 
+Dir.sfM. Leonard McCoy,DLM,C,O,3,Director of StarFleet-Medical Leonard McCoy,Leonard McCoy,Purple,Blue,White,TOS Crew,Federation 
+Doctor McCoy,DM,C,O,1,Doctor Leonard McCoy,Leonard McCoy,Blue,Purple,Orange,TOS Crew,Federation 
+Ekoc Dale,EK,C,N,2,Cardassian Ekoc Dale,Unnamed Cardassians,Blue,Purple,Orange,TNG Crew,Cardassian 
+Eng.Capt. Scott,EMS,C,O,3,Captain Montgomery Scott,Montgomery Scott,White,Red,Yellow,TOS Crew,Federation 
+Geordi La Forge,GLF,C,N,3,Chief Engineer Geordi La Forge,Geordi La Forge,Blue,Yellow,Red,TNG Crew,Federation 
+Pretorian,HE,C,N,1,Helmetted Pretorian,Unnamed humanoids,Red,White,Blue,TNG Crew,Alien 
+Horta,HO,C,O,2,Alien Horta,Mother Horta,Purple,Blue,Orange,TOS Crew,Alien 
+Lt. Sulu,HS,C,O,1,Lt. Hikaru Sulu,Hikaru Sulu,White,Purple,Orange,TOS Crew,Federation 
+Hvaid,HV,C,O,1,Romulan HVaid,Unnamed Romulan military personnel (23rd century),Red,Purple,Orange,TOS Crew,Romulan 
+Inagh,IN,C,O,2,Klingon Inagh,Unnamed Klingon military personnel (23rd century),Yellow,Blue,Purple,TOS Crew,Klingon 
+Kulga,KG,C,N,2,Klingon Kulga,Unnamed Klingon military personnel (24th century),Blue,White,Purple,TNG Crew,Klingon 
+Khan,KN,C,O,3,Khan Noonien Singh,Khan Noonien Singh,White,Yellow,Blue,TOS Crew,GovtTBD 
+Kovor Dale,KO,C,N,1,Cardassian Kovor Dale,Unnamed Cardassians,Yellow,Blue,Orange,TNG Crew,Cardassian 
+Cmdr. Kor,KOR,C,O,3,Klingon Commander Kor,Kor,Orange,Red,Purple,TOS Crew,Klingon 
+Kurn,KU,C,N,3,Klingon Captain Kurn,Kurn,Red,Yellow,Orange,TNG Crew,Klingon 
+Kaylar,KY,C,O,3.5,Rigellan warrior Kaylar,Kalar,Red,Blue,Purple,TOS Crew,Alien 
+L'berch,LB,C,N,2,Alien L'berch,Unnamed humanoids,White,Red,Purple,TNG Crew,Alien 
+Lt. Data,LD,C,N,1,Lieutenant Data,Data,Blue,White,Orange,TNG Crew,Federation 
+Legatus,LE,C,O,2,Masked Human Legatus,Unnamed Humans (23rd century),Red,Yellow,Orange,TOS Crew,GovtTBD 
+Lt. La Forge,LF,C,N,1,Lt. Geordi La Forge,Geordi La Forge,Red,White,Blue,TNG Crew,Federation 
+Locutus,LOP,C,N,3,Locutus of Borg (Picard),Locutus of Borg,White,Purple,Red,TNG Crew,Borg 
+Lt. Chekov,LPC,C,O,2,Lt. Pavel Chekov,Pavel Chekov,Purple,Yellow,White,TOS Crew,Federation 
+Melea,MEL,C,N,3,Melea Veau,Unnamed individuals (24th century),Yellow,Blue,Red,TNG Crew,Veau 
+Mister Scott,MS,C,O,1,Engineer Montgomery Scott,Montgomery Scott,Red,White,Purple,TOS Crew,Federation 
+Nuella,NL,C,N,1,Alien Female Nuella,Unnamed humanoids,Yellow,Blue,Orange,TNG Crew,Alien 
+Nodroz,NO,C,N,1,Hologram Nodroz,Unnamed holograms,Blue,Purple,Red,TNG Crew,Alien 
+Lt. Uhura,NU,C,O,1,Lt. Nyota Uhura,Nyota Uhura,Red,Orange,ColorsTBD,TOS Crew,Federation 
+Navzar,NVZ,C,N,2,Navzar Veau,Unnamed individuals (24th century),White,Orange,Yellow,TNG Crew,Veau 
+Optio,OP,C,O,1,Masked Human Optio,Unnamed Humans (23rd century),Yellow,Orange,Red,TOS Crew,GovtTBD 
+Ensign Chekov,PC,C,O,1,Ensign Pavel Chekov,Pavel Chekov,Blue,Purple,ColorsTBD,TOS Crew,Federation 
+Prugue Sole,PG,C,N,1,Cardassian Prugue Sole,Unnamed Cardassians,Yellow,Purple,White,TNG Crew,Cardassian 
+Pilus Prior,PP,C,O,1,Masked Human Pilus Prior,Unnamed Humans (23rd century),Red,Blue,Purple,TOS Crew,GovtTBD 
+Q,QQ,C,N,3,Q of The Q,Q,Red,Purple,Orange,TNG Crew,Alien 
+Ruk,RU,C,O,2,Android Ruk,Ruk,White,Purple,Orange,TOS Crew,GovtTBD 
+S'Fangudl,SF,C,O,3,Gorn S'Fangudl,Unnamed Gorn,Orange,Red,White,TOS Crew,Alien 
+Shogue Seltell,SG,C,N,1,Cardassian Shogue Seltell,Unnamed Cardassians,White,Blue,Red,TNG Crew,Cardassian 
+Mister Spock,SP,C,O,1,Mister Spock,Spock,White,Yellow,Orange,TOS Crew,Vulcan 
+Ssysma,SS,C,N,2,Selay Ssysma,Unnamed Selay,White,Red,Purple,TNG Crew,Alien 
+Salt Vampire,SV,C,O,2,Alien M-113 Salt Vampire,M-113 creature,Purple,Blue,Yellow,TOS Crew,Alien 
+Sec.Ofc. Worf,SWF,C,N,3,Security Officer Worf,Worf,Yellow,Red,Orange,TNG Crew,Federation 
+DaiMon Tarr,TA,C,N,2,Ferengi DaiMon Tarr,Tarr,White,Yellow,Orange,TNG Crew,Ferengi 
+Tenva,TE,C,O,3,Entellan Tenva,Unnamed humanoids,Yellow,Red,Purple,TOS Crew,Entellan 
+Terrhea,TH,C,N,2,Romulan Terrhea,Unnamed Romulan military personnel (24th century),White,Yellow,Blue,TNG Crew,Romulan 
+T'Korta,TK,C,N,1,Klingon T'Korta,Unnamed Klingon military personnel (24th century),Red,White,Purple,TNG Crew,Klingon 
+The Keeper,TK50,C,O,3.5,Talosian Keeper,The Keeper,Red,Purple,Orange,TOS Crew,Alien 
+T'Nesseam,TN,C,N,2,Alien T'Nesseam,Unnamed humanoids,Orange,White,Blue,TNG Crew,Alien 
+Tonak,TO,C,O,2,Entellan Tonak,Unnamed humanoids,Orange,White,Red,TOS Crew,Entellan 
+Tolkir,TR,C,O,2,Entellan Tolkir,Unnamed humanoids,Yellow,Red,Purple,TOS Crew,Entellan 
+Tataur,TT,C,O,3,Entellan Tataur,Unnamed humanoids,Blue,Purple,Orange,TOS Crew,Entellan 
+T'Vralai,TV,C,N,1,Romulan T'Vralai,Unnamed Romulan military personnel (24th century),Red,Orange,Blue,TNG Crew,Romulan 
+Ty'dollus,TYD,C,N,2,Ty'dollus Tychon,Unnamed humanoids (24th century),Red,Blue,White,TNG Crew,Tychon 
+Ty'levi,TYL,C,N,3,Ty'levi Tychon,Unnamed humanoids (24th century),Purple,Orange,Yellow,TNG Crew,Tychon 
+Ty'moro,TYM,C,N,3,Ty'moro Tychon,Unnamed humanoids (24th century),Blue,Orange,Yellow,TNG Crew,Tychon 
+Thira zh'Zoarhi,TZZ,C,N,3,Andorian Thira zh'Zoarhi,Unnamed Andorians (24th century),Red,Purple,Yellow,TNG Crew,Alien 
+Veidek,VE,C,N,2,Romulan Veidek,Unnamed Romulan military personnel (24th century),Blue,Purple,Orange,TNG Crew,Romulan 
+Wesley,WC,C,N,3,Cadet Wesley Crusher,Wesley Crusher,White,Blue,Yellow,TNG Crew,Federation 
+Lt. Worf,WF,C,N,1,Lieutenant Worf,Worf,Yellow,Red,White,TNG Crew,Federation 
+W'Sira,WS,C,N,1,Klingon Female W'Sira,Unnamed Klingon military personnel (24th century),Orange,Yellow,Red,TNG Crew,Klingon 
