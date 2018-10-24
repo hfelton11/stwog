@@ -29,7 +29,7 @@ Here is all the info i currently have stored in the data-file...
 }}
 
 [[Category:##catCSON##]]
-{{#ifeq: ##numTier### | 3.5 | [[Category:Tier 3]] | }}
+{{#ifeq: ##numTier## | 3.5 | [[Category:Tier 3]] | }}
 [[Category:Tier ##numTier##]]
 [[Category:##catColor1##]]
 [[Category:##catColor2##]]

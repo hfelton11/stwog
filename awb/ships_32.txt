@@ -1,7 +1,7 @@
 Antares ,					,ANT,	,S,O,  3, The Antares (NCC-501) , Antares 									, Blue 		, Purple 	, Yellow 	, TOS Ship , Federation 
-Cube 1 ,					,BC1,	,S,N, 2 , Borg Cube Class 1 , Borg Cube 									, Orange 	, Blue 		, Purple 	, TNG Ship , Borg 
-Cube 2 ,					,BC2,	,S,N,  3, Borg Cube Class 2 , Borg Cube 									, Orange 	, Yellow 	, Purple 	, TNG Ship , Borg 
-Renegade ,					,BR, 	,S,N,  3, The Borg Renegade , Borg Type 03 									, Yellow 	, Purple 	, Blue 		, TNG Ship , Borg 
+Cube 1 ,					,BC1,	,S,N, 2 , Borg Cube Class 1 , Borg cube 									, Orange 	, Blue 		, Purple 	, TNG Ship , Borg 
+Cube 2 ,					,BC2,	,S,N,  3, Borg Cube Class 2 , Borg cube 									, Orange 	, Yellow 	, Purple 	, TNG Ship , Borg 
+Renegade ,					,BR, 	,S,N,  3, The Borg Renegade , Borg type 03 									, Yellow 	, Purple 	, Blue 		, TNG Ship , Borg 
 Galor ,						,CG, 	,S,N, 2 , Cardassian Galor , Galor class 									, Yellow 	, Blue 		, Purple 	, TNG Ship , Cardassian 
 Hideki ,					,CH, 	,S,N,1  , Cardassian Hideki , Hideki class 									, Orange 	, Yellow 	, Blue 		, TNG Ship , Cardassian 
 First Enterprise ,			,EN, 	,S,O,1  , TOS Enterprise (Constitution-class) , USS_Enterprise (NCC-1701) 	, Orange 	, Yellow 	, Blue 		, TOS Ship , Federation 
@@ -14,14 +14,14 @@ Klingon bop ,				,KBP,	,S,O,1  , Klingon BoP (Bird-of-Prey), Klingon Bird-of-Pre
 D-5 ,						,KD5,	,S,O,  3, Klingon D-5 Battle Cruiser , D5 class 							, Orange 	, Yellow 	, Blue 		, TOS Ship , Klingon 
 Early bop ,					,KEB,	,S,O, 2 , Klingon Early BoP , Klingon Bird-of-Prey (22nd century) 			, Yellow 	, Blue 		, Purple 	, TOS Ship , Klingon 
 K'Tinga ,					,KKT,	,S,O, 2 , Klingon K't'inga , K't'inga class 								, Yellow 	, Blue 		, Purple 	, TOS Ship , Klingon 
-Negh'var ,					,KNV,	,S,N, 2 , Klingon Negh'var, Negh'var warship 								, Yellow 	, Blue 		, Purple 	, TNG Ship , Klingon 
+Negh'var ,					,KNV,	,S,N, 2 , Klingon Negh'var, Negh'Var warship 								, Yellow 	, Blue 		, Purple 	, TNG Ship , Klingon 
 Raptor ,					,KR, 	,S,O, 2 , Klingon Raptor , Raptor class 									, Orange 	, Yellow 	, Purple 	, TOS Ship , Klingon 
-Ship-Vor'Cha ,				,KV, 	,S,N,1  , The Klingon ship Vor'Cha , Vor'Cha class 							, Orange 	, Yellow 	, Blue 		, TNG Ship , Klingon 
+Ship-Vor'Cha ,				,KV, 	,S,N,1  , The Klingon ship Vor'Cha , Vor'cha class 							, Orange 	, Yellow 	, Blue 		, TNG Ship , Klingon 
 Romulan bop ,				,RBP,	,S,O,1  , Romulan BoP (Bird-of-Prey), Romulan Bird-of-Prey (23rd century) 	, Orange 	, Blue 		, Purple 	, TOS Ship , Romulan 
 D-7 ,						,RD7,	,S,O, 2 , Romulan D-7 Cruiser, D7 class										, Orange 	, Yellow 	, Blue 		, TOS Ship , Romulan 
 D'deridex ,					,RDD,	,S,N, 2 , Romulan D'deridex , D'deridex class 								, Orange 	, Yellow 	, Purple 	, TNG Ship , Romulan 
 Reliant ,					,REL,	,S,O,  3, The Reliant (NCC-1864) , USS Reliant 								, Orange 	, Yellow 	, Blue 		, TOS Ship , Federation 
-Scout ,						,RS, 	,S,N, 2 , Romulan Scout ,Romulan Scout ship 								, Yellow 	, Blue 		, Purple 	, TNG Ship , Romulan 
+Scout ,						,RS, 	,S,N, 2 , Romulan Scout ,Romulan scout ship 								, Yellow 	, Blue 		, Purple 	, TNG Ship , Romulan 
 V-7 ,						,RV7,	,S,O, 2 , Romulan V-7 Warbird , Valdore type 								, Orange 	, Yellow 	, Purple 	, TOS Ship , Romulan 
 Valdore ,					,RVD,	,S,N,  3, The Romulan Valdore , Valdore (starship) 							, Orange 	, Yellow 	, Purple 	, TNG Ship , Romulan 
 Stargazer ,					,SGZ,	,S,N,  3, USS Stargazer (NCC-2893), USS Stargazer 							, Orange 	, Yellow 	, Blue 		, TNG Ship , Federation 
