@@ -4,7 +4,7 @@
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 32/32 so far 16/16=tos, 16/16=tng
 --        lvl-95's = 26/26 so far 13/13=tos, 13/13=tng
---        lvl-165's = 4/14 so far (1-sold)-2/7=tos, 1/7=tng
+--        lvl-165's = 6/14 so far (1-sold)-4/7=tos, 1/7=tng
 -- total = 32 available ships
 -- tier 1 = 6     (3=tos,3=tng)
 --      2 = 12    (6=tos,6=tng)
@@ -471,7 +471,7 @@ return {
 		    cupgr8 = { currentlevel = 90, crewamt = 5, weaponamt = 5, },
 	    },
 	},
-	VDK = { -- lvl-96
+	VDK = { -- lvl-165
 	    -- lvl-135 4120 rgw-79.70.69 c/w-7/6 136=2750 165=93375 sell=28800
 	    -- lvl-150 4570 rgw-87.78.76 c/w-8/6 151=3125 165=49500 sell=33300
 	    -- lvl-150 max-cw-8/6
@@ -675,7 +675,7 @@ return {
 	        cupgr9 = { currentlevel = 150, crewamt = 8, weaponamt = 5, },
 	    },
 	},
-	KD5 = { -- lvl-96
+	KD5 = { -- lvl-165
 	    -- lvl-50 1425 wgr-27.28.31 c/w-1/1 51=490 upg=350 sell=3300 1y2p0o
 	    -- lvl-135 3720 wgr-67.70.79 c/w-6/6 136=2750 165=93375 sell=28800
 	    -- lvl-145 3990 rgw-85.75.72 c/w-6/7 146=3000 165=64750 sell=31800
@@ -883,7 +883,7 @@ return {
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
-	VTM = { -- lvl-96
+	VTM = { -- lvl-165
 		-- lvl-135 4120 rgw-79.70.69 c/w-7/7 136=2750 165=93375 sell=28800
 		-- lvl-145 4420 rgw-85.75.74 c/w-7/8 146=3000 165=64750 sell=31800
 		-- lvl-150 4570 rgw-87.78.76 c/w-8/8 151=3125 165=49500 sell=33300
@@ -969,11 +969,11 @@ return {
 		            ag = '+51',
 		            aw = '+50',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5b5p5o',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5b5p5o',
+		            hp = 5020,
+		            ar = '+96',
+		            ag = '+85',
+		            aw = '+83',
 		      },
 		},
 		cargoUpgrades = {
@@ -1477,10 +1477,13 @@ return {
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
-	REL = {-- lvl-96
+	REL = {-- lvl-165
 		-- lvl-115 3173 rgw-68.60.59 c/w-5/5 116=2250 165=143125 sell=22800
-		--XXXX -- lvl-125 3173 rgw-68.60.59 c/w-5/6 126=2500 165=119500 sell=25800
-	    -- lvl-125 cw-5/6; lvl-135 cw-6/6; max-cw=7/7
+	    -- lvl-125 3443 rgw-73.65.64 c/w-5/6 126=2500 165=119500 sell=25800
+		-- lvl-135 3713 rgw-79.70.69 c/w-6/6 136=2750 165=93375 sell=28800
+		-- lvl-145 3983 rgw-85.75.74 c/w-6/7 146=3000 165=64750 sell=31800
+		-- lvl-150 4118 rgw-87.78.76 c/w-7/7 151=3125 165=49500 sell=33300
+	    -- lvl-150 max-cw=7/7
 		name = '[[Reliant]]',
 		aliases = 'USS Reliant',
 		image = 'Reliant.png',
@@ -1560,10 +1563,11 @@ return {
 		            ag = '+51',
 		            aw = '+50',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5o5y5b',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5o5y5b',
+		            hp = 4523,
+		            ar = '+96',
+		            ag = '+85',
+		            aw = '+83',
 		            aw = '+35',
 		      },
 		},
@@ -1576,8 +1580,8 @@ return {
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 125, crewamt = 5, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 6, weaponamt = 6, },
-		    -- tbd...
 		    cupgr9 = { currentlevel = 145, crewamt = 6, weaponamt = 7, },
+		    -- tbd...
 		    cupgr0 = { currentlevel = 150, crewamt = 7, weaponamt = 7, },
 	    },
 	},
@@ -1682,14 +1686,17 @@ return {
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
     },
-    HOZ = {  -- lvl-96
+    HOZ = {  -- lvl-165
         -- lvl-40 1270 rgw=26.23.22 41=75 42=200 upg=250 sell=300 0o1y0b cr2/wp2
         -- lvl-42 1330 27.24.23 43=165 44=375 upg=300 sell=900 1o1y0b cr2/wp2
         -- lvl-44 1390 28.25.24 45=255 50=2150 upg=350 sell=1500 1o1y1b nc
         -- lvl-50 1570 31.28.27 51=490 upg=350 sell=3300 nc
 		-- lvl-115 3520 rgw-68.60.59 c/w-5/5 116=2250 165=143125 sell=22800
 		-- lvl-125 3820 rgw-73.65.64 c/w-6/6 126=2500 165=119500 sell=25800
-	    -- lvl-135 cw-7/7 max-cw=8/8
+		-- lvl-135 4120 rgw-79.70.69 c/w-7/7 126=2750 165=93375 sell=28800
+		-- lvl-145 4420 rgw-85.75.74 c/w-7/8 136=3000 165=64750 sell=31800
+		-- lvl-150 4570 rgw-87.78.76 c/w-8/8 151=3125 165=49500 sell=33300
+	    -- lvl-150 max-cw=8/8
         name = '[[Horizon]]',
 		aliases = 'USS Horizon NCC-176',
 		image = 'Horizon.png',
@@ -1770,11 +1777,11 @@ return {
 		            ag = '+51',
 		            aw = '+50',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5o5y5b',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5o5y5b',
+		            hp = 5020,
+		            ar = '+96',
+		            ag = '+85',
+		            aw = '+83',
 		      },
 		},
 		cargoUpgrades = {
@@ -1786,7 +1793,6 @@ return {
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
-		    -- tbd...
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
@@ -3375,10 +3381,12 @@ return {
 		    cupgr6 = { currentlevel = 45, crewamt = 4, weaponamt = 4, },
 	    },
 	},
-    ANT = { -- lvl-96
+    ANT = { -- lvl-165
 		-- lvl-115 3520 rgw-68.60.59 c/w-5/5 116=2250 165=143125 sell=22800
 		-- lvl-125 3520 rgw-73.65.64 c/w-6/5 126=2500 165=119500 sell=25800
 		-- lvl-135 4120 rgw-79.70.69 c/w-7/5 136=2500 165=93375 sell=28800
+		-- lvl-145 4420 rgw-85.75.74 c/w-7/5 146=3000 165=64750 sell=31800
+		-- lvl-150 4570 rgw-87.78.76 c/w-7/5 151=3125 165=49500 sell=33300
 	    -- lvl-135 max-cw=7/5
         name = '[[Antares]]',
 		aliases = 'Antares, (NCC-501) Antares',
@@ -3459,11 +3467,11 @@ return {
 		            ag = '+51',
 		            aw = '+50',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5b5p5y',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5b5p5y',
+		            hp = 5020,
+		            ar = '+96',
+		            ag = '+85',
+		            aw = '+83',
 		      },
 		},
 		cargoUpgrades = {
