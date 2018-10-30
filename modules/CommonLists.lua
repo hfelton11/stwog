@@ -519,6 +519,7 @@ local function mkList()
 	--local myCols = {'key','level','limit','name','tier','series',}
 	-- hack !!! so that level can be compared inline semi-quickly...
 	local myCols = {'key','limit','level','name',}
+	local myColsHdr = {'key','limit','my level','name',}
 	--local myCols = {'key','level','limit','name',}
 	local gdKeys = {}
 	local mkRowWanted = {}
@@ -534,7 +535,7 @@ local function mkList()
 		allKeys = utils.JSONdecodeString2Table(tempStr)
 		--glbls.keys = utils.tableShallowCopy(allKeys)
 	retOut = mw.html.create('table'):addClass('wikitable sortable')
-	r = addHeader(myCols)
+	r = addHeader(myColsHdr)
 	retOut:node(r)
 	for _,key in ipairs(allKeys) do
 		for k,v in pairs(doTbl) do
@@ -591,30 +592,12 @@ local function mkList()
 		end
 	end
 --[[
-	for _,key in ipairs(allKeys) do
-		for k,v in pairs(doTbl) do
-			if k==key then
-				local mkRowWanted = {}
-				gdKeys[#gdKeys+1] = key
-				mkRowWanted['key'] = tostring(k)
-				mkRowWanted['level'] = tostring(v)
-				--for _,item in ipairs(myCols) do
-				--	-- yes, this is mostly repetitious...
-				--	fakeFrame[2] = key
-				--	fakeFrame[3] = item
-				--	mkRowWanted[item] = comns.getItemfromKey(fakeFrame)
-				--end
-				r = addRow(mkRowWanted,myCols)
-				retOut:node(r)
-			end
-		end
-	end
 --]]
 --	for _,key in ipairs(gdKeys) do
 --		r = addRow(mkRowWanted,myCols)
 --		retOut:node(r)
 --    end
-	r = addHeader(myCols)
+	r = addHeader(myColsHdr)
 	retOut:node(r)
 
 	return retOut

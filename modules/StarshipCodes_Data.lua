@@ -4,7 +4,7 @@
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 32/32 so far 16/16=tos, 16/16=tng
 --        lvl-95's = 26/26 so far 13/13=tos, 13/13=tng
---        lvl-165's = 6/14 so far (1-sold)-4/7=tos, 1/7=tng
+--        lvl-165's = 9/14 so far (1-sold)-7/7=tos, 2/7=tng
 -- total = 32 available ships
 -- tier 1 = 6     (3=tos,3=tng)
 --      2 = 12    (6=tos,6=tng)
@@ -1270,6 +1270,7 @@ return {
 	VA = { -- lvl-96
 		-- lvl-115 3518 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
 		-- lvl-125 3818 rgw-75.65.67 c/w-6/6 126=2500 165=119500 sell=25800
+		-- lvl-135 4118 rgw-82.72.70 c/w-7/7 136=2750 165=93375 sell=28800
 	    -- lvl-135 cw-7/7 max-cw=8/8
 		name = '[[Valiant]]',
 		aliases = 'Valiant, USS Valiant',
@@ -1366,7 +1367,6 @@ return {
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
-		    -- tbd...
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
@@ -1581,7 +1581,6 @@ return {
 		    cupgr7 = { currentlevel = 125, crewamt = 5, weaponamt = 6, },
 		    cupgr8 = { currentlevel = 135, crewamt = 6, weaponamt = 6, },
 		    cupgr9 = { currentlevel = 145, crewamt = 6, weaponamt = 7, },
-		    -- tbd...
 		    cupgr0 = { currentlevel = 150, crewamt = 7, weaponamt = 7, },
 	    },
 	},
@@ -1797,11 +1796,12 @@ return {
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
-	BC2 = { -- lvl-96
+	BC2 = { -- lvl-165
 		-- lvl-115 3173 rgw-68.59.59 c/w-5/5 116=2250 165=143125 sell=22800
 		-- lvl-125 3443 rgw-73.64.64 c/w-5/6 126=2500 165=119500 sell=25800
 		-- lvl-135 3713 rgw-79.69.69 c/w-6/6 136=2750 165=93375 sell=28800
 		-- lvl-145 3983 rgw-85.74.74 c/w-6/7 146=3000 165=64750 sell=31800
+		-- lvl-150 4118 rgw-87.76.76 c/w-7/7 151=3125 165=49500 sell=33300
 	    -- lvl-150 max-cw=7/7
 		name = '[[Cube&nbsp;2]]',
 		aliases = 'Borg Cube Class 2',
@@ -1882,11 +1882,11 @@ return {
 		            ag = '+50',
 		            aw = '+50',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5o5y5p',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5o5y5p',
+		            hp = 4523,
+		            ar = '+96',
+		            ag = '+83',
+		            aw = '+83',
 		      },
 		},
 		cargoUpgrades = {
