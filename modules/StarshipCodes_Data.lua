@@ -2,9 +2,9 @@
 -- inside: [[Category:Modules]] using this line once...
 -- copied/modified from charactercodes/data module
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
--- <pre>  lvl-50's = 32/32 so far 16/16=tos, 16/16=tng
---        lvl-95's = 26/26 so far 13/13=tos, 13/13=tng
---        lvl-165's = 9/14 so far (1-sold)-7/7=tos, 2/7=tng
+-- <pre>  lvl-50's = 32/32 (all-sold) so far 16/16=tos, 16/16=tng
+--        lvl-95's = 26/26 (all-sold) so far 13/13=tos, 13/13=tng
+--        lvl-165's = 14/14 (some-sold) so far 7/7=tos, 7/7=tng
 -- total = 32 available ships
 -- tier 1 = 6     (3=tos,3=tng)
 --      2 = 12    (6=tos,6=tng)
@@ -313,11 +313,11 @@ return {
     		skill1 = 'Phaser Beam',
 	    	color1 = 'Orange',
 		    cost1 = 7,
-    		desc1 = { t1 = 'Does ', v1 = 63, t2 = ' damage and adds ', v2 = '1 counter', t3 = ' of ', v3 = 5, t4 = ' turns which recharge ', v4 = 10, t5 = 'shield points when used up.', },
+    		desc1 = { t1 = 'Does ', v1 = 63, t2 = ' damage and adds ', v2 = '1 counter', t3 = ' of ', v3 = 5, t4 = ' turns which recharge ', v4 = 10, t5 = ' shield points when used up.', },
     		skill2 = 'Quantum Torpedo Launcher',
 	    	color2 = 'Yellow',
 		    cost2 = 12,
-    		desc2 = { t1 = 'Does ', v1 = 125, t2 = ' damage and paralyzes the enemy for', v2 = 1, t3 = ' turn.', },
+    		desc2 = { t1 = 'Does ', v1 = 125, t2 = ' damage and paralyzes the enemy for ', v2 = 1, t3 = ' turn.', },
     		skill3 = 'Reconnaissance Plan',
 	    	color3 = 'Blue',
 		    cost3 = 9,
@@ -404,7 +404,7 @@ return {
     		skill2 = 'Poker Maneuver',
 	    	color2 = 'Yellow',
 		    cost2 = 13,
-    		desc2 = { t1 = 'The Enterprise sacrifices ', v1 = 75, t2 = ' shield points to execute a more powerful attack with its phasers.  Causes ', v2 = 190, t3 = 'damage to the enemy and creates ', v3 = 2, t4 = 'defensive gems of ', v4 = 15, t5 = 'points each.', },
+    		desc2 = { t1 = 'The Enterprise sacrifices ', v1 = 75, t2 = ' shield points to execute a more powerful attack with its phasers.  Causes ', v2 = 190, t3 = ' damage to the enemy and creates ', v3 = 2, t4 = ' defensive gems of ', v4 = 15, t5 = ' points each.', },
     		skill3 = 'Deflector Shield',
 	    	color3 = 'Blue',
 		    cost3 = 8,
@@ -573,9 +573,12 @@ return {
 	        cupgr9 = { currentlevel = 150, crewamt = 8, weaponamt = 6, },
 	    },
 	},
-	RVD = { -- lvl-96
+	RVD = { -- lvl-165
 		-- lvl-115 3975 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
-	    -- lvl-125 cw-6/5 max-cw=8/5
+		-- lvl-135 4655 rgw-82.70.71 c/w-7/5 136=2750 165=93375 sell=28800
+		-- lvl-145 4995 rgw-88.75.76 c/w-7/5 146=3000 165=64750 sell=31800
+		-- lvl-145 5165 rgw-90.78.79 c/w-8/5
+	    -- lvl-150 max-cw=8/5
 		name = '[[Valdore]]',
 		aliases = 'Romulan Valdore',
 		image = 'Valdore.png',
@@ -655,11 +658,11 @@ return {
 		            ag = '+51',
 		            aw = '+51',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5o5y5p',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5o5y5p',
+		            hp = 5675,
+		            ar = '+99',
+		            ag = '+85',
+		            aw = '+87',
 		      },
 		},
 		cargoUpgrades = {
@@ -670,7 +673,6 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 	        cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 5, },
-		    -- tbd...
 	        cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 5, },
 	        cupgr9 = { currentlevel = 150, crewamt = 8, weaponamt = 5, },
 	    },
@@ -779,9 +781,13 @@ return {
 		    cupgr9 = { currentlevel = 145, crewamt = 6, weaponamt = 7, },
 	    },
 	},
-	BR = { -- lvl-96
+	BR = { -- lvl-165
 		-- lvl-115 3975 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
-	    -- lvl-125 cw-6/6 max-cw=8/8
+		-- lvl-125 4315 rgw-76.65.66 c/w-6/6 126=2500 165=143125 sell=25800
+		-- lvl-135 4655 rgw-82.70.71 c/w-7/7 
+		-- lvl-145 4995 rgw-88.75.76 c/w-7/8 
+		-- lvl-150 5165 rgw-90.78.79 c/w-8/8 
+	    -- lvl-150 max-cw=8/8
 		name = '[[Renegade]]',
 		aliases = 'Borg Renegade',
 		--image = 'tng-borg-renegade.jpg',
@@ -862,11 +868,11 @@ return {
 		            ag = '+51',
 		            aw = '+51',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5y5p5b',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5y5p5b',
+		            hp = 5675,
+		            ar = '+99',
+		            ag = '+85',
+		            aw = '+87',
 		      },
 		},
 		cargoUpgrades = {
@@ -877,7 +883,6 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
-		    -- tbd...
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
@@ -912,7 +917,7 @@ return {
     		skill2 = 'Paralyzing Torpedos',
 	    	color2 = 'Purple',
 		    cost2 = 9,
-    		desc2 = { t1 = 'Paralyzes the enemy for ', v1 = 2, t2 = ' turns and creates ', v2 = 3, t3 = ' counter gems of ', v3 = 4, t4 = 'turns that destroy a 3x3 area.', },
+    		desc2 = { t1 = 'Paralyzes the enemy for ', v1 = 2, t2 = ' turns and creates ', v2 = 3, t3 = ' counter gems of ', v3 = 4, t4 = ' turns that destroy a 3x3 area.', },
     		skill3 = 'Ruthless Command',
 	    	color3 = 'Orange',
 		    cost3 = 11,
@@ -952,7 +957,9 @@ return {
 		      },
 		    supgr5 = {
 		      desc1 = { v1 = 650, v2 = 5, v3 = 40, },
-		      desc2 = { v2 = 5, v3 = 2, },
+		      -- this changed last-minute, but dont know other lowers...
+			  -- desc2 = { v2 = 5, v3 = 2, },
+		      desc2 = { v2 = 5, v3 = 5, },
 		      desc3 = { v1 = 60, v2 = 50, },
 		      },
 		},
@@ -1106,7 +1113,7 @@ return {
     		skill2 = 'Excelsior Class',
 	    	color2 = 'Blue',
 		    cost2 = 8,
-    		desc2 = { t1 = 'The new Excelsior Class has the latest advances in offensive teachnology, switching the position of two gems and adding ', v1 = 2, t2 = ' counters that do ', v2 = 150, t3 = 'damage upon reaching 0.', },
+    		desc2 = { t1 = 'The new Excelsior Class has the latest advances in offensive teachnology, switching the position of two gems and adding ', v1 = 2, t2 = ' counters that do ', v2 = 150, t3 = ' damage upon reaching 0.', },
     		skill3 = 'Combat Maneuvers',
 	    	color3 = 'Purple',
 		    cost3 = 9,
@@ -1271,7 +1278,9 @@ return {
 		-- lvl-115 3518 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
 		-- lvl-125 3818 rgw-75.65.67 c/w-6/6 126=2500 165=119500 sell=25800
 		-- lvl-135 4118 rgw-82.72.70 c/w-7/7 136=2750 165=93375 sell=28800
-	    -- lvl-135 cw-7/7 max-cw=8/8
+		-- lvl-145 4418 rgw-88.75.77 c/w-7/8 146=3000 165=64750 sell=31800
+		-- lvl-150 4118 rgw-90.78.79 c/w-8/8 151=3125 165=49500 sell=33300
+	    -- lvl-150 max-cw=8/8
 		name = '[[Valiant]]',
 		aliases = 'Valiant, USS Valiant',
 		image = 'Valiant.png',
@@ -1351,11 +1360,11 @@ return {
 		            ag = '+51',
 		            aw = '+52',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5p5y5o',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5p5y5o',
+		            hp = 5018,
+		            ar = '+99',
+		            ag = '+85',
+		            aw = '+87',
 		      },
 		},
 		cargoUpgrades = {
@@ -1371,11 +1380,13 @@ return {
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
 	    },
 	},
-	SGZ = { -- lvl-96
+	SGZ = { -- lvl-165
         -- lvl-50 rgw-32.28.28 1518 cr2wp2 sell=3300 2o1y0b  51=490 upg=350c
         -- lvl-96 rgw-59.51.51 2852 cr4wp4 sell=17100 3o4y2b  97=1775 upg=950
 		-- lvl-115 3403 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
-	    -- lvl-125 cw-6/6 max-cw=8/8
+		-- lvl-145 4273 rgw-88.75.76 c/w-7/8 146=3000 165=64750 sell=31800
+		-- lvl-150 4418 rgw-90.78.79 c/w-8/8 151=3125 165=49500 sell=33300
+	    -- lvl-150 max-cw=8/8
 		name = '[[Stargazer]]',
 		aliases = 'USS Stargazer',
 		image = 'Stargazer.png',
@@ -1400,12 +1411,12 @@ return {
     		desc1 = { t1 = 'Changes ', v1 = 2, t2 = ' blue gems to strike.  Does ', v2 = 32, t3 = ' damage for each orange gem that the team has.  Max ', v3 = 170, t4 = '.', },
     		skill2 = 'Picard Maneuver',
 	    	color2 = 'Yellow',
-		    cost2 = 'passive',
+		    cost2 = 'PASSIVE',
     		desc2 = { t1 = 'If you have less than ', v1 = 10, t2 = '\% life remaining, each strike will cause a damage of ', v2 = 17, t3 = ', for each yellow gem on the board.  Max ', v3 = 170, t4 = '.', },
     		skill3 = 'Skirmish',
 	    	color3 = 'Blue',
 		    cost3 = 7,
-    		desc3 = { t1 = 'Repairs the shield by ', v1 = 50, t2 = ' and adds ', v2 = 2, t3 = ' defensive gems that protext ', v3 = 18, t4 = ' life during each turn.',},
+    		desc3 = { t1 = 'Repairs the shield by ', v1 = 50, t2 = ' and adds ', v2 = 2, t3 = ' defensive gems that protect ', v3 = 18, t4 = ' life during each turn.',},
 		},
 		ar = '+27',
 		ag = '+23',
@@ -1456,11 +1467,11 @@ return {
 		            ag = '+51',
 		            aw = '+51',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5o5y5b',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5o5y5b',
+		            hp = 4853,
+		            ar = '+99',
+		            ag = '+85',
+		            aw = '+87',
 		      },
 		},
 		cargoUpgrades = {
@@ -1471,7 +1482,6 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
-		    -- tbd...
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },
@@ -1937,7 +1947,7 @@ return {
     		skill3 = 'Surrender your Ships',
 	    	color3 = 'Purple',
 		    cost3 = 11,
-    		desc3 = { t1 = 'The Borg cube concentrates all its power into one devastating shot, causing ', v1 = 135, t2 = ' damage points and adding ', v2 = 2, t3 = ' counters of ', v3 = 2, t4 = ' turns that destroy a ', v4 = '3x3', t5 = ' area upon completion.',},
+    		desc3 = { t1 = 'The Borg cube concentrates all its power in one devastating shot, causing ', v1 = 135, t2 = ' damage points and adding ', v2 = 2, t3 = ' counters of ', v3 = 2, t4 = ' turns that destroy a ', v4 = '3x3', t5 = ' area upon completion.',},
 		},
 		ar = '+8',
 		ag = '+8',
@@ -2029,8 +2039,8 @@ return {
     		desc1 = { t1 = 'Does ', v1 = 150, t2 = ' damage to the enemy, losing ', v2 = 75, t3 = ' life points.  Adds a yellow counter of 2 turns that recharges ', v3 = 30, t4 = ' life points when used up.', },
     		skill2 = 'Efficient Weapons System',
 	    	color2 = 'Blue',
-		    cost2 = 'passive',
-    		desc2 = { t1 = 'If user has less than ', v1 = 15, t2 = '\% of life, changes ', v2 = 3, t3 = ' random blue gems to offensive gems of ', v3 = 9, t4 = ' damage.', },
+		    cost2 = 'PASSIVE',
+    		desc2 = { t1 = '[Passive] If user has less than ', v1 = 15, t2 = '\% of life, changes ', v2 = 3, t3 = ' random blue gems to offensive gems of ', v3 = 9, t4 = ' damage.', },
     		skill3 = 'Shield Frequency Modulation',
 	    	color3 = 'Purple',
 		    cost3 = 7,
@@ -2122,11 +2132,11 @@ return {
     		skill2 = 'Offensive Deception',
 	    	color2 = 'Yellow',
 		    cost2 = 13,
-    		desc2 = { t1 = 'The Ferengi know they are usually underestimated but they always have an ace up their sleeve.  The Marauder executes and unexpected torpedo attack that causes ', v1 = 135, t2 = ' damage and destroys ', v2 = 5, t3 = 'tiles.', },
+    		desc2 = { t1 = 'The Ferengi know they are usually underestimated but they always have an ace up their sleeve.  The Marauder executes and unexpected torpedo attack that causes ', v1 = 135, t2 = ' damage and destroys ', v2 = 5, t3 = ' tiles.', },
     		skill3 = 'Frequency Inhibitor',
 	    	color3 = 'Blue',
 		    cost3 = 11,
-    		desc3 = { t1 = 'With this tool, the Ferengi disable their opponent\'s communications during ', v1 = 1, t2 = ' turns, abs steal ', v2 = 3, t3 = ' AP from the enemy reserve.',},
+    		desc3 = { t1 = 'With this tool, the Ferengi disable their opponent\'s communications during ', v1 = 1, t2 = ' turns, and steal ', v2 = 3, t3 = ' AP from the enemy reserve.',},
 		},
 		ar = '+7',
 		ag = '+9',
@@ -2238,22 +2248,22 @@ return {
 	        supgr2 = {
 	            cost1 = 11, desc1 = { v1 = 83, },
 	            desc2 = { v1 = 46, },
-	            desc3 = { v2 = 2, v3 = 2, v4 = 2, },
+	            desc3 = { v2 = '2 turns', v3 = 2, v4 = 2, },
 	        },
 		    supgr3 = {
 	            cost1 = 10, desc1 = { v1 = 142, v2 = '3 blue AP, 3 purple AP and 3 orange AP', },
 	            desc2 = { v1 = 59, },
-	            desc3 = { v1 = 2, v2 = 3, v3 = 3, v4 = 3, },
+	            desc3 = { v1 = '2 turns', v2 = 3, v3 = 3, v4 = 3, },
 	        },
 		    supgr4 = {
 	            cost1 = 9, desc1 = { v1 = 170, v2 = '3 blue AP, 3 purple AP and 3 orange AP', },
 	            desc2 = { v1 = 72, },
-	            desc3 = { v1 = 2, v2 = 2, v3 = 2, v4 = 2, },
+	            desc3 = { v1 = '2 turns', v2 = 2, v3 = 2, v4 = 2, },
 	        },
 		    supgr5 = {
 	            cost1 = 8, desc1 = { v1 = 210, v2 = '4 blue AP, 4 purple AP and 4 orange AP', },
 	            desc2 = { v1 = 90, },
-	            desc3 = { v1 = 3, v2 = 2, v3 = 2, v4 = 2, },
+	            desc3 = { v1 = '3 turns', v2 = 2, v3 = 2, v4 = 2, },
 	        },
 		},
 		othersUpgrades = {
@@ -2422,22 +2432,22 @@ return {
 		    supgr2 = {
 	            desc1 = { v1 = '3 orange or purple gems', v2 = '2 yellow counters', },
 	            desc2 = { v3 = 126, },
-	            desc3 = { v1 = 14, v3 = 140, },
+	            desc3 = { v1 = 14, v2 = 140, },
 		      },
 		    supgr3 = {
                 desc1 = { v1 = '3 orange, purple, or yellow gems', v2 = '2 yellow counters', v4 = 24, },
 	            desc2 = { v1 = '2 blue counters', v3 = 100, },
-	            desc3 = { v1 = 17, v3 = 170, },
+	            desc3 = { v1 = 17, v2 = 170, },
 		      },
 		    supgr4 = {
 	            desc1 = { v1 = '3 orange, purple, or yellow gems', v2 = '3 yellow counters', v4 = 24, },
 	            desc2 = { v1 = '2 blue counters', v3 = 126, },
-	            desc3 = { v1 = 21, v3 = 210, },
+	            desc3 = { v1 = 21, v2 = 210, },
 		      },
 		    supgr5 = {
 	            desc1 = { v1 = '4 orange, purple, yellow or blue gems', v2 = '3 yellow counters', v4 = 30, },
 	            desc2 = { v1 = '3 blue counters', v3 = 100, },
-	            desc3 = { v1 = 25, v3 = 250, },
+	            desc3 = { v1 = 25, v2 = 250, },
 		      },
 		},
 		othersUpgrades = {
@@ -2637,14 +2647,14 @@ return {
     		skill1 = 'Scouting Strategy',
 	    	color1 = 'Yellow',
 		    cost1 = 9,
-    		desc1 = { t1 = 'The Scout uses its dexterity to evade attacks.  It places ', v1 = 2, t2 = ' gems of 20 defensive points and repairs its shield by ', v2 = 40, t3 = '\% points.', },
+    		desc1 = { t1 = 'The Scout uses its dexterity to evade attacks.  It places ', v1 = 2, t2 = ' gems of ', v2 = 20, t3 = ' defensive points and repairs its shield by ',  v3 = 40, t4 = '\% points.', },
     		skill2 = 'Lighter but Stronger',
 	    	color2 = 'Blue',
 		    cost2 = 10,
     		desc2 = { t1 = 'The Scout hides its true potential.  It causes ', v1 = 155, t2 = ' damage to the enemy and blocks its communications during ', v2 = 2, t3 = ' turns.', },
     		skill3 = 'No Tomorrow',
 	    	color3 = 'Purple',
-		    cost3 = 'passive',
+		    cost3 = 'PASSIVE',
     		desc3 = { t1 = 'When the crew is cornered, with less than ', v1 = 15, t2 = '\% life, it does ', v2 = 65, t3 = ' damage to the enemy in each turn and changes ', v3 = 2, t4 = ' gems to blue.',},
 		},
 		ar = '+7',
@@ -2732,12 +2742,12 @@ return {
     		desc1 = { t1 = 'The D\'deridex is the pride of the Romulan fleet.  It causes ', v1 = 180, t2 = ' damage to the enemy and creates ', v2 = 2, t3 = ' gems of ', v3 = 20, t4 = ' defense points.', },
     		skill2 = 'Cloaking Device',
 	    	color2 = 'Yellow',
-		    cost2 = 'passive',
+		    cost2 = 'PASSIVE',
     		desc2 = { t1 = 'If the D\'deridex has less than \%', v1 = 10, t2 = ' of life and is threatened by a rival it will camouflage itself.  Each turn it does ', v2 = 15, t3 = ' damage for each blue gem on the board.  Max ', v3 = 150, t4 = '.', },
     		skill3 = 'Attack Wing',
 	    	color3 = 'Purple',
 		    cost3 = 8,
-    		desc3 = { t1 = 'The D\'deridex launches a wing attack, doing ', v1 = 160, t2 = ' damage to the enemy and blocking him during', v2 = 2, t3 = ' turns.',},
+    		desc3 = { t1 = 'The D\'deridex launches a wing attack, doing ', v1 = 160, t2 = ' damage to the enemy and blocking him during ', v2 = 2, t3 = ' turns.',},
 		},
 		ar = '+8',
 		ag = '+8',
@@ -2877,8 +2887,8 @@ return {
 		    up15 = { currentlevel = 95, skillschosen = '5o5y5p',
 		            hp = 2524,
 		            ar = '+51',
-		            ag = '+42',
-		            aw = '+38',
+		            ag = '+38',
+		            aw = '+42',
 		      },
 		},
 		cargoUpgrades = {
@@ -2926,8 +2936,8 @@ return {
     		desc1 = { t1 = 'Does ', v1 = 90, t2 = ' damage to the selected enemy and clears the board of enemy special gems.', },
     		skill2 = 'Magnetic Pulse',
 	    	color2 = 'Yellow',
-		    cost2 = 'passive',
-    		desc2 = { t1 = 'If player has less than ', v1 = 10, t2 = '\% life, does ', v2 = 11, t3 = ' damage for each yellow gem on the board.  Max ', v3 = 110, t4 = '.', },
+		    cost2 = 'PASSIVE',
+    		desc2 = { t1 = '[Passive] If player has less than ', v1 = 10, t2 = '\% life, does ', v2 = 11, t3 = ' damage for each yellow gem on the board.  Max ', v3 = 110, t4 = '.', },
     		skill3 = 'Stasis Fields',
 	    	color3 = 'Blue',
 		    cost3 = 6,
@@ -3020,7 +3030,7 @@ return {
     		skill1 = 'Deflector Array',
 	    	color1 = 'Orange',
 		    cost1 = 7,
-    		desc1 = { t1 = 'Changes ', v1 = '2 blue', t2 = ' gems to strong shot.  Does ', v2 = 16, t3 = ' damage for each ', v3 = 'gem', t4 = '.  Max ', v3 = 60, t4 = '.', },
+    		desc1 = { t1 = 'Changes ', v1 = '2 blue', t2 = ' gems to strong shot.  Does ', v2 = 16, t3 = ' damage for each ', v3 = 'gem', t4 = '.  Max ', v4 = 60, t5 = '.', },
     		skill2 = 'Hidden Cloak',
 	    	color2 = 'Yellow',
 		    cost2 = 'passive',
@@ -3109,7 +3119,7 @@ return {
     		skill2 = 'Evasive Maneuvers',
 	    	color2 = 'Yellow',
 		    cost2 = 8,
-    		desc2 = { t1 = 'Regenerates ', v1 = 20, t2 = ' life points.  Change ', v2 = 7, t3 = 'yellow gems to offensive gems that do ', v3 = 4, t4 = ' damage to the enemy each turn.', },
+    		desc2 = { t1 = 'Regenerates ', v1 = 20, t2 = ' life points.  Change ', v2 = 7, t3 = ' yellow gems to offensive gems that do ', v3 = 4, t4 = ' damage to the enemy each turn.', },
     		skill3 = 'Dual Phaser Beam',
 	    	color3 = 'Blue',
 		    cost3 = 6,
@@ -3234,17 +3244,17 @@ return {
 		      desc3 = { v3 = 14, v4 = 70, },
 		      },
 		    supgr3 = {
-		      desc1 = { v1 = 3, t2 = 'yellow, purple, and blue AP.', v2 = nil, t3 = nil },
+		      desc1 = { v1 = 3, t2 = ' yellow, purple, ', v2 = 'and', t3 = ' blue AP.' },
 		      desc2 = { v1 = 175, v2 = 88, },
 		      desc3 = { v2 = 2, v3 = 17, v4 = 85, },
 		      },
 		    supgr4 = {
-		      desc1 = { v1 = 4, t2 = 'yellow, purple, and blue AP.', v2 = nil, t3 = nil },
+		      desc1 = { v1 = 4, t2 = ' yellow, purple, ', v2 = 'and', t3 = ' blue AP.' },
 		      desc2 = { v1 = 200, v2 = 100, },
 		      desc3 = { v2 = 2, v3 = 19, v4 = 114, },
 		      },
 		    supgr5 = {
-		      desc1 = { v1 = 4, t2 = 'yellow, purple, blue, and orange AP.', v2 = nil, t3 = nil },
+		      desc1 = { v1 = 4, t2 = ' yellow, purple, blue, ', v2 = 'and', t3 = ' orange AP.' },
 		      desc2 = { v1 = 225, v2 = 113, },
 		      desc3 = { v1 = '5x5', v2 = 2, v3 = 21, v4 = 126, },
 		      },
@@ -3485,9 +3495,13 @@ return {
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 5, },
 	    },
 	},
-    THC = { -- lvl-96
+    THC = { -- lvl-165
 		-- lvl-115 3180 rgw-68.60.58 c/w-5/5 116=2250 165=143125 sell=22800
-	    -- lvl-125 cw-6/6 max-cw=8/8
+		-- lvl-125 3450 rgw-73.65.63 c/w-6/6 126=2500 165=119500 sell=25800
+		-- lvl-135 3720 rgw-79.70.67 c/w-7/7 136=2750 165=93375 sell=28800
+		-- lvl-145 3990 rgw-85.75.72 c/w-7/8 146=3000 165=64750 sell=31800
+		-- lvl-150 4125 rgw-87.78.75 c/w-8/8 146=3125 165=49500 sell=33300
+	    -- lvl-150 max-cw=8/8
         name = '[[Thunderchild]]',
 		aliases = 'Thunderchild, USS Thunderchild',
 		image = 'thunderchild.png',
@@ -3567,11 +3581,11 @@ return {
 		            ag = '+51',
 		            aw = '+49',
 		      },
-		    up15XXX = { currentlevel = 165, skillschosen = '5b5p5o',
-		            hp = 3500,
-		            ar = '+35',
-		            ag = '+35',
-		            aw = '+35',
+		    up15 = { currentlevel = 165, skillschosen = '5b5p5o',
+		            hp = 4530,
+		            ar = '+96',
+		            ag = '+85',
+		            aw = '+82',
 		      },
 		},
 		cargoUpgrades = {
@@ -3582,7 +3596,6 @@ return {
 		    cupgr5 = { currentlevel = 105, crewamt = 4, weaponamt = 5, },
 		    cupgr6 = { currentlevel = 115, crewamt = 5, weaponamt = 5, },
 		    cupgr7 = { currentlevel = 125, crewamt = 6, weaponamt = 6, },
-		    -- tbd...
 		    cupgr8 = { currentlevel = 135, crewamt = 7, weaponamt = 7, },
 		    cupgr9 = { currentlevel = 145, crewamt = 7, weaponamt = 8, },
 		    cupgr0 = { currentlevel = 150, crewamt = 8, weaponamt = 8, },

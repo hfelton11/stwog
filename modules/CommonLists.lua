@@ -566,7 +566,16 @@ local function mkList()
 					end
 					if not chkDone and doit then
 						chkDone = true
-						if chk < tonumber(getit)  then
+						-- secret check for negative=positive...
+						if chk == tonumber(getit) then
+							doJust = 'center;'
+						elseif (-1*chk) == tonumber(getit) then
+							doJust = 'center;'
+						elseif chk < tonumber(getit)  then
+							doJust = 'left;'
+							--bkColor = 'fuschia;'
+--[[
+                        if chk < tonumber(getit)  then
 							doJust = 'left;'
 							--bkColor = 'fuschia;'
 						elseif chk == tonumber(getit) then
@@ -575,6 +584,7 @@ local function mkList()
 							-- BAD BAD - cuz higher-level-than-possible ?
 							-- doJust = 'right;'
 							-- pre-defined at beginning...
+--]]
 						end
 					end
 					if chkDone then

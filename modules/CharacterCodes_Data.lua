@@ -3,7 +3,7 @@
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 98/98 so far 43/43=tos, 55/55=tng
 --        lvl-95's = 67/67 so far 12[3]+18[2]/30=tos, 16[3]+21[2]/37=tng
---        lvl-165's = 0/28 so far 0/12=tos, (sold)-1/16=tng
+--        lvl-165's = 1/28 so far 1/12=tos, (sold)-1/16=tng
 -- total = 98 availables
 -- tier 1 = 31  (14=tos,17=tng)
 --      2 = 39  (18=tos,21=tng)
@@ -907,7 +907,19 @@ return {
                 },
         },
 	},
-	KN = { -- lvl-96
+	KN = { -- lvl-96  hp   w/y/b/o/r/p         r.g.w  
+	    -- lvl-96    1877  54/48/40/17/16/14  12.14.15 
+	    -- lvl-100   1953  56/50/42/18/17/15  13.15.16
+	    -- lvl-104   2029  59/51/43/18/17/15  13.15.16
+	    -- lvl-114   2219  64/56/47/20/19/17  15.17.18
+	    -- lvl-126   2447  71/62/52/22/21/18  16.19.20
+	    -- lvl-134   2599  75/66/55/23/22/19  17.20.21
+	    -- lvl-148   2865  82/72/60/26/24/21  18.22.24
+	    -- lvl-150   2903  83/73/61/26/24/21  18.22.24
+	    -- lvl-155   2998  86/75/63/27/25/22  20.23.25
+	    -- lvl-160   3093  89/78/65/27/26/23  21.24.25
+	    -- lvl-163   3150  90/79/65/28/26/23  21.24.26
+	    -- lvl-165   3188  92/80/67/28/27/23  21.25.26
         name = '[[Khan]]',
 		aliases = 'Khan, Khan Noonien, Khan Noonien Singh',
 		image = 'Khan Noonien.png',
@@ -987,15 +999,14 @@ return {
                     datavalues = {  dv1 = 54, dv2 = 48, dv3 = 40,
                                     dv4 = 17, dv5 = 16, dv6 = 14, },
                 },
-            -- fake data below here...
             up15 = { currentlevel = 165, skillschosen = '5w5y5b',
-                    hp = 2500,
-                    ag = '+24',
-                    ar = '+24',
-                    aw = '+24',
+                    hp = 3188,
+                    ag = '+25',
+                    ar = '+21',
+                    aw = '+26',
                     gorder = 'WYBORP',
-                    datavalues = {  dv1 = 95, dv2 = 94, dv3 = 93,
-                                    dv4 = 35, dv5 = 35, dv6 = 35, },
+                    datavalues = {  dv1 = 92, dv2 = 80, dv3 = 67,
+                                    dv4 = 28, dv5 = 27, dv6 = 23, },
                 },
         },
 	},
