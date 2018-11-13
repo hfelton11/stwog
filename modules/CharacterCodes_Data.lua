@@ -3,7 +3,7 @@
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 98/98 so far 43/43=tos, 55/55=tng
 --        lvl-95's = 67/67 so far 12[3]+18[2]/30=tos, 16[3]+21[2]/37=tng
---        lvl-165's = 1/28 so far 1/12=tos, (sold)-1/16=tng
+--        lvl-165's = 3/28 so far 1[3.5]+1[3]/12=tos, (sold)-1/16=tng
 -- total = 98 availables
 -- tier 1 = 31  (14=tos,17=tng)
 --      2 = 39  (18=tos,21=tng)
@@ -2362,6 +2362,20 @@ return {
         },
 	},
 	TK50 = { -- lvl-96
+		--            hp   r/o/p/w/y/b        r.g.w
+	    -- lvl-96    1877  52/49/38/15/14/13  12.13.11 97=1450  165=158700  sell=14250
+	    -- lvl-100   1953  54/51/40/16/15/14  13.1?.1? 101=1550  165=152750  sell=15250
+	    -- lvl-104   2029  57/52/41/16/15/14  13.14.12 105=1650  165=146400  sell=16250
+		-- 
+	    -- lvl-114   2219  64/56/47/20/19/17  15.17.18
+	    -- lvl-126   2447  71/62/52/22/21/18  16.19.20
+	    -- lvl-134   2599  75/66/55/23/22/19  17.20.21
+	    -- lvl-148   2865  82/72/60/26/24/21  18.22.24
+	    -- lvl-150   2903  83/73/61/26/24/21  18.22.24
+	    -- lvl-155   2998  86/75/63/27/25/22  20.23.25
+	    -- lvl-160   3093  89/78/65/27/26/23  21.24.25
+	    -- lvl-163   3150  90/79/65/28/26/23  21.24.26
+	    -- lvl-165   3188  92/80/67/28/27/23  21.25.26
         name = '[[The&nbsp;Keeper]]',
 		aliases = 'The Keeper',
 		image = 'Talosian\ Keeper.png',
@@ -5460,7 +5474,7 @@ return {
 		skills = {
     		skill1 = 'Defensive Sacrifice',
 	    	color1 = 'White',
-		    cost1 = 'passive',
+		    cost1 = 'PASSIVE',
     		desc1 = { t1 = 'If players life is under ', v1 = 15, t2 = '\%, adds ', v2 = 3, t3 = ' white defensive gems of ', v3 = 15, t4 = ' points.', },
     		skill2 = 'Evading Attacks',
 	    	color2 = 'Blue',

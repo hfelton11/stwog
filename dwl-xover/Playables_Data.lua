@@ -56,6 +56,8 @@ return {
 					last = 990,
 				},
 		AllDoctors = {
+			-- Empty-testing
+						["Emptyend"] = 100000,
 			-- RED-red
 						["The Seventh Doctor +"] = 100101,
 						["The Tenth Doctor +"] = 100202,
@@ -141,7 +143,7 @@ return {
 		
 		AllAllies = {
 			-- Empty-testing
-						["Empty"] = 200000,
+						["Emptyend"] = 200000,
 			-- RED-red
 						["Bill Potts"] = 200101,
 						["Hydroflax with Ramone Head"] = 200202,

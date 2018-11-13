@@ -4,7 +4,7 @@
 --   this is a SEQUENCE as long as first-level items remain as sub-tables...
 -- <pre>  lvl-50's = 32/32 (all-sold) so far 16/16=tos, 16/16=tng
 --        lvl-95's = 26/26 (all-sold) so far 13/13=tos, 13/13=tng
---        lvl-165's = 14/14 (some-sold) so far 7/7=tos, 7/7=tng
+--        lvl-165's = 14/14 (most-sold) so far 7/7=tos, 7/7=tng
 -- total = 32 available ships
 -- tier 1 = 6     (3=tos,3=tng)
 --      2 = 12    (6=tos,6=tng)
@@ -599,7 +599,7 @@ return {
     		skill1 = 'Loading Cannons',
 	    	color1 = 'Orange',
 		    cost1 = 10,
-    		desc1 = { t1 = 'Shoots doing ', v1 = 120, t2 = ' damage and placing ', v2 = 3, t3 = ' counter gems for ', v3 = 5, t4 = ' turns which when it ends destroys a random column.', },
+    		desc1 = { t1 = 'Shoots doing ', v1 = 120, t2 = ' damage and placing ', v2 = 3, t3 = ' counter gems for ', v3 = 5, t4 = ' turns, which when it ends destroys a random column.', },
     		skill2 = 'Maximum Damage',
 	    	color2 = 'Yellow',
 		    cost2 = 12,
@@ -1274,7 +1274,7 @@ return {
 		    cupgr6 = { currentlevel = 45, crewamt = 4, weaponamt = 4, },
 	    },
 	},
-	VA = { -- lvl-96
+	VA = { -- lvl-165
 		-- lvl-115 3518 rgw-70.60.61 c/w-5/5 116=2250 165=143125 sell=22800
 		-- lvl-125 3818 rgw-75.65.67 c/w-6/6 126=2500 165=119500 sell=25800
 		-- lvl-135 4118 rgw-82.72.70 c/w-7/7 136=2750 165=93375 sell=28800
@@ -1416,7 +1416,7 @@ return {
     		skill3 = 'Skirmish',
 	    	color3 = 'Blue',
 		    cost3 = 7,
-    		desc3 = { t1 = 'Repairs the shield by ', v1 = 50, t2 = ' and adds ', v2 = 2, t3 = ' defensive gems that protect ', v3 = 18, t4 = ' life during each turn.',},
+    		desc3 = { t1 = 'Repairs the shield by ', v1 = 50, t2 = ' and adds ', v2 = 2, t3 = ' deffensive gems that protect ', v3 = 18, t4 = ' life during each turn.',},
 		},
 		ar = '+27',
 		ag = '+23',
@@ -1521,7 +1521,7 @@ return {
     		desc2 = { t1 = 'The USS Reliant, upon being overtaken by Khan, attempts to destroy the enemy with an attack of ', v1 = 230, t2 = ' damage points.', },
     		skill3 = 'Planetary Concealment',
 	    	color3 = 'Blue',
-		    cost3 = 'passive',
+		    cost3 = 'PASSIVE',
     		desc3 = { t1 = 'The Reliant uses the gravitational distortion of the planets to conceal itself until it reaches ', v1 = 20, t2 = '\% life.  It is then discovered and launches an attack of ', v2 = 70, t3 = ' points in each turn.',},
 		},
 		ar = '+26',
@@ -1578,7 +1578,6 @@ return {
 		            ar = '+96',
 		            ag = '+85',
 		            aw = '+83',
-		            aw = '+35',
 		      },
 		},
 		cargoUpgrades = {
@@ -1620,7 +1619,7 @@ return {
     		skill2 = 'Exploring the board',
 	    	color2 = 'Blue',
 		    cost2 = 8,
-    		desc2 = { t1 = 'The Tsiolkovsky scans the board for vulnerabilities, destroying orange tiles and generating AP.  For each yellow gem in the reserve it causes ', v1 = 22, t2 = ' damage to the enemy.', },
+    		desc2 = { t1 = 'The Tsiolkovsky scans the board searching for vulnerabilities, destroying orange tiles and generating AP.  For each yellow gem in the reserve it causes ', v1 = 22, t2 = ' damage to the enemy.', },
     		skill3 = 'Reverse engineering',
 	    	color3 = 'Purple',
 		    cost3 = 11,
@@ -1727,7 +1726,7 @@ return {
     		skill1 = 'Versatility',
 	    	color1 = 'Orange',
 		    cost1 = 12,
-    		desc1 = { t1 = 'Thanks to its original design, the Horizon can attack from many angles leave 3 ', v1 = 3, t2 = ' turn counters and, when they end, add a gem with ', v2 = 190, t3 = ' attack points.  Deal ', v3 = 285 , t4 = ' damage points to the enemy ship.', },
+    		desc1 = { t1 = 'Thanks to its original design, the Horizon can attack from many angles; leave 3 ', v1 = 3, t2 = ' turn counters and, when they end, add a gem with ', v2 = 190, t3 = ' attack points.  Deal ', v3 = 285 , t4 = ' damage points to the enemy ship.', },
     		skill2 = 'Subspace communications',
 	    	color2 = 'Yellow',
 		    cost2 = 8,
@@ -1735,7 +1734,7 @@ return {
     		skill3 = 'Reverse flux',
 	    	color3 = 'Blue',
 		    cost3 = 12,
-    		desc3 = { t1 = 'The USS Horizon redirects ', v1 = 105, t2 = ' of the ship\'s energy, increasing the effective capacity of the phasers.  Deal ', v2 = 350, t3 = ' points to the enemy and create ', v3 = 3, t4 = ' gems with ', v4 = 55, t5 = ' defense points.',},
+    		desc3 = { t1 = 'The USS Horizon redirects ', v1 = 105, t2 = ' of the ship\'s energy, increasing the offensive capacity of the phasers.  Deal ', v2 = 350, t3 = ' points to the enemy and create ', v3 = 3, t4 = ' gems with ', v4 = 55, t5 = ' defense points.',},
 		},
 		ar = '+26',
 		ag = '+23',
@@ -3425,7 +3424,7 @@ return {
     		desc2 = { t1 = 'With this attack the enemy\'s energy shield is partially destroyed and paralyses for ', v1 = 1, t2 = ' turrns.', },
     		skill3 = 'Protecting the Merchandise',
 	    	color3 = 'Yellow',
-		    cost3 = 'passive',
+		    cost3 = 'PASSIVE',
     		desc3 = { t1 = 'If it has less that ', v1 = 20, t2 = '\% life add ', v2 = 2, t3 = ' counter gems for ', v3 = 4, t4 = ' turns which when they get to 0 cause ', v4 = 55, t5 = ' of damage.',},
 		},
 		ar = '+26',
