@@ -1,5 +1,6 @@
 -- playables/data
--- creating a sparse-table of up-to 19 characters as defined in:
+-- creating a sparse-table of up-to 19 characters
+--    per dual-color-setting, as defined in:
 --   user-hfelton/sandbox6
 
 return {
@@ -140,7 +141,7 @@ return {
 			-- BLACK-black
 						["KKend"] = 109999,
 			},
-		
+
 		AllAllies = {
 			-- Empty-testing
 						["Emptyend"] = 200000,
@@ -448,5 +449,4 @@ return {
 
 
 		}
-		
-		
+

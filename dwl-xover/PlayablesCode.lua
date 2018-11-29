@@ -62,6 +62,24 @@ local function isGoodDorA(inDA)
 	return retval
 end
 
+local function isGoodCode(c)
+	local retval=false
+	local numC= tonumber(c)
+	local tblChoice
+	if glbls.dora == 'd' then
+		tblChoice = glbls.data['Doctor']
+	end
+	if glbls.dora == 'a' then
+		tblChoice = glbls.data['Ally']
+	end
+	if not numC then return false end -- early...
+	if tblChoice.base <= numC and numC <= tblChoice.last then
+		--retval = true
+		retval = numC
+	end
+	return retval
+end
+
 local function isGoodKey(k)
 	local allKeys,found
 	if k==nil then return false end
@@ -156,7 +174,7 @@ local function loadDataNow()
 	table.sort(idxAllys)
 	glbls.doctors = utils.tableShallowCopy(idxDocs)
 	glbls.allies = utils.tableShallowCopy(idxAllys)
-	return true	
+	return true
 end
 
 function p.isGoodKey(frame)
@@ -218,7 +236,7 @@ function p.main(frame)
 		return retval   -- early
 	end
 	what = a[2]
-	if what then 
+	if what then
 		retval = 'main ok: '
 		retval = retval .. 'DorA=' .. string.upper(glbls.dora) .. ' : '
 		--retval = 'main ok: '..tostring(mKey)
@@ -233,23 +251,44 @@ function p.main(frame)
 		elseif glbls.dora == 'a' then
 			retval = retval..utils.dumpTable(glbls.allies)
 		else
-			retval 'ERROR impossible dora...'
+			retval 'ERROR impossible try/catch dora...'
 		end
 		return retval  -- early
 	end
 	which = a[3]
 	if isGoodKey(which) then
 		local code = getCode(which)
+		local gdWhat = false
 		glbls.item.code = code
 		retval = retval .. 'mKey=>>>'..tostring(which)..'<<< : '
 		if string.lower(what)=='code' then
 			retval = retval .. 'code=' .. tostring(code)
+			gdWhat = true
 		end
 		if string.lower(what)=='decode' then
 			retval = retval .. 'tbd...'
+			gdWhat = true
+		end
+		if not gdWhat then
+			retval = retval .. 'what='..what..' means ???'
 		end
 	elseif which then
-		retval = retval..'what='..what..',which='..which
+		local retKey = isGoodCode(which)
+		local tmpStr = ''
+		local gdWhat = false
+		if retKey then
+			tmpStr = tmpStr .. 'mKey=>>>'..tostring(retKey)..'<<< : '
+			tmpStr = tmpStr .. 'from CODE='..tostring(which)..' : '
+		end
+		if string.lower(what)=='colors' then
+			tmpStr = tmpStr .. 'colors=>>>' .. '<<< : tbd...'
+			gdWhat = true
+		end
+		if not gdWhat then
+			retval = retval..'what='..what..',which='..which
+		else
+			retval = retval..tmpStr
+		end
 	else
 		retval = retval..what
 	end

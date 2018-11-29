@@ -8,7 +8,12 @@ local allyDump = 'main ok: DorA=A : { [1] = "Me",[2] = "Me" +,[3] = 11th Doctor 
 
 local docBgn = 'main ok: DorA=D : mKey=>>>'
 local allyBgn = 'main ok: DorA=A : mKey=>>>'
+local whatBgn = '<<< : what='
+local whatEnd = ' means ???'
+local whichBgn = ',which='
 local codeEnd = '<<< : code='
+local frCodeBgn = '<<< : from CODE='
+local colorsBgn = ' : colors=>>>'
 local anyEnd = '<<< : tbd...'
 
 function p:test_hello()
@@ -19,14 +24,22 @@ function p:test_main()
 	self:preprocess_equals('{{#invoke:PlayablesCode | main}}', 'invalid call to PlayablesCode-main: zero arguments passed')
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | xxx }}', 'xxx')
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | xxx | yYYy }}', 'xxx')
+	self:preprocess_equals('{{#invoke:PlayablesCode | main | xxx | dump }}', 'xxx')
+	self:preprocess_equals('{{#invoke:PlayablesCode | main | xxx | code }}', 'xxx')
+	self:preprocess_equals('{{#invoke:PlayablesCode | main | xxx | decode }}', 'xxx')
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | D | yYYy }}', 'main ok: DorA=D : yYYy')
+	self:preprocess_equals('{{#invoke:PlayablesCode | main | D | yYYy | }}', 'main ok: DorA=D : yYYy')
+	self:preprocess_equals('{{#invoke:PlayablesCode | main | D | yYYy | 100000 }}', 'main ok: DorA=D : what='..'yYYy'..whichBgn..'100000')
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | A | yYYy }}', 'main ok: DorA=A : yYYy')
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | D | dUMp }}', docDump )
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | A | Dump }}', allyDump )
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | D | cODe | The First Doctor }}', docBgn..'The First Doctor'..codeEnd..'102141' )
+	self:preprocess_equals('{{#invoke:PlayablesCode | main | D | happy | The First Doctor }}', docBgn..'The First Doctor'..whatBgn..'happy'..whatEnd )
+	self:preprocess_equals('{{#invoke:PlayablesCode | main | D | happy | A Witch Doctor }}', 'main ok: DorA=D : what='..'happy'..whichBgn..'A Witch Doctor' )
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | A | Code | "Me" + }}', allyBgn..'"Me" +'..codeEnd..'202101' )
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | D | DEcODe | The First Doctor }}', docBgn..'The First Doctor'..anyEnd )
 	self:preprocess_equals('{{#invoke:PlayablesCode | main | A | deCode | "Me" + }}', allyBgn..'"Me" +'..anyEnd )
+	self:preprocess_equals('{{#invoke:PlayablesCode | main | D | cOLors | 100000 }}', docBgn..'100000'..frCodeBgn..'100000'..colorsBgn..anyEnd)
 end
 
 function p:test_GoodKey()
